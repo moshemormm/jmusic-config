@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T06:02:33.106062+00:00",
+  "generatedAt": "2026-06-23T06:42:32.831873+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v3",
   "allowedArtistsCount": 301,
@@ -20,28 +20,28 @@
   "itunesRequestDelaySeconds": 4.0,
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
-  "maxItunesLookupsTotal": 150,
+  "maxItunesLookupsTotal": 400,
   "artistNetworkReads": 299,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 511,
   "youtubeSingleSourceItems": 886,
-  "youtubeAlbumDrilldownReads": 30,
+  "youtubeAlbumDrilldownReads": 9,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 150,
-  "itunesCacheHits": 0,
+  "itunesNetworkReads": 400,
+  "itunesCacheHits": 150,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1247,
+  "itunesLookupsSkippedByLimit": 1156,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1251,
-  "itemsSkippedWeakItunesCandidate": 11,
+  "itemsSkippedNoItunesCandidate": 1169,
+  "itemsSkippedWeakItunesCandidate": 39,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 99,
-  "itemsGeneratedBeforeDedupe": 36,
-  "itemsGeneratedAfterDedupe": 36,
+  "itemsSkippedOldRelease": 144,
+  "itemsGeneratedBeforeDedupe": 45,
+  "itemsGeneratedAfterDedupe": 45,
   "albumsGeneratedAfterDedupe": 6,
-  "singlesGeneratedAfterDedupe": 30,
+  "singlesGeneratedAfterDedupe": 39,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3810,6 +3810,722 @@
         "kind": "song",
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "אביש ברודט",
+      "artistChannelId": "UC0-foS39p84VAaTwngP4W4w",
+      "aliasesUsed": [
+        "אביש ברודט",
+        "brodt",
+        "brudt",
+        "brvdt",
+        "brwdt",
+        "vrodt"
+      ],
+      "title": "A Regesh Wedding",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "A Regesh Wedding",
+        "candidateArtist": "אביש בראדט & Shmuel Brazil",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אביש ברודט",
+      "artistChannelId": "UC0-foS39p84VAaTwngP4W4w",
+      "aliasesUsed": [
+        "אביש ברודט",
+        "brodt",
+        "brudt",
+        "brvdt",
+        "brwdt",
+        "vrodt"
+      ],
+      "title": "Hashiva Li - Skulen",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Hashiva Li - Skulen",
+        "candidateArtist": "אביש בראדט",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אביש ברודט",
+      "artistChannelId": "UC0-foS39p84VAaTwngP4W4w",
+      "aliasesUsed": [
+        "אביש ברודט",
+        "brodt",
+        "brudt",
+        "brvdt",
+        "brwdt",
+        "vrodt"
+      ],
+      "title": "Regesh, Vol. 1",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Regesh, Vol. 1",
+        "candidateArtist": "אביש בראדט",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אביש ברודט",
+      "artistChannelId": "UC0-foS39p84VAaTwngP4W4w",
+      "aliasesUsed": [
+        "אביש ברודט",
+        "brodt",
+        "brudt",
+        "brvdt",
+        "brwdt",
+        "vrodt"
+      ],
+      "title": "Regesh, Vol. 3 - Shabbos",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Regesh, Vol. 3 - Shabbos",
+        "candidateArtist": "אביש בראדט",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אביש ברודט",
+      "artistChannelId": "UC0-foS39p84VAaTwngP4W4w",
+      "aliasesUsed": [
+        "אביש ברודט",
+        "brodt",
+        "brudt",
+        "brvdt",
+        "brwdt",
+        "vrodt"
+      ],
+      "title": "Lipschitz - Brodt Wedding",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Lipschitz - Brodt Wedding - EP",
+        "candidateArtist": "אביש בראדט",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אבישי רוזן",
+      "artistChannelId": "UCsx_wLo_m34bHX3Y3Kf26XA",
+      "aliasesUsed": [
+        "אבישי רוזן",
+        "avishai rozn",
+        "avishai ruzn",
+        "avishai rvzn",
+        "avishai rwzn"
+      ],
+      "title": "משקר לעצמי",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "משקר לעצמי - Single",
+        "candidateArtist": "Avishay Rosen",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אבישי רוזן",
+      "artistChannelId": "UCsx_wLo_m34bHX3Y3Kf26XA",
+      "aliasesUsed": [
+        "אבישי רוזן",
+        "avishai rozn",
+        "avishai ruzn",
+        "avishai rvzn",
+        "avishai rwzn"
+      ],
+      "title": "סליחה",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "סליחה - Single",
+        "candidateArtist": "Avishay Rosen & שמש",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אבישי רוזן",
+      "artistChannelId": "UCsx_wLo_m34bHX3Y3Kf26XA",
+      "aliasesUsed": [
+        "אבישי רוזן",
+        "avishai rozn",
+        "avishai ruzn",
+        "avishai rvzn",
+        "avishai rwzn"
+      ],
+      "title": "אוורסט",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "אוורסט - Single",
+        "candidateArtist": "Avishay Rosen",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אבישי רוזן",
+      "artistChannelId": "UCsx_wLo_m34bHX3Y3Kf26XA",
+      "aliasesUsed": [
+        "אבישי רוזן",
+        "avishai rozn",
+        "avishai ruzn",
+        "avishai rvzn",
+        "avishai rwzn"
+      ],
+      "title": "שיר ללא שם (Live Session)",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "שיר ללא שם (Live Session) - Single",
+        "candidateArtist": "Avishay Rosen",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברהם שלום",
+      "artistChannelId": "UC_glkfFnP_jNQpFn3p2DTRw",
+      "aliasesUsed": [
+        "אברהם שלום",
+        "avraham shlom",
+        "avraham shlum",
+        "avraham shlvm",
+        "avraham shlwm",
+        "avraham slom"
+      ],
+      "title": "עד אליך",
+      "expectedType": "SINGLE",
+      "bestScore": 52,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "הכי קרוב אלייך - Single",
+        "candidateArtist": "Elai Botner & Avraham Aviv Alush",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברומי וינברג",
+      "artistChannelId": "UCNEXZL1sSgHu1OXOE4_-bbQ",
+      "aliasesUsed": [
+        "אברומי וינברג",
+        "avrumi oynbrg",
+        "avrumi oynvrg",
+        "avrumi oinbrg",
+        "avrumi oinvrg",
+        "avrumi uynbrg"
+      ],
+      "title": "השיבנו",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "השיבנו - Single",
+        "candidateArtist": "Sharel Sofer & Avrumi Weinberg",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברומי וינברג",
+      "artistChannelId": "UCNEXZL1sSgHu1OXOE4_-bbQ",
+      "aliasesUsed": [
+        "אברומי וינברג",
+        "avrumi oynbrg",
+        "avrumi oynvrg",
+        "avrumi oinbrg",
+        "avrumi oinvrg",
+        "avrumi uynbrg"
+      ],
+      "title": "אתה המלך",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "אתה המלך - Single",
+        "candidateArtist": "Yitzchak Zien & Avrumi Weinberg",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברומי וינברג",
+      "artistChannelId": "UCNEXZL1sSgHu1OXOE4_-bbQ",
+      "aliasesUsed": [
+        "אברומי וינברג",
+        "avrumi oynbrg",
+        "avrumi oynvrg",
+        "avrumi oinbrg",
+        "avrumi oinvrg",
+        "avrumi uynbrg"
+      ],
+      "title": "קטונתי",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "קטונתי - Single",
+        "candidateArtist": "פסח איידנסון & Avrumi Weinberg",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברומי וינברג",
+      "artistChannelId": "UCNEXZL1sSgHu1OXOE4_-bbQ",
+      "aliasesUsed": [
+        "אברומי וינברג",
+        "avrumi oynbrg",
+        "avrumi oynvrg",
+        "avrumi oinbrg",
+        "avrumi oinvrg",
+        "avrumi uynbrg"
+      ],
+      "title": "לנגן & בלעדיך (Live)",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "לנגן & בלעדיך (Live) - Single",
+        "candidateArtist": "Kobi Brumer & Avrumi Weinberg",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "זיץ 2",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "זיץ 2",
+        "candidateArtist": "Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "אתה נגלית",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "אתה נגלית",
+        "candidateArtist": "Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "מלאכי השרת",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "מלאכי השרת",
+        "candidateArtist": "Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "אמת ויציב",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "אמת ויציב",
+        "candidateArtist": "Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "שהיו מסובין בבני ברק",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "שהיו מסובין בבני ברק - EP",
+        "candidateArtist": "Avi Dror, Naftali Kempeh, Avremi Roth & Eli Herzlich",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "יצא אדם",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "יצא אדם - Single",
+        "candidateArtist": "Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "בשם המלך",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "בשם המלך - Single",
+        "candidateArtist": "Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אברימי רוט",
+      "artistChannelId": "UCoyBqWAeokrfs6a_mjwPgog",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ],
+      "title": "ואחר כן",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "ואחר כן - Single",
+        "candidateArtist": "Avi Dror & Avremi Roth",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy",
+        "odi duydi"
+      ],
+      "title": "אורות גבוהים",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "אורות גבוהים",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy",
+        "odi duydi"
+      ],
+      "title": "Orot Gvohim",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 54,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "אורות גבוהים",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy",
+        "odi duydi"
+      ],
+      "title": "מחכה לשקט",
+      "expectedType": "ALBUM",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "מחכה לשקט",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy",
+        "odi duydi"
+      ],
+      "title": "Ben Ahuv",
+      "expectedType": "ALBUM",
+      "bestScore": 58,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "בן אהוב",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy",
+        "odi duydi"
+      ],
+      "title": "Ahavat Olam",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Ahavat Olam - Single",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy",
+        "odi duydi"
+      ],
+      "title": "Yismach Hatani",
+      "expectedType": "SINGLE",
+      "bestScore": 77,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 24,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Yismach Hatani - Single",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -3817,7 +4533,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjs_vO62pyVAxU-DNYAHZXfM_7KAQQE8cbI', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwi4wKOX4ZyVAxWDlCsGHdWPKI3KAQTRMFAW', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3826,5 +4542,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-06-23T06:21:06.572239+00:00"
+  "completedAt": "2026-06-23T07:18:20.514681+00:00"
 }
