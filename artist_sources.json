@@ -3,9 +3,2109 @@
   "UC_30I6RrK_UZdmuHnI6d87g": {
     "name": "שמוליק סוכות",
     "aliases": [
+      "שמוליק סוכות",
       "Shmueli Sukkot",
-      "Shmulik Sukkot",
-      "שמוליק סוכות"
+      "Shmulik Sukkot"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZFAzTfD7_WcgDVHwfmGrdw": {
+    "name": "A.K.A. Pella",
+    "aliases": [
+      "A.K.A. Pella"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCihwy53fZm-Xc8gZvHBxHSw": {
+    "name": "AFIkoMAN",
+    "aliases": [
+      "AFIkoMAN"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCSVYEizHEvWD06KQULD9ELA": {
+    "name": "Akiva Nachman",
+    "aliases": [
+      "Akiva Nachman"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZa7crFd_TP-vDn4fUdzqTw": {
+    "name": "Alex Clare",
+    "aliases": [
+      "Alex Clare"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCTp9T7uKu3v4JDCES-Og5iQ": {
+    "name": "Avraham Rosenblum",
+    "aliases": [
+      "Avraham Rosenblum"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC4-CSThYr3JDncwWM7qX4ew": {
+    "name": "Chaim Fogelman",
+    "aliases": [
+      "Chaim Fogelman"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCpVWl-kIG3gxILLJKiztyeg": {
+    "name": "Chaim Ghoori",
+    "aliases": [
+      "Chaim Ghoori"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC6GkDMwcnMARhSxpKCSbKhQ": {
+    "name": "Chilly Wagschal",
+    "aliases": [
+      "Chilly Wagschal"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCfWRyQLkrtC0G3sG001vq8A": {
+    "name": "DJ Farbreng",
+    "aliases": [
+      "DJ Farbreng"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZc121O8NJKWS3cVCMLuPEQ": {
+    "name": "Dov Levine",
+    "aliases": [
+      "Dov Levine"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCp4dTh0n7oWNbGrTC3SzJXw": {
+    "name": "Elnatan Shalom",
+    "aliases": [
+      "Elnatan Shalom"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_qExX7xRD8cltx_UxzABgg": {
+    "name": "Gershi Uri",
+    "aliases": [
+      "Gershi Uri"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDG5-JDDZRlzXLRJd3rRAWw": {
+    "name": "HBS",
+    "aliases": [
+      "HBS"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCrzQywDiC4IhlNePUI-x_rw": {
+    "name": "Hershy Bleich",
+    "aliases": [
+      "Hershy Bleich"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCw4f7BjCN1ZOjLAbkJwRiQg": {
+    "name": "Hillel Kapnick",
+    "aliases": [
+      "Hillel Kapnick"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCionG5jvTEAeh8l_H3ldlgw": {
+    "name": "MUNCH",
+    "aliases": [
+      "MUNCH"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCs2lQOTJFcd1SCL9w7iyW8Q": {
+    "name": "Mamish",
+    "aliases": [
+      "Mamish"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCbyD0Jnm_-Wt2b0t1l21p6A": {
+    "name": "Matt Dubb",
+    "aliases": [
+      "Matt Dubb"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCYCHfGjcg7sUfI9vTGnUmLA": {
+    "name": "Mendy J",
+    "aliases": [
+      "Mendy J"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCffY4_Nsaqs8KTEt6LtQjNg": {
+    "name": "Mendy Portnoy",
+    "aliases": [
+      "Mendy Portnoy"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC1a0XPL4SqofrfTsoZ7CRhQ": {
+    "name": "Moshe Lichtenstein",
+    "aliases": [
+      "Moshe Lichtenstein"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCLf-g5NzfBkiDxPOrMcWtRA": {
+    "name": "Moshe Yess",
+    "aliases": [
+      "Moshe Yess"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCFaqeWT7ZBJsdeOvCWvYhfA": {
+    "name": "Nachas",
+    "aliases": [
+      "Nachas"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqagfxK3U01lGOiRXaYLYQA": {
+    "name": "Shevach Boys Choir",
+    "aliases": [
+      "Shevach Boys Choir"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCFWvCu8Pee_khdbmAANa1Bw": {
+    "name": "Shmili Landau",
+    "aliases": [
+      "Shmili Landau"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCiUvnSAR1Z6QEKd6hwtXdzw": {
+    "name": "Simcha Jacoby",
+    "aliases": [
+      "Simcha Jacoby"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtQiRYkrvrMlTmqEQy78vAA": {
+    "name": "TYH Boys",
+    "aliases": [
+      "TYH Boys"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCs1CUepeSP_9zIgp2w3vMYA": {
+    "name": "Tali Yess",
+    "aliases": [
+      "Tali Yess"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCHBST5NBv-gZeXkJjjP74Kw": {
+    "name": "Thank You Hashem",
+    "aliases": [
+      "Thank You Hashem"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC6J2dA6gWquS57eE6UlE7OQ": {
+    "name": "Yechiel Giniger",
+    "aliases": [
+      "Yechiel Giniger"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqNqG3iDaJEuNshIG73f9cA": {
+    "name": "Yechiel Schron",
+    "aliases": [
+      "Yechiel Schron"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCsOh9VaqwlAyjoS7cU1nxdw": {
+    "name": "Yidi Bialostozky",
+    "aliases": [
+      "Yidi Bialostozky"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCvsFJtayl0mj3sv3X7qecuQ": {
+    "name": "Yossi Lauber",
+    "aliases": [
+      "Yossi Lauber"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCbAbuYNe7DKbCk8W27XEOew": {
+    "name": "Yossi Rodal",
+    "aliases": [
+      "Yossi Rodal"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqkX8m2FUgEOH3H9Yxt1kww": {
+    "name": "Yossi Zucker",
+    "aliases": [
+      "Yossi Zucker"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UClhlH-uzEKhMTlJQWbD2nrA": {
+    "name": "אבי אילסון",
+    "aliases": [
+      "אבי אילסון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDE5VulSKvYf4oyZl_odzXg": {
+    "name": "אבי בן ישראל",
+    "aliases": [
+      "אבי בן ישראל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UChtZuciZLgHyRQ7hinLDqhg": {
+    "name": "אבי מילר",
+    "aliases": [
+      "אבי מילר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCa_eksRjzpr-SUzynZKuysA": {
+    "name": "אבי מן",
+    "aliases": [
+      "אבי מן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCiurymv3ZRWTqvASSou40wg": {
+    "name": "אבי פודולינסקי",
+    "aliases": [
+      "אבי פודולינסקי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCh4NY2jeS945E_Rsco1F1_A": {
+    "name": "אבי פיאמנטה",
+    "aliases": [
+      "אבי פיאמנטה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCTQ05ES6_LAfJzKmCKG-rug": {
+    "name": "אבי פרץ",
+    "aliases": [
+      "אבי פרץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqwl-80S19l8BWlrtfJZ3BA": {
+    "name": "אביש בראדט",
+    "aliases": [
+      "אביש בראדט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC0-foS39p84VAaTwngP4W4w": {
+    "name": "אביש ברודט",
+    "aliases": [
+      "אביש ברודט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCLljg9gBVW8HYjF6sbAC2HA": {
+    "name": "אבישי אשל",
+    "aliases": [
+      "אבישי אשל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCsx_wLo_m34bHX3Y3Kf26XA": {
+    "name": "אבישי רוזן",
+    "aliases": [
+      "אבישי רוזן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC5SCgSfE6JbkzNGRG0tjvgg": {
+    "name": "אברהם חיים גרין",
+    "aliases": [
+      "אברהם חיים גרין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_glkfFnP_jNQpFn3p2DTRw": {
+    "name": "אברהם שלום",
+    "aliases": [
+      "אברהם שלום"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCD0XDjxjjAE-cl34gY5_Cfw": {
+    "name": "אברומי ברקו",
+    "aliases": [
+      "אברומי ברקו"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCNEXZL1sSgHu1OXOE4_-bbQ": {
+    "name": "אברומי וינברג",
+    "aliases": [
+      "אברומי וינברג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UChFscCECmWXq1DqDMGUWjrw": {
+    "name": "אברומי פלאם",
+    "aliases": [
+      "אברומי פלאם"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCaEdDMyZxHBpmBdCBKbswMA": {
+    "name": "אברימי לונגר",
+    "aliases": [
+      "אברימי לונגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCoyBqWAeokrfs6a_mjwPgog": {
+    "name": "אברימי רוט",
+    "aliases": [
+      "אברימי רוט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCWXcFgarUdHuJtYOX_rVKAw": {
+    "name": "אהרון רזאל",
+    "aliases": [
+      "אהרון רזאל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCzqLcYn4fpf48sZI8G64t9g": {
+    "name": "אהרן רזאל",
+    "aliases": [
+      "אהרן רזאל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC5nGBtwsSVracGWgrLanPLg": {
+    "name": "אודי דוידי",
+    "aliases": [
+      "אודי דוידי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCiOSnSRl9lEN-gVIX7ZIpTg": {
+    "name": "אודי דמארי",
+    "aliases": [
+      "אודי דמארי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC4-zDyQfkwh_27BN4tBf5Tw": {
+    "name": "אוהד מושקוביץ",
+    "aliases": [
+      "אוהד מושקוביץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZ4XuQbhnCWNdoNlPCqHebg": {
+    "name": "אורי דוידי",
+    "aliases": [
+      "אורי דוידי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC6qJRTSro-CEXWKlVKfzeyw": {
+    "name": "אורי כהן",
+    "aliases": [
+      "אורי כהן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCCXzrYNC35punRZ9Y20znKQ": {
+    "name": "אורי שכיב",
+    "aliases": [
+      "אורי שכיב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCYf5FBxTr_WOGZ0bg0jAgpw": {
+    "name": "אייבי רוטנברג",
+    "aliases": [
+      "אייבי רוטנברג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCKiA1_fMWJjIHuj_5zkxQBA": {
+    "name": "אייזיק האניג",
+    "aliases": [
+      "אייזיק האניג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCYZuvwZP0aWP1i9i_EPdg3Q": {
+    "name": "אייל טויטו",
+    "aliases": [
+      "אייל טויטו"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC5-ApPEQbXGc7qVOwXAfv-Q": {
+    "name": "איצי וולדנר",
+    "aliases": [
+      "איצי וולדנר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_aDEnCArFgfqNyxbAgWBlQ": {
+    "name": "איציק אורלב",
+    "aliases": [
+      "איציק אורלב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCT1ljwAJ75zaL3VXNZpPw0g": {
+    "name": "איציק דדיה",
+    "aliases": [
+      "איציק דדיה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCT3Ujz3093G2VRxAZBHR-lA": {
+    "name": "איציק וינגרטן",
+    "aliases": [
+      "איציק וינגרטן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCOGdpTLaO5A8ZzGnnXOtqsA": {
+    "name": "איציק כהן",
+    "aliases": [
+      "איציק כהן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCEI135WOJxuWV_IbPmDiFug": {
+    "name": "איתי דוד",
+    "aliases": [
+      "איתי דוד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCNBG7G28lqHgX8UGYraRrGw": {
+    "name": "איתן כץ",
+    "aliases": [
+      "איתן כץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCwjT1qE5PeJHbt_ER3tcnFA": {
+    "name": "איתן מסורי",
+    "aliases": [
+      "איתן מסורי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCue8u4IxRpP9t_Gen4xvGCw": {
+    "name": "אלחנן אלחדד",
+    "aliases": [
+      "אלחנן אלחדד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCw4uDtNqzKpA_FyBnbgAQhw": {
+    "name": "אלחנן ענבל",
+    "aliases": [
+      "אלחנן ענבל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtxKYZpa8IGkBUQ83osB88w": {
+    "name": "אלי הרצליך",
+    "aliases": [
+      "אלי הרצליך"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC16TAjRl-SdQ_K7H_o9c5tQ": {
+    "name": "אלי לוין",
+    "aliases": [
+      "אלי לוין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCY5qvQNoawFipLxi_KZwFUg": {
+    "name": "אלי מרקוס",
+    "aliases": [
+      "אלי מרקוס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCthjk1chVrhKkCA3Vp_mMCg": {
+    "name": "אלי פרידמן",
+    "aliases": [
+      "אלי פרידמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCony_70Oyz1c0sf098TuPrQ": {
+    "name": "אלי קליין",
+    "aliases": [
+      "אלי קליין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCE2CVHIJgSAEjN5bCzsE6kA": {
+    "name": "אלי שוובל",
+    "aliases": [
+      "אלי שוובל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCuBEDRZteQD7QarkR3eroLg": {
+    "name": "אליה והב",
+    "aliases": [
+      "אליה והב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDrPBGfQiHS7KTe4dsG7HIQ": {
+    "name": "אליהו חייט",
+    "aliases": [
+      "אליהו חייט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCvJCPQJWlRlJXsEfT7Hfb5Q": {
+    "name": "אליקם בוטה",
+    "aliases": [
+      "אליקם בוטה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCH015ay6fdu6oHXowX7P8DQ": {
+    "name": "אלירן אלבז",
+    "aliases": [
+      "אלירן אלבז"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC8F9rBLxMgVq9kxaVKPEtIg": {
+    "name": "אלעד כהן",
+    "aliases": [
+      "אלעד כהן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCCl8IPYsSRnui5XbeRfSJqw": {
+    "name": "אלעד שער",
+    "aliases": [
+      "אלעד שער"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCcudJNQwHZkPZaE5INoCY2g": {
+    "name": "אלעזר אסתרזון",
+    "aliases": [
+      "אלעזר אסתרזון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCQPunZZX9G934YtB1la1etg": {
+    "name": "אמיר אליהו",
+    "aliases": [
+      "אמיר אליהו"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_9V92yN9cMUy6apVPeyNhA": {
+    "name": "אסף שפר",
+    "aliases": [
+      "אסף שפר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCSnCIdJIFPq2-vIw08mqI6A": {
+    "name": "אפרים מנדלסון",
+    "aliases": [
+      "אפרים מנדלסון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCgbwvoxfdEvHwq4xxsNGoYg": {
+    "name": "אפרים מרקוביץ'",
+    "aliases": [
+      "אפרים מרקוביץ'"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC31c9ukaP0w1Gugn6mTb5pA": {
+    "name": "ארי גולדוואג",
+    "aliases": [
+      "ארי גולדוואג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCVQ-263yvbcxhH4baA-Uliw": {
+    "name": "ארי סאמט",
+    "aliases": [
+      "ארי סאמט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCWeE4WYaMR6o1HEQ-TpIe0A": {
+    "name": "אריה ברונר",
+    "aliases": [
+      "אריה ברונר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCvCfWc_qb7OMoGdgCWKbbgQ": {
+    "name": "אריה קונסטלר",
+    "aliases": [
+      "אריה קונסטלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC1r710RFPIwrMqI2xH-z7wQ": {
+    "name": "אריק דביר",
+    "aliases": [
+      "אריק דביר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC481fJM_qLHPe5YWQlFpNmA": {
+    "name": "בן סנוף",
+    "aliases": [
+      "בן סנוף"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCXiIJIaIx3lLxPKf1lJo8CA": {
+    "name": "בן-ציון שנקר",
+    "aliases": [
+      "בן-ציון שנקר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCK5zGZ-KV1p7feTWUNaOkCA": {
+    "name": "בני אלבז",
+    "aliases": [
+      "בני אלבז"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCULNtt1mo3rhWPEYbpL63nQ": {
+    "name": "בני ברדא",
+    "aliases": [
+      "בני ברדא"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCD_fYx6NZZE7Fk5zD5iUSVA": {
+    "name": "בנצי קלצקין",
+    "aliases": [
+      "בנצי קלצקין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCAM_yc1C3RuxfrMpxAUxHOQ": {
+    "name": "בנצי שטיין",
+    "aliases": [
+      "בנצי שטיין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC8n1Io5T76kSYeuYVQHzsQA": {
+    "name": "בערי וובר",
+    "aliases": [
+      "בערי וובר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCcxbP_-vUUUx7tvVkQjClJQ": {
+    "name": "ברוך ויזל",
+    "aliases": [
+      "ברוך ויזל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_IxmTZosg-FyYkvf1mzYnw": {
+    "name": "ברוך לוין",
+    "aliases": [
+      "ברוך לוין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-xr5bwdJDADQkS_TfDl4mA": {
+    "name": "ברוך שלום בלסופסקי",
+    "aliases": [
+      "ברוך שלום בלסופסקי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCbNw7jFjyhP7OY0IT2OUnIQ": {
+    "name": "בריו חקשור",
+    "aliases": [
+      "בריו חקשור"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC1QsA-Q6SUKX9gWi1heQDEA": {
+    "name": "ג'ואי ניוקומב (Joey Newcomb)",
+    "aliases": [
+      "ג'ואי ניוקומב (Joey Newcomb)"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCwewLKeklVYhet7iS5aqmhg": {
+    "name": "גבריאל חסון",
+    "aliases": [
+      "גבריאל חסון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCxEklyOKH3Jn1_1_AaRQsrQ": {
+    "name": "גד אלבז",
+    "aliases": [
+      "גד אלבז"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZuSuSnRFj4w99qgQDjJh5Q": {
+    "name": "גיל ישראלוב",
+    "aliases": [
+      "גיל ישראלוב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCeki_KBPssr3gz3Zl53DDCQ": {
+    "name": "גלעד פוטולסקי",
+    "aliases": [
+      "גלעד פוטולסקי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCKLa4nAxhAefhCYecrZT3WQ": {
+    "name": "דב הנדלר",
+    "aliases": [
+      "דב הנדלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC8t3mgq12GZzBCXW81SJhbg": {
+    "name": "דב שורין",
+    "aliases": [
+      "דב שורין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCx4Vp5_O7g0Qr__QyjsDgRQ": {
+    "name": "דדי גראוכר",
+    "aliases": [
+      "דדי גראוכר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCQdB_44poAPBj2TckPrbdgw": {
+    "name": "דובי מייזעלס",
+    "aliases": [
+      "דובי מייזעלס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCE7j5aZlXNU-Da-YaR4W7dw": {
+    "name": "דוד חזיזה",
+    "aliases": [
+      "דוד חזיזה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCemWU-yvqBOk5rjebnsJDYw": {
+    "name": "דוד חפצדי",
+    "aliases": [
+      "דוד חפצדי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCiMnyfUnUaX4Uk_UdGCoC0A": {
+    "name": "דוד פרלמן",
+    "aliases": [
+      "דוד פרלמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCG6vpYRUikXKfA8raPSS3nw": {
+    "name": "דודי לינקר",
+    "aliases": [
+      "דודי לינקר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCQA6kbFsl6DVN6CLsZ40PBA": {
+    "name": "דודי פלדמן",
+    "aliases": [
+      "דודי פלדמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC0XVNZsq-wV5ifjPh95NKpQ": {
+    "name": "דודי פרישמן",
+    "aliases": [
+      "דודי פרישמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCRBXWlF1sZ7QRfXspqqA-Mg": {
+    "name": "דודי קאליש",
+    "aliases": [
+      "דודי קאליש"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCGaINBtcZaadrtcfVzcDJbA": {
+    "name": "דניאל אהביאל",
+    "aliases": [
+      "דניאל אהביאל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCjRWwaF--TdsVmuY4EMo4zw": {
+    "name": "דניאל זמיר",
+    "aliases": [
+      "דניאל זמיר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCw1oCoEMF_o65tpDHItwwUQ": {
+    "name": "היום השמיני",
+    "aliases": [
+      "היום השמיני"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCEg5tmfi6WmJZRnezYLVHSg": {
+    "name": "המכביטס",
+    "aliases": [
+      "המכביטס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-lHN5ZiysUhuU4xm6tRzpw": {
+    "name": "הראל טל",
+    "aliases": [
+      "הראל טל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCfSY83HaEOa0n_K8-6NpbcQ": {
+    "name": "הרשי אייזנבך",
+    "aliases": [
+      "הרשי אייזנבך"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCLQylHgxsIaMasCFKhL7A1g": {
+    "name": "הרשי וינברגר",
+    "aliases": [
+      "הרשי וינברגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCOgaMO0hlvuCA8nnACAHriQ": {
+    "name": "הרשי רוטנברג",
+    "aliases": [
+      "הרשי רוטנברג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCdFDa1uKSVtD4w27Jo0E1gA": {
+    "name": "זאנוויל ויינברגר",
+    "aliases": [
+      "זאנוויל ויינברגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCyoi4F5uufOxh9IByNDuo5g": {
+    "name": "זיו יחזקאל",
+    "aliases": [
+      "זיו יחזקאל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-y5_C74FzfJ1K6oIQ5nzFQ": {
+    "name": "חיים גורי",
+    "aliases": [
+      "חיים גורי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDFgB4GepvQXWyUg0TMJEaw": {
+    "name": "חיים דוד ברסון",
+    "aliases": [
+      "חיים דוד ברסון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCn68TyMJCASbKN8j1uBszwA": {
+    "name": "חיים דוד סרצ'יק",
+    "aliases": [
+      "חיים דוד סרצ'יק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCpFrrj714aCUQ-Pfr9E5vtA": {
+    "name": "חיים ישראל",
+    "aliases": [
+      "חיים ישראל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCP3G80JEWp5vAEKDm1zRywA": {
+    "name": "חיים פורטל",
+    "aliases": [
+      "חיים פורטל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCOAEiya14ORLB09TUMYEJzA": {
+    "name": "חיים צדיק",
+    "aliases": [
+      "חיים צדיק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqZEueqIcgzbBlaOMR2xTdw": {
+    "name": "חיים שלמה מאיעס",
+    "aliases": [
+      "חיים שלמה מאיעס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCEMOZ4wvQARIbprCByf-ykw": {
+    "name": "חיליק פרנק",
+    "aliases": [
+      "חיליק פרנק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCvLb6ju7Dps00WXlD36OZFw": {
+    "name": "חנוך בן משה",
+    "aliases": [
+      "חנוך בן משה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCdHii5os_UpPbeaQpT1iunw": {
+    "name": "חנן בן ארי",
+    "aliases": [
+      "חנן בן ארי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCsarKABLSNPMJN_ucNK34yQ": {
+    "name": "חנן יובל",
+    "aliases": [
+      "חנן יובל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCGgyx4Qm9_UB8URmvU6Ynfg": {
+    "name": "טל ועקנין",
+    "aliases": [
+      "טל ועקנין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC23eX6d6juE2YT0aa7nL97A": {
+    "name": "יאיר אלייצור",
+    "aliases": [
+      "יאיר אלייצור"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCV8IIInfAH2Vkfm4gdDYlEQ": {
+    "name": "יאיר כלב",
+    "aliases": [
+      "יאיר כלב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCOaMeJT5ftPBFLF1S9PMeJw": {
+    "name": "יהודה גלאנץ",
+    "aliases": [
+      "יהודה גלאנץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC6s2xUPyMS4ZbPBALr9MmcQ": {
+    "name": "יהודה גרין",
+    "aliases": [
+      "יהודה גרין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCl9LqAGv2Jwwih-1Ry5CTsg": {
+    "name": "יהודה פליישמן",
+    "aliases": [
+      "יהודה פליישמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCad1yDB2MegN1EtLljtvwpA": {
+    "name": "יהושע לימוני",
+    "aliases": [
+      "יהושע לימוני"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCSL3dOfqU4_o7mtH6GdfxkA": {
+    "name": "יואלי גרינפלד",
+    "aliases": [
+      "יואלי גרינפלד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCzfJYCFmO-B4VYzCGRU6e9Q": {
+    "name": "יואלי דיקמן",
+    "aliases": [
+      "יואלי דיקמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCXjUzmNpXKsKZtfDgyHc-_w": {
+    "name": "יואלי קליין",
+    "aliases": [
+      "יואלי קליין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCb9ed8F9w8AWxS96mfUKb5g": {
+    "name": "יואלי שטיינברג",
+    "aliases": [
+      "יואלי שטיינברג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCJ9MOj5CuA0gaehrxG5usMw": {
+    "name": "יובל טייב",
+    "aliases": [
+      "יובל טייב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC8YSUssuDsfn0ABjB9Iv_yA": {
+    "name": "יוחנן אורי",
+    "aliases": [
+      "יוחנן אורי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCJpfmMsU99sd21Z1ff7WJFw": {
+    "name": "יומי לואי",
+    "aliases": [
+      "יומי לואי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-GfYOy3knA_Lz-k_kidrOA": {
+    "name": "יוני אליאב",
+    "aliases": [
+      "יוני אליאב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCkZ8Hbvfbzax0r-t7tQ9YLg": {
+    "name": "יוני זי",
+    "aliases": [
+      "יוני זי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC3Nan6zDpzLpKRSQ3KkcjzQ": {
+    "name": "יוני שלמה",
+    "aliases": [
+      "יוני שלמה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCIs-s_nxV5WKupy0gEGZiXw": {
+    "name": "יונתן רזאל",
+    "aliases": [
+      "יונתן רזאל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC8QdnhyXXB8Y6FHQTvtDuRQ": {
+    "name": "יונתן שוורץ",
+    "aliases": [
+      "יונתן שוורץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCxBkd0HGpsMSxBDMTPHINdQ": {
+    "name": "יונתן שינפלד",
+    "aliases": [
+      "יונתן שינפלד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCuvlFjiygrIIhq_zQmXpiIA": {
+    "name": "יוסי אזולאי",
+    "aliases": [
+      "יוסי אזולאי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtzGTGyCz_k0ZXMCZ1u_tkQ": {
+    "name": "יוסי גרין",
+    "aliases": [
+      "יוסי גרין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC5HUxQuTpa3JdJlftkU-rWg": {
+    "name": "יוסי פיאמנטה",
+    "aliases": [
+      "יוסי פיאמנטה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCKNpYaDVAtsOWq4gP8DKHJA": {
+    "name": "יוסי קוגלר",
+    "aliases": [
+      "יוסי קוגלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCdnR2ba9ft8_UoTiNFzTuPw": {
+    "name": "יוסף חיים שוואקי",
+    "aliases": [
+      "יוסף חיים שוואקי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCTohDUl7uvE9tRJFMTHK9Lg": {
+    "name": "יוסף משה כהנא",
+    "aliases": [
+      "יוסף משה כהנא"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC9mCcrTMWEMm5TRHvlXiWtg": {
+    "name": "יוסף נטיב",
+    "aliases": [
+      "יוסף נטיב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC9u5RkvuFKEHljFrCD4hEPA": {
+    "name": "יוסף קרדונר",
+    "aliases": [
+      "יוסף קרדונר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqK5e4RV-N9S7x5qoJC9gkQ": {
+    "name": "יוסף רוזנבלט",
+    "aliases": [
+      "יוסף רוזנבלט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCH4C0PxbBCg8UvVesbalhBg": {
+    "name": "יחיאל ליכטיגר",
+    "aliases": [
+      "יחיאל ליכטיגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCNGMSfhi-Mh_B_Fc5hQbX-w": {
+    "name": "יחיאל נהרי",
+    "aliases": [
+      "יחיאל נהרי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCaVyEkSHaVO95koiBH5QYrQ": {
+    "name": "יידל ורדיגר",
+    "aliases": [
+      "יידל ורדיגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCmpM9OUxMsg1GfrTN4igk4w": {
+    "name": "יענקי היל",
+    "aliases": [
+      "יענקי היל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCU0jtIC_hKPlxX2nnC5ejwA": {
+    "name": "יצחק מאיר",
+    "aliases": [
+      "יצחק מאיר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_gi-PRiu0a71T5UsnPbL1Q": {
+    "name": "יצחק מאיר הלפגוט",
+    "aliases": [
+      "יצחק מאיר הלפגוט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-luQ_klMlWVeUsqmls19GQ": {
+    "name": "יצי ספינר",
+    "aliases": [
+      "יצי ספינר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCKUqlCQkBMhBGIvZSj_DVWg": {
+    "name": "ישי לפידות",
+    "aliases": [
+      "ישי לפידות"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCVYVQD6Qpuvo-Zg_jmjTrkw": {
+    "name": "ישי ריבו",
+    "aliases": [
+      "ישי ריבו"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_ymNEyH2O_m9FZtnDrec8g": {
+    "name": "ישראל אדלסון",
+    "aliases": [
+      "ישראל אדלסון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCpc86zuxJNzfsHI2_h5yhCA": {
+    "name": "ישראל אדלר",
+    "aliases": [
+      "ישראל אדלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCgAualfsJ8UtDCaJiz970sA": {
+    "name": "ישראל ג'רופי",
+    "aliases": [
+      "ישראל ג'רופי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC0ltk59L9qeEN2YNBeshuLA": {
+    "name": "ישראל ורדיגר",
+    "aliases": [
+      "ישראל ורדיגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-CBH0LibnEXO_fA0k2Z4Bw": {
+    "name": "כפיר בן ליש",
+    "aliases": [
+      "כפיר בן ליש"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCGZBtS53Yqr3pB11RGkPCNA": {
+    "name": "להקת ישיבה בויס",
+    "aliases": [
+      "להקת ישיבה בויס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtyTfjzwYYxjvQgVX7ZPgkA": {
+    "name": "להקת מושב",
+    "aliases": [
+      "להקת מושב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCam5AHZJ6vMvYkPsYFsBfnQ": {
+    "name": "להקת תזמורת פריילך",
+    "aliases": [
+      "להקת תזמורת פריילך"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCNPF_y4u71Oqy0YwA8ubdBQ": {
+    "name": "לוי פולקוביץ",
+    "aliases": [
+      "לוי פולקוביץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC4LXfHVem0dsBLO_uMwpbXw": {
+    "name": "לייבי וידר",
+    "aliases": [
+      "לייבי וידר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC5KW-xg23asJAA5PTezyzzQ": {
+    "name": "לייזר לויד",
+    "aliases": [
+      "לייזר לויד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCnjvomNC0hBYdspNrimD3eA": {
+    "name": "מאיר אדלר",
+    "aliases": [
+      "מאיר אדלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCmj-SVO498cF9wTA0SKd5aA": {
+    "name": "מאיר בן דרור",
+    "aliases": [
+      "מאיר בן דרור"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCCjCGTtA12Z9zvqe-3o7OIg": {
+    "name": "מאיר גפני",
+    "aliases": [
+      "מאיר גפני"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_yQzUx1YXBlBH795X748Gg": {
+    "name": "מאיר גרין",
+    "aliases": [
+      "מאיר גרין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCmwayYHLpRkXJYBD9lGcbOQ": {
+    "name": "מאיר קיי",
+    "aliases": [
+      "מאיר קיי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCVLQWjtgDSTZN37_YbISUAQ": {
+    "name": "מוטי אילוביץ",
+    "aliases": [
+      "מוטי אילוביץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCzFUtJLO4zsftNdf3uarKVg": {
+    "name": "מוטי גולדמן",
+    "aliases": [
+      "מוטי גולדמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCrqHwd5W1YmJgWqAXPgTf0w": {
+    "name": "מוטי רוטמן",
+    "aliases": [
+      "מוטי רוטמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCC3_Z1xG9ruAvyatSpsSMMg": {
+    "name": "מוישי וולס",
+    "aliases": [
+      "מוישי וולס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCoATUXsgh8GmEc-zF_Wb3JQ": {
+    "name": "מוישי שוורץ",
+    "aliases": [
+      "מוישי שוורץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCj4nW4uQaMBECEBlaY21DYg": {
+    "name": "מיילך ברונשטיין",
+    "aliases": [
+      "מיילך ברונשטיין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtEK38jzXAUObe-5H8isljg": {
+    "name": "מיילך קאהן",
+    "aliases": [
+      "מיילך קאהן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCIAlAMfuK1KBV7eVofe2tjA": {
+    "name": "מיכאל אזולאי",
+    "aliases": [
+      "מיכאל אזולאי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCl80Gv3npsInBbatoVaZgTQ": {
+    "name": "מיכאל שטרייכר",
+    "aliases": [
+      "מיכאל שטרייכר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCHJtEeISU1FYdFGYCpQzbeg": {
+    "name": "מיכאל שניצלר",
+    "aliases": [
+      "מיכאל שניצלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCXcPRe9sZYhE9dqxMnl-0fw": {
+    "name": "מיכה גמרמן",
+    "aliases": [
+      "מיכה גמרמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCT-mEPzcpu9NA3_lcwbHq0A": {
+    "name": "מנדי ג'רופי",
+    "aliases": [
+      "מנדי ג'רופי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZgmglzC29i40G3cBx15rPA": {
+    "name": "מנדי גולדברג",
+    "aliases": [
+      "מנדי גולדברג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC0u_NC9_qtrRsxYDY7J-r2w": {
+    "name": "מנדי הרשקוביץ",
+    "aliases": [
+      "מנדי הרשקוביץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqYGK7-bY_nvTHfJsjFggOQ": {
+    "name": "מנדי וולד",
+    "aliases": [
+      "מנדי וולד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC271gYsK8n1WVeBTyiDjYEA": {
+    "name": "מנדי וייס",
+    "aliases": [
+      "מנדי וייס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCMqmsFTYbQfwGD62NmFk_jg": {
+    "name": "מנדי רוט",
+    "aliases": [
+      "מנדי רוט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCmH_Atbuf4ddHRimwF3zL6w": {
+    "name": "מנחם לוי",
+    "aliases": [
+      "מנחם לוי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCi3GMk4jj1dwaxPOumDuWNA": {
+    "name": "מנחם פיליפ",
+    "aliases": [
+      "מנחם פיליפ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCzikvLesYafncBqcYWzdFEg": {
+    "name": "מנשה ליכטנשטיין",
+    "aliases": [
+      "מנשה ליכטנשטיין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCumudJlU9YoVkQxxaLIBehQ": {
+    "name": "מענדל ראטה",
+    "aliases": [
+      "מענדל ראטה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC3-HZFjyiGVdlL9LUNJSWcw": {
+    "name": "מקהלת יחד",
+    "aliases": [
+      "מקהלת יחד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCTKCxKIKaTwEZ3p-zezdP9g": {
+    "name": "מקהלת מלכות",
+    "aliases": [
+      "מקהלת מלכות"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC88l4ZpEMhc9Q-xytqV0F-g": {
+    "name": "מקהלת נשמה",
+    "aliases": [
+      "מקהלת נשמה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCpZAxl_lfqzZ56ortfjCQbg": {
+    "name": "מקהלת פרחי לונדון",
+    "aliases": [
+      "מקהלת פרחי לונדון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqvfq2DsYvlpbE3NluT_Ieg": {
+    "name": "מקהלת פרחי מיאמי",
+    "aliases": [
+      "מקהלת פרחי מיאמי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCAXAP-u8qCWKXJMHcpstBJw": {
+    "name": "מקהלת צבאות השם",
+    "aliases": [
+      "מקהלת צבאות השם"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCT6JlUQFuSe_4zQ_9cQpJWA": {
+    "name": "מקהלת שירה",
+    "aliases": [
+      "מקהלת שירה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCJnj4pkUeIRCIrpRXoIv15g": {
+    "name": "מרדכי בן דוד",
+    "aliases": [
+      "מרדכי בן דוד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCBOoV_Ej9o8R4qb78NNS60g": {
+    "name": "מרדכי גרנביץ'",
+    "aliases": [
+      "מרדכי גרנביץ'"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCm5x_womXL5E7TAYca5JkZQ": {
+    "name": "מרדכי שפירא",
+    "aliases": [
+      "מרדכי שפירא"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCH5TWA46szWeEpZchukaYEg": {
+    "name": "משה גולדמן",
+    "aliases": [
+      "משה גולדמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCE-RbJjvCNlszw1qzfraqAg": {
+    "name": "משה דוד וייסמנדל",
+    "aliases": [
+      "משה דוד וייסמנדל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCvKf28K13nV9lPtReC9k-tg": {
+    "name": "משה דוויק",
+    "aliases": [
+      "משה דוויק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCa41WxvKAQ4_brFrT1Kb8aQ": {
+    "name": "משה הכט",
+    "aliases": [
+      "משה הכט"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UClXm891clnumcw0vbkHdSpA": {
+    "name": "משה חבושה",
+    "aliases": [
+      "משה חבושה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCj4_jLYjlC5r5hdnej52HDg": {
+    "name": "משה כהן",
+    "aliases": [
+      "משה כהן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCckAvhL9rStbAvTo8T3mM0A": {
+    "name": "משה לוק",
+    "aliases": [
+      "משה לוק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC-rPxFHSMKoQ8MP5rOqQJ8Q": {
+    "name": "משה מנדלוביץ",
+    "aliases": [
+      "משה מנדלוביץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC4xhDvLjoxYL1s8CRgwAy6Q": {
+    "name": "משה פלד",
+    "aliases": [
+      "משה פלד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCpHeJBXBqnyvxF_eK-BiwnQ": {
+    "name": "משה קליין",
+    "aliases": [
+      "משה קליין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCOcJT7w0SKEeFlXq8S0JBSg": {
+    "name": "נאור כרמי",
+    "aliases": [
+      "נאור כרמי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCAPOMohu2PzaaMdK2DD6vXQ": {
+    "name": "נדב בכר",
+    "aliases": [
+      "נדב בכר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCdryVfjbE-stNJ1FBCkJWVQ": {
+    "name": "נהוראי אריאלי",
+    "aliases": [
+      "נהוראי אריאלי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCY0Zc19KijcluOiBoHWUz1Q": {
+    "name": "נותי ליברמן",
+    "aliases": [
+      "נותי ליברמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCeReGuCFmtdQBbV0yha11JA": {
+    "name": "נחמן בוימל",
+    "aliases": [
+      "נחמן בוימל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCCxmSp4ySkfbNjVkA6pRhgw": {
+    "name": "נמואל הרוש",
+    "aliases": [
+      "נמואל הרוש"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCiYY3LCuBdTI0ufmdzmAXiQ": {
+    "name": "נפתלי בלומנטל",
+    "aliases": [
+      "נפתלי בלומנטל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCd6QidYVi8ua-_k5GD7nS7Q": {
+    "name": "נפתלי הרשטיק",
+    "aliases": [
+      "נפתלי הרשטיק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCJMSsbz2JigH3Gd-ODmjEMw": {
+    "name": "נפתלי קמפה",
+    "aliases": [
+      "נפתלי קמפה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCwWJXU9qJ62yQ9pLlATo2_A": {
+    "name": "נתנאל ישראל",
+    "aliases": [
+      "נתנאל ישראל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCHWFdyhD6XpZHC5nSTeTqFg": {
+    "name": "סיני תור",
+    "aliases": [
+      "סיני תור"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCENpFg4g22Ore8X3TQNkU7Q": {
+    "name": "עדי רן",
+    "aliases": [
+      "עדי רן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC8X43eu20eZXzHoc6IC_fzw": {
+    "name": "עוזיה צדוק",
+    "aliases": [
+      "עוזיה צדוק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCL5sL2wnxCI4l-O_zaxUFhw": {
+    "name": "עמירן דביר",
+    "aliases": [
+      "עמירן דביר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqE4OZAwQj9vzNsva5mo3Wg": {
+    "name": "עמרם אדר",
+    "aliases": [
+      "עמרם אדר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCRRUJV-iGXfyaaK2WOuFunA": {
+    "name": "פורת נוב",
+    "aliases": [
+      "פורת נוב"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCt2AKtO242jh31CiLfGgI6Q": {
+    "name": "פינחס ביכלר",
+    "aliases": [
+      "פינחס ביכלר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCx9iVefPf-yjAkgecQXjV-g": {
+    "name": "פיני איינהורן",
+    "aliases": [
+      "פיני איינהורן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtxP1E-IPYIV3DtJJtj-vTw": {
+    "name": "פיני שכטר",
+    "aliases": [
+      "פיני שכטר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCAPjT-v_5MLUUFra6tb-Pkg": {
+    "name": "צליל וזמר",
+    "aliases": [
+      "צליל וזמר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCHaVz94rZbnTMN8if-mn34Q": {
+    "name": "צמד רעים",
+    "aliases": [
+      "צמד רעים"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC6Clmvqni_n6xpxNy_jVUKg": {
+    "name": "קובי ברומר",
+    "aliases": [
+      "קובי ברומר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCRvg41IvfBdXTapY_ty65og": {
+    "name": "קובי גרינבוים",
+    "aliases": [
+      "קובי גרינבוים"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCjcHDVH5M3OAALXVKwPQCJw": {
+    "name": "קינדרלעך",
+    "aliases": [
+      "קינדרלעך"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC2aimwcezjVPh8D4bqLMWXw": {
+    "name": "רולי דיקמן",
+    "aliases": [
+      "רולי דיקמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCtaEh2izW32PGedYtsrJ-kA": {
+    "name": "רועי ידיד",
+    "aliases": [
+      "רועי ידיד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCrS3YNX_QKAx0FZMRFzMq5g": {
+    "name": "רפאל אוזן",
+    "aliases": [
+      "רפאל אוזן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCFMPw6k6gMcvTwhS8UAEd4g": {
+    "name": "רפאל מלול",
+    "aliases": [
+      "רפאל מלול"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCTG4V5TZqdj1EkI2aSqFD_Q": {
+    "name": "שולי רנד",
+    "aliases": [
+      "שולי רנד"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCxZP06_QHa7FJBx_0MmOLzw": {
+    "name": "שוקי סלומון",
+    "aliases": [
+      "שוקי סלומון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC6B8BMKDj5xjS99mrkmggVQ": {
+    "name": "שימי אנגל",
+    "aliases": [
+      "שימי אנגל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UClM-MxPL_KypMIed3IQrO-w": {
+    "name": "שירה Choir",
+    "aliases": [
+      "שירה Choir"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCqv7BNuVqlbzQdMAVq9krMQ": {
+    "name": "שלום ברנהולץ",
+    "aliases": [
+      "שלום ברנהולץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCv58Dafo6Yue5eve-Xcky0Q": {
+    "name": "שלומי דאקס",
+    "aliases": [
+      "שלומי דאקס"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCaSs5F26wYkoirLRfsA1Upg": {
+    "name": "שלומי דסקל",
+    "aliases": [
+      "שלומי דסקל"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCI2xUUNZN5i8n8UpwRZgPeg": {
+    "name": "שלומי קאופמן",
+    "aliases": [
+      "שלומי קאופמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCVGlgleie25Ce2NHpp4pC4w": {
+    "name": "שלמה ברונר",
+    "aliases": [
+      "שלמה ברונר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDh7M3rgv8uz6MND2spmePg": {
+    "name": "שלמה טויסיג",
+    "aliases": [
+      "שלמה טויסיג"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC91m3WqAEnGtKKNQdIrJzLw": {
+    "name": "שלמה כהן",
+    "aliases": [
+      "שלמה כהן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC_AnZatVR_lH-MMnJo0-iGA": {
+    "name": "שלמה כץ",
+    "aliases": [
+      "שלמה כץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCr0Ka7wlj9U6pqJf-vLO2vg": {
+    "name": "שלמה קרליבך",
+    "aliases": [
+      "שלמה קרליבך"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC3NJtjjppxZcgL8xXtHLEDQ": {
+    "name": "שלמה רג'ה",
+    "aliases": [
+      "שלמה רג'ה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCYsDee6axf7o03ktN2GKakw": {
+    "name": "שלמה שמחה",
+    "aliases": [
+      "שלמה שמחה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UC1H2TOEthiv6KA2PgId6EYQ": {
+    "name": "שמואל גריינמן",
+    "aliases": [
+      "שמואל גריינמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDfACGXebZ6w1gtX1ASfEZg": {
+    "name": "שמואל הררי",
+    "aliases": [
+      "שמואל הררי"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCgtEXnkh9MfnZVo2H9Pw5rw": {
+    "name": "שמואל יונה",
+    "aliases": [
+      "שמואל יונה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCDL3ZI-bidleJqCdmLFgsCw": {
+    "name": "שמוליק קליין",
+    "aliases": [
+      "שמוליק קליין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCgtdHqiyuZcFR5yB4bziwdQ": {
+    "name": "שמחה אברמצ'יק",
+    "aliases": [
+      "שמחה אברמצ'יק"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCu6IT3jTOtAcNfjIQSIyCQQ": {
+    "name": "שמחה ליינר",
+    "aliases": [
+      "שמחה ליינר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCeCsGFl3pIofvlOg9X9RWiQ": {
+    "name": "שמחה פרידמן",
+    "aliases": [
+      "שמחה פרידמן"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCckg6lcQaW00lvNHwCjo7xA": {
+    "name": "שמילי אונגר",
+    "aliases": [
+      "שמילי אונגר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCG5blpzBZvgAcQyhj-N5-XA": {
+    "name": "שמעון טובול",
+    "aliases": [
+      "שמעון טובול"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCN_A9Q1yloXbjbp0-mweDCw": {
+    "name": "שמעון סיבוני",
+    "aliases": [
+      "שמעון סיבוני"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCJPbzKH6CqVj-_ofxBHMYsg": {
+    "name": "שרגי גשטטנר",
+    "aliases": [
+      "שרגי גשטטנר"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCEjcKdpkZkvgT5ISMGV5DCg": {
+    "name": "שרולי גרין",
+    "aliases": [
+      "שרולי גרין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCUeaVzUToUL4xcz8ny3peew": {
+    "name": "שרולי ליפשיץ",
+    "aliases": [
+      "שרולי ליפשיץ"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCfScwFxzDsy7Y777_P648sw": {
+    "name": "שרוליק מנדלסון",
+    "aliases": [
+      "שרוליק מנדלסון"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCv4zIkEX_dhm6E7WSULMowQ": {
+    "name": "שרוליק קלצקין",
+    "aliases": [
+      "שרוליק קלצקין"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCZ5hRU-wbaQZ0vFSGJrdHLQ": {
+    "name": "תומר חתוכה",
+    "aliases": [
+      "תומר חתוכה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCb2L-0F-w47I4-O1AsEzI6g": {
+    "name": "תומר מתנה",
+    "aliases": [
+      "תומר מתנה"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCYj7tMFZRtn7ch4OV8fBf0Q": {
+    "name": "תזמורת המנגנים",
+    "aliases": [
+      "תזמורת המנגנים"
     ],
     "homeFeedEnabled": true
   }
