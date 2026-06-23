@@ -7,74 +7,92 @@ on:
         description: "iTunes country/storefront, e.g. IL/US"
         required: false
         default: "IL"
+
       max_items_per_artist_category:
         description: "Max albums/singles per YouTube artist category"
         required: false
         default: "4"
+
       artist_albums_limit:
         description: "Max expanded YouTube artist albums/singles to read"
         required: false
         default: "50"
+
       max_release_age_days:
         description: "Keep only iTunes releases from the last N days"
         required: false
         default: "180"
+
       min_release_date:
         description: "Optional exact cutoff date, YYYY-MM-DD. Overrides max_release_age_days."
         required: false
         default: ""
+
       youtube_request_delay_seconds:
         description: "Delay between YouTube Music requests"
         required: false
         default: "0.8"
+
       itunes_request_delay_seconds:
         description: "Delay between iTunes requests. 4s ~= 15 calls/min."
         required: false
         default: "4.0"
+
       itunes_429_sleep_seconds:
         description: "Sleep time after iTunes 429 if Retry-After header is missing"
         required: false
         default: "90"
+
       itunes_max_retries:
         description: "Retries for iTunes 429/5xx"
         required: false
         default: "2"
+
       max_itunes_lookups_total:
         description: "Safety cap for iTunes network lookups. 0 = unlimited."
         required: false
-        default: "150"
+        default: "1000"
+
       min_match_score:
-        description: "Minimum score for automatic iTunes match"
+        description: "Minimum total score for automatic iTunes match"
         required: false
-        default: "78"
+        default: "76"
+
       min_artist_match_score:
-        description: "Minimum artist score before a candidate can enter the feed"
+        description: "Minimum artist score for automatic iTunes match"
         required: false
-        default: "28"
+        default: "24"
+
       min_title_match_score:
-        description: "Minimum title score before a candidate can enter the feed"
+        description: "Minimum title score for automatic iTunes match"
         required: false
         default: "30"
+
       enable_rapidfuzz:
-        description: "Use RapidFuzz for stronger fuzzy matching"
+        description: "Use RapidFuzz for smarter matching"
         required: false
         default: "true"
+
       enable_hebrew_transliteration:
         description: "Generate English transliteration aliases from Hebrew artist names"
         required: false
         default: "true"
+
       max_auto_aliases_per_artist:
         description: "Max auto transliteration aliases per artist"
         required: false
         default: "8"
+
       max_search_aliases_per_item:
         description: "Max aliases searched per release item to protect iTunes rate limits"
         required: false
         default: "6"
+
       refresh_itunes_cache:
         description: "Force refresh iTunes lookup cache"
         required: false
         default: "false"
+
       refresh_youtube_cache:
         description: "Force refresh YouTube video-id cache"
         required: false
@@ -82,6 +100,10 @@ on:
 
   schedule:
     - cron: "0 2 * * *"
+
+concurrency:
+  group: generate-home-feed-main
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -100,9 +122,9 @@ jobs:
       ITUNES_REQUEST_DELAY_SECONDS: ${{ github.event.inputs.itunes_request_delay_seconds || '4.0' }}
       ITUNES_429_SLEEP_SECONDS: ${{ github.event.inputs.itunes_429_sleep_seconds || '90' }}
       ITUNES_MAX_RETRIES: ${{ github.event.inputs.itunes_max_retries || '2' }}
-      MAX_ITUNES_LOOKUPS_TOTAL: ${{ github.event.inputs.max_itunes_lookups_total || '150' }}
-      MIN_MATCH_SCORE: ${{ github.event.inputs.min_match_score || '78' }}
-      MIN_ARTIST_MATCH_SCORE: ${{ github.event.inputs.min_artist_match_score || '28' }}
+      MAX_ITUNES_LOOKUPS_TOTAL: ${{ github.event.inputs.max_itunes_lookups_total || '1000' }}
+      MIN_MATCH_SCORE: ${{ github.event.inputs.min_match_score || '76' }}
+      MIN_ARTIST_MATCH_SCORE: ${{ github.event.inputs.min_artist_match_score || '24' }}
       MIN_TITLE_MATCH_SCORE: ${{ github.event.inputs.min_title_match_score || '30' }}
       ENABLE_RAPIDFUZZ: ${{ github.event.inputs.enable_rapidfuzz || 'true' }}
       ENABLE_HEBREW_TRANSLITERATION: ${{ github.event.inputs.enable_hebrew_transliteration || 'true' }}
@@ -114,6 +136,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -130,6 +154,21 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
           git add home_feed.json home_feed_report.json cache/itunes_lookup_cache.json cache/youtube_album_details_cache.json
-          git diff --cached --quiet || git commit -m "Update iTunes home feed"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No feed changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update iTunes home feed"
+
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "Push failed, retrying..."
+            sleep 5
+          done
+
+          echo "Push failed after retries"
+          exit 1
