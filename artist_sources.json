@@ -1,0 +1,12 @@
+{
+  "_comment": "Optional aliases only. The script creates Hebrew-to-English transliteration aliases automatically. Add manual aliases only when you want to improve matching for a specific artist.",
+  "UC_30I6RrK_UZdmuHnI6d87g": {
+    "name": "שמוליק סוכות",
+    "aliases": [
+      "Shmueli Sukkot",
+      "Shmulik Sukkot",
+      "שמוליק סוכות"
+    ],
+    "homeFeedEnabled": true
+  }
+}
