@@ -262,6 +262,19 @@ def best_thumbnail_url(value: Any) -> str | None:
     return sorted(urls, key=lambda item: item[0], reverse=True)[0][1]
 
 
+
+
+def youtube_artist_display_name(artist: dict[str, Any], artist_data: dict[str, Any] | None = None) -> str:
+    # Display artist names from allowed_artists.txt first.
+    # This keeps Home shelves consistent with the artist page when YouTube Music returns
+    # a Latin/English metadata name for the shelf but the artist page title is Hebrew.
+    allowed_name = str(artist.get("name") or "").strip()
+    if allowed_name:
+        return allowed_name
+
+    data = artist_data or {}
+    return str(data.get("name") or data.get("artist") or artist.get("youtubeName") or "").strip()
+
 def extract_artist_stats_text(artist_data: dict[str, Any]) -> str | None:
     candidates = [
         artist_data.get("subscribers"),
@@ -1146,6 +1159,7 @@ def build_feed_item(
     ytmusic: YTMusic,
     youtube_album_cache: dict[str, Any],
     report: dict[str, Any],
+    youtube_artist_name: str | None = None,
 ) -> dict[str, Any] | None:
     release_date = iTunes_release_date(itunes_candidate)
     if not release_date:
@@ -1159,7 +1173,10 @@ def build_feed_item(
     expected_type = youtube_item["expectedType"]
     item_type = iTunes_result_type(itunes_candidate, expected_type)
 
-    title = itunes_candidate.get("collectionName") or itunes_candidate.get("trackName") or youtube_item["title"]
+    youtube_title = str(youtube_item.get("title") or "").strip()
+    itunes_title = itunes_candidate.get("collectionName") or itunes_candidate.get("trackName")
+    title = youtube_title or itunes_title or youtube_item["title"]
+    artist_display_name = str(youtube_artist_name or artist.get("youtubeName") or artist["name"]).strip() or artist["name"]
     browse_id = youtube_item["browseId"]
 
     video_id = youtube_item.get("videoId")
@@ -1174,7 +1191,12 @@ def build_feed_item(
     return {
         "type": item_type,
         "title": title,
-        "artistName": artist["name"],
+        "youtubeTitle": youtube_title,
+        "originalTitle": youtube_title,
+        "itunesTitle": itunes_title,
+        "artistName": artist_display_name,
+        "youtubeArtistName": artist_display_name,
+        "originalArtistName": artist_display_name,
         "artistChannelId": artist["channelId"],
         "youtubeId": browse_id,
         "youtubeBrowseId": browse_id,
@@ -1201,7 +1223,9 @@ def build_popular_artist_item(artist: dict[str, str], artist_data: dict[str, Any
     monthly_listeners = parse_count(stats_text)
 
     return {
-        "name": artist_data.get("name") or artist_data.get("artist") or artist["name"],
+        "name": youtube_artist_display_name(artist, artist_data),
+        "youtubeName": youtube_artist_display_name(artist, artist_data),
+        "originalName": youtube_artist_display_name(artist, artist_data),
         "channelId": artist["channelId"],
         "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
         "monthlyListenersText": stats_text,
@@ -1220,6 +1244,8 @@ def build_popular_song_items(artist: dict[str, str], artist_data: dict[str, Any]
     artist_score = parse_count(extract_artist_stats_text(artist_data))
     if artist_score <= 0:
         artist_score = 1
+
+    artist_display_name = youtube_artist_display_name(artist, artist_data)
 
     items: list[dict[str, Any]] = []
     for index, item in enumerate(results[:POPULAR_SONGS_PER_ARTIST], start=1):
@@ -1240,7 +1266,11 @@ def build_popular_song_items(artist: dict[str, str], artist_data: dict[str, Any]
         items.append(
             {
                 "title": title,
-                "artistName": artist["name"],
+                "youtubeTitle": title,
+                "originalTitle": title,
+                "artistName": artist_display_name,
+                "youtubeArtistName": artist_display_name,
+                "originalArtistName": artist_display_name,
                 "artistChannelId": artist["channelId"],
                 "youtubeVideoId": video_id,
                 "youtubeId": video_id,
@@ -1265,7 +1295,9 @@ def build_artist_genre_item(
         return None
 
     return {
-        "name": artist_data.get("name") or artist_data.get("artist") or artist["name"],
+        "name": youtube_artist_display_name(artist, artist_data),
+        "youtubeName": youtube_artist_display_name(artist, artist_data),
+        "originalName": youtube_artist_display_name(artist, artist_data),
         "channelId": artist["channelId"],
         "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
         "genres": genres,
@@ -1585,6 +1617,7 @@ def main() -> None:
                 ytmusic=ytmusic,
                 youtube_album_cache=youtube_album_cache,
                 report=report,
+                youtube_artist_name=youtube_artist_display_name(artist, artist_data),
             )
 
             if feed_item:
