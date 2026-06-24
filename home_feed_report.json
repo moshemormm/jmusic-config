@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-24T02:18:11.570006+00:00",
+  "generatedAt": "2026-06-24T03:10:49.798084+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
-  "allowedArtistsCount": 290,
+  "allowedArtistsCount": 289,
   "itunesCountry": "IL",
   "maxItemsPerArtistCategory": 4,
   "artistAlbumsLimit": 50,
@@ -23,31 +23,40 @@
   "itunesRequestDelaySeconds": 4.0,
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
-  "maxItunesLookupsTotal": 3,
-  "artistNetworkReads": 288,
+  "maxItunesLookupsTotal": 11,
+  "artistNetworkReads": 287,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 499,
-  "youtubeSingleSourceItems": 866,
-  "youtubePopularSongSourceItems": 1198,
+  "youtubeAlbumSourceItems": 495,
+  "youtubeSingleSourceItems": 860,
+  "youtubePopularSongSourceItems": 1196,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
+  "artistGenreShelvesGenerated": 5,
+  "artistGenreArtistsGenerated": 396,
+  "supportedGenres": [
+    "hasidic",
+    "israeli",
+    "mizrahi",
+    "pop",
+    "alternative"
+  ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 3,
-  "itunesCacheHits": 0,
+  "itunesNetworkReads": 11,
+  "itunesCacheHits": 3,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1362,
+  "itunesLookupsSkippedByLimit": 1341,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1362,
+  "itemsSkippedNoItunesCandidate": 1341,
   "itemsSkippedWeakItunesCandidate": 0,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 3,
-  "itemsGeneratedBeforeDedupe": 0,
-  "itemsGeneratedAfterDedupe": 0,
+  "itemsSkippedOldRelease": 11,
+  "itemsGeneratedBeforeDedupe": 3,
+  "itemsGeneratedAfterDedupe": 3,
   "albumsGeneratedAfterDedupe": 0,
-  "singlesGeneratedAfterDedupe": 0,
+  "singlesGeneratedAfterDedupe": 3,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -412,14 +421,6 @@
         "khn",
         "kn",
         "khhn"
-      ]
-    },
-    {
-      "artistName": "איתי דוד",
-      "youtubeChannelId": "UCEI135WOJxuWV_IbPmDiFug",
-      "autoAliases": [
-        "david",
-        "dovid"
       ]
     },
     {
@@ -1659,6 +1660,20 @@
       ]
     },
     {
+      "artistName": "ייטב דאלי",
+      "youtubeChannelId": "UCnM5Ij6prw7U3gdTJ7VsCXw",
+      "autoAliases": [
+        "eitb dli",
+        "eitb dly",
+        "eitv dli",
+        "eitv dly",
+        "eytb dli",
+        "eytb dly",
+        "eytv dli",
+        "eytv dly"
+      ]
+    },
+    {
       "artistName": "יענקי היל",
       "youtubeChannelId": "UCmpM9OUxMsg1GfrTN4igk4w",
       "autoAliases": [
@@ -2028,18 +2043,6 @@
       "youtubeChannelId": "UCIAlAMfuK1KBV7eVofe2tjA",
       "autoAliases": [
         "michael"
-      ]
-    },
-    {
-      "artistName": "מיכאל שטרייכר",
-      "youtubeChannelId": "UCl80Gv3npsInBbatoVaZgTQ",
-      "autoAliases": [
-        "michael shtreichr",
-        "michael shtreikr",
-        "michael shtreikhr",
-        "michael shtreychr",
-        "michael shtreykr",
-        "michael shtreykhr"
       ]
     },
     {
@@ -3458,7 +3461,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjBj5mB6J6VAxVG2OcDHdbbK6_KAQSE5r-w', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiY5LTy856VAxWQxecDHemPArTKAQTZI8Kk', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3467,5 +3470,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-06-24T02:25:50.746863+00:00"
+  "completedAt": "2026-06-24T03:18:42.792872+00:00"
 }

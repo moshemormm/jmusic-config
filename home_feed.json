@@ -1,43 +1,2897 @@
 {
-"version": 9,
-"generatedAt": null,
-"source": "itunes_youtube_music",
-"strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_artist_genre_shelves",
-"allowedArtistsCount": 0,
-"itemsCount": 0,
-"albumsCount": 0,
-"singlesCount": 0,
-"popularArtistsCount": 0,
-"popularSongsCount": 0,
-"artistGenreShelvesCount": 0,
-"items": [],
-"popularArtists": [],
-"popularSongs": [],
-"artistGenreShelves": [
-{
-"id": "hasidic",
-"title": "מוזיקה חסידית",
-"artists": []
-},
-{
-"id": "israeli",
-"title": "מוזיקה ישראלית",
-"artists": []
-},
-{
-"id": "mizrahi",
-"title": "מוזיקה מזרחית - ים תיכונית",
-"artists": []
-},
-{
-"id": "pop",
-"title": "מוזיקת פופ",
-"artists": []
-},
-{
-"id": "alternative",
-"title": "מוזיקה אלטרנטיבית",
-"artists": []
-}
-]
+  "version": 9,
+  "generatedAt": "2026-06-24T03:10:49.798084+00:00",
+  "source": "itunes_youtube_music",
+  "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings_artist_genre_shelves",
+  "allowedArtistsCount": 289,
+  "itemsCount": 3,
+  "albumsCount": 0,
+  "singlesCount": 3,
+  "popularArtistsCount": 20,
+  "popularSongsCount": 20,
+  "artistGenreShelvesCount": 5,
+  "artistGenreArtistsCount": 396,
+  "items": [
+    {
+      "type": "SINGLE",
+      "title": "Kol Halev - EP",
+      "artistName": "Akiva Nachman",
+      "artistChannelId": "UCSVYEizHEvWD06KQULD9ELA",
+      "youtubeId": "MPREb_fALIQlsr43E",
+      "youtubeBrowseId": "MPREb_fALIQlsr43E",
+      "youtubeVideoId": "RD00Cyk8voY",
+      "itunesCollectionId": 1894369144,
+      "itunesTrackId": 1894369146,
+      "itunesUrl": "https://music.apple.com/il/album/hello-acapella/1894369144?i=1894369146&uo=4",
+      "itunesArtistName": "Akiva Nachman",
+      "releaseDate": "2026-04-16",
+      "releaseDatePrecision": "day",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/28/43/c02843a7-6a79-78f2-3b9f-1d6f5598d350/artwork.jpg/1000x1000bb.jpg",
+      "source": "itunes",
+      "confidence": "high",
+      "matchScore": 101,
+      "itunesWrapperType": "track",
+      "itunesKind": "song",
+      "trackCount": 5,
+      "primaryGenreName": "R&B/Soul"
+    },
+    {
+      "type": "SINGLE",
+      "title": "Pesach Medley - Single",
+      "artistName": "AFIkoMAN",
+      "artistChannelId": "UCihwy53fZm-Xc8gZvHBxHSw",
+      "youtubeId": "MPREb_9NOSbaBapEO",
+      "youtubeBrowseId": "MPREb_9NOSbaBapEO",
+      "youtubeVideoId": "TawNrPhOFxE",
+      "itunesCollectionId": 1888716168,
+      "itunesTrackId": 1888716169,
+      "itunesUrl": "https://music.apple.com/il/album/pesach-medley/1888716168?i=1888716169&uo=4",
+      "itunesArtistName": "Thank You Hashem & Afiko.man",
+      "releaseDate": "2026-03-27",
+      "releaseDatePrecision": "day",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/d5/d4/3bd5d4da-45ae-ba28-5539-07bcf7b3d03c/artwork.jpg/1000x1000bb.jpg",
+      "source": "itunes",
+      "confidence": "high",
+      "matchScore": 90,
+      "itunesWrapperType": "track",
+      "itunesKind": "song",
+      "trackCount": 1,
+      "primaryGenreName": "Pop"
+    },
+    {
+      "type": "SINGLE",
+      "title": "V’nahapoch Hu (feat. Sochi Majeski) - Single",
+      "artistName": "AFIkoMAN",
+      "artistChannelId": "UCihwy53fZm-Xc8gZvHBxHSw",
+      "youtubeId": "MPREb_r7KZELGr7Qn",
+      "youtubeBrowseId": "MPREb_r7KZELGr7Qn",
+      "youtubeVideoId": "OP_khCj8-XY",
+      "itunesCollectionId": 1880963557,
+      "itunesTrackId": 1880963558,
+      "itunesUrl": "https://music.apple.com/il/album/vnahapoch-hu-feat-sochi-majeski/1880963557?i=1880963558&uo=4",
+      "itunesArtistName": "Afiko.man & Thank You Hashem",
+      "releaseDate": "2026-02-25",
+      "releaseDatePrecision": "day",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/55/32/3a553226-ffd4-285e-4f71-bb63f206e85f/artwork.jpg/1000x1000bb.jpg",
+      "source": "itunes",
+      "confidence": "high",
+      "matchScore": 90,
+      "itunesWrapperType": "track",
+      "itunesKind": "song",
+      "trackCount": 1,
+      "primaryGenreName": "Pop"
+    }
+  ],
+  "popularArtists": [
+    {
+      "name": "גיל ישראלוב",
+      "channelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yfSQQnh30RfUsL98WjwJbILM8KdK09DHWjYgo_AMM915FLiqfw8A4Jn0JmzbPAFzNf1_jKcbPf2YrBv0=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "986",
+      "monthlyListeners": 986,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Shragee Gestetner",
+      "channelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/37aziHs7Ickc9PSAbSzz77hrjvI-bjzR1JrjfQOKSrQN82_21CajQckii7knfCKY69DIqsvSWjJfyCo=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "957",
+      "monthlyListeners": 957,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Kinderlach",
+      "channelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yZtNeTQ1NJnHrgreCXEFtwOoYg1HgQEbXIJ-GG5vXROiQmFkJjNSEWjOzQdjgGOlQBdQbkpTo71j2oX6=w710-h295-p-l90-rj",
+      "monthlyListenersText": "952",
+      "monthlyListeners": 952,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Yisroel Werdyger",
+      "channelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nabhleRtbYQTZ7Mxc614IUgyRqF2mDFeXZUfD-Gr0cIbIH6BH6aR0nHe9CGhLPsupEBsVkVeNzA-vUzD=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "933",
+      "monthlyListeners": 933,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Ziv Yehezkel",
+      "channelId": "UCyoi4F5uufOxh9IByNDuo5g",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JF14RImJfpVFU1zrcD928YBo_p1599JXDkwiDJUVbVQMs8ri5rAOY_efU6D4Q7sWWNWRw0xmauGdJcI=w960-h400-p-l90-rj",
+      "monthlyListenersText": "899",
+      "monthlyListeners": 899,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "שמואל גריינימן",
+      "channelId": "UC1H2TOEthiv6KA2PgId6EYQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YHkbPOVNF4a48yqoAGJiox9-pD-sLKPk0VxBNoootUGihoa53Yf8Oj9RK8PoVOwLuMYrP9gVmJc=w2400-h1000-l90-rj-dcoUWQ7B0J",
+      "monthlyListenersText": "879",
+      "monthlyListeners": 879,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "עדי רן",
+      "channelId": "UCENpFg4g22Ore8X3TQNkU7Q",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aJbUAmmJvJIPfGBjgomMIGyXoXfPdIu52fieY6sbPoLKd3AvsOxXivf4I98oXC6KBB_pq2adxmEFhL9-=w1500-h625-p-l90-rj",
+      "monthlyListenersText": "877",
+      "monthlyListeners": 877,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "שרוליק קלצקין",
+      "channelId": "UCv4zIkEX_dhm6E7WSULMowQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tM1jcTtr2o4Y-eHjjtV0h29Zij6B-yPFk-uDMFrjEOjSJKyYbWf9U_fDkEvhoU8t4--DfDa7og=w746-h310-l90-rj-dcLXWQri0H",
+      "monthlyListenersText": "863",
+      "monthlyListeners": 863,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Dovid Haziza",
+      "channelId": "UCE7j5aZlXNU-Da-YaR4W7dw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kS1OB-jx2m5J30QrFQlW5nvUKXyasimAHGtSKPs5CFYP9bVD8Cj72vSkT4M_EpkYmego_euojA=w749-h312-l90-rj-dcITaQCpoJ",
+      "monthlyListenersText": "778",
+      "monthlyListeners": 778,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "אלחנן אלחדד",
+      "channelId": "UCue8u4IxRpP9t_Gen4xvGCw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5qfYrcYbmcHlLwDM25flnWM0St2ce9FxpTvLosAFNJhqW1ikr5RIkPxlHtZU5gnjQ9ooBnDTXA=w1078-h449-l90-rj-dcqTWIzh0K",
+      "monthlyListenersText": "762",
+      "monthlyListeners": 762,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Boruch Sholom",
+      "channelId": "UC-xr5bwdJDADQkS_TfDl4mA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YY3h4FRFgNi8biczVkLaRghrcLNkrrgQIBRVcrkh94CqqsmQ3LTYT-4Xo32vkJlr_hyBfygGEFBcckM=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "750",
+      "monthlyListeners": 750,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Tzlil V'zemer Boys Choir",
+      "channelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EobUPuXimrbIETpa4hFtV4DZ_0syj4ACOLpqOFUD9wChXrzLXFko7kFtKV_Uzg_pMebVdYEfCfLLIRvluw=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "740",
+      "monthlyListeners": 740,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Avrumi Berko",
+      "channelId": "UCD0XDjxjjAE-cl34gY5_Cfw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Wu9eCj0WnynG24VSaDGJXHQGcCrg7FKLcLdrN7lc-Giw1vrNBPolg_vFI3XUYStOgnFrv19P6GSWX3Nf=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "728",
+      "monthlyListeners": 728,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Avrumi Flam",
+      "channelId": "UChFscCECmWXq1DqDMGUWjrw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0pXJjrFfNllzHw2PpQ0HZDKc7S1XJc4eFXdizE8uctSYivdNfh2-UugpDs1ovJWa-wKtaTUZaZtaq4mmlA=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "702",
+      "monthlyListeners": 702,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Tali Yess",
+      "channelId": "UCs1CUepeSP_9zIgp2w3vMYA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wy_-IO813BXHGFTKteJYy3SVmvlXiNt4BkPzr6of9EJp1S6VcwqT2ZoBmL8NL_pBhY9O3TIhhr5oWn4k=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "691",
+      "monthlyListeners": 691,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Mendy Wald",
+      "channelId": "UCqYGK7-bY_nvTHfJsjFggOQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cpXafhBnQswmmG03-ZgOZZeAc0zErw7XElf1fjvhAZVCTn_64bmr-EbLGomP71uFCF16hNAbC8yJw-d4=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "689",
+      "monthlyListeners": 689,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Yossi Lauber",
+      "channelId": "UCvsFJtayl0mj3sv3X7qecuQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LBRuv3p6aYMgGM5CWS1Yjm5NUaWy61_9fm0GS4oIfnyQI3Tlo75SkFY1bh2i_h0O1UOgnnLZdAqISKZw9A=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "641",
+      "monthlyListeners": 641,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Shloime Dachs",
+      "channelId": "UCv58Dafo6Yue5eve-Xcky0Q",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OhHH7fYOSWAMPKkqXy47X9POH6dnAl5bc9Kc4cjUYkcSxrgN4UoylhvSzz9IL_bHjSj06p9tXDINGSM=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "633",
+      "monthlyListeners": 633,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Yoely Greenfeld",
+      "channelId": "UCSL3dOfqU4_o7mtH6GdfxkA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sdeXyKz3172iyeOTyf3hsJid8harZtcftzO1WOVBUJc0rIXjap1JmSAPxhsZ2khNdh1PfJ24agwa9KY=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "552",
+      "monthlyListeners": 552,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Chaim-Dovid Saracik",
+      "channelId": "UCn68TyMJCASbKN8j1uBszwA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9AcCBHotzQPgXHoVJp2HBJejpbBbsTr9ReKSMMMboRJScunL5WabV0uh16quFSEycC5d0P8JLg=w750-h312-l90-rj-dcrQSKzo0K",
+      "monthlyListenersText": "541",
+      "monthlyListeners": 541,
+      "source": "youtube_music_artist_page"
+    }
+  ],
+  "popularSongs": [
+    {
+      "title": "רק תודה",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "ScBZfpmcddg",
+      "youtubeId": "ScBZfpmcddg",
+      "artworkUrl": "https://yt3.googleusercontent.com/zEBVHGry_aKVZ8EiQh_9zIllacgBLgc781Swnklw3I8ybSz7kcQ6GyDcU19DMOvN2jC3njgxrrVeV9GCtw=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 985,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "חד גדיא",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "-yDR5AsCzgw",
+      "youtubeId": "-yDR5AsCzgw",
+      "artworkUrl": "https://yt3.googleusercontent.com/2WM_zZpzuFV445M73lReqglFrru7kO2S90Yib6HMiZnDXA9U1mg9RbRAVY1vf7jDnjjtzpqcAKyStKVt_g=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 984,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "הנני",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "A9SbckUUZ8M",
+      "youtubeId": "A9SbckUUZ8M",
+      "artworkUrl": "https://yt3.googleusercontent.com/Ghopjma8UsHe4Z0AQt9jyfYjBVjjVJpeyDSFC4xSUqSmSUFDxHaJbCKDJK5vnGraVepyb1JLJ0RKhH9q=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 983,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "דיינו",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "pIjNxava2z0",
+      "youtubeId": "pIjNxava2z0",
+      "artworkUrl": "https://yt3.googleusercontent.com/k7qU8NmIFolGK20PvIMxE4BiVMf-qzdvb2-EUqXISyFKuGvfLQo_2UAhAxHn0aCmhend71iJP0G6uus=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 982,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "אחד מי יודע",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "3_WCx59spVo",
+      "youtubeId": "3_WCx59spVo",
+      "artworkUrl": "https://yt3.googleusercontent.com/UGaBKWUpq_bjZt27Iyj77eG_LTvKcq_vvWb3RlNM4kP4iGvwWwB_y7WuQnGJhdujDWlygmS4Mp71oOMJ=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 981,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    },
+    {
+      "title": "Kerachem Av",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "Zz0cIk4N2Yo",
+      "youtubeId": "Zz0cIk4N2Yo",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 956,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "Maleh Mishalos Libi",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "rG3dFJcp-Y0",
+      "youtubeId": "rG3dFJcp-Y0",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 955,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "Uvruchim Heim",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "xONDTyaQNVc",
+      "youtubeId": "xONDTyaQNVc",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 954,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "Moshe V'dovid",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "RW1dQNtR20w",
+      "youtubeId": "RW1dQNtR20w",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 953,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "Sim Bracha",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "G67Y2iJnntc",
+      "youtubeId": "G67Y2iJnntc",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 952,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    },
+    {
+      "title": "שלום עליכם",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "H1Ry5rn5czo",
+      "youtubeId": "H1Ry5rn5czo",
+      "artworkUrl": "https://yt3.googleusercontent.com/4bQCKgeT_O1n4YRpzIIG_58uJ7oTAshejUmdg4ig1f0mg1lM2dKkp6J_eKxw5FuzJSFuduNA2BitxaIP=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 951,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "מחרוזת פורים",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "JfmjEN3Ctxs",
+      "youtubeId": "JfmjEN3Ctxs",
+      "artworkUrl": "https://yt3.googleusercontent.com/PzOBcuDtqks6fDdjNj81oiY965Omw68imcm17rss3rfOnEZhvNAKGrCvG-s99vXePOGgFO2aRqyV838=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 950,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "עולה עולה",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "WUiSoPNG3ZM",
+      "youtubeId": "WUiSoPNG3ZM",
+      "artworkUrl": "https://yt3.googleusercontent.com/y-8svLiXDJEbKM-d7HfoWg2nz1m2e7dpiq6SFETN5MY67CLEmVlgXjWW7-eMG8eSDriRY52fQs1-VxQ=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 949,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "אין עוד מלבדו",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "I7aQecCCUpg",
+      "youtubeId": "I7aQecCCUpg",
+      "artworkUrl": "https://yt3.googleusercontent.com/oAd1ZiRSRW0YsU48oPHwfaf8jQZeNa5HMcd8VqTu-gb_9il0Pp0qxEmDhLenlkK0kg55shSPpK4x0tqW=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 948,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "מתי תגדל?",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "OivqS4wtRL8",
+      "youtubeId": "OivqS4wtRL8",
+      "artworkUrl": "https://yt3.googleusercontent.com/j4H2SyXXOp82FMD-_2ErQHmYIqujTaIwpcGZbxxzUGoVfS4PIUkOiEvn4NsZdO5Pj0aKh1a8qSb0gMQZ=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 947,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    },
+    {
+      "title": "Mesikas Hatorah",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "BYevuiqL9QI",
+      "youtubeId": "BYevuiqL9QI",
+      "artworkUrl": "https://yt3.googleusercontent.com/srTKRrhttG6l_75GnIravhbneRC0dwK12YiP-zzOgeI4h69p-YRp5ThfQeFmntMwhyQyzh9uzl2EcBTM7A=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 932,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "Dovid Hamelech",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "ba9CcSzoCSE",
+      "youtubeId": "ba9CcSzoCSE",
+      "artworkUrl": "https://yt3.googleusercontent.com/HA2SdeJvD_wPBw2NRgqeRlTMGt55PoO4ccsJe3LF-l4BSqnB2dMN54Oqoo-fHqsgQMq-ostPKt2IBYQN=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 931,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "Anu",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "UWo9lope_z4",
+      "youtubeId": "UWo9lope_z4",
+      "artworkUrl": "https://yt3.googleusercontent.com/HA2SdeJvD_wPBw2NRgqeRlTMGt55PoO4ccsJe3LF-l4BSqnB2dMN54Oqoo-fHqsgQMq-ostPKt2IBYQN=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 930,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "Mesikus Hatorah",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "uDaSeNG1Z_o",
+      "youtubeId": "uDaSeNG1Z_o",
+      "artworkUrl": "https://yt3.googleusercontent.com/N5RnAhmqpgaxEWXSTuKWpM0Llqv46hsBU339vaU6uk_WzePSfiq85Fkn3eIaH2y1HJK3BGHEMVn7yj7o=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 929,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "Veahavascha",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "ZYYwgxWlVRQ",
+      "youtubeId": "ZYYwgxWlVRQ",
+      "artworkUrl": "https://yt3.googleusercontent.com/HA2SdeJvD_wPBw2NRgqeRlTMGt55PoO4ccsJe3LF-l4BSqnB2dMN54Oqoo-fHqsgQMq-ostPKt2IBYQN=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 928,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    }
+  ],
+  "artistGenreShelves": [
+    {
+      "id": "hasidic",
+      "title": "מוזיקה חסידית",
+      "artists": [
+        {
+          "name": "A.K.A. Pella",
+          "channelId": "UCZFAzTfD7_WcgDVHwfmGrdw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_laeaLR75dSJe-Mxee0axFBFygEbkdcmxLiGaUN3Z0=w2560-h1066-l90-rj-dcJYWOzbUG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chaim Fogelman",
+          "channelId": "UC4-CSThYr3JDncwWM7qX4ew",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/-JjudsiHQQWoy93LS0kLiqk_MCSWb0N2xfrb_zFTVaVZbNTJZWEsV0Rp4SGL_6lquNw6sfLdAbkdisMY=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chilly Wagschal",
+          "channelId": "UC6GkDMwcnMARhSxpKCSbKhQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/nR2JGH_iZEZJ9r269r5zQUJFXmSPnCNwOeOOdWzIKB6cw4l5HqChjeovXN0CquxMCTiCQQhy7uPeJ_A=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "DJ Farbreng",
+          "channelId": "UCfWRyQLkrtC0G3sG001vq8A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/PLMBSId_IS1ZRg7ACohxXafm9tYS3DjRWqoS2p46rpySJn9iX2dfhfFw7bJD6Yr1Sq4ow31ruUkH0kcv=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dov Levine",
+          "channelId": "UCZc121O8NJKWS3cVCMLuPEQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YxAP7Mn6DQPZ3E5D-6YawmLng162MsWudMeHfBI_grhEx2YvrcpfgY53iGG3mDl89l7uL0D2w_VOBRdT=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Gershi uri",
+          "channelId": "UC_qExX7xRD8cltx_UxzABgg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YEnphQFuOUEIVdkqy_LTiX6JS-YshOZ7aOxhvpZyZg6Vi-Iw0G8-wL4gFPoODOQ78_b9a-88cQ=w800-h333-l90-rj-dcpUWUzaEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "HBS",
+          "channelId": "UCDG5-JDDZRlzXLRJd3rRAWw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/FcLGSCSbtrtQgHbwty5JDubjQ7x3Fi8zqPUKwnNu7UV3HCeyOxn2ZUq2hHfuCzF0NrCSdCHoDi9PfVDp=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hershy Bleich",
+          "channelId": "UCrzQywDiC4IhlNePUI-x_rw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/t4AD8XIn8NgmX2doK1wfWyrYDQxK_5fw4vS39twsLhlhStianUepoyYJ_2Fn_sZrjjKYwss_p2G9xdws=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hillel Kapnick",
+          "channelId": "UCw4f7BjCN1ZOjLAbkJwRiQg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/tkc_tPDhWt6hZDyjINGqUtluBKiKyFyJb3pvhZl2rU3QUkU1omsBFxlSy5BQB7m6zZONaE09ez5VRXFJSQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mamish",
+          "channelId": "UCs2lQOTJFcd1SCL9w7iyW8Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/1OhlV70rEz5-VU3F69xK_JyuOQHYyKCTb0eUJ7Bj9G_LE6h2cXdszFcV-kTuC2Opp8pc7XHa=w1024-h426-l90-rj-dcnVOEjKWna9YA",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Matt Dubb",
+          "channelId": "UCbyD0Jnm_-Wt2b0t1l21p6A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/pkYALPdzhIhrGnMCl22k9f-W3mOU87WkzelJE6fjMsrm-whykyE0553yabfJwMTcSkB7s0qCMg=w757-h315-l90-rj-dcrSScrhkK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy J",
+          "channelId": "UCYCHfGjcg7sUfI9vTGnUmLA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YKEBh05u5SrQW5PCyfEpekb4SYeAcr-W2gMEIbbXhgr2ZrhxnG9Nfu_fr_69In7Ys1ys8ha957zoSIA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshe Lichtenstein",
+          "channelId": "UC1a0XPL4SqofrfTsoZ7CRhQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/hx-K-03CzuUuetdy-M-wsQsI1JQ4sFrw2AvCM-Q8v2zXVQWSKDdQD6g09kt6rzM5g4-FHFh7Dvr7_8udRA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshe Yess",
+          "channelId": "UCLf-g5NzfBkiDxPOrMcWtRA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/eAR-F7Lm5SLUomuCbiRft5PHi90J7R79kO7K5360YtDRqne1WzWPJezGIuDc_30G7hi_3sitK4fJDBYzKQ=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "NACHAS",
+          "channelId": "UCFaqeWT7ZBJsdeOvCWvYhfA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_m3qAQh-OIYzETtt8MpvdkGyM7zF4ijRQz5mTfYX4uJ6zQ=w750-h312-l90-rj-dcgVGKZCYG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shir V'Shevach Boys Choir",
+          "channelId": "UCqagfxK3U01lGOiRXaYLYQA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/88mw1cn4osW_fN8suE3A-ToQLYCbkT5fKMRWo9eQe67EerOussutvHwhG5oPexfXcrSFNdBRCALOAlpSmQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shmili Landau",
+          "channelId": "UCFWvCu8Pee_khdbmAANa1Bw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/l39QOE-QZJhdyIoopSN3YMSdV2Pohr_3qEHVS1Iw4769yEy034dK2ZZrikY9liECK44hmONJiPXqcG0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Simcha Jacoby",
+          "channelId": "UCiUvnSAR1Z6QEKd6hwtXdzw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/0MNtVcse3Lum8E-ReHvU_DxCCc_WebwRCgnW0q9kt7ezHZeCDIYc5SPr1IWqpJXE5I-BHWuVZsyHnQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "TYH Boys",
+          "channelId": "UCtQiRYkrvrMlTmqEQy78vAA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/DBzFrfMUnc8IN-fG40b0qnziGwuecpBYv14yncxWeRz5uy-EsAil71-RraL27_qSdn4e6vOI78oEtM6W=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Tali Yess",
+          "channelId": "UCs1CUepeSP_9zIgp2w3vMYA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wy_-IO813BXHGFTKteJYy3SVmvlXiNt4BkPzr6of9EJp1S6VcwqT2ZoBmL8NL_pBhY9O3TIhhr5oWn4k=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yechiel Giniger",
+          "channelId": "UC6J2dA6gWquS57eE6UlE7OQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Ge1a43A6W02Wks2OJTP3sUsZ8-4K_tQptsL4yZCCp_gC6ZNlGB0YSzBCvSxA8Gs8HQ0YrsAb39Mb2fxwdw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yechiel Schron",
+          "channelId": "UCqNqG3iDaJEuNshIG73f9cA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/G99iOKFOuO_RSyGQisCwmw8GeXBZoyeUmg5L9DkU2ByyFp6zoLKEawYfzbB7T-y_TMpEoFp_ofXHAvda=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yidi Bialostozky",
+          "channelId": "UCsOh9VaqwlAyjoS7cU1nxdw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/t6Hsavy3sBqfe9SzfFhOTThqkEG99tIQiAWKAfbG8O0RvIhXwYmp86LNba6M6NDxASmLFzIfwbsvcvfI=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yossi Lauber",
+          "channelId": "UCvsFJtayl0mj3sv3X7qecuQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/LBRuv3p6aYMgGM5CWS1Yjm5NUaWy61_9fm0GS4oIfnyQI3Tlo75SkFY1bh2i_h0O1UOgnnLZdAqISKZw9A=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yossi Zucker",
+          "channelId": "UCqkX8m2FUgEOH3H9Yxt1kww",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/44qxhsr-iwURF62frxXWVShSWsL0Fb6oCti0gfbI2-uegRTWC3YvwIFKAP250HQV1cDUBlVVXkuYQT4k=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי אילסון",
+          "channelId": "UClhlH-uzEKhMTlJQWbD2nrA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/Taz4fC-ngRmsk4H4KWwtUuU-YcaTGVA539j3BtkdISfYDSNnA7m8-_k4ULKdWXPUwE4Vs_-1OQtdhG0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי מילר",
+          "channelId": "UChtZuciZLgHyRQ7hinLDqhg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/bg1h1F6vgKK5Pn8zQTNDMZTCbprqMGkv3z8B2c45OIol7ZuPHcf7EjS8_tYDJRuIRa43CPnZOJaazJw=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי מן",
+          "channelId": "UCa_eksRjzpr-SUzynZKuysA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/OvUtY_88nWdmeXQQsGj4ZjJsLV9p24tSNs32bxWFuq5n_e0nssIC6W2f0S0ORjq_5e4tMaZzeIjKcHhc=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי פודולינסקי",
+          "channelId": "UCiurymv3ZRWTqvASSou40wg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/WeGiUXYtEGCl60aXU1bNkIJH2wR6DphmblDd3nHPbYAtT_Jux5mFxlq4u7zzyILsHtNYvBCzjg=w1654-h689-l90-rj-dcIVWWrSUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי פיאמנטה",
+          "channelId": "UCh4NY2jeS945E_Rsco1F1_A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Rf2JFL6mRshzzxZStAYsab7gsCHf0pKvq9TOOV-7Svp8eSVCTJ_-pOXGtmnEgIW4xRljIOWPg1PRU_cjIA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אביש בראדט",
+          "channelId": "UCqwl-80S19l8BWlrtfJZ3BA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/LeSMW1X-Q93Dfy8pqh4T6u9xflWYJTCYk7WZ4KKkcZkbsJUUS7RVDqIfEeTnBmRSH3anTgggFD1usXFoKA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Abish Brodt",
+          "channelId": "UC0-foS39p84VAaTwngP4W4w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/uixVLYHxOjNQUsqyL4EKrClsasmt-uGqBe36UhazwLLWnXOOPUkgc8Zj9sWA03iw5cmgqXIB0IRrj9Is=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Avraham Chaim Green",
+          "channelId": "UC5SCgSfE6JbkzNGRG0tjvgg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Bl8Ca_wKLnZW-YotQid41ZR5jtey5ZcCFDlBrkx3DrjxnTsvvgsMtem-irWpAZQYYqe6tldpfzvKaOs=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אברהם שלום",
+          "channelId": "UC_glkfFnP_jNQpFn3p2DTRw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/caE8EUKsAr90jwkyMgqYob-Lb-e1k1H1yh8EXdhPo6Afxag2NxCxvxIGidkE7_uqDpVMrtbOKyr7sik=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Avrumi Berko",
+          "channelId": "UCD0XDjxjjAE-cl34gY5_Cfw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Wu9eCj0WnynG24VSaDGJXHQGcCrg7FKLcLdrN7lc-Giw1vrNBPolg_vFI3XUYStOgnFrv19P6GSWX3Nf=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אברומי וינברג",
+          "channelId": "UCNEXZL1sSgHu1OXOE4_-bbQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ZoYxX5jwupP7FicCapv3I-mYBwsXnlZ713UNZ0RMoOtn6zqqPZSVxicf5uQF_9G1miyIPRYaMhg=w785-h327-l90-rj-dcLXSQjzEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Avrumi Flam",
+          "channelId": "UChFscCECmWXq1DqDMGUWjrw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0pXJjrFfNllzHw2PpQ0HZDKc7S1XJc4eFXdizE8uctSYivdNfh2-UugpDs1ovJWa-wKtaTUZaZtaq4mmlA=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אברימי לונגר",
+          "channelId": "UCaEdDMyZxHBpmBdCBKbswMA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/rf_IA0PCk5gSlmpKFnZFhK8FNkKQVZXEClz6XCbXuiZB6Ng4Hk6t99SdIgS5U9QUIcIZbMOQpptXk3gi=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אברימי רוט",
+          "channelId": "UCoyBqWAeokrfs6a_mjwPgog",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_l5YSq_Km0Pmz5s8TecQaAjYxog9-OXr08LEC1NIwlzsg=w1078-h449-l90-rj-dcqUSUriEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ohad moskowitz",
+          "channelId": "UC4-zDyQfkwh_27BN4tBf5Tw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/yyqWWhaUZN9oJwV1FO4R1Kiu9uuP09i2qbfoiXHTxVYuuiIDbIs9qiDQZ1Y3iu7VgC1POcGZwTb2DuN2=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Uri Davidi",
+          "channelId": "UCZ4XuQbhnCWNdoNlPCqHebg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GJ-PiYV83gIoCVfmY6RIz9UT5TzB_8XrIzPZgu3N0uLtacDfi6Q0xZzmCxrXUA76w9DDb7NYJ3ftSu0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Abie Rotenberg",
+          "channelId": "UCYf5FBxTr_WOGZ0bg0jAgpw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nUXRKBadMWsWAh1tE7bjdsJTL0FpvOBs93W2Tt8VU=w720-h300-l90-rj-dcoWSCrSkI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אייזיק האניג",
+          "channelId": "UCKiA1_fMWJjIHuj_5zkxQBA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vVeUDjlSESs3l92juFTSlr9piLamPE7g2cTaAmeAgDuVbxIZwckFgDh8bos1wjo5gIadkx00bE1t3SCIlA=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yitzy Waldner",
+          "channelId": "UC5-ApPEQbXGc7qVOwXAfv-Q",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/wiiQswGRJjufRt5IQqkuDANzDiiD4EIfiNUbMzIS6aBqrnIG1E_0Wkv91z9lEMyO_A0UGdycCxsh0AI=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק דדיה",
+          "channelId": "UCT1ljwAJ75zaL3VXNZpPw0g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/fne_aclMlLBYHVgQgYdDPqqDhomq8JD2ccpwKwu2vMzIEq4nuMilkvF5tMT6r30Xwj2QtVzU5N63pb8=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק וינגרטן",
+          "channelId": "UCT3Ujz3093G2VRxAZBHR-lA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/w0EvZmIcT9B28J0BylFHNsPMDNq8rD0NyA_0_7J1tjiN79SMcBlMWfoXpe3Q1KgObN34z2wrPCMVafc=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Eitan Katz",
+          "channelId": "UCNBG7G28lqHgX8UGYraRrGw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wolHglGYtqhHhL4Rljx7hgtEsyxy3oOV_aCGpoSr8EXkLeA3-YAVVfjgi13ljvIjXjPGrIkCImE=w778-h324-l90-rj-dcmVOKcB0J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלחנן אלחדד",
+          "channelId": "UCue8u4IxRpP9t_Gen4xvGCw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/5qfYrcYbmcHlLwDM25flnWM0St2ce9FxpTvLosAFNJhqW1ikr5RIkPxlHtZU5gnjQ9ooBnDTXA=w1078-h449-l90-rj-dcqTWIzh0K",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלי הרצליך",
+          "channelId": "UCtxKYZpa8IGkBUQ83osB88w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/8g19i0PxrtdTsYY2ZPOq9_fmkAh-MzDV5bkHFyQbD9lYrDP-lPDSkUeLtflDj4dNKERnpgoFTRlgiTbo=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Eli Levin",
+          "channelId": "UC16TAjRl-SdQ_K7H_o9c5tQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/jp7fmTWkyNAqh57jrJ5oiW6oI2Nz_9fWDRWV7Kjnj7JlmR_0wtVHXaCzfl6ktOAPx546c92GOA=w941-h392-l90-rj-dckXWUC6oH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Eli Marcus",
+          "channelId": "UCY5qvQNoawFipLxi_KZwFUg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_guhioL4WkZ06lTyuHGQXlRodKabpBM-4qWmvCIQnGrx6dDnfalB5VYf6qHYaFUTXuEhCwrCSw1vHCKq=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלי פרידמן",
+          "channelId": "UCthjk1chVrhKkCA3Vp_mMCg",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lUlZIwjCeiz-RwpXQrGqHjDQxxhIjAe9Lv-ztNVeo2Q94=w1783-h742-l90-rj-dcmXOUj60H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלי קליין",
+          "channelId": "UCony_70Oyz1c0sf098TuPrQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/fT_8LYE6HTcEOl5eXnM12LI5ADWB7xr4H5ZWzoYbwgH0mUQcVTDrNvdpd_Z2QQe0QzcmgDqG-AM=w1030-h429-l90-rj-dcLVWGriUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אליהו חייט",
+          "channelId": "UCDrPBGfQiHS7KTe4dsG7HIQ",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lY8gQDUWbqqB_T7OzuIwdoAbsAEOthZLRf2j9YTwE4yQ=w1530-h637-l90-rj-dcHRaYC5IK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלעזר אסתרזון",
+          "channelId": "UCcudJNQwHZkPZaE5INoCY2g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/1gYusWyPXM7kbGaSoo4iv2o4wzvwz_K-ldqnqZvNYVaifTwgUOEVWgstrgNGcVWyEQRlqvnYBoodDyne=w2000-h833-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אסף שפר",
+          "channelId": "UC_9V92yN9cMUy6apVPeyNhA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0_i9LINh3wiB5auOLjyCJU1mYwazo2hqr-PPmGTTpEzy7xrQjax5J6kZ8TrXVvKkBjw6r4rAlw=w718-h299-l90-rj-dcGTOMTqEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Efraim Mendelson",
+          "channelId": "UCSnCIdJIFPq2-vIw08mqI6A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cAL-6cmMyVUW7XWUhVjci0dNXm9CEtngBMa0ksCwL-ViFY5dpixIgYuTlh4u2DBsEIO3jIFJ3KYGrglz=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Efraim Markowitz",
+          "channelId": "UCgbwvoxfdEvHwq4xxsNGoYg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/DSRKHDyaSQA8Dwd_GL4sdCiBgFTXS4q-NBBX0a0CBNpB9dtdOSGegGd8e26gCMPYke8uV2vQCg=w675-h281-l90-rj-dcmWWMSSYI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ari Goldwag",
+          "channelId": "UC31c9ukaP0w1Gugn6mTb5pA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/YlqXvHh00vX4GXvbjyRfn2KTjyk09x6UZw1xLWF9dq2XS2BlAKJR7Hv2UVyhdYdboj6yHnnVFFeIvvk=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ari Samet",
+          "channelId": "UCVQ-263yvbcxhH4baA-Uliw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/hJEUHHHqyn6BzhjrurUeMOlwr20iUUI8Tz8RAlLGvzvUa8jnwTEVm2MXlzniLzIWeTbBXMHW9A=w2880-h1200-l90-rj-dcHYWOzLEG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אריה ברונר",
+          "channelId": "UCWeE4WYaMR6o1HEQ-TpIe0A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/01CTILMKuN63MWWqQaJFCX1AB3yaZOu3WOAYROlCLuh_THQmEKoFHbcOH4Vn3CxegnL9qTP5JlBO1WMr=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Aryeh Kunstler",
+          "channelId": "UCvCfWc_qb7OMoGdgCWKbbgQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/iKVoKE2UWtLAFgCXm9fOIiI7F51j9E0hhE1R-qTByGdfZa_Vl_heuV_GKanpiJwe8nlXaW_n98ojTHVk=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אריק דביר",
+          "channelId": "UC1r710RFPIwrMqI2xH-z7wQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ziC_8niBD8xRUDXKyYEZVTg1JMIJP_Oe1ryQmBKOKBZNwBNJpisi_4cJ24TeLhLXdfG6LGBirejIcU4=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ben Zion Shenker",
+          "channelId": "UCXiIJIaIx3lLxPKf1lJo8CA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/bXQQ2-LFvegDO2ev2yrnWzNHtHfxatUg3GRnGz1MXsiXVuKGf8Rwh27jqSD8NeMcyIGycgES_ikOpN8s=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "בנצי קלצקין",
+          "channelId": "UCD_fYx6NZZE7Fk5zD5iUSVA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/oxV0GxYdpPvFtjccWFymSiFex10PPgEt3m33V46RKtl5YIi9qjitM9WlelECQ9X1F4TcSBlV0RgkBfTz=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "בנצי שטיין",
+          "channelId": "UCAM_yc1C3RuxfrMpxAUxHOQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/76yRr3s8G7r4XkPsOOppOPdNJOinuBinOZJwuHNOkKW70XGEDhPUFSrYRbk6wwelaoQIg0jMMZU=w991-h412-l90-rj-dcqXWSzq0H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Beri Weber",
+          "channelId": "UC8n1Io5T76kSYeuYVQHzsQA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/8NA6aDRqgiO8rYfu95M6yEc9TTjfeK8adpjfBTpEVcwtuev6CjPGq8lqKQGJVmyIrUkL7AmObOhyJOcM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ברוך ויזל",
+          "channelId": "UCcxbP_-vUUUx7tvVkQjClJQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/BpNLVyE0FT_Zh5uzhvsBbyiOzke8g8X9J8yfX_ZykWlgVWINvcHP-Ldmi8KQiVVHbWMEDjMsxgSBaVI=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Baruch Levine",
+          "channelId": "UC_IxmTZosg-FyYkvf1mzYnw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/-rBBu01TdMwfzwUNxmRkqKLYtWeXcoH6RVbuYqv22zoBjxvwAONsmg6zy9fiGAIP2kUejHEwtA=w1429-h595-l90-rj-dcISeaKhoK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Boruch Sholom",
+          "channelId": "UC-xr5bwdJDADQkS_TfDl4mA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YY3h4FRFgNi8biczVkLaRghrcLNkrrgQIBRVcrkh94CqqsmQ3LTYT-4Xo32vkJlr_hyBfygGEFBcckM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "בריו חקשור",
+          "channelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/KuEDQ5sT84cJttCAnDr_uepnMSDsbZ0ptaVlUs5q9YF0VfvyJWoR436Dv99lJ3NKI2cmCG8iwr2As7z9=w1488-h620-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Joey Newcomb",
+          "channelId": "UC1QsA-Q6SUKX9gWi1heQDEA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/xga8dwlXnYKcNSj77MQ5LHVycWQnxvnO2Nawj0670CEPtTH2CltUgtB_pStvsgwlYrjEGQREa5JA3fE=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "גיל ישראלוב",
+          "channelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/yfSQQnh30RfUsL98WjwJbILM8KdK09DHWjYgo_AMM915FLiqfw8A4Jn0JmzbPAFzNf1_jKcbPf2YrBv0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "דב הנדלר",
+          "channelId": "UCKLa4nAxhAefhCYecrZT3WQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/66CgRsOKPNtxyAGvXJIwY8sfP9B_dTIXTz2FtexmgEH3NU_CCSzqMqh4o8Hsiadd24vkRcKlANLm0KE=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dov Shurin",
+          "channelId": "UC8t3mgq12GZzBCXW81SJhbg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/L-1YV6vg8AqYUlWbHRKNGdpHGZD2JrEr2DMjVfllcKjXPNWSfkChUGlfKBN_ov7nojB0FSD0odnup0s=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dedi Graucher",
+          "channelId": "UCx4Vp5_O7g0Qr__QyjsDgRQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/INULXBM43M3TKU9awW9yQ5U8O3vhTInJUgKAkSaqIGosBmCa_zPXJPKUeb-CLAxeoUxcEQ3iJkAybq6v=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dovy Meisels",
+          "channelId": "UCQdB_44poAPBj2TckPrbdgw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/2-w4O7vm4n8gBxjIQdj3U6UwcFp5snf5TKmvcF7ayR9O03cYDsOkyVtDf64pm8TxwWKNzgr4rA=w2880-h1200-l90-rj-dcgVKKCiIJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dovid Pearlman",
+          "channelId": "UCiMnyfUnUaX4Uk_UdGCoC0A",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/UF3Vs7cJgj41SxxELmSAcZxhDx6feI1ulgMKu_UTTY87j2buwbWIO-lic6p2HmcEF_dct2syERO-Miw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "דודי לינקר",
+          "channelId": "UCG6vpYRUikXKfA8raPSS3nw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/pd0UEVo6ziFDI8ZrsSw6AJWv0VICoM2PtZ0r1gpZj7GMwpuxW1_pX0IdoS2PbgWp_E2svx5_XEnRgXg=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dudi Feldman & Sruly Lipschitz",
+          "channelId": "UCQA6kbFsl6DVN6CLsZ40PBA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kSpkBcfg_ci-W5o0kXfpYGXmlGahKMLhyMH-FrrloO4h-UovMcs7YZenPFBsh6FHiKVuzAgXMQho08SE=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "דודי פרישמן",
+          "channelId": "UC0XVNZsq-wV5ifjPh95NKpQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vBm6bzst_lXGfuu8MTbYO9GpNdlH91HnlkJH3OIGE-mBX2fHmH5ovqHfYWIHSrV7hS8N8Pk3ubBXjtrYkQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "דודי קאליש",
+          "channelId": "UCRBXWlF1sZ7QRfXspqqA-Mg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/5FPMN7iO0aOga1VA7xtgIOIzr3mo1_D-7OzOmzcge801XpKlL608hQGdFxRC8YHgOscijbrhIg=w1077-h448-l90-rj-dcKWWUzqkH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Daniel Ahaviel",
+          "channelId": "UCGaINBtcZaadrtcfVzcDJbA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_kKycR7VoM-ArDPUbMouCRZhI3NAPo7h0EB9WAJK4XwKA=w2316-h965-l90-rj-dcLXOOb6kH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "הרשי אייזנבך",
+          "channelId": "UCfSY83HaEOa0n_K8-6NpbcQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/g_iqGVIl-ocdX_UqQpuwYtfNiDqcANvaLartcGaqLCy6NgEE8v3sEjmYlRzF8BJM4JciM3ewc9g=w2262-h942-l90-rj-dckVKMySUH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hershy Weinberger",
+          "channelId": "UCLQylHgxsIaMasCFKhL7A1g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/3S8zdkmfaanyaxZq40xXT1I5kG6fESEaAyyRE-_kxOR_0u189T3szhbcjBYgaj-oXci6kY_0fQ=w1096-h456-l90-rj-dcMVSWjykI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hershy Rottenberg",
+          "channelId": "UCOgaMO0hlvuCA8nnACAHriQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/LNzi6FhazqNPuoZZO0jX9_h986lDotsEG7XvBR7hWV4KnMoqttTaQUpkDdyYPkjOuWI43VOcovSd5oaKdA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "זאנוויל ויינברגר",
+          "channelId": "UCdFDa1uKSVtD4w27Jo0E1gA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/xi2UQPyRVBoRrGpEu0HS_ALlU2lN1nMIAqSo0pARCwm39nPv-WtcfmWifiwFyP_mkkj4zhBI_5Q6t_RLlQ=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chaim Dovid Berson",
+          "channelId": "UCDFgB4GepvQXWyUg0TMJEaw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/2VgS7OxcAGFVNnwwwKGJvPhxHAaiOrz_8qVYwLbQk60iMjF8CvnsN6uJloKVWvO1Mq6QnoM18z2XxQk=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chaim-Dovid Saracik",
+          "channelId": "UCn68TyMJCASbKN8j1uBszwA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/9AcCBHotzQPgXHoVJp2HBJejpbBbsTr9ReKSMMMboRJScunL5WabV0uh16quFSEycC5d0P8JLg=w750-h312-l90-rj-dcrQSKzo0K",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיים שלמה מאיעס",
+          "channelId": "UCqZEueqIcgzbBlaOMR2xTdw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/5_OaWW9N8GL2YMMjie8ySiS-XGUgQA5Px1J_lf7Xvb-goixW91Faxx72u9swOsG9Mobcc6kj=w747-h311-l90-rj-dcLbWKr0EF",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיליק פרנק",
+          "channelId": "UCEMOZ4wvQARIbprCByf-ykw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/-3P39WKkOYU6P9i1GOs5hTbMKUjYg87YztrnMYDJJPB8oZKDEU-iIl_oOhbBvR9mQk48i3xY54uwCDnM=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "הרב יאיר כלב",
+          "channelId": "UCV8IIInfAH2Vkfm4gdDYlEQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/oC0JV5r9p3qKnAz3Ji1aoC552I96lE60J3uD_FAygHO8QLXyxWcjy9wiet7t8D8uC-RrBuCeaAQbvj1D=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yehuda Green",
+          "channelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/d34g-lIgXmeGx81uC82TqiEEeTP4Wl3YwJs-6vVyu7Yml3prxcMYt4ovuhi6x5nSrUuQBh-0qIKpSROp=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יהודה פליישמן",
+          "channelId": "UCl9LqAGv2Jwwih-1Ry5CTsg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/-FrxYwT6PTyBMT7O6kJHS9FEUKrVCfT2N1F-3MD2Ikx8DvMRZ2Rt8gkp9Mr0smVuptLC9YG7cYSlIGI=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yoely Greenfeld",
+          "channelId": "UCSL3dOfqU4_o7mtH6GdfxkA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/sdeXyKz3172iyeOTyf3hsJid8harZtcftzO1WOVBUJc0rIXjap1JmSAPxhsZ2khNdh1PfJ24agwa9KY=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יואלי דיקמן",
+          "channelId": "UCzfJYCFmO-B4VYzCGRU6e9Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ft8EOxN3csmViOWm2NKdCp_4mYvk_cC6iJzBye1UlGKnsvYtmVgVS5rVv11mG2C0grRL7WWyjQ=w750-h312-l90-rj-dcpTWI7J0J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יואלי קליין",
+          "channelId": "UCXjUzmNpXKsKZtfDgyHc-_w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/HPLrUm_cUOTOpsjxoCivbuppWuhRZRKz-fNXOLaaUEwgEwxkGrVXh-9lJjmdJ3Fut7MeLFXj5A=w652-h271-l90-rj-dcKYWQzTUG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יואלי שטיינברג",
+          "channelId": "UCb9ed8F9w8AWxS96mfUKb5g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/3cEsR2BKnO6u4fUBj87qg83y-QgwREORVv68JDrc3WL3hFrbrHTxAQNtEYDFtjIRK_pYOkaVMA=w1080-h450-l90-rj-dcGVeYKqII",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יוחנן אורי",
+          "channelId": "UC8YSUssuDsfn0ABjB9Iv_yA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ZX0MxnD9QlCWTEhVfuVNReleEmwOp27CJZ0GkG6Jg8pl15Y3zl0PPZOKcWoh68EFblVDrT25DU0=w2425-h1010-l90-rj-dcoWOQrrEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yumi Lowy",
+          "channelId": "UCJpfmMsU99sd21Z1ff7WJFw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/TebfHi6fdMHULcWPMJAy437GTT1elKFQLZx___Tz_w778WWetSvBhsPMy3Hw5WKdTChH7LLiEzbzqtE=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yoni Eliav",
+          "channelId": "UC-GfYOy3knA_Lz-k_kidrOA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_1YWO1xjMhDpmAU54M5v2Myjp-2ASDXHHJ6VYW-QUbL_fR8C-ULAc7CKOdLIahuc0oq_e0ApReg10S0Z=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yoni Z",
+          "channelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Yea1SO2VSObhPGFzjrtsIEgmw3_K_gN_sOXNVQHp8-D9E136o9jTGfXBqQkB4849YUIP3UxmFZyoR5w=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yoni Shlomo",
+          "channelId": "UC3Nan6zDpzLpKRSQ3KkcjzQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vA_st766Spv5HDhxEiQkB6d-VHLaWkdP5c_mr7I2uGAqp_ByxwzRHqJWnjYozoNwrPF1ogEe3nKODPSkZw=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yonason Schwartz",
+          "channelId": "UC8QdnhyXXB8Y6FHQTvtDuRQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vk0Q0e4YdxmdnmpiAKN2nmqVwJv7LrToQVp91duy1EFz6vsDlHzPR9tqjVIauO_Sz38wWmzrqLKhw0E=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יונתן שינפלד",
+          "channelId": "UCxBkd0HGpsMSxBDMTPHINdQ",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nBTGb9PZXPpEL55pfbqzu655PyPn-RXWOQCqBwz4AZUwg=w975-h406-l90-rj-dcpWWWzCUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yossi Green",
+          "channelId": "UCtzGTGyCz_k0ZXMCZ1u_tkQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/crNqNNu0NpymFLDieHEMVyUT7MDFNTFNg9ZmHB_KKRglmZO0IuDBym3nKeIKkBraL9LLGY9bRXW_CxQH=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yosi Piamenta",
+          "channelId": "UC5HUxQuTpa3JdJlftkU-rWg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/VH-nPdIkT79p-JSaxlOMG_X47i4mGzvbCm1ycBtbi28PbQjKtjb5xAEm-IUazDOQZvzih30U8iel1Hv4=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yosef Kugler",
+          "channelId": "UCKNpYaDVAtsOWq4gP8DKHJA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/bXzD53wi0tCZYnlf6eQxbutrZvoUu-7kbzGmUeAOU0av2htfX_ZKhI_msMBRu-YKYLediHakHDlpxzw6=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yosef Chaim Shwekey",
+          "channelId": "UCdnR2ba9ft8_UoTiNFzTuPw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0kPp5_z2Dr1tX0E_iNui4rKJP_R8KIwJ5_7egfnzUNRvQ4pG9HGw1gWKiOlwer8NWLFp94e01Wc=w961-h400-l90-rj-dcAWCYEqUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יוסף משה כהנא",
+          "channelId": "UCTohDUl7uvE9tRJFMTHK9Lg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/7vt-l0uftglX3zXzY_FsOrUn2fkxdSdrC5-_V05l4UBu-lHOtmRKIGUqkJ0qUsjax8S0PKLJpZS2IGvy=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Joseph Rosenblatt",
+          "channelId": "UCqK5e4RV-N9S7x5qoJC9gkQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/J618sxFIbdZAT5CJ9kjVWmc1cjqfL9mOoX_0r77wmJcIN_Kn7szJz9HfAOyLjApq0bpZQjN2a2OXI-hD=w1444-h601-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יחיאל ליכטיגר",
+          "channelId": "UCH4C0PxbBCg8UvVesbalhBg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_55v0OA_wtueIAe9udfYI6nKc5vXKVxJ8JLPR_oxlK_85IztVxWUKG9CSd55Ydst5mzEw1UUFq27mMgr=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yeedle",
+          "channelId": "UCaVyEkSHaVO95koiBH5QYrQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/OeW_bTaWJI7xwzNqKB64ocYbjwQjmmhqjH_Ycy6yRlzgQAjshxbZ9Jojq_UUk48Qqirw00ZNseFEyA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יענקי היל",
+          "channelId": "UCmpM9OUxMsg1GfrTN4igk4w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/d5LJBeDZR5RisKCnStyonq78WpLt7hx4aggA95kqfhTonG4sRuUasdjn1Jfh_Cd5S1gMU87AvQ=w1066-h444-l90-rj-dcITWaDBoK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יצחק מאיר",
+          "channelId": "UCU0jtIC_hKPlxX2nnC5ejwA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/C9oXBSnHifPBYa8BJYHIxcjeJhO7K11HV4_ZU_LyjniZh-RK3ejMH9aKpRc6nSDWn3XyHeGYTCJxgZCO=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yitzchak Meir Helfgot",
+          "channelId": "UC_gi-PRiu0a71T5UsnPbL1Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GHn-18dP9gWLxw9_s2vC_tXhyiW0AsDJHSvqR1yi1YqHHN24M7LMR-JdXnq4Bbqca2CjXRzmi7zrkOgk9A=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yitzy Spinner",
+          "channelId": "UC-luQ_klMlWVeUsqmls19GQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/u_Qzz4FIdURDl6mZdjBsosC-6cWIRGenyUeSUHuUoTa9KpgytT8urKE8WFmWbieQRY8yoS8SchmHi9vK=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ישי לפידות",
+          "channelId": "UCKUqlCQkBMhBGIvZSj_DVWg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GbFziNqngVE4duSpQMjVEX7L-Q3_DOnjkdqd2FIWE7kCUnTXRJi2ehIDt2IXLfFp6DIGOmOokA3Yon6B=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Israel Edelson",
+          "channelId": "UC_ymNEyH2O_m9FZtnDrec8g",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lx_ePAGdAezdfvj7pWOoLZbF7WpQyJBV08rCFXzck=w2560-h1066-l90-rj-dcrXWQ7jEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ישראל אדלר",
+          "channelId": "UCpc86zuxJNzfsHI2_h5yhCA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/BjiDhA6-Xh_9FXYOnBh5jzrKw72Z-K4XbRTyawU6w-OTPxaYqf7VUdG8wjrKV7hajVO_SwVgvA=w982-h409-l90-rj-dcqWWQzakH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ישראל ג'רופי",
+          "channelId": "UCgAualfsJ8UtDCaJiz970sA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Ldl_H3UimHg0bUwL90rdqNYgYspxsN4UyO4tYk85dn7oXBfKdvAZVFOPvl9NYzRxQXI1MGyOgGpjhkM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yisroel Werdyger",
+          "channelId": "UC0ltk59L9qeEN2YNBeshuLA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/nabhleRtbYQTZ7Mxc614IUgyRqF2mDFeXZUfD-Gr0cIbIH6BH6aR0nHe9CGhLPsupEBsVkVeNzA-vUzD=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "The Yeshiva Boys Choir",
+          "channelId": "UCGZBtS53Yqr3pB11RGkPCNA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/uvcvCmjXAyX3eNBQU8bNfyIkFEopU2OcTDw-ZNYyKWJPNx4dePhccTPG6Yr8Oh02bYn4BW4TrNlA3JoRVw=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Freilach Band",
+          "channelId": "UCam5AHZJ6vMvYkPsYFsBfnQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/MmxV-CpGaEEyv7tRr-FVenzoxgMNjbN5EwB5xl_g6qYv7nBmBfgyIpLt5_W2Uc05dsII8FzlJyE9YIY=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Levy Falkowitz",
+          "channelId": "UCNPF_y4u71Oqy0YwA8ubdBQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/lqfEFc1_gL5on1GMaTnYwgTlfBhavfZXmVS4bI_lv7lTBrKr8uSUagN0Cc4MtT-aTI31Q0YHukE=w2752-h1146-l90-rj-dcqVSOzaEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Leiby Wieder",
+          "channelId": "UC4LXfHVem0dsBLO_uMwpbXw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/tKciPhYjltoajS6pw8-F5loE4wSOsu7Px_sgWb4BFlVE7oxYSMFGLu8me6AduCv0vb6CfE6a4ZqrAiQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מאיר אדלר",
+          "channelId": "UCnjvomNC0hBYdspNrimD3eA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/6sBhdhbysl5dBlwlrowexj6wAM-T4hYpzk163PhPrtCChqolflGWlSsI_rgl4p-X97We3X2WdVbbr9w=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מאיר בן דרור",
+          "channelId": "UCmj-SVO498cF9wTA0SKd5aA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/FgfrYfA44pYR1b2KAxecpuu3IpmlyR1N3IzF-vTI2aIY7NBd3KiYK4dygKZGF8dCffpGxIo3GyI=w1274-h530-l90-rj-dcpYWU7DEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מאיר גפני",
+          "channelId": "UCCjCGTtA12Z9zvqe-3o7OIg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/NUZvy3doH5DLS5MRuiFGc75Pen1Auq3MBvOKhvJRtJ4Zzob2hzg6EtJ9PTUlGcim5QvjlWSEMWh0i3iRMQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Motty Ilowitz",
+          "channelId": "UCVLQWjtgDSTZN37_YbISUAQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/CR4Z5-yW4jgzD0kjltQHTXBF2EK0QMUlj9Gve7oFIWp1Kw78L4Iv_tvFiXBQ5u9RDPwUc8ZfkkSIcCk=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מוטי גולדמן",
+          "channelId": "UCzFUtJLO4zsftNdf3uarKVg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ise1VSTaaRbkl9Sc8ZNM5ir4wTgah0ZnO4QK6hHQgr10vuOoFrDemseQeOB2OOTHXB1JrNIIX2LG_Fs=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מוטי רוטמן - Moti Rotman",
+          "channelId": "UCrqHwd5W1YmJgWqAXPgTf0w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/jwhh0A-Lc6or_u15Yix0mqwKb_nYNXDy76G2A1KZsXwfLoucdc2l4CPl6wd3PwSn-Z023A190S6j2AG0=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מוישי וולס",
+          "channelId": "UCC3_Z1xG9ruAvyatSpsSMMg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0rVIpM3pYr00wupzo3kYaOZKUYfMtNUI4_Ufd1EUCIGq7vNDIl8LgL_cSKkrhLAoDdiKBudfN5u7Uy3Z=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moishy Schwartz",
+          "channelId": "UCoATUXsgh8GmEc-zF_Wb3JQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kgY5XoOXlKtTTBdsr6h40p0-L4JZB3NwmtzQLMCLakRZanpbyFL6Yuwzr0Z-GePK9hQkwwI_U7gAiJDZ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Meilech Braunstein",
+          "channelId": "UCj4nW4uQaMBECEBlaY21DYg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/e77eQCS5__vL1Pa-k2AceIhC4HmEZ3BIGfouIlLJR7tCcRfoHPxvqznsHHuya37romv1Gqntx7T7t_A=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Meilech Kohn",
+          "channelId": "UCtEK38jzXAUObe-5H8isljg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/50obuFSEeEf0DOPVLKNCn073RaQbN8iGL9_44-_E2FJhci4glFAToU2st3FNl5Xz6XoQ5UF_POJywLv8=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מיכאל שניצלער",
+          "channelId": "UCHJtEeISU1FYdFGYCpQzbeg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/RRhcdUr7DUWuvopAm-n35OwsS1qSMdx4Ui9lc3uJrSTit7QIgzt_mnpqmrOlsB9wgQnuLcuBr0tKKo3qdQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Micha Gamerman",
+          "channelId": "UCXcPRe9sZYhE9dqxMnl-0fw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kg_jtWD2naSkg1021zR7Nk4C6KQUkGQjDrM-7h5g_BSVqwoJZSgsh4XhJ4Y_TOldJULX9JrNrxfaFgW7=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendi Jerufi",
+          "channelId": "UCT-mEPzcpu9NA3_lcwbHq0A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/7tWKC9IU5UsKT2Ye8S4iJRfTMC2NZy_kGbk7lQhNVTSnZUTIsfND9WSVR6vLtwAenl9lLGWbTKoOBIGG=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מנדי גולדברג",
+          "channelId": "UCZgmglzC29i40G3cBx15rPA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lMYYbnujae7h33l6r1wced5UAi9E1LVEVcjWctlNdkjDQa=w1080-h450-l90-rj-dcpWOMjakF",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy Hershkowitz Band",
+          "channelId": "UC0u_NC9_qtrRsxYDY7J-r2w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cw_cHUpUGQM97wNDtU6mlnSU4X0cIfActgcdZEJ_7dStWd_W_mFeCK0v5DmZBkcrj2Ckyq8c9nAjH2c=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy Wald",
+          "channelId": "UCqYGK7-bY_nvTHfJsjFggOQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cpXafhBnQswmmG03-ZgOZZeAc0zErw7XElf1fjvhAZVCTn_64bmr-EbLGomP71uFCF16hNAbC8yJw-d4=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy Weiss",
+          "channelId": "UC271gYsK8n1WVeBTyiDjYEA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/6PlbMcyjjeOWnN419RRazWDZwOPbpIesZXuQB6XQpWPzBNbD7RrRCem3sY-tbzPbVLJSOY2m6g=w1080-h450-l90-rj-dcMVSYcCUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מנדי רוט",
+          "channelId": "UCMqmsFTYbQfwGD62NmFk_jg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/j1amdT77dUhU2i6xKOJLdur0Q6QvXhXmZZ8CsP78MvQmnL-06v7Am88yPNICupeNo_XMwgTzxjX3Esg=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Menashe Lichtenstein",
+          "channelId": "UCzikvLesYafncBqcYWzdFEg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/XWOdNV_dHl863hTNAhlPMyaFiWq90F8Xa0O8UfQzOhvgRmKcZEqiucG5WOJV1pJtf80O6pTyITh9YFw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendel Roth",
+          "channelId": "UCumudJlU9YoVkQxxaLIBehQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/SDaWQqMG7Yw_qXTKNlocWSsY6Mj_nxdfgfw28zdNyAmtFJ6vRrUQZI-ZwjYC49-6SABJVDNVqBGL4yI=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מקהלת יחד",
+          "channelId": "UC3-HZFjyiGVdlL9LUNJSWcw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/toDx20uBQjPQgdn6peVveUvHha2mbDWvZlqBCQX_THSaUQyUX0Z4VRYahGssPaev09PKhyh6zHg2HYs=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מקהלת מלכות",
+          "channelId": "UCTKCxKIKaTwEZ3p-zezdP9g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Qu3NBIYsj9WXosCDSndEOakh28Lwge5fvXvKdLlZvrXTI0vfRJN7rUB4pOudveBSKnhJyIvLWg2cjGo=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מקהלת נשמה",
+          "channelId": "UC88l4ZpEMhc9Q-xytqV0F-g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Z6o2ttmIOtnDe59_QUrNpHKvxdvKkIaPfn5Gnb4XBRKZQ-56PMPYTul-4GodJdzBSME88DhW=w1600-h666-l90-rj-dcFXOGSlXjawwC",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "London School Of Jewish Song - פרחי לונדון",
+          "channelId": "UCpZAxl_lfqzZ56ortfjCQbg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/hMi1lyQ9jSkInptPUg52PNY9vj_kRSdmLryRCm4F1kFay0SHSIb8C-0c1_7ZnMayGtI8xP57OcjOMg4=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Miami Boys Choir",
+          "channelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/T3vjWENERNXYPKzvseMQ4ess02-sJ5Ik7n0BcCfWJW6Yq9_6EFuAjz9WT5r47omfWaJPot653YgFxJDm=w1200-h500-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מקהלת צבאות השם",
+          "channelId": "UCAXAP-u8qCWKXJMHcpstBJw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/MGgIjY_WTs_DmFgv0rq2tM1tbmfTd251rNun-x7maa53yYtSu3cNjcSyl2xwqtic0KuaqfYmEJT-vaI1UA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "The Shira Choir",
+          "channelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/t6WiojC8z0P5L5qOcs__v4ACI8xW_027tBbHIipyqRMdju7tXCnqJGjGUyDvWGZRX4KEEHCbUaBiZoX5ew=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מרדכי בן דוד",
+          "channelId": "UCJnj4pkUeIRCIrpRXoIv15g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/mHOvY59oG_17lrrksOg26WF1B-R3nBhUiMl_R-ufoO6qN1sJKRVwKMEEnGTKgYGT0UUZlctDt1UzPH0LOQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mordechai Shapiro",
+          "channelId": "UCm5x_womXL5E7TAYca5JkZQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/cKDB4Ojfyc-v4cQQBBSK9EUFNJa7IO3FBBRLaENJ6u_0-3TODSDA20QlBC8gnFnDXaW-366VnN_3O3Fv=w1920-h800-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה גאלדמאן",
+          "channelId": "UCH5TWA46szWeEpZchukaYEg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/iljeXlhlsYcyxRrpP47aQv9NwPelecJFMjuAuSvxQhsuc0Sq3HvzfTuRs4sJv8MxfQt1p6JgB6dy9H83iw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה דוד וייסמאנדל",
+          "channelId": "UCE-RbJjvCNlszw1qzfraqAg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/N-WPUSqZrLOrsr0DxgvsYAQRMmLHFF-Jxyjbp-j6afjycRj31WZF5lF_gV08lykx3cyp76iyApN7EEg=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshe Hecht",
+          "channelId": "UCa41WxvKAQ4_brFrT1Kb8aQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/UZ9Q9ZBF0mB6Z6pycTCjScvuOZe1BSU_n8v6LwWB9oFPsoXAH9-yuobFWpP8BMnK5bFwPifXskqaH6R-=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshe Mendlowitz",
+          "channelId": "UC-rPxFHSMKoQ8MP5rOqQJ8Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ZCCkfe7xkg3II0svAvBvkIcKqvaoSJzsKrOqIX5aRmONzn5b_DN84PFy1jlzsSUomkto1myxwJabknDg=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה קליין",
+          "channelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/incSWeL8yfRpfadRFcFRpvUWiNps6Dk16BhUtDUwzGZpDQu4B_EIupL6bWfh7VB-7Y5Dv1SZjV4lLYY=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נאור כרמי",
+          "channelId": "UCOcJT7w0SKEeFlXq8S0JBSg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/isTZjqtFa4L0OnGe2CfpWNnvvZtYjAgocW9vvskS9kJFbmhW-V2xWHuolD-1Ixu0c0yj318Rg7I0Bflj=w2175-h906-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נחמן בוימל",
+          "channelId": "UCeReGuCFmtdQBbV0yha11JA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/B5JmjjZ_g55gyBG0z8llH3OLYIE6X8gobG2D_RqKlZoceJnybHmyPkGAOoyBwokentzr1TTLPSIhtEwp=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נמואל",
+          "channelId": "UCCxmSp4ySkfbNjVkA6pRhgw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/XH_08bIiu-Jr-URzHj9B3TPhutEYEU3_CTQq_nc48H1URv2ogo87SGzUiiXIR3VFl0_sWt5hZA=w2880-h1200-l90-rj-dcqUSYjh0J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Naftali Blumenthal",
+          "channelId": "UCiYY3LCuBdTI0ufmdzmAXiQ",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_myz9mjeu-VR2b1v8SfGTBCQBkhnAtWoXcO7sr77DtHxU0=w2880-h1200-l90-rj-dcHUaYCyIJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Naftali Hershtik",
+          "channelId": "UCd6QidYVi8ua-_k5GD7nS7Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/G2EgdtBSBQKaiy74PaTnaX_qIX9wPv41Gm9Ou-RR7bcoW8giecGUuh8psUpABmFUa80Zf12pKoE6EPFg=w1414-h589-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Naftali Kempeh",
+          "channelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/a3bc-5spoqeh5tHKgCHXuDLwtW2DMmGeuVQRdlYSjAoYsc1EMNPH0DaW9TpKispmK54h0gLXy33PHgQH=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "עמירן דביר",
+          "channelId": "UCL5sL2wnxCI4l-O_zaxUFhw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nmIsJYn_ZflroEpQFQx8L15RRbse3VtC-r0oOKsSLBPw=w1323-h551-l90-rj-dcoWSOrakF",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Amram Adar",
+          "channelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0PV4ocxZfBEMMr28VdGfoPqWuzLX0ankjS90UKtAcbs8vrd-R0xDISWzXSAMY_T3TB1eG8BTBQ=w1434-h597-l90-rj-dcIVaYDKII",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "פנחס ביכלר",
+          "channelId": "UCt2AKtO242jh31CiLfGgI6Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_oYgYcosAUwKhguCpYS94thJNx_GTtqmlNHO9X4ntJZHzI4wKhjWRJpsU9wpYm1Y4wxgGSGILqO6iLs=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "פיני איינהורן",
+          "channelId": "UCx9iVefPf-yjAkgecQXjV-g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/2fDm2V74iMnIunaaWNx93dbcnfCx3KKKDMJiAfzC43biTkquctyZV57qIkrNBiI-g7k4y1a7dQ=w1066-h444-l90-rj-dcqTSMrh0K",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Pinny Schachter",
+          "channelId": "UCtxP1E-IPYIV3DtJJtj-vTw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/be_KKazI2AQOtmJ0CQy3rgWaWFx8qGVvHt5g2AwKs6iQ-CNq2ZExCh2OaccB2PVGM26b4-H-QNLK3zekKg=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Tzlil V'zemer Boys Choir",
+          "channelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/EobUPuXimrbIETpa4hFtV4DZ_0syj4ACOLpqOFUD9wChXrzLXFko7kFtKV_Uzg_pMebVdYEfCfLLIRvluw=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "צמד רעים",
+          "channelId": "UCHaVz94rZbnTMN8if-mn34Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/EHb8cc1jjNQy2jbuL5HSSiGSaK8VBNWz-X2J1OsmnoO3tP2pC3t06ZMkDVTcsBLPgJDA3EkANzkBkgif=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "קובי ברומר",
+          "channelId": "UC6Clmvqni_n6xpxNy_jVUKg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wyyq-rBrwPHt-z2fBHNlz8g3TDyewxuDiNkPBToLrvLM6TDQDcdpBLodFm4C5Z8QyrggpTGMkA=w969-h403-l90-rj-dcLWWWriUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "קובי גרינבוים",
+          "channelId": "UCRvg41IvfBdXTapY_ty65og",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/S0KSGqzlIiPGIVTKM875FDGlB2RO9fhDFruMLaz14xOoktp-j6T41m43b-FkYCtpNzTmwfrFxg=w1078-h449-l90-rj-dcpWWUzSkI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רולי דיקמן",
+          "channelId": "UC2aimwcezjVPh8D4bqLMWXw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/rrTh53pVNV3V7FrKnFFrJ2YLONTI6eow227dRe4h50OBc-VA3PqNhFkbVTrv9zkPPBOzTR-KjDI=w2044-h851-l90-rj-dcnXOQjK0G",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רועי ידיד",
+          "channelId": "UCtaEh2izW32PGedYtsrJ-kA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nuq7KEBToREtR-bS4Kv9wWqUNjMXFZFce-zoGxEMmbqTw=w2076-h865-l90-rj-dcKVWSriUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רפאל מלול",
+          "channelId": "UCFMPw6k6gMcvTwhS8UAEd4g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/T58QMZi1zOzaAvrO9LkcfU9_woUuTN6NSDewhNwhILRkLLwExhsobh72z4ab_FaQyiIQTgzn1FnzwA=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שוקי סלומון",
+          "channelId": "UCxZP06_QHa7FJBx_0MmOLzw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vZyl9IMaAFcP6JcH4aKHhp4qHKpeYo6AkiTihbIHgRil9lWbrikFfClvHWkg9eQgWm5x4PfkBPT0OZPs=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shimmy Engel",
+          "channelId": "UC6B8BMKDj5xjS99mrkmggVQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/tsKs6k6WkstSkK3nHSlvdsX3igq0JFShcmGP-ejIKW_tOQxz94uELGWdjrzcr5KLC-sfkT26in2z3yI=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "The Shira Choir",
+          "channelId": "UClM-MxPL_KypMIed3IQrO-w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/R_iFlg5qsajM50gD40O4pUzJa5bH672Y7IQfRigfIHlfb4FvqIaEelFucJCCtB6YHISMcLIrY88=w800-h333-l90-rj-dcFXOOijEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שלום ברנהולץ",
+          "channelId": "UCqv7BNuVqlbzQdMAVq9krMQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/WeT0weT1B05e47kZ9hgKD1y-YmufmezNs-8HHC9CQ31VniOSb4hNymt83ZfoONzZknCSIj5dzA=w2000-h833-l90-rj-dcpZSOrTkG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shloime Dachs",
+          "channelId": "UCv58Dafo6Yue5eve-Xcky0Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/OhHH7fYOSWAMPKkqXy47X9POH6dnAl5bc9Kc4cjUYkcSxrgN4UoylhvSzz9IL_bHjSj06p9tXDINGSM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shloime Daskal",
+          "channelId": "UCaSs5F26wYkoirLRfsA1Upg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_zDuDZFnSKmuQwDX6n4Oge9Yb-9cCG5xONGqHTZgszP9inimZ-nt9N4BjCeAZuJmIP8o6LXXBKdeYPUX=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shloime Kaufman",
+          "channelId": "UCI2xUUNZN5i8n8UpwRZgPeg",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_kXjljw6hrcBXrZp7RK4tBFc2-m_ofdCpizGgFjLMJy8awj=w2880-h1200-l90-rj-dcCbKUSD0H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שלמה ברונר",
+          "channelId": "UCVGlgleie25Ce2NHpp4pC4w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/pflE6mWdUZ7s3lykIMhhXUd2RlRKghJFBcyqO3uDHZ1uboeXTp17YD68kBVNDpbBSlPYD7KCAfTg0XQz=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ר' שלמה טויסיג",
+          "channelId": "UCDh7M3rgv8uz6MND2spmePg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/KTv4l3tDehPAG6S6HU0QGHIaA1z-kzeiXFfHZkQsBQVjKlChu2GDUMhbvrbWABdCN3ZHIIt99cR97BB4=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שלמה כהן",
+          "channelId": "UC91m3WqAEnGtKKNQdIrJzLw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/fQohv8d5q2fA942u5TcPgMZVOKR97KS_ZEV_Z8STwduJV0LhVf8i4m8M9U6DP4EdMJo36iaYFMzzSHZHUg=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shlomo Katz",
+          "channelId": "UC_AnZatVR_lH-MMnJo0-iGA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/d34g-lIgXmeGx81uC82TqiEEeTP4Wl3YwJs-6vVyu7Yml3prxcMYt4ovuhi6x5nSrUuQBh-0qIKpSROp=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shlomo Carlebach",
+          "channelId": "UCr0Ka7wlj9U6pqJf-vLO2vg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/T2gbrZpLTvY8cBi9L1Imt5Pj1C0yNQXd2jqjsYqXCYVTrGw6UlRIoygSACIawc1wPczWXEDt259kw-om=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shlomo Simcha",
+          "channelId": "UCYsDee6axf7o03ktN2GKakw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/yIk0u8FVV2EGLoY7u52wNRwrVbN5-g4ckvo0c3Q3zXAVEqCpGkuqLsyRcnogMcVdJS_pYAEVFaND0Mk=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמואל גריינימן",
+          "channelId": "UC1H2TOEthiv6KA2PgId6EYQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YHkbPOVNF4a48yqoAGJiox9-pD-sLKPk0VxBNoootUGihoa53Yf8Oj9RK8PoVOwLuMYrP9gVmJc=w2400-h1000-l90-rj-dcoUWQ7B0J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמוליק סוכות",
+          "channelId": "UC_30I6RrK_UZdmuHnI6d87g",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/bwSMdBBYiSe-dm09s8740OpHM7YorIxm2DbsHji6MvpsdVul1QYSV1hOvudIuxGsgy12ufRzr4yYvM0j=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמוליק קליין",
+          "channelId": "UCDL3ZI-bidleJqCdmLFgsCw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/alLXI2jqEJLfd_hSKZd-bMrv58VtzPk0fxY_S56XMC8UVo-aZK-bCTHCF4QMGBVVUS7DZdjTNA3g0xA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמחה אברמצ'יק",
+          "channelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GxKv4kjWb_b_0uFlQjaIl1V7rUmdjU1yUsF_9hwHrlMzx-p2w8m22Fhb91MyBQZBcOrZoQVf0E4pl5ul=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Simcha Leiner",
+          "channelId": "UCu6IT3jTOtAcNfjIQSIyCQQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/GqF8fg4G9Vb0R4l0UobSYR7xAmUWXERBaQl51lZ0M52Y5SHzb1LyQyBjA7wbqLgWHUubxqTKJ8whdzA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמחה פרידמן",
+          "channelId": "UCeCsGFl3pIofvlOg9X9RWiQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/5TnPOJxQGetqAX42hGEEpKUCgiXW37_y0X_H35X8IlRObXP5jEW7xg1PXAvrvozbxAKQMAX60Q=w812-h338-l90-rj-dcJWWOzS0H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shmueli Ungar",
+          "channelId": "UCckg6lcQaW00lvNHwCjo7xA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/-qXzN7ucnbB-jZOFl2XPFu93_M1Tho15xFJCgIepcfY81q0iumQd4XCsCyfCcZ_ZO6uaur0Uo97ZoiE=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shragee Gestetner",
+          "channelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/37aziHs7Ickc9PSAbSzz77hrjvI-bjzR1JrjfQOKSrQN82_21CajQckii7knfCKY69DIqsvSWjJfyCo=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Sruly Green",
+          "channelId": "UCEjcKdpkZkvgT5ISMGV5DCg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/TLJUj6QNVH1PH8yJ673uICGpoXXQWY3HpI6mMzr-WqbWHCeJscHoanqWLn-9ozZjvIFbBmjd=w2880-h1200-l90-rj-dcpUWS7KEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שרולי ליפשיץ",
+          "channelId": "UCUeaVzUToUL4xcz8ny3peew",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/CuXmvISaRxmXIw0M7jHMpQLho-5u9RvTPkfkuTKFTDdrwPkXYwigOQ8lcSGioX4JUkN5U6vx7mlkmdo=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שרוליק מנדלסון",
+          "channelId": "UCfScwFxzDsy7Y777_P648sw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vq9nC8l38-inbkPYGL_e1pl2zXyjQDdREa6z8X9trXPU4yUx9UIODichW15PIo-aoevValWGhnzd1PXa=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שרוליק קלצקין",
+          "channelId": "UCv4zIkEX_dhm6E7WSULMowQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/tM1jcTtr2o4Y-eHjjtV0h29Zij6B-yPFk-uDMFrjEOjSJKyYbWf9U_fDkEvhoU8t4--DfDa7og=w746-h310-l90-rj-dcLXWQri0H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hamenagnim",
+          "channelId": "UCYj7tMFZRtn7ch4OV8fBf0Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ZFCpu1ErBU4pE_YSTyYq5hJEED3O2d_Dr5AJSXbEv3kKmc7soX7yXtET93igudeyhqKHYa7Vtbz6rvuj=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        }
+      ]
+    },
+    {
+      "id": "israeli",
+      "title": "מוזיקה ישראלית",
+      "artists": [
+        {
+          "name": "Akiva Nachman",
+          "channelId": "UCSVYEizHEvWD06KQULD9ELA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/mHPTP5Sl7l5h1vpfwDdNemkMUgK4OaSxfnO3cK9xHj1TnbDqH7bH7uOG8Yd-sr9Ad5bm4nai4A=w1217-h507-l90-rj-dclXSOKbIH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chaim Ghoori",
+          "channelId": "UCpVWl-kIG3gxILLJKiztyeg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Li8aRip4N3ikCrRu_jdJkLTLvUPMXZLfEokrFhczLG89k3a1vBs0lms-phVOV2hSnHpsBAVX3w=w842-h350-l90-rj-dcDXKKprIG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Elnatan",
+          "channelId": "UCp4dTh0n7oWNbGrTC3SzJXw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/PtKzzK18I3mc4Xio8MT-5xCL-IY60zTAmkBPGic6jvXovn5D7Be1X2O_WwQWiitLi5RTBwKTbBR_7MQ=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy Portnoy",
+          "channelId": "UCffY4_Nsaqs8KTEt6LtQjNg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wkusMo4GneCNSYAe5p1GR_nB9p-fLPnGKgO0jjSFgp8E9UrfZs5mydcxarG4ooSMRN9WrIlSBlASxaRz=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yossi Rodal",
+          "channelId": "UCbAbuYNe7DKbCk8W27XEOew",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/C55m_NVEveIsjYu4NYUmtGoCMuDr7GcdVWS8_nAM9skPj5nHt24vM4y_W1-o7VNghwYaOi2tW9SWJKfC8g=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבישי רוזן",
+          "channelId": "UCsx_wLo_m34bHX3Y3Kf26XA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cPHxUgP35fmABWewgrcG15KH8BsziWUguchCax4lutWt1u-M3K3UxFHIwty5G6M5KUWpqdW6vM1-1A1rbg=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אברומי וינברג",
+          "channelId": "UCNEXZL1sSgHu1OXOE4_-bbQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ZoYxX5jwupP7FicCapv3I-mYBwsXnlZ713UNZ0RMoOtn6zqqPZSVxicf5uQF_9G1miyIPRYaMhg=w785-h327-l90-rj-dcLXSQjzEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אהרון רזאל",
+          "channelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/KNiO7D3DlNk8Qapealre0GJSeogaN8FN5facwCQwiIt_PVDZ5zgU7ILyaAvUFXxTRgKt-bjDs9rvCGLx=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אהרן רזאל",
+          "channelId": "UCzqLcYn4fpf48sZI8G64t9g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/RwYJ9N372mf7V4_-zCjwTHR5HQSrKoX_kMfmfFu5k3PBrwPLsLjy1mTEmyAAtFYjNbtIocRctT5dpgDN=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Udi Davidi",
+          "channelId": "UC5nGBtwsSVracGWgrLanPLg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/y2wYYYBZ2IFjmRF9MO4ctPk5lUHZ4YKz8W2GgloqXyxsLUd6z7N-zNs4H89jfixY_JK4hdt4w98fXyQ=w1000-h416-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Udi Damari",
+          "channelId": "UCiOSnSRl9lEN-gVIX7ZIpTg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/pJ6ywnI0dH596nKLjQBBMoUFilbNFJsXImreJ9UTjt29WNLpJghDY9tNNWFg0oApx8psT9aP65oW3zQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אורי כהן",
+          "channelId": "UC6qJRTSro-CEXWKlVKfzeyw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/IeoIPCwdMVvXOUxdPUcYmxtd5mSm2jM491l_UEbMD4__JylXOnqYWs01YY5fguRDj2X5L-NlucexTn8q=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלחנן ענבל",
+          "channelId": "UCw4uDtNqzKpA_FyBnbgAQhw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/imI5rLYTWnqlwWfK46CBcIvuFtLaWINsAZdvija8DNZteGigFgYQurItSiwoX006Ae9PtMsCfoYGCrs=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ben Snof",
+          "channelId": "UC481fJM_qLHPe5YWQlFpNmA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lSH-fKmJn3J6P7aN8FC6GxOk16zwhvkuo85F5OSFAzIA=w721-h300-l90-rj-dcmUaYKR4J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "הראל טל",
+          "channelId": "UC-lHN5ZiysUhuU4xm6tRzpw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/MWAINaVBK0xOx2xC6W3XQAVuDDfjdGWkG9BPcMfTEZ0EYuyWVXok31K8uHxnehMLeZPptJZD4xC5Gr_y6Q=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיים פורטל",
+          "channelId": "UCP3G80JEWp5vAEKDm1zRywA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/b49o3XhyQ5JzXoyDKChxRcWW6xvHaPZhc9ZIaM3NDd5HfJebNX-lrOiaOB52jcfEnHoe83vK=w1091-h454-l90-rj-dcAWOIh6II",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חנוך בן משה",
+          "channelId": "UCvLb6ju7Dps00WXlD36OZFw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/bNrQtNeDBWTbgst6H6025CsEJ25AJWnyYpSKEkcyaPgeFldnbV50d227o8bcreN0V9GHSOPD=w1500-h625-l90-rj-dcGUeeKqIJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hanan Ben Ari",
+          "channelId": "UCz4N_ARAr1VxGzXq_Xj850g",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/YRkSh6M1xT0rhCIQYATePoT0a3j3XaxUCxyajxthQwTUYUD6-ZgE0Qqmahj1bMa0i_rHC9zbFpnJYw83=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yonatan Razel",
+          "channelId": "UCIs-s_nxV5WKupy0gEGZiXw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/UYcaUYCA83JccGKvHLFhPkg4KcgcgpfDN1JMZZtLZ2eYph3B9akbeEfqpuiDUoTXVcVtosatOLk=w1670-h695-l90-rj-dcpTOYzSEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יוסף נטיב",
+          "channelId": "UC9mCcrTMWEMm5TRHvlXiWtg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/i0FMun1a-hEMqYgeAiEXWQ4lE8HZ8tlDBRCCToJgimTO63ibB2kaqyBZEtUz-pQ-IAFitLiI3rahitA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יוסף קרדונר",
+          "channelId": "UC9u5RkvuFKEHljFrCD4hEPA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Es7r-vQGGfKKShmbkgdWcbyr_WBqiFzswDrLcfyETwGSji5_9hLqQgA3vLhN2nbRnUqGgp-UFcyFZK2bvA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יצחק מאיר",
+          "channelId": "UCU0jtIC_hKPlxX2nnC5ejwA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/C9oXBSnHifPBYa8BJYHIxcjeJhO7K11HV4_ZU_LyjniZh-RK3ejMH9aKpRc6nSDWn3XyHeGYTCJxgZCO=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ishay Ribo",
+          "channelId": "UCVYVQD6Qpuvo-Zg_jmjTrkw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/C4XPsg_vuItPpYdGn_oMjIWRB_mOvI1BG6JeRSbjPJqu0bUa1TcPlOqMeO930LvMO3a9B1ARZ3CnR2pH=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מאיר גרין",
+          "channelId": "UC_yQzUx1YXBlBH795X748Gg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Y08Qh0KSSoterZEta0n8Qgwt0H4kzwdySt3mfR3rXmrzYfyJBY9QjkZu6Ey7yGOLzJ-Ej-AXzg=w784-h326-l90-rj-dcqUWczSEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mordechay Granevich",
+          "channelId": "UCBOoV_Ej9o8R4qb78NNS60g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/EBm04VvVBvj8zazXWV6lFqhv8MnfFlz6MzNvYbq8DFc73QfQUBHmBs8MkeCk73hgivPkTTj29JnPepOi=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה פלד",
+          "channelId": "UC4xhDvLjoxYL1s8CRgwAy6Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/6bMEKjbwm9RaQeI9eBIsIlKlVEdGENLQN9cWrIq7wUN-ISipTSwJvndxvlxBKCrDp2cY6S4_i50=w1355-h564-l90-rj-dcrWSWrikI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נותי ליברמן",
+          "channelId": "UCY0Zc19KijcluOiBoHWUz1Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/K-m-lP28wvHLiEyygx2rnnlbybgXPmeW5LI0nLoelv4N4swfTa7Qq3j7tVHeJZZ7ZhAKXIPtPyc=w1116-h465-l90-rj-dcjaaMhjoG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "פורת נוב",
+          "channelId": "UCRRUJV-iGXfyaaK2WOuFunA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cX70SOpQk8KUn7vobKFN9Xncl1DHlCd2Fhgmq6E-6MSfShiLVQh_Lv3vqYJhPuPDCR9JnZoeFAcmtp1Yiw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "צמד רעים",
+          "channelId": "UCHaVz94rZbnTMN8if-mn34Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/EHb8cc1jjNQy2jbuL5HSSiGSaK8VBNWz-X2J1OsmnoO3tP2pC3t06ZMkDVTcsBLPgJDA3EkANzkBkgif=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רועי ידיד",
+          "channelId": "UCtaEh2izW32PGedYtsrJ-kA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nuq7KEBToREtR-bS4Kv9wWqUNjMXFZFce-zoGxEMmbqTw=w2076-h865-l90-rj-dcKVWSriUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shuli Rand",
+          "channelId": "UCTG4V5TZqdj1EkI2aSqFD_Q",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/p4ljY9LLk5xwBrEdEPZII0xiAAHHYBmofJHGSsl7BYmx7WgX_7fFTPA9M5xJsbKBlawyWmYk3PctXw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמואל יונה",
+          "channelId": "UCgtEXnkh9MfnZVo2H9Pw5rw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/BNqkuPwNRxiKZ0aonQUvZ4bTPnyl179jMktwvJiukxyL2U5b-qoE2GZiyXf5eTnjaKvTPKHBqNiP-LdtIA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        }
+      ]
+    },
+    {
+      "id": "mizrahi",
+      "title": "מוזיקה מזרחית - ים תיכונית",
+      "artists": [
+        {
+          "name": "אבי בן ישראל",
+          "channelId": "UCDE5VulSKvYf4oyZl_odzXg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cBdCegIq1WeHW3QK8vSNgngcRmn3QoZ4_ieTwhCIPWXP4s9ajOTcWDPe1JYTdp5-zRmDEnrNb0JuWjfK=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבישי אשל",
+          "channelId": "UCLljg9gBVW8HYjF6sbAC2HA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/txyeW7-hc6FqgpjFsVVg6TXmfwoelD4kA-EOOpUSAaQq93CBE-RZVGp7r7DHaijk_ZPJdR1yTstNBIxj=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אייל טויטו",
+          "channelId": "UCYZuvwZP0aWP1i9i_EPdg3Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/l_82sLaPlGkX3Pen__OlQgzsKQH4bL-kKdSza8lhZu213PCl_8oeXt5hyEJKMBLPLwF7i6egbz8=w864-h360-l90-rj-dcEWWU66EI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק אורלב",
+          "channelId": "UC_aDEnCArFgfqNyxbAgWBlQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/LysMvP8QDe4Tu2EHpVw6KkiOYzW1g62IVWzmQR3cmuuZLuJpPsFaz0LAhu5dsB-zDGts2e26fwx6C18=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק כהן",
+          "channelId": "UCOGdpTLaO5A8ZzGnnXOtqsA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/4b-kMNOSu15Y5ZbNoT9WGUHINjJoIlOiU6qlmVrryQnl9Pt005_vNdn_uoaGyEJX1E1dQPqMPQ=w2880-h1200-l90-rj-dcJUWaraEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אליה והב",
+          "channelId": "UCuBEDRZteQD7QarkR3eroLg",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nf29c87ZII2BWloa1NJ5ZNwg9jjIYeXkLzwIXADF5v6A=w1061-h442-l90-rj-dcmSGaKpYK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אליקם בוטה",
+          "channelId": "UCvJCPQJWlRlJXsEfT7Hfb5Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/xtKB7ecqIF603e3zh5P2r7cc6gc5ZHuJrzDQ3_Vg1pZD92CpQ5DwPKkc3kMj_RzacpUgHZFW3Q=w918-h382-l90-rj-dcKSWczpUK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלירן אלבז",
+          "channelId": "UCH015ay6fdu6oHXowX7P8DQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Z9VJnRw1zCkTM8nWtBTRK7OXDO--td_QBeD83CtOsuG66sm6YbUXnR2XWPssx_fGMCbPQl2u619PvHOPxQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלעד כהן",
+          "channelId": "UC8F9rBLxMgVq9kxaVKPEtIg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/3O9Flm3_C3J_KbnarvS7hASYkwaxPQ-Ljj1v_JYUyBYNbdHqKcLU97tJPd996eN4xRaQQIXc2xUd5ubu=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Elad Shaar",
+          "channelId": "UCCl8IPYsSRnui5XbeRfSJqw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_n8Hmwbl2_YAgi-4SXQ4AEb7xYFeI8eiOAcwAvIKHp_1A=w1080-h450-l90-rj-dcqUSWrqEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אמיר אליהו",
+          "channelId": "UCQPunZZX9G934YtB1la1etg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/MQr7qeVQ-JYeaGh6zjDT77Lbr3W1oVMjC3Jdg5utj6cqmBg3-FL_XtHt6_AqwEZsnF_FAzOSVbm7ZWg=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אסף שפר",
+          "channelId": "UC_9V92yN9cMUy6apVPeyNhA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0_i9LINh3wiB5auOLjyCJU1mYwazo2hqr-PPmGTTpEzy7xrQjax5J6kZ8TrXVvKkBjw6r4rAlw=w718-h299-l90-rj-dcGTOMTqEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ben Snof",
+          "channelId": "UC481fJM_qLHPe5YWQlFpNmA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lSH-fKmJn3J6P7aN8FC6GxOk16zwhvkuo85F5OSFAzIA=w721-h300-l90-rj-dcmUaYKR4J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "בני אלבז",
+          "channelId": "UCK5zGZ-KV1p7feTWUNaOkCA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/x4eDowqd_vcO3PTpppi98i99NzIw5aXHmFS3cymIFGA5x5279RQdD1jO7zHyR3XMRbmP5TRhMP5Yfxc=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "בני ברדא",
+          "channelId": "UCULNtt1mo3rhWPEYbpL63nQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/oHXqxMGzwiYpddh4Rwky8wwt8Y2YKAdvEpvIE6hVxWpgJhg7W_EEs_BJ7SCrr0F3DMIlwQOp1cCSGChG=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Gad Elbaz",
+          "channelId": "UCxEklyOKH3Jn1_1_AaRQsrQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/SZ2CqQS0rpyT2KeNSpVqff5XMUbgBYKaFyvd0_A36zvMDBGo9CNXLtR6_GSXiYd34k9EL-HJygbI8h-b=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "גיל ישראלוב",
+          "channelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/yfSQQnh30RfUsL98WjwJbILM8KdK09DHWjYgo_AMM915FLiqfw8A4Jn0JmzbPAFzNf1_jKcbPf2YrBv0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dovid Haziza",
+          "channelId": "UCE7j5aZlXNU-Da-YaR4W7dw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kS1OB-jx2m5J30QrFQlW5nvUKXyasimAHGtSKPs5CFYP9bVD8Cj72vSkT4M_EpkYmego_euojA=w749-h312-l90-rj-dcITaQCpoJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "דוד חפצדי",
+          "channelId": "UCemWU-yvqBOk5rjebnsJDYw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/TuggBQe_uijq6Pcz3zAhwffBdhg-FBUzXm9_mnJNo-dEJBs0TZAlhbvZzPTdJ8MIludF6dvq8w=w2880-h1200-l90-rj-dcKTWUzRkK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ziv Yehezkel",
+          "channelId": "UCyoi4F5uufOxh9IByNDuo5g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/JF14RImJfpVFU1zrcD928YBo_p1599JXDkwiDJUVbVQMs8ri5rAOY_efU6D4Q7sWWNWRw0xmauGdJcI=w960-h400-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיים ישראל",
+          "channelId": "UCpFrrj714aCUQ-Pfr9E5vtA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/2pUdk3kw2necYqv0gMsWl0l8Bm1VQUl9rryMxeQtVdkOgOMXQ4tXC5LMb7Dhap8vykJ-_ORNfCiUoHX_3g=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיים צדיק",
+          "channelId": "UCOAEiya14ORLB09TUMYEJzA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/-z64SyKSPISeei2z-vGzTXNbguznjc5XqFVdP5vehVwxAPUy9A_umaxhIk1FxwXcKnIYSO3PoOI=w1080-h450-l90-rj-dcsUOYcCEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "טל ועקנין",
+          "channelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Tz66zAmMRkSjo_Nw2HPgD5G1yPp721Wno-6kL8Dp1aAqz7g6yIq2fKhmxmgG5R76omJU9qqF=w910-h379-l90-rj-dcJTaaC54J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yuval Taieb",
+          "channelId": "UCJ9MOj5CuA0gaehrxG5usMw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/gXw7EaeLpDL2vAmaWq8qKko6Egiv07Z6oxXwUR6vdbL6Zv6MnL9DtbvyX_HKSmQyYIWUROSyXi0xdQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יחיאל נהרי",
+          "channelId": "UCNGMSfhi-Mh_B_Fc5hQbX-w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/tCuPcZax6FAZ3ID1zuvWMI_hFbo-cQpKb_BHzhCtQmzONcvc5W5ckG_dpCS9VrClCCzgVddoC9gYcOIQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ייטב דאלי",
+          "channelId": "UCnM5Ij6prw7U3gdTJ7VsCXw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Zdbam_44N35_j5By5Lb12fmnO6pGT6qE-829aSE8uOQkEIeR22TOmiJte0Yd8fQbe8zNc2oACIX6w00=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מיכאל אזולאי",
+          "channelId": "UCIAlAMfuK1KBV7eVofe2tjA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/C8sf-m5CuvLyRW11kF7j0Es4iK54z_8wtq2Sp7w_DgKOrQldiRwgEBipKnzkLuI6xN5TwUI9=w2880-h1200-l90-rj-dcpUWWzaEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מנחם לוי",
+          "channelId": "UCmH_Atbuf4ddHRimwF3zL6w",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vD9Zlr4V81kYHNMf4H22sIneh7QkyJTyG2ORIsLx4y0xVjYJLLc0Xh3PcfHoCpfMjBXwJ-llyzo6Yiur=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה דוויק",
+          "channelId": "UCvKf28K13nV9lPtReC9k-tg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/fjyTk6LhEBZrCpAMTY4ENbTvwQIGC8BfQBXvaHEl6P7w1vV20QbxZg4c95aAERypNHn2TTNl=w2880-h1200-l90-rj-dcJQKkDBIL",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה חבושה",
+          "channelId": "UClXm891clnumcw0vbkHdSpA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/XaXtTeR64-o_i3WadEK758TBf3KsHj155R4VSA5wTII9Vhn5tpTV--As1EFoXxR-YcaSFoB-xM-5duM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה לוק",
+          "channelId": "UCckAvhL9rStbAvTo8T3mM0A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Xmm8ewkOTVNL8fkDXblYcDIdPjkXXR_Qy0OUShwyDJKPGF5H8kpsPYiPosNePMHZGGSc4MSVE7_9UQo=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Nehoray Arieli",
+          "channelId": "UCdryVfjbE-stNJ1FBCkJWVQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/n_5Obrt0_QBTVB3iTeOSiiBYwHzZ1oUHCDG-xMfxEoWVuSeuE7hi8aO-feph0NCtAtGbyxPlE5qQR987=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Uziya tzadok",
+          "channelId": "UC8X43eu20eZXzHoc6IC_fzw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nVet5gf2IEBZAsQWOvO8pKGYz3wiNtstU3VTuE19YxD_E=w1689-h703-l90-rj-dcJWWQzCkH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רפאל אוזן",
+          "channelId": "UCrS3YNX_QKAx0FZMRFzMq5g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/v9Dz_5e3qhq8XhV6NBM9UqSpgDGg9BsCepChlsGb5woXNz41Atv7l9Dg9pONJyA9zSJ8qyZyKI74BX1j=w1920-h800-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמואל הררי",
+          "channelId": "UCDfACGXebZ6w1gtX1ASfEZg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/rSDrT-STSoc4RN91zAQNlrVPQVX4yRb7644UUr8VGSroApaaTCyqZo4nRxZQ5ZBAHYMD7lebEdQ=w912-h380-l90-rj-dcpYWMzbEG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמעון טובול",
+          "channelId": "UCG5blpzBZvgAcQyhj-N5-XA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/CPyPkZVGGzXvQu2he1RNvK8gifP4kNW21HczXKYNE9NuKOrydvAXyLqrZA2D-ulJOqItf37Yg3fUQTbq=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמעון סיבוני",
+          "channelId": "UCN_A9Q1yloXbjbp0-mweDCw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/iP_S3EDWwjwQosgg6Bw6zvPkYM1HVm4X4ZjkDjrKunRVdubPMFgQQtCpsUsq4f815wUeyiGmG-_voTh_=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "תומר חתוכה",
+          "channelId": "UCZ5hRU-wbaQZ0vFSGJrdHLQ",
+          "thumbnailUrl": null,
+          "source": "allowed_artists_genres"
+        }
+      ]
+    },
+    {
+      "id": "pop",
+      "title": "מוזיקת פופ",
+      "artists": [
+        {
+          "name": "A.K.A. Pella",
+          "channelId": "UCZFAzTfD7_WcgDVHwfmGrdw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_laeaLR75dSJe-Mxee0axFBFygEbkdcmxLiGaUN3Z0=w2560-h1066-l90-rj-dcJYWOzbUG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Alex Clare",
+          "channelId": "UCZa7crFd_TP-vDn4fUdzqTw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/nKtL6EIxJytfg0BCL_M2SoROM4d6w49AfmUsXf7uljjnT8t0Qv-jf3vU9sbv8pJhM410reTxMA=w2880-h1200-l90-rj-dcoWWUC6oH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chilly Wagschal",
+          "channelId": "UC6GkDMwcnMARhSxpKCSbKhQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/nR2JGH_iZEZJ9r269r5zQUJFXmSPnCNwOeOOdWzIKB6cw4l5HqChjeovXN0CquxMCTiCQQhy7uPeJ_A=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "DJ Farbreng",
+          "channelId": "UCfWRyQLkrtC0G3sG001vq8A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/PLMBSId_IS1ZRg7ACohxXafm9tYS3DjRWqoS2p46rpySJn9iX2dfhfFw7bJD6Yr1Sq4ow31ruUkH0kcv=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hillel Kapnick",
+          "channelId": "UCw4f7BjCN1ZOjLAbkJwRiQg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/tkc_tPDhWt6hZDyjINGqUtluBKiKyFyJb3pvhZl2rU3QUkU1omsBFxlSy5BQB7m6zZONaE09ez5VRXFJSQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Matt Dubb",
+          "channelId": "UCbyD0Jnm_-Wt2b0t1l21p6A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/pkYALPdzhIhrGnMCl22k9f-W3mOU87WkzelJE6fjMsrm-whykyE0553yabfJwMTcSkB7s0qCMg=w757-h315-l90-rj-dcrSScrhkK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy J",
+          "channelId": "UCYCHfGjcg7sUfI9vTGnUmLA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YKEBh05u5SrQW5PCyfEpekb4SYeAcr-W2gMEIbbXhgr2ZrhxnG9Nfu_fr_69In7Ys1ys8ha957zoSIA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "NACHAS",
+          "channelId": "UCFaqeWT7ZBJsdeOvCWvYhfA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_m3qAQh-OIYzETtt8MpvdkGyM7zF4ijRQz5mTfYX4uJ6zQ=w750-h312-l90-rj-dcgVGKZCYG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Simcha Jacoby",
+          "channelId": "UCiUvnSAR1Z6QEKd6hwtXdzw",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/0MNtVcse3Lum8E-ReHvU_DxCCc_WebwRCgnW0q9kt7ezHZeCDIYc5SPr1IWqpJXE5I-BHWuVZsyHnQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "TYH Boys",
+          "channelId": "UCtQiRYkrvrMlTmqEQy78vAA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/DBzFrfMUnc8IN-fG40b0qnziGwuecpBYv14yncxWeRz5uy-EsAil71-RraL27_qSdn4e6vOI78oEtM6W=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי אילסון",
+          "channelId": "UClhlH-uzEKhMTlJQWbD2nrA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/Taz4fC-ngRmsk4H4KWwtUuU-YcaTGVA539j3BtkdISfYDSNnA7m8-_k4ULKdWXPUwE4Vs_-1OQtdhG0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי מן",
+          "channelId": "UCa_eksRjzpr-SUzynZKuysA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/OvUtY_88nWdmeXQQsGj4ZjJsLV9p24tSNs32bxWFuq5n_e0nssIC6W2f0S0ORjq_5e4tMaZzeIjKcHhc=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי פודולינסקי",
+          "channelId": "UCiurymv3ZRWTqvASSou40wg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/WeGiUXYtEGCl60aXU1bNkIJH2wR6DphmblDd3nHPbYAtT_Jux5mFxlq4u7zzyILsHtNYvBCzjg=w1654-h689-l90-rj-dcIVWWrSUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבישי אשל",
+          "channelId": "UCLljg9gBVW8HYjF6sbAC2HA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/txyeW7-hc6FqgpjFsVVg6TXmfwoelD4kA-EOOpUSAaQq93CBE-RZVGp7r7DHaijk_ZPJdR1yTstNBIxj=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבישי רוזן",
+          "channelId": "UCsx_wLo_m34bHX3Y3Kf26XA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cPHxUgP35fmABWewgrcG15KH8BsziWUguchCax4lutWt1u-M3K3UxFHIwty5G6M5KUWpqdW6vM1-1A1rbg=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Udi Damari",
+          "channelId": "UCiOSnSRl9lEN-gVIX7ZIpTg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/pJ6ywnI0dH596nKLjQBBMoUFilbNFJsXImreJ9UTjt29WNLpJghDY9tNNWFg0oApx8psT9aP65oW3zQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Uri Davidi",
+          "channelId": "UCZ4XuQbhnCWNdoNlPCqHebg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GJ-PiYV83gIoCVfmY6RIz9UT5TzB_8XrIzPZgu3N0uLtacDfi6Q0xZzmCxrXUA76w9DDb7NYJ3ftSu0=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אייל טויטו",
+          "channelId": "UCYZuvwZP0aWP1i9i_EPdg3Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/l_82sLaPlGkX3Pen__OlQgzsKQH4bL-kKdSza8lhZu213PCl_8oeXt5hyEJKMBLPLwF7i6egbz8=w864-h360-l90-rj-dcEWWU66EI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק אורלב",
+          "channelId": "UC_aDEnCArFgfqNyxbAgWBlQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/LysMvP8QDe4Tu2EHpVw6KkiOYzW1g62IVWzmQR3cmuuZLuJpPsFaz0LAhu5dsB-zDGts2e26fwx6C18=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק דדיה",
+          "channelId": "UCT1ljwAJ75zaL3VXNZpPw0g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/fne_aclMlLBYHVgQgYdDPqqDhomq8JD2ccpwKwu2vMzIEq4nuMilkvF5tMT6r30Xwj2QtVzU5N63pb8=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "איציק וינגרטן",
+          "channelId": "UCT3Ujz3093G2VRxAZBHR-lA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/w0EvZmIcT9B28J0BylFHNsPMDNq8rD0NyA_0_7J1tjiN79SMcBlMWfoXpe3Q1KgObN34z2wrPCMVafc=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Eli Marcus",
+          "channelId": "UCY5qvQNoawFipLxi_KZwFUg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_guhioL4WkZ06lTyuHGQXlRodKabpBM-4qWmvCIQnGrx6dDnfalB5VYf6qHYaFUTXuEhCwrCSw1vHCKq=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Eli Schwebel",
+          "channelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/GASSAD5xbe6CxH8ZBu0cygHkEwGzQiOMZ7Y7YMGHiigbxkMigCLJ55rRN01bPgLjw2SsB88j4DbuCko=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אליקם בוטה",
+          "channelId": "UCvJCPQJWlRlJXsEfT7Hfb5Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/xtKB7ecqIF603e3zh5P2r7cc6gc5ZHuJrzDQ3_Vg1pZD92CpQ5DwPKkc3kMj_RzacpUgHZFW3Q=w918-h382-l90-rj-dcKSWczpUK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Ari Goldwag",
+          "channelId": "UC31c9ukaP0w1Gugn6mTb5pA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/YlqXvHh00vX4GXvbjyRfn2KTjyk09x6UZw1xLWF9dq2XS2BlAKJR7Hv2UVyhdYdboj6yHnnVFFeIvvk=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Beri Weber",
+          "channelId": "UC8n1Io5T76kSYeuYVQHzsQA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/8NA6aDRqgiO8rYfu95M6yEc9TTjfeK8adpjfBTpEVcwtuev6CjPGq8lqKQGJVmyIrUkL7AmObOhyJOcM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "בריו חקשור",
+          "channelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/KuEDQ5sT84cJttCAnDr_uepnMSDsbZ0ptaVlUs5q9YF0VfvyJWoR436Dv99lJ3NKI2cmCG8iwr2As7z9=w1488-h620-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Gad Elbaz",
+          "channelId": "UCxEklyOKH3Jn1_1_AaRQsrQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/SZ2CqQS0rpyT2KeNSpVqff5XMUbgBYKaFyvd0_A36zvMDBGo9CNXLtR6_GSXiYd34k9EL-HJygbI8h-b=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dovid Haziza",
+          "channelId": "UCE7j5aZlXNU-Da-YaR4W7dw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kS1OB-jx2m5J30QrFQlW5nvUKXyasimAHGtSKPs5CFYP9bVD8Cj72vSkT4M_EpkYmego_euojA=w749-h312-l90-rj-dcITaQCpoJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dovid Pearlman",
+          "channelId": "UCiMnyfUnUaX4Uk_UdGCoC0A",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/UF3Vs7cJgj41SxxELmSAcZxhDx6feI1ulgMKu_UTTY87j2buwbWIO-lic6p2HmcEF_dct2syERO-Miw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "8th Day",
+          "channelId": "UCw1oCoEMF_o65tpDHItwwUQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Cup09ivZcF1J4NKhO1JKB8xWXLUcQihqXE33ESHNY1fNVtVZ665NDg3-rrcfkKvjNynQYA19kWwqVkY7=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Maccabeats",
+          "channelId": "UCEg5tmfi6WmJZRnezYLVHSg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/hXeKFjbYWpXTqEErY5gNkTxQJ0a6e4x4E22nL_ABQtVnRNj1ZErRIqvS-aQny5pVX5VnroyxsoBm9ekh=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיים שלמה מאיעס",
+          "channelId": "UCqZEueqIcgzbBlaOMR2xTdw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/5_OaWW9N8GL2YMMjie8ySiS-XGUgQA5Px1J_lf7Xvb-goixW91Faxx72u9swOsG9Mobcc6kj=w747-h311-l90-rj-dcLbWKr0EF",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Hanan Ben Ari",
+          "channelId": "UCz4N_ARAr1VxGzXq_Xj850g",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/YRkSh6M1xT0rhCIQYATePoT0a3j3XaxUCxyajxthQwTUYUD6-ZgE0Qqmahj1bMa0i_rHC9zbFpnJYw83=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "טל ועקנין",
+          "channelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Tz66zAmMRkSjo_Nw2HPgD5G1yPp721Wno-6kL8Dp1aAqz7g6yIq2fKhmxmgG5R76omJU9qqF=w910-h379-l90-rj-dcJTaaC54J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יואלי דיקמן",
+          "channelId": "UCzfJYCFmO-B4VYzCGRU6e9Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ft8EOxN3csmViOWm2NKdCp_4mYvk_cC6iJzBye1UlGKnsvYtmVgVS5rVv11mG2C0grRL7WWyjQ=w750-h312-l90-rj-dcpTWI7J0J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יוחנן אורי",
+          "channelId": "UC8YSUssuDsfn0ABjB9Iv_yA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/ZX0MxnD9QlCWTEhVfuVNReleEmwOp27CJZ0GkG6Jg8pl15Y3zl0PPZOKcWoh68EFblVDrT25DU0=w2425-h1010-l90-rj-dcoWOQrrEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yoni Eliav",
+          "channelId": "UC-GfYOy3knA_Lz-k_kidrOA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_1YWO1xjMhDpmAU54M5v2Myjp-2ASDXHHJ6VYW-QUbL_fR8C-ULAc7CKOdLIahuc0oq_e0ApReg10S0Z=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yoni Z",
+          "channelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Yea1SO2VSObhPGFzjrtsIEgmw3_K_gN_sOXNVQHp8-D9E136o9jTGfXBqQkB4849YUIP3UxmFZyoR5w=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יונתן שינפלד",
+          "channelId": "UCxBkd0HGpsMSxBDMTPHINdQ",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nBTGb9PZXPpEL55pfbqzu655PyPn-RXWOQCqBwz4AZUwg=w975-h406-l90-rj-dcpWWWzCUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yitzy Spinner",
+          "channelId": "UC-luQ_klMlWVeUsqmls19GQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/u_Qzz4FIdURDl6mZdjBsosC-6cWIRGenyUeSUHuUoTa9KpgytT8urKE8WFmWbieQRY8yoS8SchmHi9vK=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "ישי לפידות",
+          "channelId": "UCKUqlCQkBMhBGIvZSj_DVWg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GbFziNqngVE4duSpQMjVEX7L-Q3_DOnjkdqd2FIWE7kCUnTXRJi2ehIDt2IXLfFp6DIGOmOokA3Yon6B=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "The Yeshiva Boys Choir",
+          "channelId": "UCGZBtS53Yqr3pB11RGkPCNA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/uvcvCmjXAyX3eNBQU8bNfyIkFEopU2OcTDw-ZNYyKWJPNx4dePhccTPG6Yr8Oh02bYn4BW4TrNlA3JoRVw=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "מאיר גרין",
+          "channelId": "UC_yQzUx1YXBlBH795X748Gg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Y08Qh0KSSoterZEta0n8Qgwt0H4kzwdySt3mfR3rXmrzYfyJBY9QjkZu6Ey7yGOLzJ-Ej-AXzg=w784-h326-l90-rj-dcqUWczSEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Meir Kay",
+          "channelId": "UCmwayYHLpRkXJYBD9lGcbOQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/g18qTCk4gHV8QScxxoqgIAvZlMmyb6m3mW0jm20Z3nCvVFfm3W31OngSYG8Tv6-JxNvEwgZBZzLF5y9M=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Micha Gamerman",
+          "channelId": "UCXcPRe9sZYhE9dqxMnl-0fw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kg_jtWD2naSkg1021zR7Nk4C6KQUkGQjDrM-7h5g_BSVqwoJZSgsh4XhJ4Y_TOldJULX9JrNrxfaFgW7=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Miami Boys Choir",
+          "channelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/T3vjWENERNXYPKzvseMQ4ess02-sJ5Ik7n0BcCfWJW6Yq9_6EFuAjz9WT5r47omfWaJPot653YgFxJDm=w1200-h500-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mordechai Shapiro",
+          "channelId": "UCm5x_womXL5E7TAYca5JkZQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/cKDB4Ojfyc-v4cQQBBSK9EUFNJa7IO3FBBRLaENJ6u_0-3TODSDA20QlBC8gnFnDXaW-366VnN_3O3Fv=w1920-h800-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה פלד",
+          "channelId": "UC4xhDvLjoxYL1s8CRgwAy6Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/6bMEKjbwm9RaQeI9eBIsIlKlVEdGENLQN9cWrIq7wUN-ISipTSwJvndxvlxBKCrDp2cY6S4_i50=w1355-h564-l90-rj-dcrWSWrikI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "משה קליין",
+          "channelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/incSWeL8yfRpfadRFcFRpvUWiNps6Dk16BhUtDUwzGZpDQu4B_EIupL6bWfh7VB-7Y5Dv1SZjV4lLYY=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Nehoray Arieli",
+          "channelId": "UCdryVfjbE-stNJ1FBCkJWVQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/n_5Obrt0_QBTVB3iTeOSiiBYwHzZ1oUHCDG-xMfxEoWVuSeuE7hi8aO-feph0NCtAtGbyxPlE5qQR987=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נמואל",
+          "channelId": "UCCxmSp4ySkfbNjVkA6pRhgw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/XH_08bIiu-Jr-URzHj9B3TPhutEYEU3_CTQq_nc48H1URv2ogo87SGzUiiXIR3VFl0_sWt5hZA=w2880-h1200-l90-rj-dcqUSYjh0J",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נתנאל ישראל",
+          "channelId": "UCwWJXU9qJ62yQ9pLlATo2_A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/7vDXUumTzti8XWZgKErxPmUe4_bzRMKk4zxg2njhs632fPwZ-tq97k_sYryflor5kISAuuxSavhEtZaAkQ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Uziya tzadok",
+          "channelId": "UC8X43eu20eZXzHoc6IC_fzw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nVet5gf2IEBZAsQWOvO8pKGYz3wiNtstU3VTuE19YxD_E=w1689-h703-l90-rj-dcJWWQzCkH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "עמירן דביר",
+          "channelId": "UCL5sL2wnxCI4l-O_zaxUFhw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nmIsJYn_ZflroEpQFQx8L15RRbse3VtC-r0oOKsSLBPw=w1323-h551-l90-rj-dcoWSOrakF",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "פיני איינהורן",
+          "channelId": "UCx9iVefPf-yjAkgecQXjV-g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/2fDm2V74iMnIunaaWNx93dbcnfCx3KKKDMJiAfzC43biTkquctyZV57qIkrNBiI-g7k4y1a7dQ=w1066-h444-l90-rj-dcqTSMrh0K",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "קובי ברומר",
+          "channelId": "UC6Clmvqni_n6xpxNy_jVUKg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wyyq-rBrwPHt-z2fBHNlz8g3TDyewxuDiNkPBToLrvLM6TDQDcdpBLodFm4C5Z8QyrggpTGMkA=w969-h403-l90-rj-dcLWWWriUI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Kinderlach",
+          "channelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/yZtNeTQ1NJnHrgreCXEFtwOoYg1HgQEbXIJ-GG5vXROiQmFkJjNSEWjOzQdjgGOlQBdQbkpTo71j2oX6=w710-h295-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רולי דיקמן",
+          "channelId": "UC2aimwcezjVPh8D4bqLMWXw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/rrTh53pVNV3V7FrKnFFrJ2YLONTI6eow227dRe4h50OBc-VA3PqNhFkbVTrv9zkPPBOzTR-KjDI=w2044-h851-l90-rj-dcnXOQjK0G",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רפאל מלול",
+          "channelId": "UCFMPw6k6gMcvTwhS8UAEd4g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/T58QMZi1zOzaAvrO9LkcfU9_woUuTN6NSDewhNwhILRkLLwExhsobh72z4ab_FaQyiIQTgzn1FnzwA=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שוקי סלומון",
+          "channelId": "UCxZP06_QHa7FJBx_0MmOLzw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/vZyl9IMaAFcP6JcH4aKHhp4qHKpeYo6AkiTihbIHgRil9lWbrikFfClvHWkg9eQgWm5x4PfkBPT0OZPs=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמואל הררי",
+          "channelId": "UCDfACGXebZ6w1gtX1ASfEZg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/rSDrT-STSoc4RN91zAQNlrVPQVX4yRb7644UUr8VGSroApaaTCyqZo4nRxZQ5ZBAHYMD7lebEdQ=w912-h380-l90-rj-dcpYWMzbEG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמחה אברמצ'יק",
+          "channelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/GxKv4kjWb_b_0uFlQjaIl1V7rUmdjU1yUsF_9hwHrlMzx-p2w8m22Fhb91MyBQZBcOrZoQVf0E4pl5ul=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Simcha Leiner",
+          "channelId": "UCu6IT3jTOtAcNfjIQSIyCQQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/GqF8fg4G9Vb0R4l0UobSYR7xAmUWXERBaQl51lZ0M52Y5SHzb1LyQyBjA7wbqLgWHUubxqTKJ8whdzA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמחה פרידמן",
+          "channelId": "UCeCsGFl3pIofvlOg9X9RWiQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/5TnPOJxQGetqAX42hGEEpKUCgiXW37_y0X_H35X8IlRObXP5jEW7xg1PXAvrvozbxAKQMAX60Q=w812-h338-l90-rj-dcJWWOzS0H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שמעון טובול",
+          "channelId": "UCG5blpzBZvgAcQyhj-N5-XA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/CPyPkZVGGzXvQu2he1RNvK8gifP4kNW21HczXKYNE9NuKOrydvAXyLqrZA2D-ulJOqItf37Yg3fUQTbq=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        }
+      ]
+    },
+    {
+      "id": "alternative",
+      "title": "מוזיקה אלטרנטיבית",
+      "artists": [
+        {
+          "name": "Afiko.man",
+          "channelId": "UCihwy53fZm-Xc8gZvHBxHSw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/e1SJ0nQVed7Bpf0SATpk9XBoGYNG82cQ2rupmx9J9GGcy1bbQU1jfXixq3gzKvcfqfhFSFSXYZD6yuvrsA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Akiva Nachman",
+          "channelId": "UCSVYEizHEvWD06KQULD9ELA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/mHPTP5Sl7l5h1vpfwDdNemkMUgK4OaSxfnO3cK9xHj1TnbDqH7bH7uOG8Yd-sr9Ad5bm4nai4A=w1217-h507-l90-rj-dclXSOKbIH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Alex Clare",
+          "channelId": "UCZa7crFd_TP-vDn4fUdzqTw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/nKtL6EIxJytfg0BCL_M2SoROM4d6w49AfmUsXf7uljjnT8t0Qv-jf3vU9sbv8pJhM410reTxMA=w2880-h1200-l90-rj-dcoWWUC6oH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Avraham Rosenblum",
+          "channelId": "UCTp9T7uKu3v4JDCES-Og5iQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/U_f4L3SueWWDnqdE_2jbPnUm-mm0Y5EQi-6q0uSgn9l8h-hMgPzTPqgrzl4Y7ppXCDXMWU2RSqeFBsP6rw=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chaim Ghoori",
+          "channelId": "UCpVWl-kIG3gxILLJKiztyeg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Li8aRip4N3ikCrRu_jdJkLTLvUPMXZLfEokrFhczLG89k3a1vBs0lms-phVOV2hSnHpsBAVX3w=w842-h350-l90-rj-dcDXKKprIG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Munch",
+          "channelId": "UCionG5jvTEAeh8l_H3ldlgw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/8gKYLG1GawC1PQF69bRM9rdWJnAyPl5hpWJInCaNHnjk7OadANFtsWOsxOePUEfi-dhyYmre2Q004Hk=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mamish",
+          "channelId": "UCs2lQOTJFcd1SCL9w7iyW8Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/1OhlV70rEz5-VU3F69xK_JyuOQHYyKCTb0eUJ7Bj9G_LE6h2cXdszFcV-kTuC2Opp8pc7XHa=w1024-h426-l90-rj-dcnVOEjKWna9YA",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendy Portnoy",
+          "channelId": "UCffY4_Nsaqs8KTEt6LtQjNg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wkusMo4GneCNSYAe5p1GR_nB9p-fLPnGKgO0jjSFgp8E9UrfZs5mydcxarG4ooSMRN9WrIlSBlASxaRz=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshe Yess",
+          "channelId": "UCLf-g5NzfBkiDxPOrMcWtRA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/eAR-F7Lm5SLUomuCbiRft5PHi90J7R79kO7K5360YtDRqne1WzWPJezGIuDc_30G7hi_3sitK4fJDBYzKQ=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Tali Yess",
+          "channelId": "UCs1CUepeSP_9zIgp2w3vMYA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/wy_-IO813BXHGFTKteJYy3SVmvlXiNt4BkPzr6of9EJp1S6VcwqT2ZoBmL8NL_pBhY9O3TIhhr5oWn4k=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yossi Rodal",
+          "channelId": "UCbAbuYNe7DKbCk8W27XEOew",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/C55m_NVEveIsjYu4NYUmtGoCMuDr7GcdVWS8_nAM9skPj5nHt24vM4y_W1-o7VNghwYaOi2tW9SWJKfC8g=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אבי פיאמנטה",
+          "channelId": "UCh4NY2jeS945E_Rsco1F1_A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Rf2JFL6mRshzzxZStAYsab7gsCHf0pKvq9TOOV-7Svp8eSVCTJ_-pOXGtmnEgIW4xRljIOWPg1PRU_cjIA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אהרון רזאל",
+          "channelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/KNiO7D3DlNk8Qapealre0GJSeogaN8FN5facwCQwiIt_PVDZ5zgU7ILyaAvUFXxTRgKt-bjDs9rvCGLx=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אהרן רזאל",
+          "channelId": "UCzqLcYn4fpf48sZI8G64t9g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/RwYJ9N372mf7V4_-zCjwTHR5HQSrKoX_kMfmfFu5k3PBrwPLsLjy1mTEmyAAtFYjNbtIocRctT5dpgDN=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלחנן ענבל",
+          "channelId": "UCw4uDtNqzKpA_FyBnbgAQhw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/imI5rLYTWnqlwWfK46CBcIvuFtLaWINsAZdvija8DNZteGigFgYQurItSiwoX006Ae9PtMsCfoYGCrs=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אלי פרידמן",
+          "channelId": "UCthjk1chVrhKkCA3Vp_mMCg",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lUlZIwjCeiz-RwpXQrGqHjDQxxhIjAe9Lv-ztNVeo2Q94=w1783-h742-l90-rj-dcmXOUj60H",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Eli Schwebel",
+          "channelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/GASSAD5xbe6CxH8ZBu0cygHkEwGzQiOMZ7Y7YMGHiigbxkMigCLJ55rRN01bPgLjw2SsB88j4DbuCko=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "אליהו חייט",
+          "channelId": "UCDrPBGfQiHS7KTe4dsG7HIQ",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lY8gQDUWbqqB_T7OzuIwdoAbsAEOthZLRf2j9YTwE4yQ=w1530-h637-l90-rj-dcHRaYC5IK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Aryeh Kunstler",
+          "channelId": "UCvCfWc_qb7OMoGdgCWKbbgQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/iKVoKE2UWtLAFgCXm9fOIiI7F51j9E0hhE1R-qTByGdfZa_Vl_heuV_GKanpiJwe8nlXaW_n98ojTHVk=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Boruch Sholom",
+          "channelId": "UC-xr5bwdJDADQkS_TfDl4mA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YY3h4FRFgNi8biczVkLaRghrcLNkrrgQIBRVcrkh94CqqsmQ3LTYT-4Xo32vkJlr_hyBfygGEFBcckM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Joey Newcomb",
+          "channelId": "UC1QsA-Q6SUKX9gWi1heQDEA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/xga8dwlXnYKcNSj77MQ5LHVycWQnxvnO2Nawj0670CEPtTH2CltUgtB_pStvsgwlYrjEGQREa5JA3fE=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Gabriel Hason",
+          "channelId": "UCwewLKeklVYhet7iS5aqmhg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/JZ51Dfv_0mafaGP55MFImtpF3bO_hGkp2VxWB_58eUO3mDUUqeQyMEgfgDVQf86esUIHtH50_bgTxq8=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Dov Shurin",
+          "channelId": "UC8t3mgq12GZzBCXW81SJhbg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/L-1YV6vg8AqYUlWbHRKNGdpHGZD2JrEr2DMjVfllcKjXPNWSfkChUGlfKBN_ov7nojB0FSD0odnup0s=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Daniel Ahaviel",
+          "channelId": "UCGaINBtcZaadrtcfVzcDJbA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_kKycR7VoM-ArDPUbMouCRZhI3NAPo7h0EB9WAJK4XwKA=w2316-h965-l90-rj-dcLXOOb6kH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Daniel Zamir",
+          "channelId": "UCjRWwaF--TdsVmuY4EMo4zw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lKzmJ80HPbQ6K3vIEngxpq7HMZ-w5Kf_ihMLv0OlOcqA=w1433-h597-l90-rj-dcrRWczpUK",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "8th Day",
+          "channelId": "UCw1oCoEMF_o65tpDHItwwUQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Cup09ivZcF1J4NKhO1JKB8xWXLUcQihqXE33ESHNY1fNVtVZ665NDg3-rrcfkKvjNynQYA19kWwqVkY7=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Maccabeats",
+          "channelId": "UCEg5tmfi6WmJZRnezYLVHSg",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/hXeKFjbYWpXTqEErY5gNkTxQJ0a6e4x4E22nL_ABQtVnRNj1ZErRIqvS-aQny5pVX5VnroyxsoBm9ekh=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Chaim-Dovid Saracik",
+          "channelId": "UCn68TyMJCASbKN8j1uBszwA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/9AcCBHotzQPgXHoVJp2HBJejpbBbsTr9ReKSMMMboRJScunL5WabV0uh16quFSEycC5d0P8JLg=w750-h312-l90-rj-dcrQSKzo0K",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "חיים פורטל",
+          "channelId": "UCP3G80JEWp5vAEKDm1zRywA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/b49o3XhyQ5JzXoyDKChxRcWW6xvHaPZhc9ZIaM3NDd5HfJebNX-lrOiaOB52jcfEnHoe83vK=w1091-h454-l90-rj-dcAWOIh6II",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יאיר אלייצור",
+          "channelId": "UC23eX6d6juE2YT0aa7nL97A",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/P-oFbkKUFGF20FIKI9pPq1mjie4MtvlQXKoCh1xd8l0ataNuePuAC1TtgQNSarzaZ_kmpa42ZA=w1707-h711-l90-rj-dcHTWQCx4K",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "הרב יאיר כלב",
+          "channelId": "UCV8IIInfAH2Vkfm4gdDYlEQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/oC0JV5r9p3qKnAz3Ji1aoC552I96lE60J3uD_FAygHO8QLXyxWcjy9wiet7t8D8uC-RrBuCeaAQbvj1D=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yehuda Glantz",
+          "channelId": "UCOaMeJT5ftPBFLF1S9PMeJw",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/-ugyh0q0Qp2-Tcsk3GnDAcyerTwmS81-YZh6TA9km4_t_Ddtlh2hhrsEV45lmUz5OUeKbY8K_5GOQbPJ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Yosi Piamenta",
+          "channelId": "UC5HUxQuTpa3JdJlftkU-rWg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/VH-nPdIkT79p-JSaxlOMG_X47i4mGzvbCm1ycBtbi28PbQjKtjb5xAEm-IUazDOQZvzih30U8iel1Hv4=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "יוסף קרדונר",
+          "channelId": "UC9u5RkvuFKEHljFrCD4hEPA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Es7r-vQGGfKKShmbkgdWcbyr_WBqiFzswDrLcfyETwGSji5_9hLqQgA3vLhN2nbRnUqGgp-UFcyFZK2bvA=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Israel Edelson",
+          "channelId": "UC_ymNEyH2O_m9FZtnDrec8g",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lx_ePAGdAezdfvj7pWOoLZbF7WpQyJBV08rCFXzck=w2560-h1066-l90-rj-dcrXWQ7jEH",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshav",
+          "channelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_mnoqKfmXVXuVATYd8rsbvxDzpvn5jxbUkqcIyUdDeBbw=w785-h327-l90-rj-dcgRCMxEgF",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Lazer Lloyd",
+          "channelId": "UC5KW-xg23asJAA5PTezyzzQ",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/vKK8AWKwcyoNyrK26RJ0jeyXSQQavSE0hjM72FMUp4pj_-Gfez4T6vFbD813aT9RNXk8IS1bTQnAMFaM=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Meir Kay",
+          "channelId": "UCmwayYHLpRkXJYBD9lGcbOQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/g18qTCk4gHV8QScxxoqgIAvZlMmyb6m3mW0jm20Z3nCvVFfm3W31OngSYG8Tv6-JxNvEwgZBZzLF5y9M=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moishy Schwartz",
+          "channelId": "UCoATUXsgh8GmEc-zF_Wb3JQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/kgY5XoOXlKtTTBdsr6h40p0-L4JZB3NwmtzQLMCLakRZanpbyFL6Yuwzr0Z-GePK9hQkwwI_U7gAiJDZ=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Meilech Kohn",
+          "channelId": "UCtEK38jzXAUObe-5H8isljg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/50obuFSEeEf0DOPVLKNCn073RaQbN8iGL9_44-_E2FJhci4glFAToU2st3FNl5Xz6XoQ5UF_POJywLv8=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mendel Roth",
+          "channelId": "UCumudJlU9YoVkQxxaLIBehQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/SDaWQqMG7Yw_qXTKNlocWSsY6Mj_nxdfgfw28zdNyAmtFJ6vRrUQZI-ZwjYC49-6SABJVDNVqBGL4yI=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Mordechay Granevich",
+          "channelId": "UCBOoV_Ej9o8R4qb78NNS60g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/EBm04VvVBvj8zazXWV6lFqhv8MnfFlz6MzNvYbq8DFc73QfQUBHmBs8MkeCk73hgivPkTTj29JnPepOi=w1440-h600-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Moshe Hecht",
+          "channelId": "UCa41WxvKAQ4_brFrT1Kb8aQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/UZ9Q9ZBF0mB6Z6pycTCjScvuOZe1BSU_n8v6LwWB9oFPsoXAH9-yuobFWpP8BMnK5bFwPifXskqaH6R-=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נאור כרמי",
+          "channelId": "UCOcJT7w0SKEeFlXq8S0JBSg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/isTZjqtFa4L0OnGe2CfpWNnvvZtYjAgocW9vvskS9kJFbmhW-V2xWHuolD-1Ixu0c0yj318Rg7I0Bflj=w2175-h906-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Nadav Bachar",
+          "channelId": "UCAPOMohu2PzaaMdK2DD6vXQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/NHS62f4jtX6O5DLSPUyNFVqyMfJhMxU6zp8uI5MS5zvcrYqARm4u8z-5h-6YBfUG_eQaBHIC-Uxozyc=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "נותי ליברמן",
+          "channelId": "UCY0Zc19KijcluOiBoHWUz1Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/K-m-lP28wvHLiEyygx2rnnlbybgXPmeW5LI0nLoelv4N4swfTa7Qq3j7tVHeJZZ7ZhAKXIPtPyc=w1116-h465-l90-rj-dcjaaMhjoG",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Naftali Blumenthal",
+          "channelId": "UCiYY3LCuBdTI0ufmdzmAXiQ",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_myz9mjeu-VR2b1v8SfGTBCQBkhnAtWoXcO7sr77DtHxU0=w2880-h1200-l90-rj-dcHUaYCyIJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "סיני תור",
+          "channelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/4epbTLGcEr1uBGsQ_LdzXbiFgLIl6pXHwU1V07Qs8p11q89_4WCy-XHqSv8FaN4HWPk38Urimg5TV-wR=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "עדי רן",
+          "channelId": "UCENpFg4g22Ore8X3TQNkU7Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/aJbUAmmJvJIPfGBjgomMIGyXoXfPdIu52fieY6sbPoLKd3AvsOxXivf4I98oXC6KBB_pq2adxmEFhL9-=w1500-h625-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "פורת נוב",
+          "channelId": "UCRRUJV-iGXfyaaK2WOuFunA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/cX70SOpQk8KUn7vobKFN9Xncl1DHlCd2Fhgmq6E-6MSfShiLVQh_Lv3vqYJhPuPDCR9JnZoeFAcmtp1Yiw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shuli Rand",
+          "channelId": "UCTG4V5TZqdj1EkI2aSqFD_Q",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/p4ljY9LLk5xwBrEdEPZII0xiAAHHYBmofJHGSsl7BYmx7WgX_7fFTPA9M5xJsbKBlawyWmYk3PctXw=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shlomo Katz",
+          "channelId": "UC_AnZatVR_lH-MMnJo0-iGA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/d34g-lIgXmeGx81uC82TqiEEeTP4Wl3YwJs-6vVyu7Yml3prxcMYt4ovuhi6x5nSrUuQBh-0qIKpSROp=w2880-h1200-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Shlomo Carlebach",
+          "channelId": "UCr0Ka7wlj9U6pqJf-vLO2vg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/T2gbrZpLTvY8cBi9L1Imt5Pj1C0yNQXd2jqjsYqXCYVTrGw6UlRIoygSACIawc1wPczWXEDt259kw-om=w1400-h583-p-l90-rj",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "רג'ה",
+          "channelId": "UC3NJtjjppxZcgL8xXtHLEDQ",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/X3vCmzO2M1BtiHiOH5QdJ8bd59ifFdiI0pu-yYNQRvuNT8rDTRwJVev1FvSPKgFSxSinvLMJ=w1034-h430-l90-rj-dcMVOYcCEJ",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "Sruly Green",
+          "channelId": "UCEjcKdpkZkvgT5ISMGV5DCg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/TLJUj6QNVH1PH8yJ673uICGpoXXQWY3HpI6mMzr-WqbWHCeJscHoanqWLn-9ozZjvIFbBmjd=w2880-h1200-l90-rj-dcpUWS7KEI",
+          "source": "allowed_artists_genres"
+        },
+        {
+          "name": "שרולי ליפשיץ",
+          "channelId": "UCUeaVzUToUL4xcz8ny3peew",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/CuXmvISaRxmXIw0M7jHMpQLho-5u9RvTPkfkuTKFTDdrwPkXYwigOQ8lcSGioX4JUkN5U6vx7mlkmdo=w1425-h593-p-l90-rj",
+          "source": "allowed_artists_genres"
+        }
+      ]
+    }
+  ]
 }
