@@ -39,7 +39,6 @@ Yossi Zucker	UCqkX8m2FUgEOH3H9Yxt1kww
 אבי מן	UCa_eksRjzpr-SUzynZKuysA
 אבי פודולינסקי	UCiurymv3ZRWTqvASSou40wg
 אבי פיאמנטה	UCh4NY2jeS945E_Rsco1F1_A
-אבי פרץ	UCTQ05ES6_LAfJzKmCKG-rug
 אביש בראדט	UCqwl-80S19l8BWlrtfJZ3BA
 אביש ברודט	UC0-foS39p84VAaTwngP4W4w
 אבישי אשל	UCLljg9gBVW8HYjF6sbAC2HA
@@ -144,7 +143,6 @@ Yossi Zucker	UCqkX8m2FUgEOH3H9Yxt1kww
 יהודה גלאנץ	UCOaMeJT5ftPBFLF1S9PMeJw
 יהודה גרין	UC6s2xUPyMS4ZbPBALr9MmcQ
 יהודה פליישמן	UCl9LqAGv2Jwwih-1Ry5CTsg
-יהושע לימוני	UCad1yDB2MegN1EtLljtvwpA
 יואלי גרינפלד	UCSL3dOfqU4_o7mtH6GdfxkA
 יואלי דיקמן	UCzfJYCFmO-B4VYzCGRU6e9Q
 יואלי קליין	UCXjUzmNpXKsKZtfDgyHc-_w
@@ -158,7 +156,6 @@ Yossi Zucker	UCqkX8m2FUgEOH3H9Yxt1kww
 יונתן רזאל	UCIs-s_nxV5WKupy0gEGZiXw
 יונתן שוורץ	UC8QdnhyXXB8Y6FHQTvtDuRQ
 יונתן שינפלד	UCxBkd0HGpsMSxBDMTPHINdQ
-יוסי אזולאי	UCuvlFjiygrIIhq_zQmXpiIA
 יוסי גרין	UCtzGTGyCz_k0ZXMCZ1u_tkQ
 יוסי פיאמנטה	UC5HUxQuTpa3JdJlftkU-rWg
 יוסי קוגלר	UCKNpYaDVAtsOWq4gP8DKHJA
@@ -209,7 +206,6 @@ Yossi Zucker	UCqkX8m2FUgEOH3H9Yxt1kww
 מנדי וייס	UC271gYsK8n1WVeBTyiDjYEA
 מנדי רוט	UCMqmsFTYbQfwGD62NmFk_jg
 מנחם לוי	UCmH_Atbuf4ddHRimwF3zL6w
-מנחם פיליפ	UCi3GMk4jj1dwaxPOumDuWNA
 מנשה ליכטנשטיין	UCzikvLesYafncBqcYWzdFEg
 מענדל ראטה	UCumudJlU9YoVkQxxaLIBehQ
 מקהלת יחד	UC3-HZFjyiGVdlL9LUNJSWcw
@@ -227,7 +223,6 @@ Yossi Zucker	UCqkX8m2FUgEOH3H9Yxt1kww
 משה דוויק	UCvKf28K13nV9lPtReC9k-tg
 משה הכט	UCa41WxvKAQ4_brFrT1Kb8aQ
 משה חבושה	UClXm891clnumcw0vbkHdSpA
-משה כהן	UCj4_jLYjlC5r5hdnej52HDg
 משה לוק	UCckAvhL9rStbAvTo8T3mM0A
 משה מנדלוביץ	UC-rPxFHSMKoQ8MP5rOqQJ8Q
 משה פלד	UC4xhDvLjoxYL1s8CRgwAy6Q
@@ -292,5 +287,4 @@ Yossi Zucker	UCqkX8m2FUgEOH3H9Yxt1kww
 שרוליק מנדלסון	UCfScwFxzDsy7Y777_P648sw
 שרוליק קלצקין	UCv4zIkEX_dhm6E7WSULMowQ
 תומר חתוכה	UCZ5hRU-wbaQZ0vFSGJrdHLQ
-תומר מתנה	UCb2L-0F-w47I4-O1AsEzI6g
 תזמורת המנגנים	UCYj7tMFZRtn7ch4OV8fBf0Q
