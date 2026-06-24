@@ -71,6 +71,18 @@ REFRESH_YOUTUBE_CACHE = os.getenv("REFRESH_YOUTUBE_CACHE", "false").strip().lowe
 CHANNEL_ID_RE = re.compile(r"(UC[0-9A-Za-z_-]{20,})")
 
 
+GENRE_TITLES = {
+    "hasidic": "מוזיקה חסידית",
+    "israeli": "מוזיקה ישראלית",
+    "mizrahi": "מוזיקה מזרחית - ים תיכונית",
+    "pop": "מוזיקת פופ",
+    "alternative": "מוזיקה אלטרנטיבית",
+}
+
+GENRE_ORDER = ["hasidic", "israeli", "mizrahi", "pop", "alternative"]
+
+
+
 HEBREW_NAME_ALIASES = {
     "קובי": ["kobi", "koby", "cobi", "coby"],
     "משה": ["moshe"],
@@ -629,16 +641,64 @@ def candidate_match_score(
     }
 
 
-def parse_allowed_artists() -> list[dict[str, str]]:
+def parse_genres(value: str | None) -> list[str]:
+    if not value:
+        return []
+
+    genres = []
+    for raw_genre in re.split(r"[,;]", value):
+        genre = raw_genre.strip().lower()
+        if not genre:
+            continue
+
+        if genre not in GENRE_TITLES:
+            print(f"Skipping unknown genre: {genre}")
+            continue
+
+        if genre not in genres:
+            genres.append(genre)
+
+    return genres
+
+
+def parse_allowed_artists() -> list[dict[str, Any]]:
     if not ALLOWED_ARTISTS_FILE.exists():
         raise FileNotFoundError(f"Missing file: {ALLOWED_ARTISTS_FILE}")
 
-    artists: list[dict[str, str]] = []
+    artists: list[dict[str, Any]] = []
 
     for line_number, raw_line in enumerate(ALLOWED_ARTISTS_FILE.read_text(encoding="utf-8").splitlines(), start=1):
         line = raw_line.strip()
 
         if not line or line.startswith("#") or line.startswith("//"):
+            continue
+
+        parts = [part.strip() for part in line.split("|")]
+
+        if len(parts) >= 2:
+            name = parts[0].strip() or ""
+            channel_part = parts[1].strip()
+            genres_part = parts[2].strip() if len(parts) >= 3 else ""
+
+            match = CHANNEL_ID_RE.search(channel_part)
+            if not match:
+                match = CHANNEL_ID_RE.search(line)
+
+            if not match:
+                print(f"Skipping line {line_number}: missing YouTube channel id")
+                continue
+
+            channel_id = match.group(1)
+            if not name:
+                name = line[: match.start()].strip(" \t|-:,") or channel_id
+
+            artists.append(
+                {
+                    "name": name,
+                    "channelId": channel_id,
+                    "genres": parse_genres(genres_part),
+                }
+            )
             continue
 
         match = CHANNEL_ID_RE.search(line)
@@ -648,15 +708,22 @@ def parse_allowed_artists() -> list[dict[str, str]]:
 
         channel_id = match.group(1)
         name = line[: match.start()].strip(" \t|-:,") or channel_id
+        after_channel = line[match.end():].strip(" \t|-:,")
+        genres = parse_genres(after_channel)
 
-        artists.append({"name": name, "channelId": channel_id})
+        artists.append(
+            {
+                "name": name,
+                "channelId": channel_id,
+                "genres": genres,
+            }
+        )
 
-    unique: dict[str, dict[str, str]] = {}
+    unique: dict[str, dict[str, Any]] = {}
     for artist in artists:
         unique[artist["channelId"]] = artist
 
     return list(unique.values())
-
 
 def load_json_file(path: Path, default: Any) -> Any:
     if not path.exists():
@@ -679,7 +746,28 @@ def load_artist_sources() -> dict[str, Any]:
     return data if isinstance(data, dict) else {}
 
 
-def artist_config(artist: dict[str, str], sources: dict[str, Any]) -> dict[str, Any]:
+def normalize_genres(value: Any) -> list[str]:
+    if isinstance(value, str):
+        return parse_genres(value)
+
+    if not isinstance(value, list):
+        return []
+
+    genres = []
+    for item in value:
+        genre = str(item).strip().lower()
+        if not genre:
+            continue
+        if genre not in GENRE_TITLES:
+            print(f"Skipping unknown genre: {genre}")
+            continue
+        if genre not in genres:
+            genres.append(genre)
+
+    return genres
+
+
+def artist_config(artist: dict[str, Any], sources: dict[str, Any]) -> dict[str, Any]:
     config = sources.get(artist["channelId"]) or {}
     if not isinstance(config, dict):
         config = {}
@@ -692,14 +780,19 @@ def artist_config(artist: dict[str, str], sources: dict[str, Any]) -> dict[str, 
     base_name = str(config.get("name") or artist["name"]).strip()
     aliases, auto_aliases = build_artist_aliases(base_name, manual_aliases)
 
+    genres: list[str] = []
+    for genre in [*normalize_genres(artist.get("genres")), *normalize_genres(config.get("genres"))]:
+        if genre not in genres:
+            genres.append(genre)
+
     return {
         "name": base_name,
         "aliases": aliases,
         "manualAliases": manual_aliases,
         "autoAliases": auto_aliases,
+        "genres": genres,
         "homeFeedEnabled": bool(config.get("homeFeedEnabled", True)),
     }
-
 
 def sleep_youtube() -> None:
     if YOUTUBE_REQUEST_DELAY_SECONDS > 0:
@@ -1162,6 +1255,59 @@ def build_popular_song_items(artist: dict[str, str], artist_data: dict[str, Any]
     return items
 
 
+
+def build_artist_genre_item(
+    artist: dict[str, Any],
+    artist_data: dict[str, Any],
+    genres: list[str],
+) -> dict[str, Any] | None:
+    if not genres:
+        return None
+
+    return {
+        "name": artist_data.get("name") or artist_data.get("artist") or artist["name"],
+        "channelId": artist["channelId"],
+        "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
+        "genres": genres,
+        "source": "allowed_artists_genres",
+    }
+
+
+def build_artist_genre_shelves(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    shelves: list[dict[str, Any]] = []
+
+    for genre_id in GENRE_ORDER:
+        unique_artists: dict[str, dict[str, Any]] = {}
+
+        for item in items:
+            if genre_id not in item.get("genres", []):
+                continue
+
+            channel_id = item.get("channelId")
+            if not channel_id or channel_id in unique_artists:
+                continue
+
+            unique_artists[channel_id] = {
+                "name": item.get("name") or channel_id,
+                "channelId": channel_id,
+                "thumbnailUrl": item.get("thumbnailUrl"),
+                "source": item.get("source") or "allowed_artists_genres",
+            }
+
+        artists = list(unique_artists.values())
+        if not artists:
+            continue
+
+        shelves.append(
+            {
+                "id": genre_id,
+                "title": GENRE_TITLES[genre_id],
+                "artists": artists,
+            }
+        )
+
+    return shelves
+
 def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     unique: dict[str, dict[str, Any]] = {}
 
@@ -1283,6 +1429,9 @@ def initial_report(allowed_artists_count: int) -> dict[str, Any]:
         "youtubePopularSongSourceItems": 0,
         "popularArtistsGenerated": 0,
         "popularSongsGenerated": 0,
+        "artistGenreShelvesGenerated": 0,
+        "artistGenreArtistsGenerated": 0,
+        "supportedGenres": GENRE_ORDER,
         "youtubeAlbumDrilldownReads": 0,
         "youtubeAlbumDrilldownErrors": 0,
         "itunesNetworkReads": 0,
@@ -1331,6 +1480,7 @@ def main() -> None:
     feed_items: list[dict[str, Any]] = []
     popular_artist_items: list[dict[str, Any]] = []
     popular_song_items: list[dict[str, Any]] = []
+    artist_genre_items: list[dict[str, Any]] = []
 
     for index, artist in enumerate(artists, start=1):
         config = artist_config(artist, sources)
@@ -1368,6 +1518,13 @@ def main() -> None:
             continue
 
         popular_artist_items.append(build_popular_artist_item(artist, artist_data))
+        artist_genre_item = build_artist_genre_item(
+            artist=artist,
+            artist_data=artist_data,
+            genres=config["genres"],
+        )
+        if artist_genre_item:
+            artist_genre_items.append(artist_genre_item)
         artist_popular_songs = build_popular_song_items(artist, artist_data)
         popular_song_items.extend(artist_popular_songs)
         report["youtubePopularSongSourceItems"] += len(artist_popular_songs)
@@ -1437,27 +1594,33 @@ def main() -> None:
     feed_items = sort_items(dedupe_items(feed_items))
     popular_artist_items = dedupe_popular_artists(popular_artist_items)
     popular_song_items = dedupe_popular_songs(popular_song_items)
+    artist_genre_shelves = build_artist_genre_shelves(artist_genre_items)
     report["popularArtistsGenerated"] = len(popular_artist_items)
     report["popularSongsGenerated"] = len(popular_song_items)
+    report["artistGenreShelvesGenerated"] = len(artist_genre_shelves)
+    report["artistGenreArtistsGenerated"] = sum(len(shelf.get("artists", [])) for shelf in artist_genre_shelves)
     report["itemsGeneratedAfterDedupe"] = len(feed_items)
     report["albumsGeneratedAfterDedupe"] = sum(1 for item in feed_items if item.get("type") == "ALBUM")
     report["singlesGeneratedAfterDedupe"] = sum(1 for item in feed_items if item.get("type") == "SINGLE")
     report["completedAt"] = utc_now_iso()
 
     feed = {
-        "version": 8,
+        "version": 9,
         "generatedAt": report["generatedAt"],
         "source": "itunes_youtube_music",
-        "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings",
+        "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings_artist_genre_shelves",
         "allowedArtistsCount": len(artists),
         "itemsCount": len(feed_items),
         "albumsCount": report["albumsGeneratedAfterDedupe"],
         "singlesCount": report["singlesGeneratedAfterDedupe"],
         "popularArtistsCount": len(popular_artist_items),
         "popularSongsCount": len(popular_song_items),
+        "artistGenreShelvesCount": len(artist_genre_shelves),
+        "artistGenreArtistsCount": sum(len(shelf.get("artists", [])) for shelf in artist_genre_shelves),
         "items": feed_items,
         "popularArtists": popular_artist_items,
         "popularSongs": popular_song_items,
+        "artistGenreShelves": artist_genre_shelves,
     }
 
     write_json_file(OUTPUT_FILE, feed)
@@ -1470,6 +1633,8 @@ def main() -> None:
     print(f"Singles: {report['singlesGeneratedAfterDedupe']}")
     print(f"Popular artists: {report['popularArtistsGenerated']}")
     print(f"Popular songs: {report['popularSongsGenerated']}")
+    print(f"Artist genre shelves: {report['artistGenreShelvesGenerated']}")
+    print(f"Artist genre shelf artists: {report['artistGenreArtistsGenerated']}")
     print(f"iTunes network reads: {report['itunesNetworkReads']}")
     print(f"iTunes cache hits: {report['itunesCacheHits']}")
     print(f"iTunes 429 count: {report['itunes429Count']}")
