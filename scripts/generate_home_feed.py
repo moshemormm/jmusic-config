@@ -1477,4 +1477,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-'@ | Set-Content -Path "scripts/generate_home_feed.py" -Encoding UTF8
