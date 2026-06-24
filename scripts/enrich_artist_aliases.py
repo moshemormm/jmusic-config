@@ -62,7 +62,7 @@ def translate_name(name: str) -> str | None:
         return None
 
     try:
-        translated = GoogleTranslator(source="he", target="en").translate(name)
+        translated = GoogleTranslator(source="iw", target="en").translate(name)
         translated = normalize_alias(translated)
         return translated or None
     except Exception as exc:
