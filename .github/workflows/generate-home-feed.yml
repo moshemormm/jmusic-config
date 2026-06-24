@@ -1,3 +1,4 @@
+```yaml
 name: Generate Home Feed
 
 on:
@@ -17,6 +18,21 @@ on:
         description: "Max expanded YouTube artist albums/singles to read"
         required: false
         default: "50"
+
+      max_popular_artists:
+        description: "Max popular artists to write into home_feed.json"
+        required: false
+        default: "20"
+
+      max_popular_songs:
+        description: "Max popular songs to write into home_feed.json"
+        required: false
+        default: "20"
+
+      popular_songs_per_artist:
+        description: "How many popular songs to read from each allowed artist"
+        required: false
+        default: "5"
 
       max_release_age_days:
         description: "Keep only iTunes releases from the last N days"
@@ -116,6 +132,9 @@ jobs:
       ITUNES_COUNTRY: ${{ github.event.inputs.itunes_country || 'IL' }}
       MAX_ITEMS_PER_ARTIST_CATEGORY: ${{ github.event.inputs.max_items_per_artist_category || '4' }}
       ARTIST_ALBUMS_LIMIT: ${{ github.event.inputs.artist_albums_limit || '50' }}
+      MAX_POPULAR_ARTISTS: ${{ github.event.inputs.max_popular_artists || '20' }}
+      MAX_POPULAR_SONGS: ${{ github.event.inputs.max_popular_songs || '20' }}
+      POPULAR_SONGS_PER_ARTIST: ${{ github.event.inputs.popular_songs_per_artist || '5' }}
       MAX_RELEASE_AGE_DAYS: ${{ github.event.inputs.max_release_age_days || '180' }}
       MIN_RELEASE_DATE: ${{ github.event.inputs.min_release_date || '' }}
       YOUTUBE_REQUEST_DELAY_SECONDS: ${{ github.event.inputs.youtube_request_delay_seconds || '0.8' }}
@@ -162,7 +181,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update iTunes home feed"
+          git commit -m "Update JMusic home feed"
 
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin main && exit 0
@@ -172,3 +191,4 @@ jobs:
 
           echo "Push failed after retries"
           exit 1
+```
