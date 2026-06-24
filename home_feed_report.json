@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:10:49.798084+00:00",
+  "generatedAt": "2026-06-24T03:57:24.062469+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 289,
@@ -23,13 +23,13 @@
   "itunesRequestDelaySeconds": 4.0,
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
-  "maxItunesLookupsTotal": 11,
+  "maxItunesLookupsTotal": 1000,
   "artistNetworkReads": 287,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 495,
-  "youtubeSingleSourceItems": 860,
-  "youtubePopularSongSourceItems": 1196,
+  "youtubeSingleSourceItems": 864,
+  "youtubePopularSongSourceItems": 1190,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
@@ -41,22 +41,22 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 3,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 11,
-  "itunesCacheHits": 3,
+  "itunesNetworkReads": 1000,
+  "itunesCacheHits": 14,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1341,
+  "itunesLookupsSkippedByLimit": 1041,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1341,
-  "itemsSkippedWeakItunesCandidate": 0,
+  "itemsSkippedNoItunesCandidate": 1063,
+  "itemsSkippedWeakItunesCandidate": 10,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 11,
-  "itemsGeneratedBeforeDedupe": 3,
-  "itemsGeneratedAfterDedupe": 3,
-  "albumsGeneratedAfterDedupe": 0,
-  "singlesGeneratedAfterDedupe": 3,
+  "itemsSkippedOldRelease": 215,
+  "itemsGeneratedBeforeDedupe": 71,
+  "itemsGeneratedAfterDedupe": 71,
+  "albumsGeneratedAfterDedupe": 9,
+  "singlesGeneratedAfterDedupe": 62,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3455,13 +3455,244 @@
       ]
     }
   ],
-  "weakMatches": [],
+  "weakMatches": [
+    {
+      "artistName": "Alex Clare",
+      "artistChannelId": "UCZa7crFd_TP-vDn4fUdzqTw",
+      "aliasesUsed": [
+        "Alex Clare"
+      ],
+      "title": "Flying Carpet (feat. Afiko.man)",
+      "expectedType": "SINGLE",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Back of the Wagon (feat. Matisyahu) - Single",
+        "candidateArtist": "Thank You Hashem, Alex Clare & Afiko.man",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "Shomer Yisrael - שומר ישראל",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Shomer Yisrael - שומר ישראל - Single",
+        "candidateArtist": "Thank You Hashem, Avshi Weingot & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "Neshama on Fire (UPMIX)",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Neshama on Fire (UPMIX) - Single",
+        "candidateArtist": "Thank You Hashem, DJ Farbreng & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "No Words",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "When You Call - Single",
+        "candidateArtist": "Clay Western",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Dov Levine",
+      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
+      "aliasesUsed": [
+        "Dov Levine"
+      ],
+      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
+        "candidateArtist": "Various Artists",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "MUNCH",
+      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
+      "aliasesUsed": [
+        "MUNCH"
+      ],
+      "title": "Run It Up (feat. Sly Vincent)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Double Up",
+        "candidateArtist": "R. Kelly",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "Odi Davidi",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy"
+      ],
+      "title": "Ben Ahuv",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "בן אהוב",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "Odi Davidi",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy"
+      ],
+      "title": "Ahavat Olam",
+      "expectedType": "SINGLE",
+      "bestScore": 48,
+      "details": {
+        "titleScore": 16,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "אהבת עולם - Single",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "איצי וולדנר",
+      "artistChannelId": "UC5-ApPEQbXGc7qVOwXAfv-Q",
+      "aliasesUsed": [
+        "איצי וולדנר",
+        "Itzi Waldner",
+        "ooldnr",
+        "ouldnr",
+        "ovldnr",
+        "owldnr"
+      ],
+      "title": "Let The Candles Burn",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "TLV Streets (VOL 2) The Spirit & The Cost",
+        "candidateArtist": "Omer",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "איציק כהן",
+      "artistChannelId": "UCOGdpTLaO5A8ZzGnnXOtqsA",
+      "aliasesUsed": [
+        "איציק כהן",
+        "Itzik Cohen",
+        "chhn",
+        "chn",
+        "khn",
+        "kn"
+      ],
+      "title": "הכל בסדר",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "אבא מחפש אותך - Single",
+        "candidateArtist": "Itzik Krayef & Sharif",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    }
+  ],
   "warnings": [
     {
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiY5LTy856VAxWQxecDHemPArTKAQTZI8Kk', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwipqK-HgJ-VAxUDk_8EHRzICIHKAQQznDAQ', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3470,5 +3701,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-06-24T03:18:42.792872+00:00"
+  "completedAt": "2026-06-24T05:14:01.636524+00:00"
 }
