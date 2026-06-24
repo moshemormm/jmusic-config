@@ -1,15 +1,417 @@
 {
   "version": 8,
-  "generatedAt": null,
+  "generatedAt": "2026-06-24T02:18:11.570006+00:00",
   "source": "itunes_youtube_music",
   "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings",
-  "allowedArtistsCount": 0,
+  "allowedArtistsCount": 290,
   "itemsCount": 0,
   "albumsCount": 0,
   "singlesCount": 0,
-  "popularArtistsCount": 0,
-  "popularSongsCount": 0,
+  "popularArtistsCount": 20,
+  "popularSongsCount": 20,
   "items": [],
-  "popularArtists": [],
-  "popularSongs": []
+  "popularArtists": [
+    {
+      "name": "גיל ישראלוב",
+      "channelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yfSQQnh30RfUsL98WjwJbILM8KdK09DHWjYgo_AMM915FLiqfw8A4Jn0JmzbPAFzNf1_jKcbPf2YrBv0=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "986",
+      "monthlyListeners": 986,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Shragee Gestetner",
+      "channelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/37aziHs7Ickc9PSAbSzz77hrjvI-bjzR1JrjfQOKSrQN82_21CajQckii7knfCKY69DIqsvSWjJfyCo=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "957",
+      "monthlyListeners": 957,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Kinderlach",
+      "channelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/yZtNeTQ1NJnHrgreCXEFtwOoYg1HgQEbXIJ-GG5vXROiQmFkJjNSEWjOzQdjgGOlQBdQbkpTo71j2oX6=w710-h295-p-l90-rj",
+      "monthlyListenersText": "952",
+      "monthlyListeners": 952,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Yisroel Werdyger",
+      "channelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/nabhleRtbYQTZ7Mxc614IUgyRqF2mDFeXZUfD-Gr0cIbIH6BH6aR0nHe9CGhLPsupEBsVkVeNzA-vUzD=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "933",
+      "monthlyListeners": 933,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Ziv Yehezkel",
+      "channelId": "UCyoi4F5uufOxh9IByNDuo5g",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/JF14RImJfpVFU1zrcD928YBo_p1599JXDkwiDJUVbVQMs8ri5rAOY_efU6D4Q7sWWNWRw0xmauGdJcI=w960-h400-p-l90-rj",
+      "monthlyListenersText": "899",
+      "monthlyListeners": 899,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "שמואל גריינימן",
+      "channelId": "UC1H2TOEthiv6KA2PgId6EYQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YHkbPOVNF4a48yqoAGJiox9-pD-sLKPk0VxBNoootUGihoa53Yf8Oj9RK8PoVOwLuMYrP9gVmJc=w2400-h1000-l90-rj-dcoUWQ7B0J",
+      "monthlyListenersText": "879",
+      "monthlyListeners": 879,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "עדי רן",
+      "channelId": "UCENpFg4g22Ore8X3TQNkU7Q",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/aJbUAmmJvJIPfGBjgomMIGyXoXfPdIu52fieY6sbPoLKd3AvsOxXivf4I98oXC6KBB_pq2adxmEFhL9-=w1500-h625-p-l90-rj",
+      "monthlyListenersText": "877",
+      "monthlyListeners": 877,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "שרוליק קלצקין",
+      "channelId": "UCv4zIkEX_dhm6E7WSULMowQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/tM1jcTtr2o4Y-eHjjtV0h29Zij6B-yPFk-uDMFrjEOjSJKyYbWf9U_fDkEvhoU8t4--DfDa7og=w746-h310-l90-rj-dcLXWQri0H",
+      "monthlyListenersText": "863",
+      "monthlyListeners": 863,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Dovid Haziza",
+      "channelId": "UCE7j5aZlXNU-Da-YaR4W7dw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/kS1OB-jx2m5J30QrFQlW5nvUKXyasimAHGtSKPs5CFYP9bVD8Cj72vSkT4M_EpkYmego_euojA=w749-h312-l90-rj-dcITaQCpoJ",
+      "monthlyListenersText": "778",
+      "monthlyListeners": 778,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "אלחנן אלחדד",
+      "channelId": "UCue8u4IxRpP9t_Gen4xvGCw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/5qfYrcYbmcHlLwDM25flnWM0St2ce9FxpTvLosAFNJhqW1ikr5RIkPxlHtZU5gnjQ9ooBnDTXA=w1078-h449-l90-rj-dcqTWIzh0K",
+      "monthlyListenersText": "762",
+      "monthlyListeners": 762,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Boruch Sholom",
+      "channelId": "UC-xr5bwdJDADQkS_TfDl4mA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/YY3h4FRFgNi8biczVkLaRghrcLNkrrgQIBRVcrkh94CqqsmQ3LTYT-4Xo32vkJlr_hyBfygGEFBcckM=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "750",
+      "monthlyListeners": 750,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Tzlil V'zemer Boys Choir",
+      "channelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/EobUPuXimrbIETpa4hFtV4DZ_0syj4ACOLpqOFUD9wChXrzLXFko7kFtKV_Uzg_pMebVdYEfCfLLIRvluw=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "740",
+      "monthlyListeners": 740,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Avrumi Berko",
+      "channelId": "UCD0XDjxjjAE-cl34gY5_Cfw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/Wu9eCj0WnynG24VSaDGJXHQGcCrg7FKLcLdrN7lc-Giw1vrNBPolg_vFI3XUYStOgnFrv19P6GSWX3Nf=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "728",
+      "monthlyListeners": 728,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Avrumi Flam",
+      "channelId": "UChFscCECmWXq1DqDMGUWjrw",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/0pXJjrFfNllzHw2PpQ0HZDKc7S1XJc4eFXdizE8uctSYivdNfh2-UugpDs1ovJWa-wKtaTUZaZtaq4mmlA=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "702",
+      "monthlyListeners": 702,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Tali Yess",
+      "channelId": "UCs1CUepeSP_9zIgp2w3vMYA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/wy_-IO813BXHGFTKteJYy3SVmvlXiNt4BkPzr6of9EJp1S6VcwqT2ZoBmL8NL_pBhY9O3TIhhr5oWn4k=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "691",
+      "monthlyListeners": 691,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Mendy Wald",
+      "channelId": "UCqYGK7-bY_nvTHfJsjFggOQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/cpXafhBnQswmmG03-ZgOZZeAc0zErw7XElf1fjvhAZVCTn_64bmr-EbLGomP71uFCF16hNAbC8yJw-d4=w1400-h583-p-l90-rj",
+      "monthlyListenersText": "689",
+      "monthlyListeners": 689,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Yossi Lauber",
+      "channelId": "UCvsFJtayl0mj3sv3X7qecuQ",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/LBRuv3p6aYMgGM5CWS1Yjm5NUaWy61_9fm0GS4oIfnyQI3Tlo75SkFY1bh2i_h0O1UOgnnLZdAqISKZw9A=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "641",
+      "monthlyListeners": 641,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Shloime Dachs",
+      "channelId": "UCv58Dafo6Yue5eve-Xcky0Q",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/OhHH7fYOSWAMPKkqXy47X9POH6dnAl5bc9Kc4cjUYkcSxrgN4UoylhvSzz9IL_bHjSj06p9tXDINGSM=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "633",
+      "monthlyListeners": 633,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Yoely Greenfeld",
+      "channelId": "UCSL3dOfqU4_o7mtH6GdfxkA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/sdeXyKz3172iyeOTyf3hsJid8harZtcftzO1WOVBUJc0rIXjap1JmSAPxhsZ2khNdh1PfJ24agwa9KY=w2880-h1200-p-l90-rj",
+      "monthlyListenersText": "552",
+      "monthlyListeners": 552,
+      "source": "youtube_music_artist_page"
+    },
+    {
+      "name": "Chaim-Dovid Saracik",
+      "channelId": "UCn68TyMJCASbKN8j1uBszwA",
+      "thumbnailUrl": "https://yt3.googleusercontent.com/9AcCBHotzQPgXHoVJp2HBJejpbBbsTr9ReKSMMMboRJScunL5WabV0uh16quFSEycC5d0P8JLg=w750-h312-l90-rj-dcrQSKzo0K",
+      "monthlyListenersText": "541",
+      "monthlyListeners": 541,
+      "source": "youtube_music_artist_page"
+    }
+  ],
+  "popularSongs": [
+    {
+      "title": "רק תודה",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "ScBZfpmcddg",
+      "youtubeId": "ScBZfpmcddg",
+      "artworkUrl": "https://yt3.googleusercontent.com/zEBVHGry_aKVZ8EiQh_9zIllacgBLgc781Swnklw3I8ybSz7kcQ6GyDcU19DMOvN2jC3njgxrrVeV9GCtw=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 985,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "חד גדיא",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "-yDR5AsCzgw",
+      "youtubeId": "-yDR5AsCzgw",
+      "artworkUrl": "https://yt3.googleusercontent.com/2WM_zZpzuFV445M73lReqglFrru7kO2S90Yib6HMiZnDXA9U1mg9RbRAVY1vf7jDnjjtzpqcAKyStKVt_g=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 984,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "הנני",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "A9SbckUUZ8M",
+      "youtubeId": "A9SbckUUZ8M",
+      "artworkUrl": "https://yt3.googleusercontent.com/Ghopjma8UsHe4Z0AQt9jyfYjBVjjVJpeyDSFC4xSUqSmSUFDxHaJbCKDJK5vnGraVepyb1JLJ0RKhH9q=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 983,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "דיינו",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "pIjNxava2z0",
+      "youtubeId": "pIjNxava2z0",
+      "artworkUrl": "https://yt3.googleusercontent.com/k7qU8NmIFolGK20PvIMxE4BiVMf-qzdvb2-EUqXISyFKuGvfLQo_2UAhAxHn0aCmhend71iJP0G6uus=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 982,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "אחד מי יודע",
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "youtubeVideoId": "3_WCx59spVo",
+      "youtubeId": "3_WCx59spVo",
+      "artworkUrl": "https://yt3.googleusercontent.com/UGaBKWUpq_bjZt27Iyj77eG_LTvKcq_vvWb3RlNM4kP4iGvwWwB_y7WuQnGJhdujDWlygmS4Mp71oOMJ=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 981,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    },
+    {
+      "title": "Kerachem Av",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "Zz0cIk4N2Yo",
+      "youtubeId": "Zz0cIk4N2Yo",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 956,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "Maleh Mishalos Libi",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "rG3dFJcp-Y0",
+      "youtubeId": "rG3dFJcp-Y0",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 955,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "Uvruchim Heim",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "xONDTyaQNVc",
+      "youtubeId": "xONDTyaQNVc",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 954,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "Moshe V'dovid",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "RW1dQNtR20w",
+      "youtubeId": "RW1dQNtR20w",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 953,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "Sim Bracha",
+      "artistName": "שרגי גשטטנר",
+      "artistChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "youtubeVideoId": "G67Y2iJnntc",
+      "youtubeId": "G67Y2iJnntc",
+      "artworkUrl": "https://yt3.googleusercontent.com/U4StXtC7UL2KeO86EKGGpxOrDBJ_2vRILsyDdvJpOv6QHntehNOflj6kQ0-J5zaOM9Am-8omybvnkTI=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 952,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    },
+    {
+      "title": "שלום עליכם",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "H1Ry5rn5czo",
+      "youtubeId": "H1Ry5rn5czo",
+      "artworkUrl": "https://yt3.googleusercontent.com/4bQCKgeT_O1n4YRpzIIG_58uJ7oTAshejUmdg4ig1f0mg1lM2dKkp6J_eKxw5FuzJSFuduNA2BitxaIP=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 951,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "מחרוזת פורים",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "JfmjEN3Ctxs",
+      "youtubeId": "JfmjEN3Ctxs",
+      "artworkUrl": "https://yt3.googleusercontent.com/PzOBcuDtqks6fDdjNj81oiY965Omw68imcm17rss3rfOnEZhvNAKGrCvG-s99vXePOGgFO2aRqyV838=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 950,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "עולה עולה",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "WUiSoPNG3ZM",
+      "youtubeId": "WUiSoPNG3ZM",
+      "artworkUrl": "https://yt3.googleusercontent.com/y-8svLiXDJEbKM-d7HfoWg2nz1m2e7dpiq6SFETN5MY67CLEmVlgXjWW7-eMG8eSDriRY52fQs1-VxQ=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 949,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "אין עוד מלבדו",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "I7aQecCCUpg",
+      "youtubeId": "I7aQecCCUpg",
+      "artworkUrl": "https://yt3.googleusercontent.com/oAd1ZiRSRW0YsU48oPHwfaf8jQZeNa5HMcd8VqTu-gb_9il0Pp0qxEmDhLenlkK0kg55shSPpK4x0tqW=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 948,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "מתי תגדל?",
+      "artistName": "קינדרלעך",
+      "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
+      "youtubeVideoId": "OivqS4wtRL8",
+      "youtubeId": "OivqS4wtRL8",
+      "artworkUrl": "https://yt3.googleusercontent.com/j4H2SyXXOp82FMD-_2ErQHmYIqujTaIwpcGZbxxzUGoVfS4PIUkOiEvn4NsZdO5Pj0aKh1a8qSb0gMQZ=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 947,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    },
+    {
+      "title": "Mesikas Hatorah",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "BYevuiqL9QI",
+      "youtubeId": "BYevuiqL9QI",
+      "artworkUrl": "https://yt3.googleusercontent.com/srTKRrhttG6l_75GnIravhbneRC0dwK12YiP-zzOgeI4h69p-YRp5ThfQeFmntMwhyQyzh9uzl2EcBTM7A=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 932,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 1
+    },
+    {
+      "title": "Dovid Hamelech",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "ba9CcSzoCSE",
+      "youtubeId": "ba9CcSzoCSE",
+      "artworkUrl": "https://yt3.googleusercontent.com/HA2SdeJvD_wPBw2NRgqeRlTMGt55PoO4ccsJe3LF-l4BSqnB2dMN54Oqoo-fHqsgQMq-ostPKt2IBYQN=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 931,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 2
+    },
+    {
+      "title": "Anu",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "UWo9lope_z4",
+      "youtubeId": "UWo9lope_z4",
+      "artworkUrl": "https://yt3.googleusercontent.com/HA2SdeJvD_wPBw2NRgqeRlTMGt55PoO4ccsJe3LF-l4BSqnB2dMN54Oqoo-fHqsgQMq-ostPKt2IBYQN=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 930,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "Mesikus Hatorah",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "uDaSeNG1Z_o",
+      "youtubeId": "uDaSeNG1Z_o",
+      "artworkUrl": "https://yt3.googleusercontent.com/N5RnAhmqpgaxEWXSTuKWpM0Llqv46hsBU339vaU6uk_WzePSfiq85Fkn3eIaH2y1HJK3BGHEMVn7yj7o=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 929,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
+      "title": "Veahavascha",
+      "artistName": "ישראל ורדיגר",
+      "artistChannelId": "UC0ltk59L9qeEN2YNBeshuLA",
+      "youtubeVideoId": "ZYYwgxWlVRQ",
+      "youtubeId": "ZYYwgxWlVRQ",
+      "artworkUrl": "https://yt3.googleusercontent.com/HA2SdeJvD_wPBw2NRgqeRlTMGt55PoO4ccsJe3LF-l4BSqnB2dMN54Oqoo-fHqsgQMq-ostPKt2IBYQN=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 928,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 5
+    }
+  ]
 }
