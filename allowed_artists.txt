@@ -8,7 +8,6 @@ Chaim Ghoori | UCpVWl-kIG3gxILLJKiztyeg | alternative
 Chilly Wagschal | UC6GkDMwcnMARhSxpKCSbKhQ | hasidic, pop
 DJ Farbreng | UCfWRyQLkrtC0G3sG001vq8A | hasidic, pop
 Dov Levine | UCZc121O8NJKWS3cVCMLuPEQ | hasidic
-Elnatan Shalom | UCp4dTh0n7oWNbGrTC3SzJXw | israeli
 Gershi Uri | UC_qExX7xRD8cltx_UxzABgg | hasidic
 HBS | UCDG5-JDDZRlzXLRJd3rRAWw | hasidic
 Hershy Bleich | UCrzQywDiC4IhlNePUI-x_rw | hasidic
@@ -64,7 +63,6 @@ Yossi Zucker | UCqkX8m2FUgEOH3H9Yxt1kww | hasidic
 איציק אורלב | UC_aDEnCArFgfqNyxbAgWBlQ | mizrahi, pop
 איציק דדיה | UCT1ljwAJ75zaL3VXNZpPw0g | pop, hasidic
 איציק וינגרטן | UCT3Ujz3093G2VRxAZBHR-lA | hasidic, pop
-איציק כהן | UCOGdpTLaO5A8ZzGnnXOtqsA | mizrahi
 איתי דוד | ECEI135WOJxuWV_IbPmDiFug | pop, mizrahi
 איתן כץ | UCNBG7G28lqHgX8UGYraRrGw | hasidic
 אלחנן אלחדד | UCue8u4IxRpP9t_Gen4xvGCw | hasidic
@@ -79,6 +77,7 @@ Yossi Zucker | UCqkX8m2FUgEOH3H9Yxt1kww | hasidic
 אליהו חייט | UCDrPBGfQiHS7KTe4dsG7HIQ | alternative, hasidic
 אליקם בוטה | UCvJCPQJWlRlJXsEfT7Hfb5Q | mizrahi, pop
 אלירן אלבז | UCH015ay6fdu6oHXowX7P8DQ | mizrahi
+אלנתן שלום | UCp4dTh0n7oWNbGrTC3SzJXw | israeli
 אלעד כהן | UC8F9rBLxMgVq9kxaVKPEtIg | mizrahi
 אלעד שער | UCCl8IPYsSRnui5XbeRfSJqw | mizrahi
 אלעזר אסתרזון | UCcudJNQwHZkPZaE5INoCY2g | hasidic
@@ -94,7 +93,6 @@ Yossi Zucker | UCqkX8m2FUgEOH3H9Yxt1kww | hasidic
 בן סנוף | UC481fJM_qLHPe5YWQlFpNmA | israeli, mizrahi
 בן-ציון שנקר | UCXiIJIaIx3lLxPKf1lJo8CA | hasidic
 בני אלבז | UCK5zGZ-KV1p7feTWUNaOkCA | mizrahi
-בני ברדא | UCULNtt1mo3rhWPEYbpL63nQ | mizrahi
 בנצי קלצקין | UCD_fYx6NZZE7Fk5zD5iUSVA | hasidic
 בנצי שטיין | UCAM_yc1C3RuxfrMpxAUxHOQ | hasidic
 בערי וובר | UC8n1Io5T76kSYeuYVQHzsQA | hasidic, pop
