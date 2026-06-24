@@ -1,3 +1,4 @@
+@'
 import json
 import os
 import re
@@ -35,15 +36,16 @@ ITUNES_COUNTRY = os.getenv("ITUNES_COUNTRY", "IL").strip().upper()
 MAX_ITEMS_PER_ARTIST_CATEGORY = int(os.getenv("MAX_ITEMS_PER_ARTIST_CATEGORY", "8"))
 ARTIST_ALBUMS_LIMIT = int(os.getenv("ARTIST_ALBUMS_LIMIT", "80"))
 
+MAX_POPULAR_ARTISTS = int(os.getenv("MAX_POPULAR_ARTISTS", "20"))
+MAX_POPULAR_SONGS = int(os.getenv("MAX_POPULAR_SONGS", "20"))
+POPULAR_SONGS_PER_ARTIST = int(os.getenv("POPULAR_SONGS_PER_ARTIST", "5"))
+
 YOUTUBE_REQUEST_DELAY_SECONDS = float(os.getenv("YOUTUBE_REQUEST_DELAY_SECONDS", "0.7"))
 
-# Apple documents the iTunes Search API as approximately 20 calls/minute.
-# 4 seconds = at most 15 calls/minute before retries, leaving safety margin.
 ITUNES_REQUEST_DELAY_SECONDS = float(os.getenv("ITUNES_REQUEST_DELAY_SECONDS", "4.0"))
 ITUNES_429_SLEEP_SECONDS = int(os.getenv("ITUNES_429_SLEEP_SECONDS", "90"))
 ITUNES_MAX_RETRIES = int(os.getenv("ITUNES_MAX_RETRIES", "2"))
 
-# 0 means unlimited. For first test runs, use 100-200.
 MAX_ITUNES_LOOKUPS_TOTAL = int(os.getenv("MAX_ITUNES_LOOKUPS_TOTAL", "150"))
 
 MAX_RELEASE_AGE_DAYS = int(os.getenv("MAX_RELEASE_AGE_DAYS", "180"))
@@ -180,7 +182,6 @@ def token_set(text: str | None) -> set[str]:
     return {token for token in cleaned.split() if len(token) >= 2}
 
 
-
 def contains_hebrew(text: str | None) -> bool:
     return bool(re.search(r"[\u0590-\u05ff]", text or ""))
 
@@ -192,16 +193,86 @@ def split_clean_words(text: str | None) -> list[str]:
     return [word.strip() for word in cleaned.split() if word.strip()]
 
 
-def add_likely_latin_vowels(value: str) -> list[str]:
-    """Add a few conservative vowel variants for Hebrew words written without vowels.
+def parse_count(value: Any) -> int:
+    if value is None:
+        return 0
 
-    Hebrew names often omit vowels, while iTunes commonly uses English forms such as
-    Brumer/Bromer/Klein. This function keeps variants limited and generic.
-    """
+    if isinstance(value, int):
+        return max(value, 0)
+
+    if isinstance(value, float):
+        return max(int(value), 0)
+
+    text = str(value).strip().lower()
+    if not text:
+        return 0
+
+    multiplier = 1
+    if re.search(r"\b(k|thousand)\b", text):
+        multiplier = 1_000
+    elif re.search(r"\b(m|million)\b", text):
+        multiplier = 1_000_000
+    elif re.search(r"\b(b|billion)\b", text):
+        multiplier = 1_000_000_000
+
+    match = re.search(r"(\d+(?:[.,]\d+)?)", text.replace(",", "."))
+    if not match:
+        digits = re.sub(r"\D+", "", text)
+        return int(digits) if digits else 0
+
+    return int(float(match.group(1)) * multiplier)
+
+
+def best_thumbnail_url(value: Any) -> str | None:
+    thumbnails = value or []
+
+    if isinstance(thumbnails, dict):
+        thumbnails = thumbnails.get("thumbnails") or thumbnails.get("sources") or []
+
+    if not isinstance(thumbnails, list):
+        return None
+
+    urls: list[tuple[int, str]] = []
+    for thumbnail in thumbnails:
+        if not isinstance(thumbnail, dict):
+            continue
+
+        url = thumbnail.get("url")
+        if not url:
+            continue
+
+        width = int(thumbnail.get("width") or 0)
+        height = int(thumbnail.get("height") or 0)
+        urls.append((width * height, url))
+
+    if not urls:
+        return None
+
+    return sorted(urls, key=lambda item: item[0], reverse=True)[0][1]
+
+
+def extract_artist_stats_text(artist_data: dict[str, Any]) -> str | None:
+    candidates = [
+        artist_data.get("subscribers"),
+        artist_data.get("views"),
+        artist_data.get("monthlyListeners"),
+        artist_data.get("monthlyListenerCount"),
+        artist_data.get("monthlyListenersText"),
+        artist_data.get("description"),
+    ]
+
+    for candidate in candidates:
+        if isinstance(candidate, str) and parse_count(candidate) > 0:
+            return candidate
+
+    return None
+
+
+def add_likely_latin_vowels(value: str) -> list[str]:
     variants = [value]
 
     if value.endswith("mr") and len(value) >= 4:
-        variants.append(value[:-1] + "er")  # brumr -> brumer, bromr -> bromer
+        variants.append(value[:-1] + "er")
 
     if value.endswith("n") and "ii" in value:
         variants.append(value.replace("ii", "ei"))
@@ -224,8 +295,6 @@ def transliterate_hebrew_word(word: str, max_variants: int = 8) -> list[str]:
     if word in HEBREW_NAME_ALIASES:
         return HEBREW_NAME_ALIASES[word][:max_variants]
 
-    # Walk by chunks, not just letters. This handles common Hebrew spelling patterns,
-    # for example: קליין -> klein/kleyin, not only kliin.
     chunk_variants: list[list[str]] = []
     index = 0
     while index < len(word):
@@ -322,7 +391,6 @@ def build_artist_aliases(base_name: str, manual_aliases: list[str]) -> tuple[lis
                 aliases.append(auto_alias)
                 auto_aliases.append(auto_alias)
 
-    # Keep the list small enough to respect iTunes rate limits.
     max_total = 1 + len(manual_aliases) + MAX_AUTO_ALIASES_PER_ARTIST
     return aliases[:max_total], auto_aliases[:MAX_AUTO_ALIASES_PER_ARTIST]
 
@@ -334,7 +402,6 @@ def latin_phonetic_token(token: str) -> str:
     token = token.replace("ph", "f")
     token = token.replace("qu", "k")
     token = token.replace("ck", "k")
-    # Keep consonants. This makes brumer/bromer/brumr close without accepting a title mismatch.
     token = re.sub(r"[aeiouy]+", "", token)
     return token
 
@@ -351,12 +418,6 @@ def phonetic_token_set(text: str | None) -> set[str]:
 
 
 def rapid_fuzz_similarity_score(expected: str, candidate: str) -> int:
-    """Return a conservative 0-60 similarity score using RapidFuzz.
-
-    RapidFuzz is used only as one signal inside the total match score. It does not
-    approve a result by itself; artist + title + item type still must pass
-    MIN_MATCH_SCORE.
-    """
     if not ENABLE_RAPIDFUZZ or not RAPIDFUZZ_AVAILABLE or not expected or not candidate:
         return 0
 
@@ -373,7 +434,6 @@ def rapid_fuzz_similarity_score(expected: str, candidate: str) -> int:
         fuzz.token_set_ratio(expected_text, candidate_text),
     )
 
-    # Map 0-100 to the same 0-60 band used by title scoring. Keep this conservative.
     if raw_score >= 96:
         return 60
     if raw_score >= 90:
@@ -441,8 +501,6 @@ def text_similarity_score(expected: str, candidate: str) -> int:
         rapid_fuzz_similarity_score(expected, candidate),
     ]
 
-    # If either side is Hebrew, compare the candidate against generated Latin aliases too.
-    # This is useful for pairs like רחמים/Rachamim or קובי ברומר/Kobi Brumer.
     if contains_hebrew(expected):
         for alias in auto_transliteration_aliases(expected, max_aliases=8):
             scores.append(base_text_similarity_score(alias, candidate))
@@ -496,7 +554,6 @@ def token_overlap_score(expected_alias: str, candidate_name: str) -> int:
     if ratio >= 0.50 and len(expected_tokens) >= 2:
         return 20
 
-    # A single-token match like "Kobi" is weak when the expected artist has a full name.
     if overlap == 1 and len(expected_tokens) >= 2:
         return 10
 
@@ -519,7 +576,6 @@ def artist_match_score(artist_aliases: list[str], candidate_artist_name: str) ->
             best = max(best, 35)
             continue
 
-        # Containment is strong only when the alias is not just a short first name.
         alias_tokens = token_set(alias)
         if len(alias_tokens) >= 2 and (alias_n in candidate_n or candidate_n in alias_n):
             best = max(best, 28)
@@ -558,9 +614,6 @@ def candidate_match_score(
     artist_gate_passed = artist_score >= MIN_ARTIST_MATCH_SCORE
     title_gate_passed = title_score >= MIN_TITLE_MATCH_SCORE
 
-    # Safety gate: a perfect title match must not approve a different artist.
-    # Example: expected Kobi Brumer must not pass only because iTunes returned Kobi Peretz
-    # with the same title. Weak candidates remain visible in home_feed_report.json.
     if not artist_gate_passed or not title_gate_passed:
         score = min(score, MIN_MATCH_SCORE - 1)
 
@@ -678,12 +731,39 @@ def iTunes_result_type(candidate: dict[str, Any], expected_type: str) -> str:
         return "SINGLE"
 
     if candidate.get("wrapperType") == "collection":
-        # If the source shelf was singles, keep it a single even if iTunes wraps it as collection.
         if expected_type == "SINGLE":
             return "SINGLE"
         return "ALBUM"
 
     return expected_type
+
+
+def read_youtube_artist_data(
+    ytmusic: YTMusic,
+    artist: dict[str, str],
+    report: dict[str, Any],
+) -> dict[str, Any] | None:
+    channel_id = artist["channelId"]
+    artist_name = artist["name"]
+
+    try:
+        artist_data = ytmusic.get_artist(channel_id)
+        report["artistNetworkReads"] += 1
+        sleep_youtube()
+        return artist_data if isinstance(artist_data, dict) else None
+    except Exception as exc:
+        report["artistReadErrors"] += 1
+        report["warnings"].append(
+            {
+                "type": "artist_read_failed",
+                "artistName": artist_name,
+                "artistChannelId": channel_id,
+                "message": str(exc).splitlines()[0][:300],
+            }
+        )
+        print(f"Failed to read YouTube artist: {artist_name}")
+        sleep_youtube()
+        return None
 
 
 def get_artist_category_items(
@@ -729,28 +809,10 @@ def get_artist_category_items(
 def get_youtube_artist_items(
     ytmusic: YTMusic,
     artist: dict[str, str],
+    artist_data: dict[str, Any],
     report: dict[str, Any],
 ) -> list[dict[str, Any]]:
     channel_id = artist["channelId"]
-    artist_name = artist["name"]
-
-    try:
-        artist_data = ytmusic.get_artist(channel_id)
-        report["artistNetworkReads"] += 1
-        sleep_youtube()
-    except Exception as exc:
-        report["artistReadErrors"] += 1
-        report["warnings"].append(
-            {
-                "type": "artist_read_failed",
-                "artistName": artist_name,
-                "artistChannelId": channel_id,
-                "message": str(exc).splitlines()[0][:300],
-            }
-        )
-        print(f"Failed to read YouTube artist: {artist_name}")
-        sleep_youtube()
-        return []
 
     items: list[dict[str, Any]] = []
 
@@ -840,7 +902,7 @@ def first_youtube_track_video_id(
 def cache_key_for_search(aliases: list[str], title: str, expected_type: str) -> str:
     return json.dumps(
         {
-            "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v3",
+            "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
             "aliases": aliases[:MAX_SEARCH_ALIASES_PER_ITEM],
             "title": title,
             "expectedType": expected_type,
@@ -1042,6 +1104,65 @@ def build_feed_item(
     }
 
 
+def build_popular_artist_item(artist: dict[str, str], artist_data: dict[str, Any]) -> dict[str, Any]:
+    stats_text = extract_artist_stats_text(artist_data)
+    monthly_listeners = parse_count(stats_text)
+
+    return {
+        "name": artist_data.get("name") or artist_data.get("artist") or artist["name"],
+        "channelId": artist["channelId"],
+        "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
+        "monthlyListenersText": stats_text,
+        "monthlyListeners": monthly_listeners,
+        "source": "youtube_music_artist_page",
+    }
+
+
+def build_popular_song_items(artist: dict[str, str], artist_data: dict[str, Any]) -> list[dict[str, Any]]:
+    songs_section = artist_data.get("songs") or {}
+    results = songs_section.get("results") or []
+
+    if not isinstance(results, list):
+        return []
+
+    artist_score = parse_count(extract_artist_stats_text(artist_data))
+    if artist_score <= 0:
+        artist_score = 1
+
+    items: list[dict[str, Any]] = []
+    for index, item in enumerate(results[:POPULAR_SONGS_PER_ARTIST], start=1):
+        if not isinstance(item, dict):
+            continue
+
+        title = item.get("title")
+        video_id = item.get("videoId")
+        if not title or not video_id:
+            continue
+
+        thumbnails = item.get("thumbnails") or item.get("thumbnail")
+        monthly_plays_text = item.get("views") or item.get("playCount") or item.get("plays")
+        monthly_plays = parse_count(monthly_plays_text)
+
+        rank_score = monthly_plays if monthly_plays > 0 else max(artist_score - index, 1)
+
+        items.append(
+            {
+                "title": title,
+                "artistName": artist["name"],
+                "artistChannelId": artist["channelId"],
+                "youtubeVideoId": video_id,
+                "youtubeId": video_id,
+                "artworkUrl": best_thumbnail_url(thumbnails),
+                "monthlyPlaysText": monthly_plays_text,
+                "monthlyPlays": rank_score,
+                "source": "youtube_music_artist_songs",
+                "sourceRank": index,
+            }
+        )
+
+    return items
+
+
 def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     unique: dict[str, dict[str, Any]] = {}
 
@@ -1067,6 +1188,54 @@ def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(unique.values())
 
 
+def dedupe_popular_artists(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    unique: dict[str, dict[str, Any]] = {}
+
+    for item in items:
+        channel_id = item.get("channelId")
+        if not channel_id:
+            continue
+
+        existing = unique.get(channel_id)
+        if not existing or item.get("monthlyListeners", 0) > existing.get("monthlyListeners", 0):
+            unique[channel_id] = item
+
+    return sorted(
+        unique.values(),
+        key=lambda item: (
+            item.get("monthlyListeners", 0),
+            item.get("name", ""),
+        ),
+        reverse=True,
+    )[:MAX_POPULAR_ARTISTS]
+
+
+def dedupe_popular_songs(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    unique: dict[str, dict[str, Any]] = {}
+
+    for item in items:
+        key = item.get("youtubeVideoId") or "|".join(
+            [
+                item.get("artistChannelId", ""),
+                normalize(item.get("title", "")),
+            ]
+        )
+
+        existing = unique.get(key)
+        if not existing or item.get("monthlyPlays", 0) > existing.get("monthlyPlays", 0):
+            unique[key] = item
+
+    return sorted(
+        unique.values(),
+        key=lambda item: (
+            item.get("monthlyPlays", 0),
+            item.get("artistName", ""),
+            item.get("title", ""),
+        ),
+        reverse=True,
+    )[:MAX_POPULAR_SONGS]
+
+
 def sort_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(
         items,
@@ -1084,11 +1253,14 @@ def initial_report(allowed_artists_count: int) -> dict[str, Any]:
     return {
         "generatedAt": utc_now_iso(),
         "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
-        "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v3",
+        "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
         "allowedArtistsCount": allowed_artists_count,
         "itunesCountry": ITUNES_COUNTRY,
         "maxItemsPerArtistCategory": MAX_ITEMS_PER_ARTIST_CATEGORY,
         "artistAlbumsLimit": ARTIST_ALBUMS_LIMIT,
+        "maxPopularArtists": MAX_POPULAR_ARTISTS,
+        "maxPopularSongs": MAX_POPULAR_SONGS,
+        "popularSongsPerArtist": POPULAR_SONGS_PER_ARTIST,
         "maxReleaseAgeDays": MAX_RELEASE_AGE_DAYS,
         "minReleaseDate": MIN_RELEASE_DATE or None,
         "minMatchScore": MIN_MATCH_SCORE,
@@ -1109,6 +1281,9 @@ def initial_report(allowed_artists_count: int) -> dict[str, Any]:
         "youtubeExpandErrors": 0,
         "youtubeAlbumSourceItems": 0,
         "youtubeSingleSourceItems": 0,
+        "youtubePopularSongSourceItems": 0,
+        "popularArtistsGenerated": 0,
+        "popularSongsGenerated": 0,
         "youtubeAlbumDrilldownReads": 0,
         "youtubeAlbumDrilldownErrors": 0,
         "itunesNetworkReads": 0,
@@ -1155,6 +1330,8 @@ def main() -> None:
 
     ytmusic = YTMusic()
     feed_items: list[dict[str, Any]] = []
+    popular_artist_items: list[dict[str, Any]] = []
+    popular_song_items: list[dict[str, Any]] = []
 
     for index, artist in enumerate(artists, start=1):
         config = artist_config(artist, sources)
@@ -1182,9 +1359,24 @@ def main() -> None:
 
         print(f"[{index}/{len(artists)}] {artist['name']} | aliases: {len(aliases)}")
 
+        artist_data = read_youtube_artist_data(
+            ytmusic=ytmusic,
+            artist=artist,
+            report=report,
+        )
+
+        if not artist_data:
+            continue
+
+        popular_artist_items.append(build_popular_artist_item(artist, artist_data))
+        artist_popular_songs = build_popular_song_items(artist, artist_data)
+        popular_song_items.extend(artist_popular_songs)
+        report["youtubePopularSongSourceItems"] += len(artist_popular_songs)
+
         youtube_items = get_youtube_artist_items(
             ytmusic=ytmusic,
             artist=artist,
+            artist_data=artist_data,
             report=report,
         )
 
@@ -1244,21 +1436,29 @@ def main() -> None:
 
     report["itemsGeneratedBeforeDedupe"] = len(feed_items)
     feed_items = sort_items(dedupe_items(feed_items))
+    popular_artist_items = dedupe_popular_artists(popular_artist_items)
+    popular_song_items = dedupe_popular_songs(popular_song_items)
+    report["popularArtistsGenerated"] = len(popular_artist_items)
+    report["popularSongsGenerated"] = len(popular_song_items)
     report["itemsGeneratedAfterDedupe"] = len(feed_items)
     report["albumsGeneratedAfterDedupe"] = sum(1 for item in feed_items if item.get("type") == "ALBUM")
     report["singlesGeneratedAfterDedupe"] = sum(1 for item in feed_items if item.get("type") == "SINGLE")
     report["completedAt"] = utc_now_iso()
 
     feed = {
-        "version": 7,
+        "version": 8,
         "generatedAt": report["generatedAt"],
-        "source": "itunes",
-        "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration",
+        "source": "itunes_youtube_music",
+        "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings",
         "allowedArtistsCount": len(artists),
         "itemsCount": len(feed_items),
         "albumsCount": report["albumsGeneratedAfterDedupe"],
         "singlesCount": report["singlesGeneratedAfterDedupe"],
+        "popularArtistsCount": len(popular_artist_items),
+        "popularSongsCount": len(popular_song_items),
         "items": feed_items,
+        "popularArtists": popular_artist_items,
+        "popularSongs": popular_song_items,
     }
 
     write_json_file(OUTPUT_FILE, feed)
@@ -1269,6 +1469,8 @@ def main() -> None:
     print(f"Generated {OUTPUT_FILE} with {len(feed_items)} items.")
     print(f"Albums: {report['albumsGeneratedAfterDedupe']}")
     print(f"Singles: {report['singlesGeneratedAfterDedupe']}")
+    print(f"Popular artists: {report['popularArtistsGenerated']}")
+    print(f"Popular songs: {report['popularSongsGenerated']}")
     print(f"iTunes network reads: {report['itunesNetworkReads']}")
     print(f"iTunes cache hits: {report['itunesCacheHits']}")
     print(f"iTunes 429 count: {report['itunes429Count']}")
@@ -1276,3 +1478,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+'@ | Set-Content -Path "scripts/generate_home_feed.py" -Encoding UTF8
