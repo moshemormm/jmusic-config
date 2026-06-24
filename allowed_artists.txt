@@ -1,10 +1,10 @@
 A.K.A. Pella | UCZFAzTfD7_WcgDVHwfmGrdw | hasidic, pop
 AFIkoMAN | UCihwy53fZm-Xc8gZvHBxHSw | alternative
-Akiva Nachman | UCSVYEizHEvWD06KQULD9ELA | israeli, alternative
+Akiva Nachman | UCSVYEizHEvWD06KQULD9ELA | alternative
 Alex Clare | UCZa7crFd_TP-vDn4fUdzqTw | alternative, pop
 Avraham Rosenblum | UCTp9T7uKu3v4JDCES-Og5iQ | alternative
 Chaim Fogelman | UC4-CSThYr3JDncwWM7qX4ew | hasidic
-Chaim Ghoori | UCpVWl-kIG3gxILLJKiztyeg | israeli, alternative
+Chaim Ghoori | UCpVWl-kIG3gxILLJKiztyeg | alternative
 Chilly Wagschal | UC6GkDMwcnMARhSxpKCSbKhQ | hasidic, pop
 DJ Farbreng | UCfWRyQLkrtC0G3sG001vq8A | hasidic, pop
 Dov Levine | UCZc121O8NJKWS3cVCMLuPEQ | hasidic
@@ -17,7 +17,7 @@ MUNCH | UCionG5jvTEAeh8l_H3ldlgw | alternative
 Mamish | UCs2lQOTJFcd1SCL9w7iyW8Q | hasidic, alternative
 Matt Dubb | UCbyD0Jnm_-Wt2b0t1l21p6A | pop, hasidic
 Mendy J | UCYCHfGjcg7sUfI9vTGnUmLA | pop, hasidic
-Mendy Portnoy | UCffY4_Nsaqs8KTEt6LtQjNg | israeli, alternative
+Mendy Portnoy | UCffY4_Nsaqs8KTEt6LtQjNg | alternative
 Moshe Lichtenstein | UC1a0XPL4SqofrfTsoZ7CRhQ | hasidic
 Moshe Yess | UCLf-g5NzfBkiDxPOrMcWtRA | alternative, hasidic
 Nachas | UCFaqeWT7ZBJsdeOvCWvYhfA | pop, hasidic
@@ -31,7 +31,7 @@ Yechiel Giniger | UC6J2dA6gWquS57eE6UlE7OQ | hasidic
 Yechiel Schron | UCqNqG3iDaJEuNshIG73f9cA | hasidic
 Yidi Bialostozky | UCsOh9VaqwlAyjoS7cU1nxdw | hasidic
 Yossi Lauber | UCvsFJtayl0mj3sv3X7qecuQ | hasidic
-Yossi Rodal | UCbAbuYNe7DKbCk8W27XEOew | israeli, alternative
+Yossi Rodal | UCbAbuYNe7DKbCk8W27XEOew | alternative
 Yossi Zucker | UCqkX8m2FUgEOH3H9Yxt1kww | hasidic
 אבי אילסון | UClhlH-uzEKhMTlJQWbD2nrA | pop, hasidic
 אבי בן ישראל | UCDE5VulSKvYf4oyZl_odzXg | mizrahi
