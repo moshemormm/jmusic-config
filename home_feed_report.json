@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-24T03:57:24.062469+00:00",
+  "generatedAt": "2026-06-25T05:55:25.497061+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
-  "allowedArtistsCount": 289,
+  "allowedArtistsCount": 287,
   "itunesCountry": "IL",
   "maxItemsPerArtistCategory": 4,
   "artistAlbumsLimit": 50,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 287,
+  "artistNetworkReads": 285,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 495,
-  "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1190,
+  "youtubeAlbumSourceItems": 499,
+  "youtubeSingleSourceItems": 862,
+  "youtubePopularSongSourceItems": 1194,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
-  "artistGenreArtistsGenerated": 396,
+  "artistGenreArtistsGenerated": 390,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -41,22 +41,22 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 3,
+  "youtubeAlbumDrilldownReads": 17,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 14,
+  "itunesCacheHits": 312,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1041,
+  "itunesLookupsSkippedByLimit": 871,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1063,
-  "itemsSkippedWeakItunesCandidate": 10,
+  "itemsSkippedNoItunesCandidate": 924,
+  "itemsSkippedWeakItunesCandidate": 14,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 215,
-  "itemsGeneratedBeforeDedupe": 71,
-  "itemsGeneratedAfterDedupe": 71,
-  "albumsGeneratedAfterDedupe": 9,
-  "singlesGeneratedAfterDedupe": 62,
+  "itemsSkippedOldRelease": 320,
+  "itemsGeneratedBeforeDedupe": 103,
+  "itemsGeneratedAfterDedupe": 103,
+  "albumsGeneratedAfterDedupe": 13,
+  "singlesGeneratedAfterDedupe": 90,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -382,7 +382,7 @@
     },
     {
       "artistName": "איציק אורלב",
-      "youtubeChannelId": "UC_aDEnCArFgfqNyxbAgWBlQ",
+      "youtubeChannelId": "UC0x-EPyzVsBm5hZiQDzM6QQ",
       "autoAliases": [
         "orlb",
         "orlv",
@@ -394,7 +394,7 @@
     },
     {
       "artistName": "איציק דדיה",
-      "youtubeChannelId": "UCT1ljwAJ75zaL3VXNZpPw0g",
+      "youtubeChannelId": "UCuUcHnYY30pDCJ-wNjw20gA",
       "autoAliases": [
         "ddih",
         "ddi",
@@ -410,17 +410,6 @@
         "oingrtn",
         "uyngrtn",
         "uingrtn"
-      ]
-    },
-    {
-      "artistName": "איציק כהן",
-      "youtubeChannelId": "UCOGdpTLaO5A8ZzGnnXOtqsA",
-      "autoAliases": [
-        "chhn",
-        "chn",
-        "khn",
-        "kn",
-        "khhn"
       ]
     },
     {
@@ -707,20 +696,6 @@
         "bny",
         "vni",
         "vny"
-      ]
-    },
-    {
-      "artistName": "בני ברדא",
-      "youtubeChannelId": "UCULNtt1mo3rhWPEYbpL63nQ",
-      "autoAliases": [
-        "bni brd",
-        "bni vrd",
-        "bny brd",
-        "bny vrd",
-        "vni brd",
-        "vni vrd",
-        "vny brd",
-        "vny vrd"
       ]
     },
     {
@@ -3661,28 +3636,132 @@
       }
     },
     {
-      "artistName": "איציק כהן",
-      "artistChannelId": "UCOGdpTLaO5A8ZzGnnXOtqsA",
+      "artistName": "אלי מרקוס",
+      "artistChannelId": "UCY5qvQNoawFipLxi_KZwFUg",
       "aliasesUsed": [
-        "איציק כהן",
-        "Itzik Cohen",
+        "אלי מרקוס",
+        "Eli Marcus",
+        "eli mrkos",
+        "eli mrkus",
+        "eli mrkvs",
+        "eli mrkws"
+      ],
+      "title": "Malachei Elyon",
+      "expectedType": "SINGLE",
+      "bestScore": 73,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "מלאכי עליון - Single",
+        "candidateArtist": "Eli Marcus",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלי שוובל",
+      "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+      "aliasesUsed": [
+        "אלי שוובל",
+        "Eli Shovel",
+        "eli shoobl",
+        "eli shoovl",
+        "eli shoubl",
+        "eli shouvl"
+      ],
+      "title": "Hearts Mind",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Descendants: The Rise of Red (Original Soundtrack)",
+        "candidateArtist": "Kylie Cantrall, Descendants – Cast, Rita Ora & Malia Baker",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלי שוובל",
+      "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+      "aliasesUsed": [
+        "אלי שוובל",
+        "Eli Shovel",
+        "eli shoobl",
+        "eli shoovl",
+        "eli shoubl",
+        "eli shouvl"
+      ],
+      "title": "Journey At Sea (Acapella)",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Life of a Showgirl (Track by Track Version)",
+        "candidateArtist": "Taylor Swift",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלעד כהן",
+      "artistChannelId": "UC8F9rBLxMgVq9kxaVKPEtIg",
+      "aliasesUsed": [
+        "אלעד כהן",
+        "Elad Cohen",
         "chhn",
         "chn",
         "khn",
         "kn"
       ],
-      "title": "הכל בסדר",
+      "title": "כח השמחה",
       "expectedType": "SINGLE",
-      "bestScore": 24,
+      "bestScore": 41,
       "details": {
         "titleScore": 0,
-        "artistScore": 24,
+        "artistScore": 35,
         "artistGatePassed": true,
         "titleGatePassed": false,
-        "candidateTitle": "אבא מחפש אותך - Single",
-        "candidateArtist": "Itzik Krayef & Sharif",
-        "wrapperType": "collection",
-        "kind": null,
+        "candidateTitle": "The Power of Happiness - Single",
+        "candidateArtist": "Elad Cohen",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "בערי וובר",
+      "artistChannelId": "UC8n1Io5T76kSYeuYVQHzsQA",
+      "aliasesUsed": [
+        "בערי וובר",
+        "Weber cities",
+        "beri oobr",
+        "beri oovr",
+        "beri oubr",
+        "beri ouvr"
+      ],
+      "title": "הלילה הזה (רמיקס)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "לחנים שבורים",
+        "candidateArtist": "Omer Adam",
+        "wrapperType": "track",
+        "kind": "song",
         "rapidfuzzEnabled": true
       }
     }
@@ -3692,7 +3771,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwipqK-HgJ-VAxUDk_8EHRzICIHKAQQznDAQ', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwie0pOw2qGVAxXVwsIEHdGaHaTKAQS7JPFx', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3701,5 +3780,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-06-24T05:14:01.636524+00:00"
+  "completedAt": "2026-06-25T07:11:52.578337+00:00"
 }
