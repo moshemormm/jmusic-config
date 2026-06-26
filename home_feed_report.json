@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T05:55:25.497061+00:00",
+  "generatedAt": "2026-06-26T04:57:55.391050+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 287,
@@ -23,13 +23,13 @@
   "itunesRequestDelaySeconds": 4.0,
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
-  "maxItunesLookupsTotal": 1000,
+  "maxItunesLookupsTotal": 3000,
   "artistNetworkReads": 285,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 499,
-  "youtubeSingleSourceItems": 862,
-  "youtubePopularSongSourceItems": 1194,
+  "youtubeSingleSourceItems": 863,
+  "youtubePopularSongSourceItems": 1189,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
@@ -41,22 +41,22 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 17,
+  "youtubeAlbumDrilldownReads": 63,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 1000,
-  "itunesCacheHits": 312,
+  "itunesNetworkReads": 3000,
+  "itunesCacheHits": 493,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 871,
+  "itunesLookupsSkippedByLimit": 350,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 924,
-  "itemsSkippedWeakItunesCandidate": 14,
+  "itemsSkippedNoItunesCandidate": 546,
+  "itemsSkippedWeakItunesCandidate": 32,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 320,
-  "itemsGeneratedBeforeDedupe": 103,
-  "itemsGeneratedAfterDedupe": 103,
-  "albumsGeneratedAfterDedupe": 13,
-  "singlesGeneratedAfterDedupe": 90,
+  "itemsSkippedOldRelease": 614,
+  "itemsGeneratedBeforeDedupe": 170,
+  "itemsGeneratedAfterDedupe": 168,
+  "albumsGeneratedAfterDedupe": 15,
+  "singlesGeneratedAfterDedupe": 153,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3764,6 +3764,474 @@
         "kind": "song",
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "aliasesUsed": [
+        "גיל ישראלוב",
+        "Gil Israelov",
+        "gil ishrlob",
+        "gil ishrlov",
+        "gil ishrlub",
+        "gil ishrluv"
+      ],
+      "title": "אחד מי יודע",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "חברותא תשפ״ה - EP",
+        "candidateArtist": "חברותא, David Taub & Moshe Schneider",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "דודי פלדמן",
+      "artistChannelId": "UCQA6kbFsl6DVN6CLsZ40PBA",
+      "aliasesUsed": [
+        "דודי פלדמן",
+        "Dodi Feldman",
+        "dudi pldmn",
+        "dudi fldmn",
+        "dudy pldmn",
+        "dudy fldmn"
+      ],
+      "title": "ועמך כולם צדיקים",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The World to Come - Single",
+        "candidateArtist": "Zusha",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "היום השמיני",
+      "artistChannelId": "UCw1oCoEMF_o65tpDHItwwUQ",
+      "aliasesUsed": [
+        "היום השמיני",
+        "the eighth day",
+        "hiom hshmini",
+        "hiom hshminy",
+        "hiom hshmyni",
+        "hiom hshmyny"
+      ],
+      "title": "Lucky Abba Mashup",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 16,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Lucky Abba Mashup - Single",
+        "candidateArtist": "Freilach Band, Mordechai Shapiro & 8th Day",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "חיים דוד ברסון",
+      "artistChannelId": "UCDFgB4GepvQXWyUg0TMJEaw",
+      "aliasesUsed": [
+        "חיים דוד ברסון",
+        "Haim David Barson",
+        "chaim david brson",
+        "chaim david brsun",
+        "chaim david brsvn",
+        "chaim david brswn"
+      ],
+      "title": "Mi Li",
+      "expectedType": "SINGLE",
+      "bestScore": 22,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 16,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "BRINGING BACK THE SUNSHINE",
+        "candidateArtist": "Blake Shelton",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "טל ועקנין",
+      "artistChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+      "aliasesUsed": [
+        "טל ועקנין",
+        "Tal and Aknin",
+        "tl oknin",
+        "tl oknyn",
+        "tl ocnin",
+        "tl ocnyn"
+      ],
+      "title": "פאפאוטה - Papaoutai",
+      "expectedType": "SINGLE",
+      "bestScore": 58,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "פאפאוטה - Single",
+        "candidateArtist": "Tal Vaknin",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יהודה גרין",
+      "artistChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
+      "aliasesUsed": [
+        "יהודה גרין",
+        "Yehuda Green",
+        "yehuda grin",
+        "yehuda gryn",
+        "judah grin",
+        "judah gryn"
+      ],
+      "title": "Land of Your Soul",
+      "expectedType": "ALBUM",
+      "bestScore": 41,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "והשב כהנים",
+        "candidateArtist": "Yehuda Green",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יוני זי",
+      "artistChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
+      "aliasesUsed": [
+        "יוני זי",
+        "Yoni Z",
+        "ioni zi",
+        "ioni zy",
+        "iony zi",
+        "iony zy"
+      ],
+      "title": "Within Your Walls 2.0",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Within Your Walls 2.0 (feat. Yoni Z) - Single",
+        "candidateArtist": "Aryeh Kunstler",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יחיאל ליכטיגר",
+      "artistChannelId": "UCH4C0PxbBCg8UvVesbalhBg",
+      "aliasesUsed": [
+        "יחיאל ליכטיגר",
+        "Yehiel Lichtiger",
+        "ichil lichtigr",
+        "ichil lichtygr",
+        "ichil liktigr",
+        "ichil liktygr"
+      ],
+      "title": "כך נבראתי (feat. ישראל גולדרייך)",
+      "expectedType": "SINGLE",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "כך נבראתי - Single",
+        "candidateArtist": "Yechiel Lichtiger & ישראל גולדרייך",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת ישיבה בויס",
+      "artistChannelId": "UCGZBtS53Yqr3pB11RGkPCNA",
+      "aliasesUsed": [
+        "להקת ישיבה בויס",
+        "Yeshiva Boys band",
+        "lhkt ishibh boys",
+        "lhkt ishibh bois",
+        "lhkt ishibh buys",
+        "lhkt ishibh buis"
+      ],
+      "title": "Mi X6",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "I Should Probably Go To Bed - Single",
+        "candidateArtist": "Dan + Shay",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת ישיבה בויס",
+      "artistChannelId": "UCGZBtS53Yqr3pB11RGkPCNA",
+      "aliasesUsed": [
+        "להקת ישיבה בויס",
+        "Yeshiva Boys band",
+        "lhkt ishibh boys",
+        "lhkt ishibh bois",
+        "lhkt ishibh buys",
+        "lhkt ishibh buis"
+      ],
+      "title": "Tov",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "A Memorial Kumzitz (Live)",
+        "candidateArtist": "Aish Yeshiva Band",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת מושב",
+      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ],
+      "title": "Malachim",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "המיטב 1998-2006",
+        "candidateArtist": "Moshav",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת מושב",
+      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ],
+      "title": "World on Fire (feat. Matisyahu)",
+      "expectedType": "SINGLE",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "World on Fire",
+        "candidateArtist": "Stick Figure",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Tomorrow Never Comes",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Take Care (Deluxe Version)",
+        "candidateArtist": "Drake",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Lazer Lloyd",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "$ome $exy $ongs 4 U",
+        "candidateArtist": "PARTYNEXTDOOR & Drake",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Help is on Its Way",
+      "expectedType": "SINGLE",
+      "bestScore": 18,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 18,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Peace Is The Mission",
+        "candidateArtist": "Major Lazer",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Tomorrow Never Comes",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "$ome $exy $ongs 4 U",
+        "candidateArtist": "PARTYNEXTDOOR, Drake & Chino Pacas",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מנדי וולד",
+      "artistChannelId": "UCqYGK7-bY_nvTHfJsjFggOQ",
+      "aliasesUsed": [
+        "מנדי וולד",
+        "Mandy Wald",
+        "mndi oold",
+        "mndi ould",
+        "mndi ovld",
+        "mndi owld"
+      ],
+      "title": "L'chaim!",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Fate of Ophelia (The Chainsmokers Remix) - Single",
+        "candidateArtist": "Taylor Swift & The Chainsmokers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי לונדון",
+      "artistChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
+      "aliasesUsed": [
+        "מקהלת פרחי לונדון",
+        "London Flower Choir",
+        "mkhlt prchi london",
+        "mkhlt prchi londun",
+        "mkhlt prchi londvn",
+        "mkhlt prchi londwn"
+      ],
+      "title": "The London School Of Jewish Song - אנעים זמירות",
+      "expectedType": "ALBUM",
+      "bestScore": 16,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 10,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "אנעים זמירות (feat. Shimon Craimer, Lionel Rosenfeld & Jonnny Turgel) [The Commemorative 25th Anniversary Album]",
+        "candidateArtist": "Shabbaton Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -3771,7 +4239,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwie0pOw2qGVAxXVwsIEHdGaHaTKAQS7JPFx', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjA28axj6SVAxX1ksIBHWT7CA_KAQS108BB', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3780,5 +4248,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-06-25T07:11:52.578337+00:00"
+  "completedAt": "2026-06-26T08:34:00.085568+00:00"
 }
