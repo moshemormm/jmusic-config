@@ -9,7 +9,7 @@ on:
         default: "true"
 
 concurrency:
-  group: enrich-artist-aliases-main
+  group: jmusic-config-main-writes
   cancel-in-progress: false
 
 permissions:
@@ -59,7 +59,13 @@ jobs:
           git commit -m "Enrich artist aliases"
 
           for i in 1 2 3; do
-            git pull --rebase origin main && git push origin main && exit 0
+            git fetch origin main
+
+            if git rebase -X theirs origin/main && git push origin HEAD:main; then
+              exit 0
+            fi
+
+            git rebase --abort || true
             echo "Push failed, retrying..."
             sleep 5
           done
