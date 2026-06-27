@@ -77,9 +77,10 @@ GENRE_TITLES = {
     "mizrahi": "מוזיקה מזרחית - ים תיכונית",
     "pop": "מוזיקת פופ",
     "alternative": "מוזיקה אלטרנטיבית",
+    "american_pop": "מוזיקת פופ אמריקאי",
 }
 
-GENRE_ORDER = ["hasidic", "israeli", "mizrahi", "pop", "alternative"]
+GENRE_ORDER = ["hasidic", "israeli", "mizrahi", "pop", "alternative", "american_pop"]
 
 
 
@@ -214,25 +215,46 @@ def parse_count(value: Any) -> int:
     if isinstance(value, float):
         return max(int(value), 0)
 
-    text = str(value).strip().lower()
+    text = unicodedata.normalize("NFKC", str(value)).strip().lower()
     if not text:
         return 0
 
+    text = text.replace("\u200e", "").replace("\u200f", "")
+    text = text.replace("٬", ",").replace("٫", ".")
+
     multiplier = 1
-    if re.search(r"\b(k|thousand)\b", text):
+    if re.search(r"(?:\d\s*k\b|\bk\b|thousand|אלף)", text):
         multiplier = 1_000
-    elif re.search(r"\b(m|million)\b", text):
+    elif re.search(r"(?:\d\s*m\b|\bm\b|million|מיליון|מליון)", text):
         multiplier = 1_000_000
-    elif re.search(r"\b(b|billion)\b", text):
+    elif re.search(r"(?:\d\s*b\b|\bb\b|billion|מיליארד)", text):
         multiplier = 1_000_000_000
 
-    match = re.search(r"(\d+(?:[.,]\d+)?)", text.replace(",", "."))
+    match = re.search(r"(\d+(?:[.,]\d+)?)\s*[kmb]?", text)
     if not match:
         digits = re.sub(r"\D+", "", text)
         return int(digits) if digits else 0
 
-    return int(float(match.group(1)) * multiplier)
+    number_text = match.group(1)
 
+    if "," in number_text and "." in number_text:
+        if number_text.rfind(",") > number_text.rfind("."):
+            number_text = number_text.replace(".", "").replace(",", ".")
+        else:
+            number_text = number_text.replace(",", "")
+    elif "," in number_text:
+        if re.fullmatch(r"\d{1,3}(,\d{3})+", number_text):
+            number_text = number_text.replace(",", "")
+        else:
+            number_text = number_text.replace(",", ".")
+    elif "." in number_text and re.fullmatch(r"\d{1,3}(\.\d{3})+", number_text):
+        number_text = number_text.replace(".", "")
+
+    try:
+        return max(int(float(number_text) * multiplier), 0)
+    except ValueError:
+        digits = re.sub(r"\D+", "", text)
+        return int(digits) if digits else 0
 
 def best_thumbnail_url(value: Any) -> str | None:
     thumbnails = value or []
@@ -1007,7 +1029,7 @@ def first_youtube_track_video_id(
 def cache_key_for_search(aliases: list[str], title: str, expected_type: str) -> str:
     return json.dumps(
         {
-            "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
+            "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
             "aliases": aliases[:MAX_SEARCH_ALIASES_PER_ITEM],
             "title": title,
             "expectedType": expected_type,
@@ -1025,7 +1047,24 @@ def itunes_request(
     url = "https://itunes.apple.com/search"
 
     for attempt in range(ITUNES_MAX_RETRIES + 1):
-        response = requests.get(url, params=params, timeout=30)
+        try:
+            response = requests.get(url, params=params, timeout=30)
+        except requests.RequestException as exc:
+            report["itunesRequestErrors"] += 1
+            report["warnings"].append(
+                {
+                    "type": "itunes_network_failed",
+                    "attempt": attempt + 1,
+                    "maxAttempts": ITUNES_MAX_RETRIES + 1,
+                    "params": params,
+                    "message": str(exc).splitlines()[0][:300],
+                }
+            )
+            if attempt < ITUNES_MAX_RETRIES:
+                time.sleep(10 * (attempt + 1))
+                continue
+            sleep_itunes()
+            return None
 
         if response.status_code == 429:
             report["itunes429Count"] += 1
@@ -1052,12 +1091,26 @@ def itunes_request(
             sleep_itunes()
             return None
 
+        try:
+            data = response.json()
+        except ValueError as exc:
+            report["itunesRequestErrors"] += 1
+            report["warnings"].append(
+                {
+                    "type": "itunes_invalid_json",
+                    "params": params,
+                    "message": str(exc).splitlines()[0][:300],
+                    "body": response.text[:300],
+                }
+            )
+            sleep_itunes()
+            return None
+
         sleep_itunes()
-        return response.json()
+        return data
 
     report["itunesRequestErrors"] += 1
     return None
-
 
 def search_itunes_by_artist_and_title(
     aliases: list[str],
@@ -1294,12 +1347,17 @@ def build_artist_genre_item(
     if not genres:
         return None
 
+    stats_text = extract_artist_stats_text(artist_data)
+    monthly_listeners = parse_count(stats_text)
+
     return {
         "name": youtube_artist_display_name(artist, artist_data),
         "youtubeName": youtube_artist_display_name(artist, artist_data),
         "originalName": youtube_artist_display_name(artist, artist_data),
         "channelId": artist["channelId"],
         "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
+        "monthlyListenersText": stats_text,
+        "monthlyListeners": monthly_listeners,
         "genres": genres,
         "source": "allowed_artists_genres",
     }
@@ -1316,17 +1374,32 @@ def build_artist_genre_shelves(items: list[dict[str, Any]]) -> list[dict[str, An
                 continue
 
             channel_id = item.get("channelId")
-            if not channel_id or channel_id in unique_artists:
+            if not channel_id:
                 continue
 
-            unique_artists[channel_id] = {
+            candidate = {
                 "name": item.get("name") or channel_id,
+                "youtubeName": item.get("youtubeName") or item.get("name") or channel_id,
+                "originalName": item.get("originalName") or item.get("name") or channel_id,
                 "channelId": channel_id,
                 "thumbnailUrl": item.get("thumbnailUrl"),
+                "monthlyListenersText": item.get("monthlyListenersText"),
+                "monthlyListeners": int(item.get("monthlyListeners") or 0),
                 "source": item.get("source") or "allowed_artists_genres",
             }
 
-        artists = list(unique_artists.values())
+            existing = unique_artists.get(channel_id)
+            if not existing or candidate["monthlyListeners"] > int(existing.get("monthlyListeners") or 0):
+                unique_artists[channel_id] = candidate
+
+        artists = sorted(
+            unique_artists.values(),
+            key=lambda item: (
+                int(item.get("monthlyListeners") or 0),
+                str(item.get("name") or ""),
+            ),
+            reverse=True,
+        )
         if not artists:
             continue
 
@@ -1429,8 +1502,8 @@ def sort_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def initial_report(allowed_artists_count: int) -> dict[str, Any]:
     return {
         "generatedAt": utc_now_iso(),
-        "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
-        "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
+        "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
+        "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
         "allowedArtistsCount": allowed_artists_count,
         "itunesCountry": ITUNES_COUNTRY,
         "maxItemsPerArtistCategory": MAX_ITEMS_PER_ARTIST_CATEGORY,
@@ -1638,10 +1711,10 @@ def main() -> None:
     report["completedAt"] = utc_now_iso()
 
     feed = {
-        "version": 9,
+        "version": 10,
         "generatedAt": report["generatedAt"],
         "source": "itunes_youtube_music",
-        "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings_artist_genre_shelves",
+        "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings_monthly_sorted_artist_genre_shelves",
         "allowedArtistsCount": len(artists),
         "itemsCount": len(feed_items),
         "albumsCount": report["albumsGeneratedAfterDedupe"],
