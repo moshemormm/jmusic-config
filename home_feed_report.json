@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T04:57:55.391050+00:00",
+  "generatedAt": "2026-06-27T05:44:01.830923+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 287,
@@ -23,13 +23,13 @@
   "itunesRequestDelaySeconds": 4.0,
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
-  "maxItunesLookupsTotal": 3000,
+  "maxItunesLookupsTotal": 1000,
   "artistNetworkReads": 285,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 499,
   "youtubeSingleSourceItems": 863,
-  "youtubePopularSongSourceItems": 1189,
+  "youtubePopularSongSourceItems": 1193,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
@@ -41,22 +41,22 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 63,
-  "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 3000,
-  "itunesCacheHits": 493,
+  "youtubeAlbumDrilldownReads": 28,
+  "youtubeAlbumDrilldownErrors": 1,
+  "itunesNetworkReads": 1000,
+  "itunesCacheHits": 1013,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 350,
+  "itunesLookupsSkippedByLimit": 176,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 546,
-  "itemsSkippedWeakItunesCandidate": 32,
+  "itemsSkippedNoItunesCandidate": 395,
+  "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 614,
-  "itemsGeneratedBeforeDedupe": 170,
-  "itemsGeneratedAfterDedupe": 168,
-  "albumsGeneratedAfterDedupe": 15,
-  "singlesGeneratedAfterDedupe": 153,
+  "itemsSkippedOldRelease": 717,
+  "itemsGeneratedBeforeDedupe": 206,
+  "itemsGeneratedAfterDedupe": 201,
+  "albumsGeneratedAfterDedupe": 20,
+  "singlesGeneratedAfterDedupe": 181,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4232,6 +4232,312 @@
         "kind": null,
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "MBD with Shirah - Kisufim - כיסופים",
+      "expectedType": "ALBUM",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "MBD with Shirah - Kisufim - כיסופים",
+        "candidateArtist": "Mordechai Ben David & The Shira Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "א חתונה און שטעטעל",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "א חתונה און שטעטעל - Single",
+        "candidateArtist": "Mendy Hershkowitz Band, The Shira Choir & Yisroel Adler",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "משה דוד וייסמנדל",
+      "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
+      "aliasesUsed": [
+        "משה דוד וייסמנדל",
+        "Moshe David Weissmandel",
+        "moshe david oyismndl",
+        "moshe david oyysmndl",
+        "moshe david oiismndl",
+        "moshe david oeismndl"
+      ],
+      "title": "L'Chaim Mit Moshe David",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "רזא דשבת משה דוד וייסמנדל & אבי ריימי - Single",
+        "candidateArtist": "Mamtak L'eshabat",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Ad Sheyavo Mashiach",
+      "expectedType": "ALBUM",
+      "bestScore": 72,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "עד שיבוא משיח",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Naftali Kempeh (Acapella)",
+      "expectedType": "ALBUM",
+      "bestScore": 72,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "נפתלי קמפה (ווקאלי)",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Shabbat Yeshiva",
+      "expectedType": "ALBUM",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "שבת ישיבה",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "מלך רחמן",
+      "expectedType": "SINGLE",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Melech Rachaman - Single",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "כהודעת",
+      "expectedType": "SINGLE",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Kehoda'ato - Single",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "עמרם אדר",
+      "artistChannelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+      "aliasesUsed": [
+        "עמרם אדר",
+        "Amram Adar",
+        "amrm"
+      ],
+      "title": "Yaldi (feat. Avraham Fried)",
+      "expectedType": "SINGLE",
+      "bestScore": 32,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "ילדי - Single",
+        "candidateArtist": "Amram Adar & Avraham Fried",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "עמרם אדר",
+      "artistChannelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+      "aliasesUsed": [
+        "עמרם אדר",
+        "Amram Adar",
+        "amrm"
+      ],
+      "title": "Despacito (feat. Maccabeats & Itzik Shamli) [Acapella]",
+      "expectedType": "SINGLE",
+      "bestScore": 65,
+      "details": {
+        "titleScore": 30,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Despacito (Acapella) [feat. Maccabeats & איציק שמלי] - Single",
+        "candidateArtist": "Amram Adar",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 3",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Señorita - Single",
+        "candidateArtist": "Shawn Mendes & Camila Cabello",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 1",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Señorita - Single",
+        "candidateArtist": "Shawn Mendes & Camila Cabello",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -4239,14 +4545,19 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjA28axj6SVAxX1ksIBHWT7CA_KAQS108BB', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiC8b_H26aVAxU05OcDHR5ILSnKAQSOku6d', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "youtube_album_drilldown_failed",
+      "browseId": "MPREb_hSRO7ZMDvXk",
+      "message": "\"Unable to find 'secondaryContents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'secondaryContents', 'sectionListRenderer', 'contents', 0, 'musicShelfRenderer'] on {'tabs': [{'tabRenderer': {'content': {'sectionListRenderer': {'contents': [{'musicResponsiveHeaderRenderer': {'thumbnail'"
     }
   ],
-  "completedAt": "2026-06-26T08:34:00.085568+00:00"
+  "completedAt": "2026-06-27T07:01:13.065770+00:00"
 }
