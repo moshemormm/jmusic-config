@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T18:24:34.601682+00:00",
+  "generatedAt": "2026-06-27T19:04:33.882676+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 10,
-  "artistNetworkReads": 285,
-  "artistReadErrors": 2,
-  "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 499,
-  "youtubeSingleSourceItems": 863,
-  "youtubePopularSongSourceItems": 1193,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 3,
+  "youtubeExpandErrors": 3,
+  "youtubeAlbumSourceItems": 487,
+  "youtubeSingleSourceItems": 839,
+  "youtubePopularSongSourceItems": 1191,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
-  "artistGenreShelvesGenerated": 5,
-  "artistGenreArtistsGenerated": 390,
+  "artistGenreShelvesGenerated": 6,
+  "artistGenreArtistsGenerated": 383,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -45,19 +45,19 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 10,
-  "itunesCacheHits": 0,
+  "itunesCacheHits": 10,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1352,
+  "itunesLookupsSkippedByLimit": 1306,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1352,
+  "itemsSkippedNoItunesCandidate": 1306,
   "itemsSkippedWeakItunesCandidate": 0,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 9,
-  "itemsGeneratedBeforeDedupe": 1,
-  "itemsGeneratedAfterDedupe": 1,
+  "itemsSkippedOldRelease": 14,
+  "itemsGeneratedBeforeDedupe": 6,
+  "itemsGeneratedAfterDedupe": 6,
   "albumsGeneratedAfterDedupe": 0,
-  "singlesGeneratedAfterDedupe": 1,
+  "singlesGeneratedAfterDedupe": 6,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3437,14 +3437,38 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwi0_6TbhaiVAxWZ5OcDHbXxFovKAQSoAFQL', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjb8NHUjqiVAxUxB9YAHQMcK3vKAQQKqZey', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "youtube_expand_failed",
+      "artistChannelId": "UCtEK38jzXAUObe-5H8isljg",
+      "category": "singles",
+      "message": "\"Unable to find 'header' using path ['contents', 'singleColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'header', 'musicSideAlignedItemRenderer', 'endItems', 0, 'musicSortFilterButtonRenderer', 'menu', 'musicMultiSelectMenuRenderer', 'options'] on {'contents"
+    },
+    {
+      "type": "youtube_expand_failed",
+      "artistChannelId": "UCZgmglzC29i40G3cBx15rPA",
+      "category": "singles",
+      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCKKitdmPqJUDFdTGPwQdc6YFUA==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
+    },
+    {
+      "type": "youtube_expand_failed",
+      "artistChannelId": "UC88l4ZpEMhc9Q-xytqV0F-g",
+      "category": "singles",
+      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCLSo3-GPqJUDFTYI1gAdqr0lQg==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "שרולי ליפשיץ",
+      "artistChannelId": "UCUeaVzUToUL4xcz8ny3peew",
+      "message": "\"Unable to find 'content' using path ['contents', 'singleColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwioxPiYkKiVAxXlwZQJHbi5BE3KAQQKqZey', 'browseEndpoint': {'browseId': 'UCUeaVzUToUL4xcz8"
     }
   ],
-  "completedAt": "2026-06-27T18:32:41.600709+00:00"
+  "completedAt": "2026-06-27T19:13:00.437160+00:00"
 }
