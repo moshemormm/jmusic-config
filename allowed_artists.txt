@@ -1,17 +1,17 @@
-A.K.A. Pella | UCZFAzTfD7_WcgDVHwfmGrdw | hasidic, pop
-AFIkoMAN | UCihwy53fZm-Xc8gZvHBxHSw | alternative
-Akiva Nachman | UCSVYEizHEvWD06KQULD9ELA | alternative
-Alex Clare | UCZa7crFd_TP-vDn4fUdzqTw | alternative, pop
-Avraham Rosenblum | UCTp9T7uKu3v4JDCES-Og5iQ | alternative
-Chaim Fogelman | UC4-CSThYr3JDncwWM7qX4ew | hasidic
-Chaim Ghoori | UCpVWl-kIG3gxILLJKiztyeg | alternative
-Chilly Wagschal | UC6GkDMwcnMARhSxpKCSbKhQ | hasidic, pop
-DJ Farbreng | UCfWRyQLkrtC0G3sG001vq8A | hasidic, pop
-Dov Levine | UCZc121O8NJKWS3cVCMLuPEQ | hasidic
-Gershi Uri | UC_qExX7xRD8cltx_UxzABgg | hasidic
-HBS | UCDG5-JDDZRlzXLRJd3rRAWw | hasidic
-Hershy Bleich | UCrzQywDiC4IhlNePUI-x_rw | hasidic
-Hillel Kapnick | UCw4f7BjCN1ZOjLAbkJwRiQg | hasidic, pop
+A.K.A. Pella | UCZFAzTfD7_WcgDVHwfmGrdw | american_pop
+AFIkoMAN | UCihwy53fZm-Xc8gZvHBxHSw | american_pop
+Akiva Nachman | UCSVYEizHEvWD06KQULD9ELA | american_pop
+Alex Clare | UCZa7crFd_TP-vDn4fUdzqTw | american_pop
+Avraham Rosenblum | UCTp9T7uKu3v4JDCES-Og5iQ | american_pop
+Chaim Fogelman | UC4-CSThYr3JDncwWM7qX4ew | american_pop
+Chaim Ghoori | UCpVWl-kIG3gxILLJKiztyeg | american_pop
+Chilly Wagschal | UC6GkDMwcnMARhSxpKCSbKhQ | american_pop
+DJ Farbreng | UCfWRyQLkrtC0G3sG001vq8A | american_pop
+Dov Levine | UCZc121O8NJKWS3cVCMLuPEQ | american_pop
+Gershi Uri | UC_qExX7xRD8cltx_UxzABgg | american_pop
+HBS | UCDG5-JDDZRlzXLRJd3rRAWw | american_pop
+Hershy Bleich | UCrzQywDiC4IhlNePUI-x_rw | american_pop
+Hillel Kapnick | UCw4f7BjCN1ZOjLAbkJwRiQg | american_pop
 MUNCH | UCionG5jvTEAeh8l_H3ldlgw | alternative
 Mamish | UCs2lQOTJFcd1SCL9w7iyW8Q | hasidic, alternative
 Matt Dubb | UCbyD0Jnm_-Wt2b0t1l21p6A | pop, hasidic
