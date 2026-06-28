@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:31:26.929760+00:00",
+  "generatedAt": "2026-06-28T06:05:24.847867+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -45,19 +45,19 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 20,
+  "itunesCacheHits": 316,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1046,
+  "itunesLookupsSkippedByLimit": 862,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1065,
-  "itemsSkippedWeakItunesCandidate": 9,
+  "itemsSkippedNoItunesCandidate": 916,
+  "itemsSkippedWeakItunesCandidate": 14,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 222,
-  "itemsGeneratedBeforeDedupe": 66,
-  "itemsGeneratedAfterDedupe": 66,
-  "albumsGeneratedAfterDedupe": 9,
-  "singlesGeneratedAfterDedupe": 57,
+  "itemsSkippedOldRelease": 329,
+  "itemsGeneratedBeforeDedupe": 103,
+  "itemsGeneratedAfterDedupe": 103,
+  "albumsGeneratedAfterDedupe": 13,
+  "singlesGeneratedAfterDedupe": 90,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3635,6 +3635,136 @@
         "kind": null,
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "אלי מרקוס",
+      "artistChannelId": "UCY5qvQNoawFipLxi_KZwFUg",
+      "aliasesUsed": [
+        "אלי מרקוס",
+        "Eli Marcus",
+        "eli mrkos",
+        "eli mrkus",
+        "eli mrkvs",
+        "eli mrkws"
+      ],
+      "title": "Malachei Elyon",
+      "expectedType": "SINGLE",
+      "bestScore": 73,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "מלאכי עליון - Single",
+        "candidateArtist": "Eli Marcus",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלי שוובל",
+      "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+      "aliasesUsed": [
+        "אלי שוובל",
+        "Eli Shovel",
+        "eli shoobl",
+        "eli shoovl",
+        "eli shoubl",
+        "eli shouvl"
+      ],
+      "title": "Hearts Mind",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Descendants: The Rise of Red (Original Soundtrack)",
+        "candidateArtist": "Kylie Cantrall, Descendants – Cast, Rita Ora & Malia Baker",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלי שוובל",
+      "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+      "aliasesUsed": [
+        "אלי שוובל",
+        "Eli Shovel",
+        "eli shoobl",
+        "eli shoovl",
+        "eli shoubl",
+        "eli shouvl"
+      ],
+      "title": "Journey At Sea (Acapella)",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Life of a Showgirl (Track by Track Version)",
+        "candidateArtist": "Taylor Swift",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלעד כהן",
+      "artistChannelId": "UC8F9rBLxMgVq9kxaVKPEtIg",
+      "aliasesUsed": [
+        "אלעד כהן",
+        "Elad Cohen",
+        "chhn",
+        "chn",
+        "khn",
+        "kn"
+      ],
+      "title": "כח השמחה",
+      "expectedType": "SINGLE",
+      "bestScore": 41,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "The Power of Happiness - Single",
+        "candidateArtist": "Elad Cohen",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "בערי וובר",
+      "artistChannelId": "UC8n1Io5T76kSYeuYVQHzsQA",
+      "aliasesUsed": [
+        "בערי וובר",
+        "Weber cities",
+        "beri oobr",
+        "beri oovr",
+        "beri oubr",
+        "beri ouvr"
+      ],
+      "title": "הלילה הזה (רמיקס)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "עומר",
+        "candidateArtist": "Omer Adam",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -3642,7 +3772,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiT04bHgamVAxXJD9YAHU1UJQnKAQRVhmXF', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwja24GaoqmVAxWxLdYAHTLYBHzKAQQ9SgU7', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3651,5 +3781,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-06-28T04:48:21.984185+00:00"
+  "completedAt": "2026-06-28T07:21:57.153084+00:00"
 }
