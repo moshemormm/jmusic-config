@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T19:04:33.882676+00:00",
+  "generatedAt": "2026-06-28T03:31:26.929760+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -23,17 +23,17 @@
   "itunesRequestDelaySeconds": 4.0,
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
-  "maxItunesLookupsTotal": 10,
-  "artistNetworkReads": 284,
-  "artistReadErrors": 3,
-  "youtubeExpandErrors": 3,
-  "youtubeAlbumSourceItems": 487,
-  "youtubeSingleSourceItems": 839,
-  "youtubePopularSongSourceItems": 1191,
+  "maxItunesLookupsTotal": 1000,
+  "artistNetworkReads": 285,
+  "artistReadErrors": 2,
+  "youtubeExpandErrors": 0,
+  "youtubeAlbumSourceItems": 499,
+  "youtubeSingleSourceItems": 863,
+  "youtubePopularSongSourceItems": 1194,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 383,
+  "artistGenreArtistsGenerated": 385,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -44,20 +44,20 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 10,
-  "itunesCacheHits": 10,
+  "itunesNetworkReads": 1000,
+  "itunesCacheHits": 20,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1306,
+  "itunesLookupsSkippedByLimit": 1046,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1306,
-  "itemsSkippedWeakItunesCandidate": 0,
+  "itemsSkippedNoItunesCandidate": 1065,
+  "itemsSkippedWeakItunesCandidate": 9,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 14,
-  "itemsGeneratedBeforeDedupe": 6,
-  "itemsGeneratedAfterDedupe": 6,
-  "albumsGeneratedAfterDedupe": 0,
-  "singlesGeneratedAfterDedupe": 6,
+  "itemsSkippedOldRelease": 222,
+  "itemsGeneratedBeforeDedupe": 66,
+  "itemsGeneratedAfterDedupe": 66,
+  "albumsGeneratedAfterDedupe": 9,
+  "singlesGeneratedAfterDedupe": 57,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3431,44 +3431,225 @@
       ]
     }
   ],
-  "weakMatches": [],
+  "weakMatches": [
+    {
+      "artistName": "Alex Clare",
+      "artistChannelId": "UCZa7crFd_TP-vDn4fUdzqTw",
+      "aliasesUsed": [
+        "Alex Clare"
+      ],
+      "title": "Flying Carpet (feat. Afiko.man)",
+      "expectedType": "SINGLE",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Back of the Wagon (feat. Matisyahu) - Single",
+        "candidateArtist": "Thank You Hashem, Alex Clare & Afiko.man",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "Shomer Yisrael - שומר ישראל",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Shomer Yisrael - שומר ישראל - Single",
+        "candidateArtist": "Thank You Hashem, Avshi Weingot & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "Neshama on Fire (UPMIX)",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Neshama on Fire (UPMIX) - Single",
+        "candidateArtist": "Thank You Hashem, DJ Farbreng & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "No Words",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "When You Call - Single",
+        "candidateArtist": "Clay Western",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Dov Levine",
+      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
+      "aliasesUsed": [
+        "Dov Levine"
+      ],
+      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
+        "candidateArtist": "Various Artists",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "MUNCH",
+      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
+      "aliasesUsed": [
+        "MUNCH"
+      ],
+      "title": "Run It Up (feat. Sly Vincent)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Double Up",
+        "candidateArtist": "R. Kelly",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "Odi Davidi",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy"
+      ],
+      "title": "Ben Ahuv",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "בן אהוב",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אודי דוידי",
+      "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "Odi Davidi",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy"
+      ],
+      "title": "Ahavat Olam",
+      "expectedType": "SINGLE",
+      "bestScore": 48,
+      "details": {
+        "titleScore": 16,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "אהבת עולם - Single",
+        "candidateArtist": "Udi Davidi",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "איצי וולדנר",
+      "artistChannelId": "UC5-ApPEQbXGc7qVOwXAfv-Q",
+      "aliasesUsed": [
+        "איצי וולדנר",
+        "Itzi Waldner",
+        "ooldnr",
+        "ouldnr",
+        "ovldnr",
+        "owldnr"
+      ],
+      "title": "Let The Candles Burn",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "TLV Streets (VOL 2) The Spirit & The Cost",
+        "candidateArtist": "Omer",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    }
+  ],
   "warnings": [
     {
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjb8NHUjqiVAxUxB9YAHQMcK3vKAQQKqZey', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiT04bHgamVAxXJD9YAHU1UJQnKAQRVhmXF', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "youtube_expand_failed",
-      "artistChannelId": "UCtEK38jzXAUObe-5H8isljg",
-      "category": "singles",
-      "message": "\"Unable to find 'header' using path ['contents', 'singleColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'header', 'musicSideAlignedItemRenderer', 'endItems', 0, 'musicSortFilterButtonRenderer', 'menu', 'musicMultiSelectMenuRenderer', 'options'] on {'contents"
-    },
-    {
-      "type": "youtube_expand_failed",
-      "artistChannelId": "UCZgmglzC29i40G3cBx15rPA",
-      "category": "singles",
-      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCKKitdmPqJUDFdTGPwQdc6YFUA==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
-    },
-    {
-      "type": "youtube_expand_failed",
-      "artistChannelId": "UC88l4ZpEMhc9Q-xytqV0F-g",
-      "category": "singles",
-      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCLSo3-GPqJUDFTYI1gAdqr0lQg==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "שרולי ליפשיץ",
-      "artistChannelId": "UCUeaVzUToUL4xcz8ny3peew",
-      "message": "\"Unable to find 'content' using path ['contents', 'singleColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwioxPiYkKiVAxXlwZQJHbi5BE3KAQQKqZey', 'browseEndpoint': {'browseId': 'UCUeaVzUToUL4xcz8"
     }
   ],
-  "completedAt": "2026-06-27T19:13:00.437160+00:00"
+  "completedAt": "2026-06-28T04:48:21.984185+00:00"
 }
