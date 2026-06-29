@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T06:05:24.847867+00:00",
+  "generatedAt": "2026-06-29T06:26:05.476964+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -28,8 +28,8 @@
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 499,
-  "youtubeSingleSourceItems": 863,
-  "youtubePopularSongSourceItems": 1194,
+  "youtubeSingleSourceItems": 864,
+  "youtubePopularSongSourceItems": 1193,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -45,19 +45,19 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 316,
+  "itunesCacheHits": 500,
   "itunes429Count": 0,
-  "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 862,
+  "itunesRequestErrors": 2,
+  "itunesLookupsSkippedByLimit": 688,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 916,
-  "itemsSkippedWeakItunesCandidate": 14,
+  "itemsSkippedNoItunesCandidate": 796,
+  "itemsSkippedWeakItunesCandidate": 20,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 329,
-  "itemsGeneratedBeforeDedupe": 103,
-  "itemsGeneratedAfterDedupe": 103,
-  "albumsGeneratedAfterDedupe": 13,
-  "singlesGeneratedAfterDedupe": 90,
+  "itemsSkippedOldRelease": 421,
+  "itemsGeneratedBeforeDedupe": 126,
+  "itemsGeneratedAfterDedupe": 124,
+  "albumsGeneratedAfterDedupe": 14,
+  "singlesGeneratedAfterDedupe": 110,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3765,6 +3765,162 @@
         "kind": "song",
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "גיל ישראלוב",
+      "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
+      "aliasesUsed": [
+        "גיל ישראלוב",
+        "Gil Israelov",
+        "gil ishrlob",
+        "gil ishrlov",
+        "gil ishrlub",
+        "gil ishrluv"
+      ],
+      "title": "אחד מי יודע",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "חברותא תשפ״ה - EP",
+        "candidateArtist": "חברותא, David Taub & Moshe Schneider",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "דודי פלדמן",
+      "artistChannelId": "UCQA6kbFsl6DVN6CLsZ40PBA",
+      "aliasesUsed": [
+        "דודי פלדמן",
+        "Dodi Feldman",
+        "dudi pldmn",
+        "dudi fldmn",
+        "dudy pldmn",
+        "dudy fldmn"
+      ],
+      "title": "ועמך כולם צדיקים",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The World to Come - Single",
+        "candidateArtist": "Zusha",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "היום השמיני",
+      "artistChannelId": "UCw1oCoEMF_o65tpDHItwwUQ",
+      "aliasesUsed": [
+        "היום השמיני",
+        "the eighth day",
+        "hiom hshmini",
+        "hiom hshminy",
+        "hiom hshmyni",
+        "hiom hshmyny"
+      ],
+      "title": "Lucky Abba Mashup",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 16,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Lucky Abba Mashup - Single",
+        "candidateArtist": "Freilach Band, Mordechai Shapiro & 8th Day",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "חיים דוד ברסון",
+      "artistChannelId": "UCDFgB4GepvQXWyUg0TMJEaw",
+      "aliasesUsed": [
+        "חיים דוד ברסון",
+        "Haim David Barson",
+        "chaim david brson",
+        "chaim david brsun",
+        "chaim david brsvn",
+        "chaim david brswn"
+      ],
+      "title": "Mi Li",
+      "expectedType": "SINGLE",
+      "bestScore": 22,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 16,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "BRINGING BACK THE SUNSHINE",
+        "candidateArtist": "Blake Shelton",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "טל ועקנין",
+      "artistChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+      "aliasesUsed": [
+        "טל ועקנין",
+        "Tal and Aknin",
+        "tl oknin",
+        "tl oknyn",
+        "tl ocnin",
+        "tl ocnyn"
+      ],
+      "title": "פאפאוטה - Papaoutai",
+      "expectedType": "SINGLE",
+      "bestScore": 58,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "פאפאוטה - Single",
+        "candidateArtist": "Tal Vaknin",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יהודה גרין",
+      "artistChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
+      "aliasesUsed": [
+        "יהודה גרין",
+        "Yehuda Green",
+        "yehuda grin",
+        "yehuda gryn",
+        "judah grin",
+        "judah gryn"
+      ],
+      "title": "Land of Your Soul",
+      "expectedType": "ALBUM",
+      "bestScore": 41,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "והשב כהנים",
+        "candidateArtist": "Yehuda Green",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -3772,14 +3928,40 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwja24GaoqmVAxWxLdYAHTLYBHzKAQQ9SgU7', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwi72P7Y6KuVAxVZQAYFHYDFEaDKAQSig_yQ', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "itunes_network_failed",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "params": {
+        "term": "יהודה גלאנץ Nomade",
+        "media": "music",
+        "entity": "album",
+        "country": "IL",
+        "limit": "10"
+      },
+      "message": "HTTPSConnectionPool(host='itunes.apple.com', port=443): Max retries exceeded with url: /search?term=%D7%99%D7%94%D7%95%D7%93%D7%94+%D7%92%D7%9C%D7%90%D7%A0%D7%A5+Nomade&media=music&entity=album&country=IL&limit=10 (Caused by NewConnectionError(\"HTTPSConnection(host='itunes.apple.com', port=443): Fai"
+    },
+    {
+      "type": "itunes_network_failed",
+      "attempt": 1,
+      "maxAttempts": 3,
+      "params": {
+        "term": "Yehuda Glanz Nomade",
+        "media": "music",
+        "entity": "album",
+        "country": "IL",
+        "limit": "10"
+      },
+      "message": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     }
   ],
-  "completedAt": "2026-06-28T07:21:57.153084+00:00"
+  "completedAt": "2026-06-29T07:44:48.187948+00:00"
 }
