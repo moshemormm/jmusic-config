@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T06:26:05.476964+00:00",
+  "generatedAt": "2026-06-30T05:59:42.698239+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 285,
-  "artistReadErrors": 2,
-  "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 499,
-  "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1193,
+  "artistNetworkReads": 283,
+  "artistReadErrors": 4,
+  "youtubeExpandErrors": 1,
+  "youtubeAlbumSourceItems": 494,
+  "youtubeSingleSourceItems": 855,
+  "youtubePopularSongSourceItems": 1184,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 385,
+  "artistGenreArtistsGenerated": 382,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -45,19 +45,19 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 500,
+  "itunesCacheHits": 675,
   "itunes429Count": 0,
-  "itunesRequestErrors": 2,
-  "itunesLookupsSkippedByLimit": 688,
+  "itunesRequestErrors": 1,
+  "itunesLookupsSkippedByLimit": 504,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 796,
-  "itemsSkippedWeakItunesCandidate": 20,
+  "itemsSkippedNoItunesCandidate": 658,
+  "itemsSkippedWeakItunesCandidate": 26,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 421,
-  "itemsGeneratedBeforeDedupe": 126,
-  "itemsGeneratedAfterDedupe": 124,
+  "itemsSkippedOldRelease": 525,
+  "itemsGeneratedBeforeDedupe": 140,
+  "itemsGeneratedAfterDedupe": 138,
   "albumsGeneratedAfterDedupe": 14,
-  "singlesGeneratedAfterDedupe": 110,
+  "singlesGeneratedAfterDedupe": 124,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3921,6 +3921,162 @@
         "kind": null,
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "יוני זי",
+      "artistChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
+      "aliasesUsed": [
+        "יוני זי",
+        "Yoni Z",
+        "ioni zi",
+        "ioni zy",
+        "iony zi",
+        "iony zy"
+      ],
+      "title": "Within Your Walls 2.0",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Within Your Walls 2.0 (feat. Yoni Z) - Single",
+        "candidateArtist": "Aryeh Kunstler",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יחיאל ליכטיגר",
+      "artistChannelId": "UCH4C0PxbBCg8UvVesbalhBg",
+      "aliasesUsed": [
+        "יחיאל ליכטיגר",
+        "Yehiel Lichtiger",
+        "ichil lichtigr",
+        "ichil lichtygr",
+        "ichil liktigr",
+        "ichil liktygr"
+      ],
+      "title": "כך נבראתי (feat. ישראל גולדרייך)",
+      "expectedType": "SINGLE",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "כך נבראתי - Single",
+        "candidateArtist": "Yechiel Lichtiger & ישראל גולדרייך",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת ישיבה בויס",
+      "artistChannelId": "UCGZBtS53Yqr3pB11RGkPCNA",
+      "aliasesUsed": [
+        "להקת ישיבה בויס",
+        "Yeshiva Boys band",
+        "lhkt ishibh boys",
+        "lhkt ishibh bois",
+        "lhkt ishibh buys",
+        "lhkt ishibh buis"
+      ],
+      "title": "Mi X6",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "I Should Probably Go To Bed - Single",
+        "candidateArtist": "Dan + Shay",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת ישיבה בויס",
+      "artistChannelId": "UCGZBtS53Yqr3pB11RGkPCNA",
+      "aliasesUsed": [
+        "להקת ישיבה בויס",
+        "Yeshiva Boys band",
+        "lhkt ishibh boys",
+        "lhkt ishibh bois",
+        "lhkt ishibh buys",
+        "lhkt ishibh buis"
+      ],
+      "title": "Tov",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "A Memorial Kumzitz (Live)",
+        "candidateArtist": "Aish Yeshiva Band",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת מושב",
+      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ],
+      "title": "Malachim",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "המיטב 1998-2006",
+        "candidateArtist": "Moshav",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "להקת מושב",
+      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ],
+      "title": "World on Fire (feat. Matisyahu)",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "World on Fire",
+        "candidateArtist": "Stick Figure",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -3928,7 +4084,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwi72P7Y6KuVAxVZQAYFHYDFEaDKAQSig_yQ', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwj5z_fUpK6VAxWl3j8EHUCsFsrKAQSp0nuf', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -3937,31 +4093,35 @@
       "message": "'musicImmersiveHeaderRenderer'"
     },
     {
-      "type": "itunes_network_failed",
-      "attempt": 1,
-      "maxAttempts": 3,
+      "type": "itunes_request_failed",
+      "statusCode": 404,
       "params": {
-        "term": "יהודה גלאנץ Nomade",
+        "term": "ioli klain Spodik (ספאדיק)",
         "media": "music",
-        "entity": "album",
+        "entity": "song,album",
         "country": "IL",
         "limit": "10"
       },
-      "message": "HTTPSConnectionPool(host='itunes.apple.com', port=443): Max retries exceeded with url: /search?term=%D7%99%D7%94%D7%95%D7%93%D7%94+%D7%92%D7%9C%D7%90%D7%A0%D7%A5+Nomade&media=music&entity=album&country=IL&limit=10 (Caused by NewConnectionError(\"HTTPSConnection(host='itunes.apple.com', port=443): Fai"
+      "body": "<html><head><title>Error</title></head><body>Your request produced an error.  <BR>[newNullResponse]</body></html>"
     },
     {
-      "type": "itunes_network_failed",
-      "attempt": 1,
-      "maxAttempts": 3,
-      "params": {
-        "term": "Yehuda Glanz Nomade",
-        "media": "music",
-        "entity": "album",
-        "country": "IL",
-        "limit": "10"
-      },
-      "message": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "type": "artist_read_failed",
+      "artistName": "יומי לואי",
+      "artistChannelId": "UCJpfmMsU99sd21Z1ff7WJFw",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "יוני אליאב",
+      "artistChannelId": "UC-GfYOy3knA_Lz-k_kidrOA",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "youtube_expand_failed",
+      "artistChannelId": "UCmpM9OUxMsg1GfrTN4igk4w",
+      "category": "singles",
+      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCISwvp6urpUDFaDWPwQdI8ggsg==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
     }
   ],
-  "completedAt": "2026-06-29T07:44:48.187948+00:00"
+  "completedAt": "2026-06-30T07:16:30.199062+00:00"
 }
