@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T05:59:42.698239+00:00",
+  "generatedAt": "2026-07-01T06:14:47.956290+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 283,
-  "artistReadErrors": 4,
-  "youtubeExpandErrors": 1,
-  "youtubeAlbumSourceItems": 494,
-  "youtubeSingleSourceItems": 855,
-  "youtubePopularSongSourceItems": 1184,
+  "artistNetworkReads": 285,
+  "artistReadErrors": 2,
+  "youtubeExpandErrors": 0,
+  "youtubeAlbumSourceItems": 499,
+  "youtubeSingleSourceItems": 864,
+  "youtubePopularSongSourceItems": 1194,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 382,
+  "artistGenreArtistsGenerated": 385,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 675,
+  "itunesCacheHits": 846,
   "itunes429Count": 0,
-  "itunesRequestErrors": 1,
-  "itunesLookupsSkippedByLimit": 504,
+  "itunesRequestErrors": 0,
+  "itunesLookupsSkippedByLimit": 346,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 658,
-  "itemsSkippedWeakItunesCandidate": 26,
+  "itemsSkippedNoItunesCandidate": 543,
+  "itemsSkippedWeakItunesCandidate": 34,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 525,
-  "itemsGeneratedBeforeDedupe": 140,
-  "itemsGeneratedAfterDedupe": 138,
-  "albumsGeneratedAfterDedupe": 14,
-  "singlesGeneratedAfterDedupe": 124,
+  "itemsSkippedOldRelease": 622,
+  "itemsGeneratedBeforeDedupe": 164,
+  "itemsGeneratedAfterDedupe": 161,
+  "albumsGeneratedAfterDedupe": 15,
+  "singlesGeneratedAfterDedupe": 146,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4077,6 +4077,214 @@
         "kind": null,
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Tomorrow Never Comes",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Take Care (Deluxe Version)",
+        "candidateArtist": "Drake",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Lazer Lloyd",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "$ome $exy $ongs 4 U",
+        "candidateArtist": "PARTYNEXTDOOR & Drake",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Help is on Its Way",
+      "expectedType": "SINGLE",
+      "bestScore": 18,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 18,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Peace Is The Mission",
+        "candidateArtist": "Major Lazer",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Tomorrow Never Comes",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "$ome $exy $ongs 4 U",
+        "candidateArtist": "PARTYNEXTDOOR, Drake & Chino Pacas",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מנדי וולד",
+      "artistChannelId": "UCqYGK7-bY_nvTHfJsjFggOQ",
+      "aliasesUsed": [
+        "מנדי וולד",
+        "Mandy Wald",
+        "mndi oold",
+        "mndi ould",
+        "mndi ovld",
+        "mndi owld"
+      ],
+      "title": "L'chaim!",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Fate of Ophelia (The Chainsmokers Remix) - Single",
+        "candidateArtist": "Taylor Swift & The Chainsmokers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי לונדון",
+      "artistChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
+      "aliasesUsed": [
+        "מקהלת פרחי לונדון",
+        "London Flower Choir",
+        "mkhlt prchi london",
+        "mkhlt prchi londun",
+        "mkhlt prchi londvn",
+        "mkhlt prchi londwn"
+      ],
+      "title": "The London School Of Jewish Song - אנעים זמירות",
+      "expectedType": "ALBUM",
+      "bestScore": 16,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 10,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "אנעים זמירות (feat. Shimon Craimer, Lionel Rosenfeld & Jonnny Turgel) [The Commemorative 25th Anniversary Album]",
+        "candidateArtist": "Shabbaton Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "MBD with Shirah - Kisufim - כיסופים",
+      "expectedType": "ALBUM",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "MBD with Shirah - Kisufim - כיסופים",
+        "candidateArtist": "Mordechai Ben David & The Shira Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "א חתונה און שטעטעל",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "א חתונה און שטעטעל - Single",
+        "candidateArtist": "Mendy Hershkowitz Band, The Shira Choir & Yisroel Adler",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -4084,44 +4292,14 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwj5z_fUpK6VAxWl3j8EHUCsFsrKAQSp0nuf', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjdu83y6bCVAxV3z-cDHQ8FF3LKAQQEesxV', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "itunes_request_failed",
-      "statusCode": 404,
-      "params": {
-        "term": "ioli klain Spodik (ספאדיק)",
-        "media": "music",
-        "entity": "song,album",
-        "country": "IL",
-        "limit": "10"
-      },
-      "body": "<html><head><title>Error</title></head><body>Your request produced an error.  <BR>[newNullResponse]</body></html>"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "יומי לואי",
-      "artistChannelId": "UCJpfmMsU99sd21Z1ff7WJFw",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "יוני אליאב",
-      "artistChannelId": "UC-GfYOy3knA_Lz-k_kidrOA",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "youtube_expand_failed",
-      "artistChannelId": "UCmpM9OUxMsg1GfrTN4igk4w",
-      "category": "singles",
-      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCISwvp6urpUDFaDWPwQdI8ggsg==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
     }
   ],
-  "completedAt": "2026-06-30T07:16:30.199062+00:00"
+  "completedAt": "2026-07-01T07:31:30.358696+00:00"
 }
