@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T06:14:47.956290+00:00",
+  "generatedAt": "2026-07-02T05:46:24.117611+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 499,
   "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1194,
+  "youtubePopularSongSourceItems": 1192,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -43,21 +43,21 @@
     "american_pop"
   ],
   "youtubeAlbumDrilldownReads": 1,
-  "youtubeAlbumDrilldownErrors": 0,
+  "youtubeAlbumDrilldownErrors": 1,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 846,
+  "itunesCacheHits": 1017,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 346,
+  "itunesLookupsSkippedByLimit": 173,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 543,
-  "itemsSkippedWeakItunesCandidate": 34,
+  "itemsSkippedNoItunesCandidate": 393,
+  "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 622,
-  "itemsGeneratedBeforeDedupe": 164,
-  "itemsGeneratedAfterDedupe": 161,
-  "albumsGeneratedAfterDedupe": 15,
-  "singlesGeneratedAfterDedupe": 146,
+  "itemsSkippedOldRelease": 723,
+  "itemsGeneratedBeforeDedupe": 203,
+  "itemsGeneratedAfterDedupe": 196,
+  "albumsGeneratedAfterDedupe": 20,
+  "singlesGeneratedAfterDedupe": 176,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4285,6 +4285,260 @@
         "kind": "song",
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "משה דוד וייסמנדל",
+      "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
+      "aliasesUsed": [
+        "משה דוד וייסמנדל",
+        "Moshe David Weissmandel",
+        "moshe david oyismndl",
+        "moshe david oyysmndl",
+        "moshe david oiismndl",
+        "moshe david oeismndl"
+      ],
+      "title": "L'Chaim Mit Moshe David",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "רזא דשבת משה דוד וייסמנדל & אבי ריימי - Single",
+        "candidateArtist": "Mamtak L'eshabat",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Ad Sheyavo Mashiach",
+      "expectedType": "ALBUM",
+      "bestScore": 72,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "עד שיבוא משיח",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Naftali Kempeh (Acapella)",
+      "expectedType": "ALBUM",
+      "bestScore": 72,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "נפתלי קמפה (ווקאלי)",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Shabbat Yeshiva",
+      "expectedType": "ALBUM",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "שבת ישיבה",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "מלך רחמן",
+      "expectedType": "SINGLE",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Melech Rachaman - Single",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "כהודעת",
+      "expectedType": "SINGLE",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Kehoda'ato - Single",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "עמרם אדר",
+      "artistChannelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+      "aliasesUsed": [
+        "עמרם אדר",
+        "Amram Adar",
+        "amrm"
+      ],
+      "title": "Yaldi (feat. Avraham Fried)",
+      "expectedType": "SINGLE",
+      "bestScore": 32,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "ילדי - Single",
+        "candidateArtist": "Amram Adar & Avraham Fried",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "עמרם אדר",
+      "artistChannelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+      "aliasesUsed": [
+        "עמרם אדר",
+        "Amram Adar",
+        "amrm"
+      ],
+      "title": "Despacito (feat. Maccabeats & Itzik Shamli) [Acapella]",
+      "expectedType": "SINGLE",
+      "bestScore": 65,
+      "details": {
+        "titleScore": 30,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Despacito (Acapella) [feat. Maccabeats & איציק שמלי] - Single",
+        "candidateArtist": "Amram Adar",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 3",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 1",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -4292,14 +4546,19 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjdu83y6bCVAxV3z-cDHQ8FF3LKAQQEesxV', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiX8M21pbOVAxX5zj8EHTj8IprKAQTpVeFt', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "youtube_album_drilldown_failed",
+      "browseId": "MPREb_hSRO7ZMDvXk",
+      "message": "\"Unable to find 'secondaryContents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'secondaryContents', 'sectionListRenderer', 'contents', 0, 'musicShelfRenderer'] on {'tabs': [{'tabRenderer': {'content': {'sectionListRenderer': {'contents': [{'musicResponsiveHeaderRenderer': {'thumbnail'"
     }
   ],
-  "completedAt": "2026-07-01T07:31:30.358696+00:00"
+  "completedAt": "2026-07-02T07:03:06.026574+00:00"
 }
