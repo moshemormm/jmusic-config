@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T05:46:24.117611+00:00",
+  "generatedAt": "2026-07-03T05:39:55.609359+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 24,
   "youtubeAlbumDrilldownErrors": 1,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 1017,
+  "itunesCacheHits": 1187,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 173,
+  "itunesLookupsSkippedByLimit": 8,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 393,
-  "itemsSkippedWeakItunesCandidate": 44,
+  "itemsSkippedNoItunesCandidate": 261,
+  "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 723,
-  "itemsGeneratedBeforeDedupe": 203,
-  "itemsGeneratedAfterDedupe": 196,
-  "albumsGeneratedAfterDedupe": 20,
-  "singlesGeneratedAfterDedupe": 176,
+  "itemsSkippedOldRelease": 826,
+  "itemsGeneratedBeforeDedupe": 231,
+  "itemsGeneratedAfterDedupe": 220,
+  "albumsGeneratedAfterDedupe": 21,
+  "singlesGeneratedAfterDedupe": 199,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4539,6 +4539,32 @@
         "kind": null,
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "שמחה אברמצ'יק",
+      "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
+      "aliasesUsed": [
+        "שמחה אברמצ'יק",
+        "Simcha Abramchik",
+        "shmchh ik",
+        "shmchh ic",
+        "shmchh yk",
+        "shmchh yc"
+      ],
+      "title": "הלילה הזה (רמיקס)",
+      "expectedType": "SINGLE",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "הלילה הזה (Remix) - Single",
+        "candidateArtist": "Simcha Abramczik & Beri Weber",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
@@ -4546,7 +4572,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiX8M21pbOVAxX5zj8EHTj8IprKAQTpVeFt', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjOz5zr5bWVAxVMxj8EHaDJKybKAQRJY8lw', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -4560,5 +4586,5 @@
       "message": "\"Unable to find 'secondaryContents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'secondaryContents', 'sectionListRenderer', 'contents', 0, 'musicShelfRenderer'] on {'tabs': [{'tabRenderer': {'content': {'sectionListRenderer': {'contents': [{'musicResponsiveHeaderRenderer': {'thumbnail'"
     }
   ],
-  "completedAt": "2026-07-02T07:03:06.026574+00:00"
+  "completedAt": "2026-07-03T06:57:05.014115+00:00"
 }
