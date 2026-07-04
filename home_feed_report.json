@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T05:39:55.609359+00:00",
+  "generatedAt": "2026-07-04T05:33:33.965897+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 499,
   "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1192,
+  "youtubePopularSongSourceItems": 1188,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 24,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 1,
-  "itunesNetworkReads": 1000,
-  "itunesCacheHits": 1187,
+  "itunesNetworkReads": 49,
+  "itunesCacheHits": 1354,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 8,
+  "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 261,
+  "itemsSkippedNoItunesCandidate": 258,
   "itemsSkippedWeakItunesCandidate": 45,
-  "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 826,
-  "itemsGeneratedBeforeDedupe": 231,
-  "itemsGeneratedAfterDedupe": 220,
+  "itemsSkippedMissingItunesReleaseDate": 1,
+  "itemsSkippedOldRelease": 830,
+  "itemsGeneratedBeforeDedupe": 229,
+  "itemsGeneratedAfterDedupe": 218,
   "albumsGeneratedAfterDedupe": 21,
-  "singlesGeneratedAfterDedupe": 199,
+  "singlesGeneratedAfterDedupe": 197,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4572,7 +4572,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjOz5zr5bWVAxVMxj8EHaDJKybKAQRJY8lw', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjUlbCkpriVAxWpwcMFHR08BynKAQSKPhyk', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -4586,5 +4586,5 @@
       "message": "\"Unable to find 'secondaryContents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'secondaryContents', 'sectionListRenderer', 'contents', 0, 'musicShelfRenderer'] on {'tabs': [{'tabRenderer': {'content': {'sectionListRenderer': {'contents': [{'musicResponsiveHeaderRenderer': {'thumbnail'"
     }
   ],
-  "completedAt": "2026-07-03T06:57:05.014115+00:00"
+  "completedAt": "2026-07-04T05:44:36.819862+00:00"
 }
