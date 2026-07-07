@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T06:15:18.064078+00:00",
+  "generatedAt": "2026-07-07T05:56:14.889380+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -28,8 +28,8 @@
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 499,
-  "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1193,
+  "youtubeSingleSourceItems": 863,
+  "youtubePopularSongSourceItems": 1195,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,10 +42,10 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1361,
+  "itunesNetworkReads": 0,
+  "itunesCacheHits": 1362,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,7 +53,7 @@
   "itemsSkippedNoItunesCandidate": 258,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 2,
-  "itemsSkippedOldRelease": 831,
+  "itemsSkippedOldRelease": 830,
   "itemsGeneratedBeforeDedupe": 227,
   "itemsGeneratedAfterDedupe": 216,
   "albumsGeneratedAfterDedupe": 21,
@@ -4572,7 +4572,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjSmKCrs72VAxVOmsIBHQHPGrPKAQSXwrvv', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjh98b48L-VAxVQ1D8EHZe1GVvKAQRdS9Y_', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -4581,5 +4581,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-07-06T06:23:33.305687+00:00"
+  "completedAt": "2026-07-07T06:03:33.548036+00:00"
 }
