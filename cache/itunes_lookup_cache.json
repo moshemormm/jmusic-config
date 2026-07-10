@@ -157214,5 +157214,28 @@
       "releaseDate": "2023-07-19T07:00:00Z",
       "primaryGenreName": "Singer/Songwriter"
     }
+  ],
+  "{\"aliases\": [\"דוד חפצדי\", \"David Hefzadi\", \"david chptzdi\", \"david chptzdy\", \"david chpzdi\", \"david chpzdy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"מחרוזת נוסטלגיה\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 971389104,
+      "collectionId": 6788735491,
+      "artistName": "David Haftzadi",
+      "collectionName": "מחרוזת נוסטלגיה - Single",
+      "collectionCensoredName": "מחרוזת נוסטלגיה - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/david-haftzadi/971389104?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%9E%D7%97%D7%A8%D7%95%D7%96%D7%AA-%D7%A0%D7%95%D7%A1%D7%98%D7%9C%D7%92%D7%99%D7%94-single/6788735491?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/c6/d5/cdc6d550-906c-6ca7-c590-8a302a878604/885288008470.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/c6/d5/cdc6d550-906c-6ca7-c590-8a302a878604/885288008470.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2026 S.B.E Music BY PIL LTD",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-07-08T07:00:00Z",
+      "primaryGenreName": "Folk"
+    }
   ]
 }
