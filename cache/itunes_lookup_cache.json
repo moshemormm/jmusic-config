@@ -157331,5 +157331,52 @@
       "primaryGenreName": "Israeli",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"דודי פלדמן\", \"Dodi Feldman\", \"dudi pldmn\", \"dudi fldmn\", \"dudy pldmn\", \"dudy fldmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"תשועתם\"}": [],
+  "{\"aliases\": [\"מיכאל שניצלר\", \"Michael Schnitzler\", \"michael shnitzlr\", \"michael shnizlr\", \"michael shnytzlr\", \"michael shnyzlr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"שמחה חסידית\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 391139192,
+      "collectionId": 1591099247,
+      "artistName": "Michoel Schnitzler",
+      "collectionName": "שמחה חסידית",
+      "collectionCensoredName": "שמחה חסידית",
+      "artistViewUrl": "https://music.apple.com/il/artist/michoel-schnitzler/391139192?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A9%D7%9E%D7%97%D7%94-%D7%97%D7%A1%D7%99%D7%93%D7%99%D7%AA/1591099247?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/3d/3c/913d3c63-4a85-683b-836e-266f6609bece/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/3d/3c/913d3c63-4a85-683b-836e-266f6609bece/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 29.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 6,
+      "copyright": "℗ 2021 Lchaim Productions By JewishMusic.fm",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2001-10-19T07:00:00Z",
+      "primaryGenreName": "Blues"
+    }
+  ],
+  "{\"aliases\": [\"שמוליק סוכות\", \"Shmueli Sukkot\", \"Shmulik Sukkot\", \"shmueli sochot\", \"shmueli sochos\", \"shmueli sochut\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ווקאלי\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1653646070,
+      "collectionId": 6788090576,
+      "artistName": "Shmulik Sukkot",
+      "collectionName": "ווקאלי",
+      "collectionCensoredName": "ווקאלי",
+      "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%95%D7%95%D7%A7%D7%90%D7%9C%D7%99/6788090576?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/2a/8c/d62a8c30-7031-b94d-0edd-35db3e530354/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/2a/8c/d62a8c30-7031-b94d-0edd-35db3e530354/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 34.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 13,
+      "copyright": "℗ 2026 Shmulik Sukkot",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-07-01T07:00:00Z",
+      "primaryGenreName": "Israeli"
+    }
   ]
 }
