@@ -157448,5 +157448,40 @@
       "primaryGenreName": "Pop",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"ברוך לוין\", \"Baruch Levin\", \"broch loyn\", \"broch loin\", \"broch luyn\", \"broch luin\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Nishmasi (Emunah & Bitachon 7/8)\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 375537616,
+      "collectionId": 6791243603,
+      "trackId": 6791243608,
+      "artistName": "Baruch Levine",
+      "collectionName": "Nishmasi (Emunah & Bitachon 7/8) - EP",
+      "trackName": "Bit'chu",
+      "collectionCensoredName": "Nishmasi (Emunah & Bitachon 7/8) - EP",
+      "trackCensoredName": "Bit'chu",
+      "artistViewUrl": "https://music.apple.com/il/artist/baruch-levine/375537616?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/bitchu/6791243603?i=6791243608&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/bitchu/6791243603?i=6791243608&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/36/94/a6369478-f30f-28ce-8d82-c6b1b9a6134c/mzaf_1984905207892720525.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/6f/fc/6a6ffc3b-5d90-d4ac-a78b-b95c61dcb639/artwork.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/6f/fc/6a6ffc3b-5d90-d4ac-a78b-b95c61dcb639/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/6f/fc/6a6ffc3b-5d90-d4ac-a78b-b95c61dcb639/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 14.5,
+      "trackPrice": 2.9,
+      "releaseDate": "2026-07-15T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 5,
+      "trackNumber": 5,
+      "trackTimeMillis": 111135,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Vocal",
+      "isStreamable": true
+    }
   ]
 }
