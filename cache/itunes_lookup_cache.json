@@ -157483,5 +157483,40 @@
       "primaryGenreName": "Vocal",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"ברוך לוין\", \"Baruch Levin\", \"broch loyn\", \"broch loin\", \"broch luyn\", \"broch luin\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Nishmasi (Shabbos & Yom Tov 8/8)\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 375537616,
+      "collectionId": 6792146348,
+      "trackId": 6792146352,
+      "artistName": "Baruch Levine",
+      "collectionName": "Nishmasi (Shabbos & Yom Tov 8/8) - EP",
+      "trackName": "Chasoif",
+      "collectionCensoredName": "Nishmasi (Shabbos & Yom Tov 8/8) - EP",
+      "trackCensoredName": "Chasoif",
+      "artistViewUrl": "https://music.apple.com/il/artist/baruch-levine/375537616?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/chasoif/6792146348?i=6792146352&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/chasoif/6792146348?i=6792146352&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/ee/2c/43ee2cec-467c-5b0b-448c-e6fd241a4cc6/mzaf_1647475326796358624.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/1b/75/f01b7526-febe-8616-7e1c-cdabe8f8ed85/artwork.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/1b/75/f01b7526-febe-8616-7e1c-cdabe8f8ed85/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/1b/75/f01b7526-febe-8616-7e1c-cdabe8f8ed85/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 11.6,
+      "trackPrice": 2.9,
+      "releaseDate": "2026-07-18T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 4,
+      "trackNumber": 4,
+      "trackTimeMillis": 127317,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Vocal",
+      "isStreamable": true
+    }
   ]
 }
