@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T04:57:30.968091+00:00",
+  "generatedAt": "2026-07-20T05:25:57.294815+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 500,
   "youtubeSingleSourceItems": 866,
-  "youtubePopularSongSourceItems": 1196,
+  "youtubePopularSongSourceItems": 1199,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,10 +42,10 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 6,
-  "itunesCacheHits": 1365,
+  "itunesNetworkReads": 11,
+  "itunesCacheHits": 1364,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,11 +53,11 @@
   "itemsSkippedNoItunesCandidate": 259,
   "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 2,
-  "itemsSkippedOldRelease": 842,
-  "itemsGeneratedBeforeDedupe": 219,
-  "itemsGeneratedAfterDedupe": 209,
+  "itemsSkippedOldRelease": 845,
+  "itemsGeneratedBeforeDedupe": 216,
+  "itemsGeneratedAfterDedupe": 206,
   "albumsGeneratedAfterDedupe": 21,
-  "singlesGeneratedAfterDedupe": 188,
+  "singlesGeneratedAfterDedupe": 185,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4546,7 +4546,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjsvv2Y-t2VAxUNxz8EHdCrJUDKAQTqUbWa', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwj3tLu1wuCVAxVZ7-cDHb8mNpDKAQQAh75S', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -4555,5 +4555,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-07-19T05:05:18.356048+00:00"
+  "completedAt": "2026-07-20T05:34:08.044330+00:00"
 }

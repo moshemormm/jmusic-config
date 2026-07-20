@@ -157518,5 +157518,29 @@
       "primaryGenreName": "Vocal",
       "isStreamable": true
     }
-  ]
+  ],
+  "{\"aliases\": [\"מוטי אילוביץ\", \"Moti Ilovitz\", \"moti\", \"mutty\", \"motty\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"5778\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 998802494,
+      "collectionId": 1527296240,
+      "artistName": "Motty Ilowitz",
+      "collectionName": "5778",
+      "collectionCensoredName": "5778",
+      "artistViewUrl": "https://music.apple.com/il/artist/motty-ilowitz/998802494?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/5778/1527296240?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/3c/b2/323cb278-f59a-1d2d-6314-e069ac12246e/441923.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/3c/b2/323cb278-f59a-1d2d-6314-e069ac12246e/441923.jpg/100x100bb.jpg",
+      "collectionPrice": 29.0,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 10,
+      "copyright": "℗ 2018 Motty Ilowitz",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2020-08-11T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ],
+  "{\"aliases\": [\"מנדי וייס\", \"Mandy Weiss\", \"mndi oyis\", \"mndi oyys\", \"mndi oiis\", \"mndi oiys\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"באנדא דרייב\"}": []
 }
