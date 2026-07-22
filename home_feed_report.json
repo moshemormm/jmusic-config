@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T04:55:21.943978+00:00",
+  "generatedAt": "2026-07-22T04:55:04.277607+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 285,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 500,
+  "youtubeAlbumSourceItems": 501,
   "youtubeSingleSourceItems": 866,
-  "youtubePopularSongSourceItems": 1197,
+  "youtubePopularSongSourceItems": 1196,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -44,14 +44,14 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 0,
-  "itunesCacheHits": 1366,
+  "itunesNetworkReads": 18,
+  "itunesCacheHits": 1364,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
   "itemsSkippedNoItunesCandidate": 259,
-  "itemsSkippedWeakItunesCandidate": 44,
+  "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 2,
   "itemsSkippedOldRelease": 846,
   "itemsGeneratedBeforeDedupe": 215,
@@ -4515,6 +4515,32 @@
       }
     },
     {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 2",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "שמחה אברמצ'יק",
       "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
       "aliasesUsed": [
@@ -4546,7 +4572,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjx3fy4_eKVAxXlsCsGHf7EKpLKAQQT4KGN', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwj9pLqhv-WVAxWtnysGHft5PQrKAQTuzflP', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -4555,5 +4581,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-07-21T05:02:42.168914+00:00"
+  "completedAt": "2026-07-22T05:04:25.142374+00:00"
 }
