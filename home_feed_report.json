@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T04:55:04.277607+00:00",
+  "generatedAt": "2026-07-23T05:11:53.090861+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 285,
-  "artistReadErrors": 2,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 501,
-  "youtubeSingleSourceItems": 866,
-  "youtubePopularSongSourceItems": 1196,
+  "youtubeAlbumSourceItems": 499,
+  "youtubeSingleSourceItems": 867,
+  "youtubePopularSongSourceItems": 1194,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 385,
+  "artistGenreArtistsGenerated": 383,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 18,
+  "itunesNetworkReads": 12,
   "itunesCacheHits": 1364,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
   "itemsSkippedNoItunesCandidate": 259,
-  "itemsSkippedWeakItunesCandidate": 45,
+  "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 2,
-  "itemsSkippedOldRelease": 846,
-  "itemsGeneratedBeforeDedupe": 215,
-  "itemsGeneratedAfterDedupe": 205,
+  "itemsSkippedOldRelease": 845,
+  "itemsGeneratedBeforeDedupe": 216,
+  "itemsGeneratedAfterDedupe": 206,
   "albumsGeneratedAfterDedupe": 21,
-  "singlesGeneratedAfterDedupe": 184,
+  "singlesGeneratedAfterDedupe": 185,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4515,32 +4515,6 @@
       }
     },
     {
-      "artistName": "צליל וזמר",
-      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
-      "aliasesUsed": [
-        "צליל וזמר",
-        "Sound and singer",
-        "tzlil ozmr",
-        "tzlil ozmer",
-        "tzlil uzmr",
-        "tzlil uzmer"
-      ],
-      "title": "Volume 2",
-      "expectedType": "ALBUM",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "A Rush of Blood to the Head",
-        "candidateArtist": "Coldplay",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "שמחה אברמצ'יק",
       "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
       "aliasesUsed": [
@@ -4572,7 +4546,13 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwj9pLqhv-WVAxWtnysGHft5PQrKAQTuzflP', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiW9qDvhOiVAxXxxj8EHRZJAknKAQTllqup', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "message": "'musicImmersiveHeaderRenderer'"
     },
     {
       "type": "artist_read_failed",
@@ -4581,5 +4561,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-07-22T05:04:25.142374+00:00"
+  "completedAt": "2026-07-23T05:20:14.541480+00:00"
 }
