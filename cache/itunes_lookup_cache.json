@@ -158381,5 +158381,108 @@
       "primaryGenreName": "Israeli",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"Shevach Boys Choir\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Treisten (feat. משה דוד וייסמנדל)\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1514996404,
+      "collectionId": 6793251084,
+      "trackId": 6793251295,
+      "artistName": "Shir V'shevach Boys Choir",
+      "collectionName": "Treisten (feat. משה דוד וייסמנדל) - Single",
+      "trackName": "Treisten (feat. משה דוד וייסמנדל)",
+      "collectionCensoredName": "Treisten (feat. משה דוד וייסמנדל) - Single",
+      "trackCensoredName": "Treisten (feat. משה דוד וייסמנדל)",
+      "artistViewUrl": "https://music.apple.com/il/artist/shir-vshevach-boys-choir/1514996404?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/treisten-feat-%D7%9E%D7%A9%D7%94-%D7%93%D7%95%D7%93-%D7%95%D7%99%D7%99%D7%A1%D7%9E%D7%A0%D7%93%D7%9C/6793251084?i=6793251295&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/treisten-feat-%D7%9E%D7%A9%D7%94-%D7%93%D7%95%D7%93-%D7%95%D7%99%D7%99%D7%A1%D7%9E%D7%A0%D7%93%D7%9C/6793251084?i=6793251295&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/69/40/e56940f1-6f13-bea6-2211-46e3d3c5e094/mzaf_3259917109451021430.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/e0/42/10e042da-d4a4-8f31-4c1a-77f13fac3b77/artwork.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/e0/42/10e042da-d4a4-8f31-4c1a-77f13fac3b77/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/e0/42/10e042da-d4a4-8f31-4c1a-77f13fac3b77/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "trackPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 308000,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Country",
+      "isStreamable": true
+    }
+  ],
+  "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"בריו 2\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 993785975,
+      "collectionId": 1046905150,
+      "artistName": "Baryo Hakshur",
+      "collectionName": "Baryo, Vol. 2",
+      "collectionCensoredName": "Baryo, Vol. 2",
+      "artistViewUrl": "https://music.apple.com/il/artist/baryo-hakshur/993785975?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/baryo-vol-2/1046905150?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/af/ab/0aafab5b-377a-01cf-6d59-5f0937712135/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/af/ab/0aafab5b-377a-01cf-6d59-5f0937712135/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 32.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 12,
+      "copyright": "℗ 2015 Singold",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2015-10-10T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ],
+  "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"שיר ושבחה\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 993785975,
+      "collectionId": 1046904320,
+      "artistName": "Baryo Hakshur",
+      "collectionName": "שיר ושבחה",
+      "collectionCensoredName": "שיר ושבחה",
+      "artistViewUrl": "https://music.apple.com/il/artist/baryo-hakshur/993785975?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A9%D7%99%D7%A8-%D7%95%D7%A9%D7%91%D7%97%D7%94/1046904320?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/e3/d0/b7/e3d0b790-c7a2-ec2b-7f2d-2e6c5e33c1b6/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/e3/d0/b7/e3d0b790-c7a2-ec2b-7f2d-2e6c5e33c1b6/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 32.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 11,
+      "copyright": "℗ 2011 Singold",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2011-01-01T00:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ],
+  "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"כשהכל יסתדר\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 993785975,
+      "collectionId": 1618896052,
+      "artistName": "Baryo Hakshur",
+      "collectionName": "כשהכל יסתדר - Single",
+      "collectionCensoredName": "כשהכל יסתדר - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/baryo-hakshur/993785975?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%9B%D7%A9%D7%94%D7%9B%D7%9C-%D7%99%D7%A1%D7%AA%D7%93%D7%A8-single/1618896052?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d1/cd/70/d1cd70ee-c03d-f63d-b5bd-a2f7bffd2e51/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d1/cd/70/d1cd70ee-c03d-f63d-b5bd-a2f7bffd2e51/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2022 Singold",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2022-04-12T07:00:00Z",
+      "primaryGenreName": "Israeli"
+    }
   ]
 }
