@@ -1,12 +1,12 @@
 {
   "version": 10,
-  "generatedAt": "2026-07-28T04:50:37.601710+00:00",
+  "generatedAt": "2026-07-29T04:56:05.035112+00:00",
   "source": "itunes_youtube_music",
   "strategy": "itunes_metadata_youtube_playback_ids_hebrew_transliteration_popular_rankings_monthly_sorted_artist_genre_shelves",
   "allowedArtistsCount": 287,
-  "itemsCount": 205,
+  "itemsCount": 203,
   "albumsCount": 21,
-  "singlesCount": 184,
+  "singlesCount": 182,
   "popularArtistsCount": 20,
   "popularSongsCount": 20,
   "artistGenreShelvesCount": 6,
@@ -5695,62 +5695,6 @@
       "itunesKind": "song",
       "trackCount": 1,
       "primaryGenreName": "Worldwide"
-    },
-    {
-      "type": "SINGLE",
-      "title": "תהליכים",
-      "youtubeTitle": "תהליכים",
-      "originalTitle": "תהליכים",
-      "itunesTitle": "תהליכים - Single",
-      "artistName": "שמחה אברמצ'יק",
-      "youtubeArtistName": "שמחה אברמצ'יק",
-      "originalArtistName": "שמחה אברמצ'יק",
-      "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
-      "youtubeId": "MPREb_lF2GNgbxwta",
-      "youtubeBrowseId": "MPREb_lF2GNgbxwta",
-      "youtubeVideoId": "I87sxyRmo1I",
-      "itunesCollectionId": 1872809497,
-      "itunesTrackId": 1872809501,
-      "itunesUrl": "https://music.apple.com/il/album/%D7%AA%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D/1872809497?i=1872809501&uo=4",
-      "itunesArtistName": "Simcha Abramczik",
-      "releaseDate": "2026-01-29",
-      "releaseDatePrecision": "day",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/83/a4/6583a45c-47ea-36ca-42e9-e84e05c55513/cover.jpg/1000x1000bb.jpg",
-      "source": "itunes",
-      "confidence": "high",
-      "matchScore": 90,
-      "itunesWrapperType": "track",
-      "itunesKind": "song",
-      "trackCount": 1,
-      "primaryGenreName": "Israeli"
-    },
-    {
-      "type": "SINGLE",
-      "title": "תנגן את זה",
-      "youtubeTitle": "תנגן את זה",
-      "originalTitle": "תנגן את זה",
-      "itunesTitle": "תנגן את זה - Single",
-      "artistName": "אלחנן אלחדד",
-      "youtubeArtistName": "אלחנן אלחדד",
-      "originalArtistName": "אלחנן אלחדד",
-      "artistChannelId": "UCue8u4IxRpP9t_Gen4xvGCw",
-      "youtubeId": "MPREb_Rr6mUmUympo",
-      "youtubeBrowseId": "MPREb_Rr6mUmUympo",
-      "youtubeVideoId": "kgGugh6k6MQ",
-      "itunesCollectionId": 1872809523,
-      "itunesTrackId": null,
-      "itunesUrl": "https://music.apple.com/il/album/%D7%AA%D7%A0%D7%92%D7%9F-%D7%90%D7%AA-%D7%96%D7%94-single/1872809523?uo=4",
-      "itunesArtistName": "Elchanan Elchadad",
-      "releaseDate": "2026-01-29",
-      "releaseDatePrecision": "day",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/77/61/84776119-7dcc-4841-c59a-b054bcc55b09/cover.jpg/1000x1000bb.jpg",
-      "source": "itunes",
-      "confidence": "medium",
-      "matchScore": 84,
-      "itunesWrapperType": "collection",
-      "itunesKind": null,
-      "trackCount": 1,
-      "primaryGenreName": "Israeli"
     }
   ],
   "popularArtists": [
@@ -5850,8 +5794,8 @@
       "originalName": "יאיר אלייצור",
       "channelId": "UC23eX6d6juE2YT0aa7nL97A",
       "thumbnailUrl": "https://yt3.googleusercontent.com/P-oFbkKUFGF20FIKI9pPq1mjie4MtvlQXKoCh1xd8l0ataNuePuAC1TtgQNSarzaZ_kmpa42ZA=w1707-h711-l90-rj-dcHTWQCx4K",
-      "monthlyListenersText": "64.6K",
-      "monthlyListeners": 64599,
+      "monthlyListenersText": "64.7K",
+      "monthlyListeners": 64700,
       "source": "youtube_music_artist_page"
     },
     {
@@ -5930,8 +5874,8 @@
       "originalName": "שולי רנד",
       "channelId": "UCTG4V5TZqdj1EkI2aSqFD_Q",
       "thumbnailUrl": "https://lh3.googleusercontent.com/p4ljY9LLk5xwBrEdEPZII0xiAAHHYBmofJHGSsl7BYmx7WgX_7fFTPA9M5xJsbKBlawyWmYk3PctXw=w2880-h1200-p-l90-rj",
-      "monthlyListenersText": "39.6K",
-      "monthlyListeners": 39600,
+      "monthlyListenersText": "39.7K",
+      "monthlyListeners": 39700,
       "source": "youtube_music_artist_page"
     },
     {
@@ -5950,8 +5894,8 @@
       "originalName": "משה קליין",
       "channelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
       "thumbnailUrl": "https://yt3.googleusercontent.com/incSWeL8yfRpfadRFcFRpvUWiNps6Dk16BhUtDUwzGZpDQu4B_EIupL6bWfh7VB-7Y5Dv1SZjV4lLYY=w2880-h1200-p-l90-rj",
-      "monthlyListenersText": "36.9K",
-      "monthlyListeners": 36900,
+      "monthlyListenersText": "37K",
+      "monthlyListeners": 37000,
       "source": "youtube_music_artist_page"
     }
   ],
@@ -6069,22 +6013,6 @@
       "sourceRank": 2
     },
     {
-      "title": "ניצחת איתי הכל בהופעה בבריכת הסולטן",
-      "youtubeTitle": "ניצחת איתי הכל בהופעה בבריכת הסולטן",
-      "originalTitle": "ניצחת איתי הכל בהופעה בבריכת הסולטן",
-      "artistName": "ישי ריבו",
-      "youtubeArtistName": "ישי ריבו",
-      "originalArtistName": "ישי ריבו",
-      "artistChannelId": "UCVYVQD6Qpuvo-Zg_jmjTrkw",
-      "youtubeVideoId": "UiwK553IfHQ",
-      "youtubeId": "UiwK553IfHQ",
-      "artworkUrl": "https://yt3.googleusercontent.com/CKJe6smSS_novbADSq7UHizH3ofOl0JNLHANgJjRc3WseHBBtdx8xkK1dFTcwqw4E4padqYsK4EyuJFg=w120-h120-l90-rj",
-      "monthlyPlaysText": null,
-      "monthlyPlays": 354997,
-      "source": "youtube_music_artist_songs",
-      "sourceRank": 3
-    },
-    {
       "title": "סיבת הסיבות",
       "youtubeTitle": "סיבת הסיבות",
       "originalTitle": "סיבת הסיבות",
@@ -6095,6 +6023,22 @@
       "youtubeVideoId": "588lj0tTZOs",
       "youtubeId": "588lj0tTZOs",
       "artworkUrl": "https://yt3.googleusercontent.com/AOVtSvR4o9qOAf_EW9GnIsgEjnMAhxzlEp-EnSmHGCJ81Ohkp7yFjxkj73UlNJ96nsHU-kEfT8kYGno3=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 354997,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 3
+    },
+    {
+      "title": "ניצחת איתי הכל בהופעה בבריכת הסולטן",
+      "youtubeTitle": "ניצחת איתי הכל בהופעה בבריכת הסולטן",
+      "originalTitle": "ניצחת איתי הכל בהופעה בבריכת הסולטן",
+      "artistName": "ישי ריבו",
+      "youtubeArtistName": "ישי ריבו",
+      "originalArtistName": "ישי ריבו",
+      "artistChannelId": "UCVYVQD6Qpuvo-Zg_jmjTrkw",
+      "youtubeVideoId": "UiwK553IfHQ",
+      "youtubeId": "UiwK553IfHQ",
+      "artworkUrl": "https://yt3.googleusercontent.com/CKJe6smSS_novbADSq7UHizH3ofOl0JNLHANgJjRc3WseHBBtdx8xkK1dFTcwqw4E4padqYsK4EyuJFg=w120-h120-l90-rj",
       "monthlyPlaysText": null,
       "monthlyPlays": 354996,
       "source": "youtube_music_artist_songs",
@@ -6245,6 +6189,22 @@
       "sourceRank": 3
     },
     {
+      "title": "HanuKpop Demon Hunters",
+      "youtubeTitle": "HanuKpop Demon Hunters",
+      "originalTitle": "HanuKpop Demon Hunters",
+      "artistName": "המכביטס",
+      "youtubeArtistName": "המכביטס",
+      "originalArtistName": "המכביטס",
+      "artistChannelId": "UCEg5tmfi6WmJZRnezYLVHSg",
+      "youtubeVideoId": "EAGIh_CRRQE",
+      "youtubeId": "EAGIh_CRRQE",
+      "artworkUrl": "https://yt3.googleusercontent.com/kKtQLpsd3IrX7vTn-PHhr3QbEC5quIKtzE1-CMp-4zGV0yuL_YSiuZZxEl-3ys6AgD5CUmQipxv6VyX4=w120-h120-l90-rj",
+      "monthlyPlaysText": null,
+      "monthlyPlays": 149996,
+      "source": "youtube_music_artist_songs",
+      "sourceRank": 4
+    },
+    {
       "title": "One Day",
       "youtubeTitle": "One Day",
       "originalTitle": "One Day",
@@ -6255,22 +6215,6 @@
       "youtubeVideoId": "FgAjbqf3teE",
       "youtubeId": "FgAjbqf3teE",
       "artworkUrl": "https://yt3.googleusercontent.com/MSButqVcho09kTmdqetwZwSTpuTTKkB6sKQF6JW96SJ4qaSGBn2ae4P5ka_4wf7znzT3hmIUfnQIX0D_hA=w120-h120-l90-rj",
-      "monthlyPlaysText": null,
-      "monthlyPlays": 149996,
-      "source": "youtube_music_artist_songs",
-      "sourceRank": 4
-    },
-    {
-      "title": "Burn",
-      "youtubeTitle": "Burn",
-      "originalTitle": "Burn",
-      "artistName": "המכביטס",
-      "youtubeArtistName": "המכביטס",
-      "originalArtistName": "המכביטס",
-      "artistChannelId": "UCEg5tmfi6WmJZRnezYLVHSg",
-      "youtubeVideoId": "OVrobVttA9A",
-      "youtubeId": "OVrobVttA9A",
-      "artworkUrl": "https://yt3.googleusercontent.com/SZPjj6SUzIHc9aAxaiiEpA5ZX0vltc-gbUEyegXsV9pLOcJM6Q6rF6jlreDgk2uAOz-9JUVKrHfPOBqt=w120-h120-l90-rj",
       "monthlyPlaysText": null,
       "monthlyPlays": 149995,
       "source": "youtube_music_artist_songs",
@@ -6358,8 +6302,8 @@
           "originalName": "משה קליין",
           "channelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/incSWeL8yfRpfadRFcFRpvUWiNps6Dk16BhUtDUwzGZpDQu4B_EIupL6bWfh7VB-7Y5Dv1SZjV4lLYY=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "36.9K",
-          "monthlyListeners": 36900,
+          "monthlyListenersText": "37K",
+          "monthlyListeners": 37000,
           "source": "allowed_artists_genres"
         },
         {
@@ -6388,8 +6332,8 @@
           "originalName": "שמחה פרידמן",
           "channelId": "UCeCsGFl3pIofvlOg9X9RWiQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/5TnPOJxQGetqAX42hGEEpKUCgiXW37_y0X_H35X8IlRObXP5jEW7xg1PXAvrvozbxAKQMAX60Q=w812-h338-l90-rj-dcJWWOzS0H",
-          "monthlyListenersText": "30.1K",
-          "monthlyListeners": 30100,
+          "monthlyListenersText": "30.3K",
+          "monthlyListeners": 30300,
           "source": "allowed_artists_genres"
         },
         {
@@ -6408,8 +6352,8 @@
           "originalName": "מקהלת מלכות",
           "channelId": "UCTKCxKIKaTwEZ3p-zezdP9g",
           "thumbnailUrl": "https://yt3.googleusercontent.com/Qu3NBIYsj9WXosCDSndEOakh28Lwge5fvXvKdLlZvrXTI0vfRJN7rUB4pOudveBSKnhJyIvLWg2cjGo=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "27.4K",
-          "monthlyListeners": 27400,
+          "monthlyListenersText": "27.5K",
+          "monthlyListeners": 27500,
           "source": "allowed_artists_genres"
         },
         {
@@ -6438,8 +6382,8 @@
           "originalName": "נפתלי קמפה",
           "channelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
           "thumbnailUrl": "https://lh3.googleusercontent.com/a3bc-5spoqeh5tHKgCHXuDLwtW2DMmGeuVQRdlYSjAoYsc1EMNPH0DaW9TpKispmK54h0gLXy33PHgQH=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "24.5K",
-          "monthlyListeners": 24500,
+          "monthlyListenersText": "24.6K",
+          "monthlyListeners": 24600,
           "source": "allowed_artists_genres"
         },
         {
@@ -6507,7 +6451,7 @@
           "youtubeName": "נמואל הרוש",
           "originalName": "נמואל הרוש",
           "channelId": "UCCxmSp4ySkfbNjVkA6pRhgw",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/XH_08bIiu-Jr-URzHj9B3TPhutEYEU3_CTQq_nc48H1URv2ogo87SGzUiiXIR3VFl0_sWt5hZA=w2880-h1200-l90-rj-dcqUSYjh0J",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YrKYjUBVNW_iqFrQrOcZZJMrxgD8A7oaSO8_dEmB0Nh-t1t6uc_PX1j0zXLSNhLzCrck2Rjrhug=w2400-h1000-l90-rj-dcKXSIjjEG",
           "monthlyListenersText": "14.9K",
           "monthlyListeners": 14900,
           "source": "allowed_artists_genres"
@@ -6553,13 +6497,13 @@
           "source": "allowed_artists_genres"
         },
         {
-          "name": "עמירן דביר",
-          "youtubeName": "עמירן דביר",
-          "originalName": "עמירן דביר",
-          "channelId": "UCL5sL2wnxCI4l-O_zaxUFhw",
-          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nmIsJYn_ZflroEpQFQx8L15RRbse3VtC-r0oOKsSLBPw=w1323-h551-l90-rj-dcoWSOrakF",
-          "monthlyListenersText": "10.5K",
-          "monthlyListeners": 10500,
+          "name": "עמרם אדר",
+          "youtubeName": "עמרם אדר",
+          "originalName": "עמרם אדר",
+          "channelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/0PV4ocxZfBEMMr28VdGfoPqWuzLX0ankjS90UKtAcbs8vrd-R0xDISWzXSAMY_T3TB1eG8BTBQ=w1434-h597-l90-rj-dcIVaYDKII",
+          "monthlyListenersText": "10.7K",
+          "monthlyListeners": 10700,
           "source": "allowed_artists_genres"
         },
         {
@@ -6568,18 +6512,18 @@
           "originalName": "בנצי שטיין",
           "channelId": "UCAM_yc1C3RuxfrMpxAUxHOQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/76yRr3s8G7r4XkPsOOppOPdNJOinuBinOZJwuHNOkKW70XGEDhPUFSrYRbk6wwelaoQIg0jMMZU=w991-h412-l90-rj-dcqXWSzq0H",
-          "monthlyListenersText": "10.5K",
-          "monthlyListeners": 10500,
+          "monthlyListenersText": "10.6K",
+          "monthlyListeners": 10600,
           "source": "allowed_artists_genres"
         },
         {
-          "name": "עמרם אדר",
-          "youtubeName": "עמרם אדר",
-          "originalName": "עמרם אדר",
-          "channelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/0PV4ocxZfBEMMr28VdGfoPqWuzLX0ankjS90UKtAcbs8vrd-R0xDISWzXSAMY_T3TB1eG8BTBQ=w1434-h597-l90-rj-dcIVaYDKII",
-          "monthlyListenersText": "10.4K",
-          "monthlyListeners": 10400,
+          "name": "עמירן דביר",
+          "youtubeName": "עמירן דביר",
+          "originalName": "עמירן דביר",
+          "channelId": "UCL5sL2wnxCI4l-O_zaxUFhw",
+          "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_nmIsJYn_ZflroEpQFQx8L15RRbse3VtC-r0oOKsSLBPw=w1323-h551-l90-rj-dcoWSOrakF",
+          "monthlyListenersText": "10.5K",
+          "monthlyListeners": 10500,
           "source": "allowed_artists_genres"
         },
         {
@@ -6608,8 +6552,8 @@
           "originalName": "ארי סאמט",
           "channelId": "UCVQ-263yvbcxhH4baA-Uliw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/hJEUHHHqyn6BzhjrurUeMOlwr20iUUI8Tz8RAlLGvzvUa8jnwTEVm2MXlzniLzIWeTbBXMHW9A=w2880-h1200-l90-rj-dcHYWOzLEG",
-          "monthlyListenersText": "9.75K",
-          "monthlyListeners": 9750,
+          "monthlyListenersText": "9.76K",
+          "monthlyListeners": 9760,
           "source": "allowed_artists_genres"
         },
         {
@@ -6618,8 +6562,8 @@
           "originalName": "דובי מייזעלס",
           "channelId": "UCQdB_44poAPBj2TckPrbdgw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/2-w4O7vm4n8gBxjIQdj3U6UwcFp5snf5TKmvcF7ayR9O03cYDsOkyVtDf64pm8TxwWKNzgr4rA=w2880-h1200-l90-rj-dcgVKKCiIJ",
-          "monthlyListenersText": "8.91K",
-          "monthlyListeners": 8910,
+          "monthlyListenersText": "8.92K",
+          "monthlyListeners": 8920,
           "source": "allowed_artists_genres"
         },
         {
@@ -6678,8 +6622,8 @@
           "originalName": "מנדי וייס",
           "channelId": "UC271gYsK8n1WVeBTyiDjYEA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/6PlbMcyjjeOWnN419RRazWDZwOPbpIesZXuQB6XQpWPzBNbD7RrRCem3sY-tbzPbVLJSOY2m6g=w1080-h450-l90-rj-dcMVSYcCUI",
-          "monthlyListenersText": "7.17K",
-          "monthlyListeners": 7170,
+          "monthlyListenersText": "7.18K",
+          "monthlyListeners": 7180,
           "source": "allowed_artists_genres"
         },
         {
@@ -6688,8 +6632,8 @@
           "originalName": "Shmili Landau",
           "channelId": "UCFWvCu8Pee_khdbmAANa1Bw",
           "thumbnailUrl": "https://lh3.googleusercontent.com/l39QOE-QZJhdyIoopSN3YMSdV2Pohr_3qEHVS1Iw4769yEy034dK2ZZrikY9liECK44hmONJiPXqcG0=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "7.16K",
-          "monthlyListeners": 7160,
+          "monthlyListenersText": "7.17K",
+          "monthlyListeners": 7170,
           "source": "allowed_artists_genres"
         },
         {
@@ -6718,8 +6662,8 @@
           "originalName": "איציק וינגרטן",
           "channelId": "UCT3Ujz3093G2VRxAZBHR-lA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/w0EvZmIcT9B28J0BylFHNsPMDNq8rD0NyA_0_7J1tjiN79SMcBlMWfoXpe3Q1KgObN34z2wrPCMVafc=w1425-h593-p-l90-rj",
-          "monthlyListenersText": "6.93K",
-          "monthlyListeners": 6930,
+          "monthlyListenersText": "6.94K",
+          "monthlyListeners": 6940,
           "source": "allowed_artists_genres"
         },
         {
@@ -6748,8 +6692,8 @@
           "originalName": "Nachas",
           "channelId": "UCFaqeWT7ZBJsdeOvCWvYhfA",
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_m3qAQh-OIYzETtt8MpvdkGyM7zF4ijRQz5mTfYX4uJ6zQ=w750-h312-l90-rj-dcgVGKZCYG",
-          "monthlyListenersText": "6.68K",
-          "monthlyListeners": 6680,
+          "monthlyListenersText": "6.67K",
+          "monthlyListeners": 6670,
           "source": "allowed_artists_genres"
         },
         {
@@ -6773,6 +6717,16 @@
           "source": "allowed_artists_genres"
         },
         {
+          "name": "הרשי וינברגר",
+          "youtubeName": "הרשי וינברגר",
+          "originalName": "הרשי וינברגר",
+          "channelId": "UCLQylHgxsIaMasCFKhL7A1g",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/3S8zdkmfaanyaxZq40xXT1I5kG6fESEaAyyRE-_kxOR_0u189T3szhbcjBYgaj-oXci6kY_0fQ=w1096-h456-l90-rj-dcMVSWjykI",
+          "monthlyListenersText": "6.23K",
+          "monthlyListeners": 6230,
+          "source": "allowed_artists_genres"
+        },
+        {
           "name": "אברימי רוט",
           "youtubeName": "אברימי רוט",
           "originalName": "אברימי רוט",
@@ -6780,16 +6734,6 @@
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_l5YSq_Km0Pmz5s8TecQaAjYxog9-OXr08LEC1NIwlzsg=w1078-h449-l90-rj-dcqUSUriEI",
           "monthlyListenersText": "6.21K",
           "monthlyListeners": 6210,
-          "source": "allowed_artists_genres"
-        },
-        {
-          "name": "הרשי וינברגר",
-          "youtubeName": "הרשי וינברגר",
-          "originalName": "הרשי וינברגר",
-          "channelId": "UCLQylHgxsIaMasCFKhL7A1g",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/3S8zdkmfaanyaxZq40xXT1I5kG6fESEaAyyRE-_kxOR_0u189T3szhbcjBYgaj-oXci6kY_0fQ=w1096-h456-l90-rj-dcMVSWjykI",
-          "monthlyListenersText": "6.19K",
-          "monthlyListeners": 6190,
           "source": "allowed_artists_genres"
         },
         {
@@ -6818,8 +6762,8 @@
           "originalName": "שמוליק קליין",
           "channelId": "UCDL3ZI-bidleJqCdmLFgsCw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/alLXI2jqEJLfd_hSKZd-bMrv58VtzPk0fxY_S56XMC8UVo-aZK-bCTHCF4QMGBVVUS7DZdjTNA3g0xA=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "5.52K",
-          "monthlyListeners": 5520,
+          "monthlyListenersText": "5.53K",
+          "monthlyListeners": 5530,
           "source": "allowed_artists_genres"
         },
         {
@@ -6828,8 +6772,8 @@
           "originalName": "יידל ורדיגר",
           "channelId": "UCaVyEkSHaVO95koiBH5QYrQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/OeW_bTaWJI7xwzNqKB64ocYbjwQjmmhqjH_Ycy6yRlzgQAjshxbZ9Jojq_UUk48Qqirw00ZNseFEyA=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "5.48K",
-          "monthlyListeners": 5480,
+          "monthlyListenersText": "5.49K",
+          "monthlyListeners": 5490,
           "source": "allowed_artists_genres"
         },
         {
@@ -6838,8 +6782,8 @@
           "originalName": "רולי דיקמן",
           "channelId": "UC2aimwcezjVPh8D4bqLMWXw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/rrTh53pVNV3V7FrKnFFrJ2YLONTI6eow227dRe4h50OBc-VA3PqNhFkbVTrv9zkPPBOzTR-KjDI=w2044-h851-l90-rj-dcnXOQjK0G",
-          "monthlyListenersText": "5.38K",
-          "monthlyListeners": 5380,
+          "monthlyListenersText": "5.4K",
+          "monthlyListeners": 5400,
           "source": "allowed_artists_genres"
         },
         {
@@ -6978,8 +6922,8 @@
           "originalName": "קובי גרינבוים",
           "channelId": "UCRvg41IvfBdXTapY_ty65og",
           "thumbnailUrl": "https://yt3.googleusercontent.com/S0KSGqzlIiPGIVTKM875FDGlB2RO9fhDFruMLaz14xOoktp-j6T41m43b-FkYCtpNzTmwfrFxg=w1078-h449-l90-rj-dcpWWUzSkI",
-          "monthlyListenersText": "3.01K",
-          "monthlyListeners": 3010,
+          "monthlyListenersText": "3.02K",
+          "monthlyListeners": 3020,
           "source": "allowed_artists_genres"
         },
         {
@@ -7038,8 +6982,8 @@
           "originalName": "אליהו חייט",
           "channelId": "UCDrPBGfQiHS7KTe4dsG7HIQ",
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lY8gQDUWbqqB_T7OzuIwdoAbsAEOthZLRf2j9YTwE4yQ=w1530-h637-l90-rj-dcHRaYC5IK",
-          "monthlyListenersText": "2.16K",
-          "monthlyListeners": 2160,
+          "monthlyListenersText": "2.17K",
+          "monthlyListeners": 2170,
           "source": "allowed_artists_genres"
         },
         {
@@ -7168,8 +7112,8 @@
           "originalName": "מנדי רוט",
           "channelId": "UCMqmsFTYbQfwGD62NmFk_jg",
           "thumbnailUrl": "https://lh3.googleusercontent.com/j1amdT77dUhU2i6xKOJLdur0Q6QvXhXmZZ8CsP78MvQmnL-06v7Am88yPNICupeNo_XMwgTzxjX3Esg=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "1.25K",
-          "monthlyListeners": 1250,
+          "monthlyListenersText": "1.28K",
+          "monthlyListeners": 1280,
           "source": "allowed_artists_genres"
         },
         {
@@ -7228,8 +7172,8 @@
           "originalName": "שרגי גשטטנר",
           "channelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/37aziHs7Ickc9PSAbSzz77hrjvI-bjzR1JrjfQOKSrQN82_21CajQckii7knfCKY69DIqsvSWjJfyCo=w1400-h583-p-l90-rj",
-          "monthlyListenersText": "960",
-          "monthlyListeners": 960,
+          "monthlyListenersText": "961",
+          "monthlyListeners": 961,
           "source": "allowed_artists_genres"
         },
         {
@@ -7238,8 +7182,8 @@
           "originalName": "ישראל ורדיגר",
           "channelId": "UC0ltk59L9qeEN2YNBeshuLA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/nabhleRtbYQTZ7Mxc614IUgyRqF2mDFeXZUfD-Gr0cIbIH6BH6aR0nHe9CGhLPsupEBsVkVeNzA-vUzD=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "940",
-          "monthlyListeners": 940,
+          "monthlyListenersText": "939",
+          "monthlyListeners": 939,
           "source": "allowed_artists_genres"
         },
         {
@@ -7248,8 +7192,8 @@
           "originalName": "שמואל גריינמן",
           "channelId": "UC1H2TOEthiv6KA2PgId6EYQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/YHkbPOVNF4a48yqoAGJiox9-pD-sLKPk0VxBNoootUGihoa53Yf8Oj9RK8PoVOwLuMYrP9gVmJc=w2400-h1000-l90-rj-dcoUWQ7B0J",
-          "monthlyListenersText": "889",
-          "monthlyListeners": 889,
+          "monthlyListenersText": "890",
+          "monthlyListeners": 890,
           "source": "allowed_artists_genres"
         },
         {
@@ -7258,8 +7202,8 @@
           "originalName": "שרוליק קלצקין",
           "channelId": "UCv4zIkEX_dhm6E7WSULMowQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/tM1jcTtr2o4Y-eHjjtV0h29Zij6B-yPFk-uDMFrjEOjSJKyYbWf9U_fDkEvhoU8t4--DfDa7og=w746-h310-l90-rj-dcLXWQri0H",
-          "monthlyListenersText": "867",
-          "monthlyListeners": 867,
+          "monthlyListenersText": "869",
+          "monthlyListeners": 869,
           "source": "allowed_artists_genres"
         },
         {
@@ -7268,8 +7212,8 @@
           "originalName": "אלחנן אלחדד",
           "channelId": "UCue8u4IxRpP9t_Gen4xvGCw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/5qfYrcYbmcHlLwDM25flnWM0St2ce9FxpTvLosAFNJhqW1ikr5RIkPxlHtZU5gnjQ9ooBnDTXA=w1078-h449-l90-rj-dcqTWIzh0K",
-          "monthlyListenersText": "776",
-          "monthlyListeners": 776,
+          "monthlyListenersText": "778",
+          "monthlyListeners": 778,
           "source": "allowed_artists_genres"
         },
         {
@@ -7278,8 +7222,8 @@
           "originalName": "ברוך שלום בלסופסקי",
           "channelId": "UC-xr5bwdJDADQkS_TfDl4mA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/5_x7FArg0Eqe5rjCTQguly01QiQgnlH0ceDrnmXmBZMB_OqaVJNIcqe0QF0xRdUCWGd6dg-ttsDONngJ=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "765",
-          "monthlyListeners": 765,
+          "monthlyListenersText": "767",
+          "monthlyListeners": 767,
           "source": "allowed_artists_genres"
         },
         {
@@ -7288,8 +7232,8 @@
           "originalName": "אברומי ברקו",
           "channelId": "UCD0XDjxjjAE-cl34gY5_Cfw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/D66yZNs3o81bsDlq1lly0xy4Tyg0iaMRTl7MjhZaGsbh7aldTog_fe99gB53ib2SJgW25UjXYiRiGvOb4g=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "748",
-          "monthlyListeners": 748,
+          "monthlyListenersText": "749",
+          "monthlyListeners": 749,
           "source": "allowed_artists_genres"
         },
         {
@@ -7328,8 +7272,8 @@
           "originalName": "Tali Yess",
           "channelId": "UCs1CUepeSP_9zIgp2w3vMYA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/wy_-IO813BXHGFTKteJYy3SVmvlXiNt4BkPzr6of9EJp1S6VcwqT2ZoBmL8NL_pBhY9O3TIhhr5oWn4k=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "697",
-          "monthlyListeners": 697,
+          "monthlyListenersText": "696",
+          "monthlyListeners": 696,
           "source": "allowed_artists_genres"
         },
         {
@@ -7338,8 +7282,8 @@
           "originalName": "Yossi Lauber",
           "channelId": "UCvsFJtayl0mj3sv3X7qecuQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/LBRuv3p6aYMgGM5CWS1Yjm5NUaWy61_9fm0GS4oIfnyQI3Tlo75SkFY1bh2i_h0O1UOgnnLZdAqISKZw9A=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "642",
-          "monthlyListeners": 642,
+          "monthlyListenersText": "641",
+          "monthlyListeners": 641,
           "source": "allowed_artists_genres"
         },
         {
@@ -7378,8 +7322,8 @@
           "originalName": "מקהלת צבאות השם",
           "channelId": "UCAXAP-u8qCWKXJMHcpstBJw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/MGgIjY_WTs_DmFgv0rq2tM1tbmfTd251rNun-x7maa53yYtSu3cNjcSyl2xwqtic0KuaqfYmEJT-vaI1UA=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "524",
-          "monthlyListeners": 524,
+          "monthlyListenersText": "525",
+          "monthlyListeners": 525,
           "source": "allowed_artists_genres"
         },
         {
@@ -7388,8 +7332,8 @@
           "originalName": "יונתן שוורץ",
           "channelId": "UC8QdnhyXXB8Y6FHQTvtDuRQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/vk0Q0e4YdxmdnmpiAKN2nmqVwJv7LrToQVp91duy1EFz6vsDlHzPR9tqjVIauO_Sz38wWmzrqLKhw0E=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "521",
-          "monthlyListeners": 521,
+          "monthlyListenersText": "522",
+          "monthlyListeners": 522,
           "source": "allowed_artists_genres"
         },
         {
@@ -7438,8 +7382,8 @@
           "originalName": "TYH Boys",
           "channelId": "UCtQiRYkrvrMlTmqEQy78vAA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/DBzFrfMUnc8IN-fG40b0qnziGwuecpBYv14yncxWeRz5uy-EsAil71-RraL27_qSdn4e6vOI78oEtM6W=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "368",
-          "monthlyListeners": 368,
+          "monthlyListenersText": "371",
+          "monthlyListeners": 371,
           "source": "allowed_artists_genres"
         },
         {
@@ -7448,8 +7392,8 @@
           "originalName": "לייבי וידר",
           "channelId": "UC4LXfHVem0dsBLO_uMwpbXw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/eNQDO7nEtyu-xIsD2eQEPuFJgxJEXyS1z1NtCb2n5tFM2TgeZ2Qwh-hMzHDez0tlmE9z59hcBw=w1884-h785-l90-rj-dcrSWWzhkK",
-          "monthlyListenersText": "360",
-          "monthlyListeners": 360,
+          "monthlyListenersText": "359",
+          "monthlyListeners": 359,
           "source": "allowed_artists_genres"
         },
         {
@@ -7488,8 +7432,8 @@
           "originalName": "יוני אליאב",
           "channelId": "UC-GfYOy3knA_Lz-k_kidrOA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/_1YWO1xjMhDpmAU54M5v2Myjp-2ASDXHHJ6VYW-QUbL_fR8C-ULAc7CKOdLIahuc0oq_e0ApReg10S0Z=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "288",
-          "monthlyListeners": 288,
+          "monthlyListenersText": "289",
+          "monthlyListeners": 289,
           "source": "allowed_artists_genres"
         },
         {
@@ -7538,8 +7482,8 @@
           "originalName": "מקהלת פרחי לונדון",
           "channelId": "UCpZAxl_lfqzZ56ortfjCQbg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/hMi1lyQ9jSkInptPUg52PNY9vj_kRSdmLryRCm4F1kFay0SHSIb8C-0c1_7ZnMayGtI8xP57OcjOMg4=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "257",
-          "monthlyListeners": 257,
+          "monthlyListenersText": "258",
+          "monthlyListeners": 258,
           "source": "allowed_artists_genres"
         },
         {
@@ -7628,8 +7572,8 @@
           "originalName": "מנדי גולדברג",
           "channelId": "UCZgmglzC29i40G3cBx15rPA",
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lMYYbnujae7h33l6r1wced5UAi9E1LVEVcjWctlNdkjDQa=w1080-h450-l90-rj-dcpWOMjakF",
-          "monthlyListenersText": "142",
-          "monthlyListeners": 142,
+          "monthlyListenersText": "141",
+          "monthlyListeners": 141,
           "source": "allowed_artists_genres"
         },
         {
@@ -7638,8 +7582,8 @@
           "originalName": "צמד רעים",
           "channelId": "UCHaVz94rZbnTMN8if-mn34Q",
           "thumbnailUrl": "https://yt3.googleusercontent.com/EHb8cc1jjNQy2jbuL5HSSiGSaK8VBNWz-X2J1OsmnoO3tP2pC3t06ZMkDVTcsBLPgJDA3EkANzkBkgif=w1440-h600-p-l90-rj",
-          "monthlyListenersText": "140",
-          "monthlyListeners": 140,
+          "monthlyListenersText": "139",
+          "monthlyListeners": 139,
           "source": "allowed_artists_genres"
         },
         {
@@ -7813,6 +7757,16 @@
           "source": "allowed_artists_genres"
         },
         {
+          "name": "מקהלת שירה",
+          "youtubeName": "מקהלת שירה",
+          "originalName": "מקהלת שירה",
+          "channelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/t6WiojC8z0P5L5qOcs__v4ACI8xW_027tBbHIipyqRMdju7tXCnqJGjGUyDvWGZRX4KEEHCbUaBiZoX5ew=w2880-h1200-p-l90-rj",
+          "monthlyListenersText": "50",
+          "monthlyListeners": 50,
+          "source": "allowed_artists_genres"
+        },
+        {
           "name": "יצי ספינר",
           "youtubeName": "יצי ספינר",
           "originalName": "יצי ספינר",
@@ -7830,16 +7784,6 @@
           "thumbnailUrl": "https://yt3.googleusercontent.com/44qxhsr-iwURF62frxXWVShSWsL0Fb6oCti0gfbI2-uegRTWC3YvwIFKAP250HQV1cDUBlVVXkuYQT4k=w2880-h1200-p-l90-rj",
           "monthlyListenersText": "49",
           "monthlyListeners": 49,
-          "source": "allowed_artists_genres"
-        },
-        {
-          "name": "מקהלת שירה",
-          "youtubeName": "מקהלת שירה",
-          "originalName": "מקהלת שירה",
-          "channelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/t6WiojC8z0P5L5qOcs__v4ACI8xW_027tBbHIipyqRMdju7tXCnqJGjGUyDvWGZRX4KEEHCbUaBiZoX5ew=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "48",
-          "monthlyListeners": 48,
           "source": "allowed_artists_genres"
         },
         {
@@ -8033,13 +7977,13 @@
           "source": "allowed_artists_genres"
         },
         {
-          "name": "אברהם חיים גרין",
-          "youtubeName": "אברהם חיים גרין",
-          "originalName": "אברהם חיים גרין",
-          "channelId": "UC5SCgSfE6JbkzNGRG0tjvgg",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/Bl8Ca_wKLnZW-YotQid41ZR5jtey5ZcCFDlBrkx3DrjxnTsvvgsMtem-irWpAZQYYqe6tldpfzvKaOs=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "4",
-          "monthlyListeners": 4,
+          "name": "פינחס ביכלר",
+          "youtubeName": "פינחס ביכלר",
+          "originalName": "פינחס ביכלר",
+          "channelId": "UCt2AKtO242jh31CiLfGgI6Q",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/_oYgYcosAUwKhguCpYS94thJNx_GTtqmlNHO9X4ntJZHzI4wKhjWRJpsU9wpYm1Y4wxgGSGILqO6iLs=w1425-h593-p-l90-rj",
+          "monthlyListenersText": "3",
+          "monthlyListeners": 3,
           "source": "allowed_artists_genres"
         },
         {
@@ -8063,21 +8007,21 @@
           "source": "allowed_artists_genres"
         },
         {
+          "name": "אברהם חיים גרין",
+          "youtubeName": "אברהם חיים גרין",
+          "originalName": "אברהם חיים גרין",
+          "channelId": "UC5SCgSfE6JbkzNGRG0tjvgg",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/Bl8Ca_wKLnZW-YotQid41ZR5jtey5ZcCFDlBrkx3DrjxnTsvvgsMtem-irWpAZQYYqe6tldpfzvKaOs=w2880-h1200-p-l90-rj",
+          "monthlyListenersText": "3",
+          "monthlyListeners": 3,
+          "source": "allowed_artists_genres"
+        },
+        {
           "name": "שלמה טויסיג",
           "youtubeName": "שלמה טויסיג",
           "originalName": "שלמה טויסיג",
           "channelId": "UCDh7M3rgv8uz6MND2spmePg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/KTv4l3tDehPAG6S6HU0QGHIaA1z-kzeiXFfHZkQsBQVjKlChu2GDUMhbvrbWABdCN3ZHIIt99cR97BB4=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "2",
-          "monthlyListeners": 2,
-          "source": "allowed_artists_genres"
-        },
-        {
-          "name": "פינחס ביכלר",
-          "youtubeName": "פינחס ביכלר",
-          "originalName": "פינחס ביכלר",
-          "channelId": "UCt2AKtO242jh31CiLfGgI6Q",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/_oYgYcosAUwKhguCpYS94thJNx_GTtqmlNHO9X4ntJZHzI4wKhjWRJpsU9wpYm1Y4wxgGSGILqO6iLs=w1425-h593-p-l90-rj",
           "monthlyListenersText": "2",
           "monthlyListeners": 2,
           "source": "allowed_artists_genres"
@@ -8264,8 +8208,8 @@
           "originalName": "שולי רנד",
           "channelId": "UCTG4V5TZqdj1EkI2aSqFD_Q",
           "thumbnailUrl": "https://lh3.googleusercontent.com/p4ljY9LLk5xwBrEdEPZII0xiAAHHYBmofJHGSsl7BYmx7WgX_7fFTPA9M5xJsbKBlawyWmYk3PctXw=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "39.6K",
-          "monthlyListeners": 39600,
+          "monthlyListenersText": "39.7K",
+          "monthlyListeners": 39700,
           "source": "allowed_artists_genres"
         },
         {
@@ -8324,8 +8268,8 @@
           "originalName": "משה פלד",
           "channelId": "UC4xhDvLjoxYL1s8CRgwAy6Q",
           "thumbnailUrl": "https://yt3.googleusercontent.com/6bMEKjbwm9RaQeI9eBIsIlKlVEdGENLQN9cWrIq7wUN-ISipTSwJvndxvlxBKCrDp2cY6S4_i50=w1355-h564-l90-rj-dcrWSWrikI",
-          "monthlyListenersText": "8.87K",
-          "monthlyListeners": 8870,
+          "monthlyListenersText": "8.88K",
+          "monthlyListeners": 8880,
           "source": "allowed_artists_genres"
         },
         {
@@ -8354,8 +8298,8 @@
           "originalName": "חיים פורטל",
           "channelId": "UCP3G80JEWp5vAEKDm1zRywA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/b49o3XhyQ5JzXoyDKChxRcWW6xvHaPZhc9ZIaM3NDd5HfJebNX-lrOiaOB52jcfEnHoe83vK=w1091-h454-l90-rj-dcAWOIh6II",
-          "monthlyListenersText": "4.49K",
-          "monthlyListeners": 4490,
+          "monthlyListenersText": "4.54K",
+          "monthlyListeners": 4540,
           "source": "allowed_artists_genres"
         },
         {
@@ -8374,8 +8318,8 @@
           "originalName": "אלחנן ענבל",
           "channelId": "UCw4uDtNqzKpA_FyBnbgAQhw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/imI5rLYTWnqlwWfK46CBcIvuFtLaWINsAZdvija8DNZteGigFgYQurItSiwoX006Ae9PtMsCfoYGCrs=w1425-h593-p-l90-rj",
-          "monthlyListenersText": "1.83K",
-          "monthlyListeners": 1830,
+          "monthlyListenersText": "1.84K",
+          "monthlyListeners": 1840,
           "source": "allowed_artists_genres"
         },
         {
@@ -8384,8 +8328,8 @@
           "originalName": "הראל טל",
           "channelId": "UC-lHN5ZiysUhuU4xm6tRzpw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/MWAINaVBK0xOx2xC6W3XQAVuDDfjdGWkG9BPcMfTEZ0EYuyWVXok31K8uHxnehMLeZPptJZD4xC5Gr_y6Q=w1425-h593-p-l90-rj",
-          "monthlyListenersText": "1.14K",
-          "monthlyListeners": 1140,
+          "monthlyListenersText": "1.15K",
+          "monthlyListeners": 1150,
           "source": "allowed_artists_genres"
         },
         {
@@ -8394,8 +8338,8 @@
           "originalName": "צמד רעים",
           "channelId": "UCHaVz94rZbnTMN8if-mn34Q",
           "thumbnailUrl": "https://yt3.googleusercontent.com/EHb8cc1jjNQy2jbuL5HSSiGSaK8VBNWz-X2J1OsmnoO3tP2pC3t06ZMkDVTcsBLPgJDA3EkANzkBkgif=w1440-h600-p-l90-rj",
-          "monthlyListenersText": "140",
-          "monthlyListeners": 140,
+          "monthlyListenersText": "139",
+          "monthlyListeners": 139,
           "source": "allowed_artists_genres"
         },
         {
@@ -8434,8 +8378,8 @@
           "originalName": "פורת נוב",
           "channelId": "UCRRUJV-iGXfyaaK2WOuFunA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/cX70SOpQk8KUn7vobKFN9Xncl1DHlCd2Fhgmq6E-6MSfShiLVQh_Lv3vqYJhPuPDCR9JnZoeFAcmtp1Yiw=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "11",
-          "monthlyListeners": 11,
+          "monthlyListenersText": "12",
+          "monthlyListeners": 12,
           "source": "allowed_artists_genres"
         },
         {
@@ -8640,8 +8584,8 @@
           "originalName": "שמואל הררי",
           "channelId": "UCDfACGXebZ6w1gtX1ASfEZg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/rSDrT-STSoc4RN91zAQNlrVPQVX4yRb7644UUr8VGSroApaaTCyqZo4nRxZQ5ZBAHYMD7lebEdQ=w912-h380-l90-rj-dcpYWMzbEG",
-          "monthlyListenersText": "5.93K",
-          "monthlyListeners": 5930,
+          "monthlyListenersText": "5.94K",
+          "monthlyListeners": 5940,
           "source": "allowed_artists_genres"
         },
         {
@@ -8660,8 +8604,8 @@
           "originalName": "אלעד שער",
           "channelId": "UCCl8IPYsSRnui5XbeRfSJqw",
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_n8Hmwbl2_YAgi-4SXQ4AEb7xYFeI8eiOAcwAvIKHp_1A=w1080-h450-l90-rj-dcqUSWrqEI",
-          "monthlyListenersText": "5.33K",
-          "monthlyListeners": 5330,
+          "monthlyListenersText": "5.32K",
+          "monthlyListeners": 5320,
           "source": "allowed_artists_genres"
         },
         {
@@ -8780,8 +8724,8 @@
           "originalName": "אמיר אליהו",
           "channelId": "UCQPunZZX9G934YtB1la1etg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/MQr7qeVQ-JYeaGh6zjDT77Lbr3W1oVMjC3Jdg5utj6cqmBg3-FL_XtHt6_AqwEZsnF_FAzOSVbm7ZWg=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "193",
-          "monthlyListeners": 193,
+          "monthlyListenersText": "194",
+          "monthlyListeners": 194,
           "source": "allowed_artists_genres"
         },
         {
@@ -8966,8 +8910,8 @@
           "originalName": "משה קליין",
           "channelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/incSWeL8yfRpfadRFcFRpvUWiNps6Dk16BhUtDUwzGZpDQu4B_EIupL6bWfh7VB-7Y5Dv1SZjV4lLYY=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "36.9K",
-          "monthlyListeners": 36900,
+          "monthlyListenersText": "37K",
+          "monthlyListeners": 37000,
           "source": "allowed_artists_genres"
         },
         {
@@ -8996,8 +8940,8 @@
           "originalName": "שמחה פרידמן",
           "channelId": "UCeCsGFl3pIofvlOg9X9RWiQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/5TnPOJxQGetqAX42hGEEpKUCgiXW37_y0X_H35X8IlRObXP5jEW7xg1PXAvrvozbxAKQMAX60Q=w812-h338-l90-rj-dcJWWOzS0H",
-          "monthlyListenersText": "30.1K",
-          "monthlyListeners": 30100,
+          "monthlyListenersText": "30.3K",
+          "monthlyListeners": 30300,
           "source": "allowed_artists_genres"
         },
         {
@@ -9075,7 +9019,7 @@
           "youtubeName": "נמואל הרוש",
           "originalName": "נמואל הרוש",
           "channelId": "UCCxmSp4ySkfbNjVkA6pRhgw",
-          "thumbnailUrl": "https://yt3.googleusercontent.com/XH_08bIiu-Jr-URzHj9B3TPhutEYEU3_CTQq_nc48H1URv2ogo87SGzUiiXIR3VFl0_sWt5hZA=w2880-h1200-l90-rj-dcqUSYjh0J",
+          "thumbnailUrl": "https://yt3.googleusercontent.com/YrKYjUBVNW_iqFrQrOcZZJMrxgD8A7oaSO8_dEmB0Nh-t1t6uc_PX1j0zXLSNhLzCrck2Rjrhug=w2400-h1000-l90-rj-dcKXSIjjEG",
           "monthlyListenersText": "14.9K",
           "monthlyListeners": 14900,
           "source": "allowed_artists_genres"
@@ -9136,8 +9080,8 @@
           "originalName": "משה פלד",
           "channelId": "UC4xhDvLjoxYL1s8CRgwAy6Q",
           "thumbnailUrl": "https://yt3.googleusercontent.com/6bMEKjbwm9RaQeI9eBIsIlKlVEdGENLQN9cWrIq7wUN-ISipTSwJvndxvlxBKCrDp2cY6S4_i50=w1355-h564-l90-rj-dcrWSWrikI",
-          "monthlyListenersText": "8.87K",
-          "monthlyListeners": 8870,
+          "monthlyListenersText": "8.88K",
+          "monthlyListeners": 8880,
           "source": "allowed_artists_genres"
         },
         {
@@ -9176,8 +9120,8 @@
           "originalName": "איציק וינגרטן",
           "channelId": "UCT3Ujz3093G2VRxAZBHR-lA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/w0EvZmIcT9B28J0BylFHNsPMDNq8rD0NyA_0_7J1tjiN79SMcBlMWfoXpe3Q1KgObN34z2wrPCMVafc=w1425-h593-p-l90-rj",
-          "monthlyListenersText": "6.93K",
-          "monthlyListeners": 6930,
+          "monthlyListenersText": "6.94K",
+          "monthlyListeners": 6940,
           "source": "allowed_artists_genres"
         },
         {
@@ -9196,8 +9140,8 @@
           "originalName": "Nachas",
           "channelId": "UCFaqeWT7ZBJsdeOvCWvYhfA",
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_m3qAQh-OIYzETtt8MpvdkGyM7zF4ijRQz5mTfYX4uJ6zQ=w750-h312-l90-rj-dcgVGKZCYG",
-          "monthlyListenersText": "6.68K",
-          "monthlyListeners": 6680,
+          "monthlyListenersText": "6.67K",
+          "monthlyListeners": 6670,
           "source": "allowed_artists_genres"
         },
         {
@@ -9236,8 +9180,8 @@
           "originalName": "שמואל הררי",
           "channelId": "UCDfACGXebZ6w1gtX1ASfEZg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/rSDrT-STSoc4RN91zAQNlrVPQVX4yRb7644UUr8VGSroApaaTCyqZo4nRxZQ5ZBAHYMD7lebEdQ=w912-h380-l90-rj-dcpYWMzbEG",
-          "monthlyListenersText": "5.93K",
-          "monthlyListeners": 5930,
+          "monthlyListenersText": "5.94K",
+          "monthlyListeners": 5940,
           "source": "allowed_artists_genres"
         },
         {
@@ -9256,8 +9200,8 @@
           "originalName": "רולי דיקמן",
           "channelId": "UC2aimwcezjVPh8D4bqLMWXw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/rrTh53pVNV3V7FrKnFFrJ2YLONTI6eow227dRe4h50OBc-VA3PqNhFkbVTrv9zkPPBOzTR-KjDI=w2044-h851-l90-rj-dcnXOQjK0G",
-          "monthlyListenersText": "5.38K",
-          "monthlyListeners": 5380,
+          "monthlyListenersText": "5.4K",
+          "monthlyListeners": 5400,
           "source": "allowed_artists_genres"
         },
         {
@@ -9286,8 +9230,8 @@
           "originalName": "היום השמיני",
           "channelId": "UCw1oCoEMF_o65tpDHItwwUQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/Cup09ivZcF1J4NKhO1JKB8xWXLUcQihqXE33ESHNY1fNVtVZ665NDg3-rrcfkKvjNynQYA19kWwqVkY7=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "4.58K",
-          "monthlyListeners": 4580,
+          "monthlyListenersText": "4.59K",
+          "monthlyListeners": 4590,
           "source": "allowed_artists_genres"
         },
         {
@@ -9396,8 +9340,8 @@
           "originalName": "קינדרלעך",
           "channelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/yZtNeTQ1NJnHrgreCXEFtwOoYg1HgQEbXIJ-GG5vXROiQmFkJjNSEWjOzQdjgGOlQBdQbkpTo71j2oX6=w710-h295-p-l90-rj",
-          "monthlyListenersText": "963",
-          "monthlyListeners": 963,
+          "monthlyListenersText": "964",
+          "monthlyListeners": 964,
           "source": "allowed_artists_genres"
         },
         {
@@ -9416,8 +9360,8 @@
           "originalName": "TYH Boys",
           "channelId": "UCtQiRYkrvrMlTmqEQy78vAA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/DBzFrfMUnc8IN-fG40b0qnziGwuecpBYv14yncxWeRz5uy-EsAil71-RraL27_qSdn4e6vOI78oEtM6W=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "368",
-          "monthlyListeners": 368,
+          "monthlyListenersText": "371",
+          "monthlyListeners": 371,
           "source": "allowed_artists_genres"
         },
         {
@@ -9426,8 +9370,8 @@
           "originalName": "יוני אליאב",
           "channelId": "UC-GfYOy3knA_Lz-k_kidrOA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/_1YWO1xjMhDpmAU54M5v2Myjp-2ASDXHHJ6VYW-QUbL_fR8C-ULAc7CKOdLIahuc0oq_e0ApReg10S0Z=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "288",
-          "monthlyListeners": 288,
+          "monthlyListenersText": "289",
+          "monthlyListeners": 289,
           "source": "allowed_artists_genres"
         },
         {
@@ -9512,8 +9456,8 @@
           "originalName": "יאיר אלייצור",
           "channelId": "UC23eX6d6juE2YT0aa7nL97A",
           "thumbnailUrl": "https://yt3.googleusercontent.com/P-oFbkKUFGF20FIKI9pPq1mjie4MtvlQXKoCh1xd8l0ataNuePuAC1TtgQNSarzaZ_kmpa42ZA=w1707-h711-l90-rj-dcHTWQCx4K",
-          "monthlyListenersText": "64.6K",
-          "monthlyListeners": 64599,
+          "monthlyListenersText": "64.7K",
+          "monthlyListeners": 64700,
           "source": "allowed_artists_genres"
         },
         {
@@ -9522,8 +9466,8 @@
           "originalName": "שולי רנד",
           "channelId": "UCTG4V5TZqdj1EkI2aSqFD_Q",
           "thumbnailUrl": "https://lh3.googleusercontent.com/p4ljY9LLk5xwBrEdEPZII0xiAAHHYBmofJHGSsl7BYmx7WgX_7fFTPA9M5xJsbKBlawyWmYk3PctXw=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "39.6K",
-          "monthlyListeners": 39600,
+          "monthlyListenersText": "39.7K",
+          "monthlyListeners": 39700,
           "source": "allowed_artists_genres"
         },
         {
@@ -9622,8 +9566,8 @@
           "originalName": "היום השמיני",
           "channelId": "UCw1oCoEMF_o65tpDHItwwUQ",
           "thumbnailUrl": "https://yt3.googleusercontent.com/Cup09ivZcF1J4NKhO1JKB8xWXLUcQihqXE33ESHNY1fNVtVZ665NDg3-rrcfkKvjNynQYA19kWwqVkY7=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "4.58K",
-          "monthlyListeners": 4580,
+          "monthlyListenersText": "4.59K",
+          "monthlyListeners": 4590,
           "source": "allowed_artists_genres"
         },
         {
@@ -9632,8 +9576,8 @@
           "originalName": "חיים פורטל",
           "channelId": "UCP3G80JEWp5vAEKDm1zRywA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/b49o3XhyQ5JzXoyDKChxRcWW6xvHaPZhc9ZIaM3NDd5HfJebNX-lrOiaOB52jcfEnHoe83vK=w1091-h454-l90-rj-dcAWOIh6II",
-          "monthlyListenersText": "4.49K",
-          "monthlyListeners": 4490,
+          "monthlyListenersText": "4.54K",
+          "monthlyListeners": 4540,
           "source": "allowed_artists_genres"
         },
         {
@@ -9662,8 +9606,8 @@
           "originalName": "יהודה גלאנץ",
           "channelId": "UCOaMeJT5ftPBFLF1S9PMeJw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/-ugyh0q0Qp2-Tcsk3GnDAcyerTwmS81-YZh6TA9km4_t_Ddtlh2hhrsEV45lmUz5OUeKbY8K_5GOQbPJ=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "2.58K",
-          "monthlyListeners": 2580,
+          "monthlyListenersText": "2.59K",
+          "monthlyListeners": 2590,
           "source": "allowed_artists_genres"
         },
         {
@@ -9702,8 +9646,8 @@
           "originalName": "אליהו חייט",
           "channelId": "UCDrPBGfQiHS7KTe4dsG7HIQ",
           "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_lY8gQDUWbqqB_T7OzuIwdoAbsAEOthZLRf2j9YTwE4yQ=w1530-h637-l90-rj-dcHRaYC5IK",
-          "monthlyListenersText": "2.16K",
-          "monthlyListeners": 2160,
+          "monthlyListenersText": "2.17K",
+          "monthlyListeners": 2170,
           "source": "allowed_artists_genres"
         },
         {
@@ -9712,8 +9656,8 @@
           "originalName": "אלחנן ענבל",
           "channelId": "UCw4uDtNqzKpA_FyBnbgAQhw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/imI5rLYTWnqlwWfK46CBcIvuFtLaWINsAZdvija8DNZteGigFgYQurItSiwoX006Ae9PtMsCfoYGCrs=w1425-h593-p-l90-rj",
-          "monthlyListenersText": "1.83K",
-          "monthlyListeners": 1830,
+          "monthlyListenersText": "1.84K",
+          "monthlyListeners": 1840,
           "source": "allowed_artists_genres"
         },
         {
@@ -9752,8 +9696,8 @@
           "originalName": "עדי רן",
           "channelId": "UCENpFg4g22Ore8X3TQNkU7Q",
           "thumbnailUrl": "https://yt3.googleusercontent.com/2e4XMNDpNfan0MkfqtQku6a3jSb-pNeTYyM08x7afY3kMWlXdXKmOGPio-lGnVQ8Ilold4s8sttx06ln=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "884",
-          "monthlyListeners": 884,
+          "monthlyListenersText": "885",
+          "monthlyListeners": 885,
           "source": "allowed_artists_genres"
         },
         {
@@ -9762,8 +9706,8 @@
           "originalName": "ברוך שלום בלסופסקי",
           "channelId": "UC-xr5bwdJDADQkS_TfDl4mA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/5_x7FArg0Eqe5rjCTQguly01QiQgnlH0ceDrnmXmBZMB_OqaVJNIcqe0QF0xRdUCWGd6dg-ttsDONngJ=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "765",
-          "monthlyListeners": 765,
+          "monthlyListenersText": "767",
+          "monthlyListeners": 767,
           "source": "allowed_artists_genres"
         },
         {
@@ -9772,8 +9716,8 @@
           "originalName": "Tali Yess",
           "channelId": "UCs1CUepeSP_9zIgp2w3vMYA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/wy_-IO813BXHGFTKteJYy3SVmvlXiNt4BkPzr6of9EJp1S6VcwqT2ZoBmL8NL_pBhY9O3TIhhr5oWn4k=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "697",
-          "monthlyListeners": 697,
+          "monthlyListenersText": "696",
+          "monthlyListeners": 696,
           "source": "allowed_artists_genres"
         },
         {
@@ -9842,8 +9786,8 @@
           "originalName": "Mendy Portnoy",
           "channelId": "UCffY4_Nsaqs8KTEt6LtQjNg",
           "thumbnailUrl": "https://yt3.googleusercontent.com/wkusMo4GneCNSYAe5p1GR_nB9p-fLPnGKgO0jjSFgp8E9UrfZs5mydcxarG4ooSMRN9WrIlSBlASxaRz=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "183",
-          "monthlyListeners": 183,
+          "monthlyListenersText": "184",
+          "monthlyListeners": 184,
           "source": "allowed_artists_genres"
         },
         {
@@ -9942,8 +9886,8 @@
           "originalName": "פורת נוב",
           "channelId": "UCRRUJV-iGXfyaaK2WOuFunA",
           "thumbnailUrl": "https://yt3.googleusercontent.com/cX70SOpQk8KUn7vobKFN9Xncl1DHlCd2Fhgmq6E-6MSfShiLVQh_Lv3vqYJhPuPDCR9JnZoeFAcmtp1Yiw=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "11",
-          "monthlyListeners": 11,
+          "monthlyListenersText": "12",
+          "monthlyListeners": 12,
           "source": "allowed_artists_genres"
         },
         {
@@ -10048,8 +9992,8 @@
           "originalName": "DJ Farbreng",
           "channelId": "UCfWRyQLkrtC0G3sG001vq8A",
           "thumbnailUrl": "https://yt3.googleusercontent.com/PLMBSId_IS1ZRg7ACohxXafm9tYS3DjRWqoS2p46rpySJn9iX2dfhfFw7bJD6Yr1Sq4ow31ruUkH0kcv=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "396",
-          "monthlyListeners": 396,
+          "monthlyListenersText": "397",
+          "monthlyListeners": 397,
           "source": "allowed_artists_genres"
         },
         {
@@ -10108,8 +10052,8 @@
           "originalName": "Hershy Bleich",
           "channelId": "UCrzQywDiC4IhlNePUI-x_rw",
           "thumbnailUrl": "https://yt3.googleusercontent.com/t4AD8XIn8NgmX2doK1wfWyrYDQxK_5fw4vS39twsLhlhStianUepoyYJ_2Fn_sZrjjKYwss_p2G9xdws=w2880-h1200-p-l90-rj",
-          "monthlyListenersText": "72",
-          "monthlyListeners": 72,
+          "monthlyListenersText": "75",
+          "monthlyListeners": 75,
           "source": "allowed_artists_genres"
         },
         {

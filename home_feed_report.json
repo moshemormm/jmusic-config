@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T04:50:37.601710+00:00",
+  "generatedAt": "2026-07-29T04:56:05.035112+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 499,
+  "youtubeAlbumSourceItems": 500,
   "youtubeSingleSourceItems": 869,
-  "youtubePopularSongSourceItems": 1199,
+  "youtubePopularSongSourceItems": 1198,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -44,20 +44,20 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 10,
-  "itunesCacheHits": 1366,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1367,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 259,
+  "itemsSkippedNoItunesCandidate": 260,
   "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 6,
-  "itemsSkippedOldRelease": 844,
-  "itemsGeneratedBeforeDedupe": 215,
-  "itemsGeneratedAfterDedupe": 205,
+  "itemsSkippedOldRelease": 847,
+  "itemsGeneratedBeforeDedupe": 212,
+  "itemsGeneratedAfterDedupe": 203,
   "albumsGeneratedAfterDedupe": 21,
-  "singlesGeneratedAfterDedupe": 184,
+  "singlesGeneratedAfterDedupe": 182,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4473,7 +4473,7 @@
         "tzlil uzmr",
         "tzlil uzmer"
       ],
-      "title": "Volume 3",
+      "title": "Volume 1",
       "expectedType": "ALBUM",
       "bestScore": 6,
       "details": {
@@ -4499,7 +4499,7 @@
         "tzlil uzmr",
         "tzlil uzmer"
       ],
-      "title": "Volume 1",
+      "title": "Volume 3",
       "expectedType": "ALBUM",
       "bestScore": 6,
       "details": {
@@ -4546,13 +4546,13 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjiraW4yfSVAxVO6T8EHfOUNazKAQQSi3cb', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwiAtPTDjPeVAxVHK3YGHSIzOO7KAQRLRbE0', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "בריו חקשור",
       "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "\"Unable to find 'content' using path ['contents', 'singleColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwjtk6r3yfSVAxXHyT8EHYYuFxHKAQQSi3cb', 'browseEndpoint': {'browseId': 'UCbNw7jFjyhP7OY0I"
+      "message": "'musicImmersiveHeaderRenderer'"
     },
     {
       "type": "artist_read_failed",
@@ -4561,5 +4561,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-07-28T04:58:37.355015+00:00"
+  "completedAt": "2026-07-29T05:04:32.640196+00:00"
 }
