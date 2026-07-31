@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T04:44:05.592524+00:00",
+  "generatedAt": "2026-07-31T05:21:12.725119+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 287,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 284,
-  "artistReadErrors": 3,
+  "artistNetworkReads": 285,
+  "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 500,
-  "youtubeSingleSourceItems": 869,
-  "youtubePopularSongSourceItems": 1201,
+  "youtubeAlbumSourceItems": 507,
+  "youtubeSingleSourceItems": 874,
+  "youtubePopularSongSourceItems": 1204,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 383,
+  "artistGenreArtistsGenerated": 385,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,21 +42,21 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 3,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 21,
-  "itunesCacheHits": 1365,
+  "itunesNetworkReads": 39,
+  "itunesCacheHits": 1371,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 260,
-  "itemsSkippedWeakItunesCandidate": 44,
+  "itemsSkippedNoItunesCandidate": 262,
+  "itemsSkippedWeakItunesCandidate": 46,
   "itemsSkippedMissingItunesReleaseDate": 7,
-  "itemsSkippedOldRelease": 843,
+  "itemsSkippedOldRelease": 851,
   "itemsGeneratedBeforeDedupe": 215,
-  "itemsGeneratedAfterDedupe": 206,
-  "albumsGeneratedAfterDedupe": 21,
+  "itemsGeneratedAfterDedupe": 205,
+  "albumsGeneratedAfterDedupe": 20,
   "singlesGeneratedAfterDedupe": 185,
   "artistsWithAutoAliases": [
     {
@@ -3767,6 +3767,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4287,6 +4313,32 @@
       }
     },
     {
+      "artistName": "משה קליין",
+      "artistChannelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
+      "aliasesUsed": [
+        "משה קליין",
+        "Moshe Klein",
+        "moshe klein",
+        "moshe kleyn",
+        "moshe klain",
+        "moshe klayn"
+      ],
+      "title": "דור של אמונה",
+      "expectedType": "SINGLE",
+      "bestScore": 63,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "בדרך אמונה בחרתי - Single",
+        "candidateArtist": "Moshe Klein",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "נפתלי קמפה",
       "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
       "aliasesUsed": [
@@ -4546,13 +4598,7 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwid8p_cy_mVAxUS6OcDHXG9JazKAQR16KgT', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjT7vLvlfyVAxWMxj8EHQIuCHDKAQSDAJAV', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
@@ -4561,5 +4607,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-07-30T04:53:24.410159+00:00"
+  "completedAt": "2026-07-31T05:31:20.841254+00:00"
 }
