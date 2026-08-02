@@ -159785,5 +159785,29 @@
       "primaryGenreName": "Pop",
       "isStreamable": true
     }
-  ]
+  ],
+  "{\"aliases\": [\"ברוך לוין\", \"Baruch Levin\", \"broch loyn\", \"broch loin\", \"broch luyn\", \"broch luin\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"The Collab Album, Pt. 1\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 375537616,
+      "collectionId": 6796724109,
+      "artistName": "Baruch Levine",
+      "collectionName": "The Collab Album, Pt. 1 - EP",
+      "collectionCensoredName": "The Collab Album, Pt. 1 - EP",
+      "artistViewUrl": "https://music.apple.com/il/artist/baruch-levine/375537616?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/the-collab-album-pt-1-ep/6796724109?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/42/10/134210aa-da9f-c1d8-36c9-b89b2bb2b99e/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/42/10/134210aa-da9f-c1d8-36c9-b89b2bb2b99e/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 11.6,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 4,
+      "copyright": "℗ 2026 Baruch Levine",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-08-01T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ],
+  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Shabbos Koidesh (שבת קודש)\"}": []
 }
