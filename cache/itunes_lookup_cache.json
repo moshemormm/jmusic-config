@@ -159809,5 +159809,40 @@
       "primaryGenreName": "Worldwide"
     }
   ],
-  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Shabbos Koidesh (שבת קודש)\"}": []
+  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Shabbos Koidesh (שבת קודש)\"}": [],
+  "{\"aliases\": [\"שמואל הררי\", \"Shmuel Harari\", \"shmuel hrri\", \"shmuel hrry\", \"samuel hrri\", \"samuel hrry\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"לחיים נרים\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1573891539,
+      "collectionId": 6797243702,
+      "trackId": 6797243708,
+      "artistName": "Shmuel Harari",
+      "collectionName": "לחיים נרים - Single",
+      "trackName": "לחיים נרים",
+      "collectionCensoredName": "לחיים נרים - Single",
+      "trackCensoredName": "לחיים נרים",
+      "artistViewUrl": "https://music.apple.com/il/artist/shmuel-harari/1573891539?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%9C%D7%97%D7%99%D7%99%D7%9D-%D7%A0%D7%A8%D7%99%D7%9D/6797243702?i=6797243708&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/%D7%9C%D7%97%D7%99%D7%99%D7%9D-%D7%A0%D7%A8%D7%99%D7%9D/6797243702?i=6797243708&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/bf/6a/c3bf6ae7-5a36-2bd9-c978-d8fa11c88337/mzaf_965790170273382253.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/9c/db/759cdb53-e930-ab95-c006-6a668f484572/885288227291.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/9c/db/759cdb53-e930-ab95-c006-6a668f484572/885288227291.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/9c/db/759cdb53-e930-ab95-c006-6a668f484572/885288227291.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "trackPrice": 3.9,
+      "releaseDate": "2026-08-02T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 186240,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Pop",
+      "isStreamable": true
+    }
+  ]
 }
