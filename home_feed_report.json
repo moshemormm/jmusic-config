@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T04:51:33.746795+00:00",
+  "generatedAt": "2026-08-06T04:52:10.228196+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 281,
-  "artistReadErrors": 5,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 501,
-  "youtubeSingleSourceItems": 862,
-  "youtubePopularSongSourceItems": 1195,
+  "youtubeAlbumSourceItems": 508,
+  "youtubeSingleSourceItems": 874,
+  "youtubePopularSongSourceItems": 1198,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 377,
+  "artistGenreArtistsGenerated": 383,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 4,
+  "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 26,
-  "itunesCacheHits": 1357,
+  "itunesNetworkReads": 24,
+  "itunesCacheHits": 1378,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 259,
-  "itemsSkippedWeakItunesCandidate": 45,
-  "itemsSkippedMissingItunesReleaseDate": 11,
-  "itemsSkippedOldRelease": 842,
-  "itemsGeneratedBeforeDedupe": 206,
-  "itemsGeneratedAfterDedupe": 196,
+  "itemsSkippedNoItunesCandidate": 262,
+  "itemsSkippedWeakItunesCandidate": 46,
+  "itemsSkippedMissingItunesReleaseDate": 12,
+  "itemsSkippedOldRelease": 853,
+  "itemsGeneratedBeforeDedupe": 209,
+  "itemsGeneratedAfterDedupe": 198,
   "albumsGeneratedAfterDedupe": 20,
-  "singlesGeneratedAfterDedupe": 176,
+  "singlesGeneratedAfterDedupe": 178,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3767,6 +3767,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4572,32 +4598,14 @@
       "type": "artist_read_failed",
       "artistName": "Thank You Hashem",
       "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjG_5XN2IiWAxXKxz8EHbGWLNPKAQSgw0zt', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "אהרון רזאל",
-      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'urlEndpoint' using path ['navigationEndpoint', 'urlEndpoint', 'url'] on {'clickTrackingParams': 'CBIQ3NcEGAEiEwjmtY3JmouWAxWC_OcDHaugFmDKAQQoPxhN', 'searchEndpoint': {'query': '#thankyouhashem', 'params': 'agIoAQ%3D%3D'}}, exception: 'urlEndpoint'\""
     },
     {
       "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "יוני אליאב",
-      "artistChannelId": "UC-GfYOy3knA_Lz-k_kidrOA",
-      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-05T05:00:49.843888+00:00"
+  "completedAt": "2026-08-06T05:01:23.148894+00:00"
 }
