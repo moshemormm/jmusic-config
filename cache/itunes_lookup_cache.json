@@ -162651,5 +162651,41 @@
       "primaryGenreName": "Worldwide",
       "isStreamable": true
     }
-  ]
+  ],
+  "{\"aliases\": [\"אריה קונסטלר\", \"Arya Kunstler\", \"konstlr\", \"kunstlr\", \"kvnstlr\", \"kwnstlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Hashlech\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 269987205,
+      "collectionId": 6798621036,
+      "trackId": 6798621037,
+      "artistName": "Aryeh Kunstler",
+      "collectionName": "Hashlech - Single",
+      "trackName": "Hashlech",
+      "collectionCensoredName": "Hashlech - Single",
+      "trackCensoredName": "Hashlech",
+      "artistViewUrl": "https://music.apple.com/il/artist/aryeh-kunstler/269987205?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/hashlech/6798621036?i=6798621037&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/hashlech/6798621036?i=6798621037&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/cd/25/9fcd2537-392c-30ce-4837-701bb11aac47/mzaf_2392928508405027686.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/f5/36/94f5369e-2347-64a8-84d0-49c6bff392f1/artwork.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/f5/36/94f5369e-2347-64a8-84d0-49c6bff392f1/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/f5/36/94f5369e-2347-64a8-84d0-49c6bff392f1/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "trackPrice": 2.9,
+      "releaseDate": "2026-08-09T12:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 293500,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Worldwide",
+      "isStreamable": true
+    }
+  ],
+  "{\"aliases\": [\"לוי פולקוביץ\", \"Levy Polkovitz\", \"loy polkobitz\", \"loy polkobiz\", \"loy polkobytz\", \"loy polkobyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Eiri (עורי)\"}": []
 }
