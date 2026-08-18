@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T02:50:17.499613+00:00",
+  "generatedAt": "2026-08-18T02:44:58.813973+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 284,
-  "artistReadErrors": 2,
+  "artistNetworkReads": 285,
+  "artistReadErrors": 1,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 509,
-  "youtubeSingleSourceItems": 874,
-  "youtubePopularSongSourceItems": 1215,
+  "youtubeAlbumSourceItems": 512,
+  "youtubeSingleSourceItems": 878,
+  "youtubePopularSongSourceItems": 1209,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 383,
+  "artistGenreArtistsGenerated": 385,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 0,
-  "itunesCacheHits": 1383,
+  "itunesNetworkReads": 6,
+  "itunesCacheHits": 1389,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 259,
-  "itemsSkippedWeakItunesCandidate": 45,
+  "itemsSkippedNoItunesCandidate": 261,
+  "itemsSkippedWeakItunesCandidate": 47,
   "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 854,
-  "itemsGeneratedBeforeDedupe": 212,
-  "itemsGeneratedAfterDedupe": 200,
+  "itemsSkippedOldRelease": 856,
+  "itemsGeneratedBeforeDedupe": 213,
+  "itemsGeneratedAfterDedupe": 201,
   "albumsGeneratedAfterDedupe": 18,
-  "singlesGeneratedAfterDedupe": 182,
+  "singlesGeneratedAfterDedupe": 183,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3746,6 +3746,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4478,6 +4504,32 @@
         "tzlil uzmr",
         "tzlil uzmer"
       ],
+      "title": "Volume 1",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
       "title": "Volume 3",
       "expectedType": "ALBUM",
       "bestScore": 6,
@@ -4504,7 +4556,7 @@
         "tzlil uzmr",
         "tzlil uzmer"
       ],
-      "title": "Volume 1",
+      "title": "Volume 2",
       "expectedType": "ALBUM",
       "bestScore": 6,
       "details": {
@@ -4575,16 +4627,10 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-17T02:58:07.615663+00:00"
+  "completedAt": "2026-08-18T02:53:15.544925+00:00"
 }

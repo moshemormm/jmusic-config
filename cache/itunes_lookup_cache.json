@@ -162977,5 +162977,40 @@
       "primaryGenreName": "Singer/Songwriter",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"יהודה גרין\", \"Yehuda Green\", \"yehuda grin\", \"yehuda gryn\", \"judah grin\", \"judah gryn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Shuvu Eilai\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1107098846,
+      "collectionId": 6802067816,
+      "trackId": 6802067817,
+      "artistName": "Yehuda Green",
+      "collectionName": "Shuvu Eilai - Single",
+      "trackName": "Shuvu Eilai",
+      "collectionCensoredName": "Shuvu Eilai - Single",
+      "trackCensoredName": "Shuvu Eilai",
+      "artistViewUrl": "https://music.apple.com/il/artist/yehuda-green/1107098846?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/shuvu-eilai/6802067816?i=6802067817&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/shuvu-eilai/6802067816?i=6802067817&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/2e/a2/f72ea232-eb58-2661-c167-616c3def3b97/mzaf_2182858097086736212.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/32/76/9c32765a-9d42-4811-a07a-3084be26e86a/638865308506.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/32/76/9c32765a-9d42-4811-a07a-3084be26e86a/638865308506.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/32/76/9c32765a-9d42-4811-a07a-3084be26e86a/638865308506.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "trackPrice": 2.9,
+      "releaseDate": "2026-08-14T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 291097,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Singer/Songwriter",
+      "isStreamable": true
+    }
   ]
 }
