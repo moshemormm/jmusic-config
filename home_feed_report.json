@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T02:46:56.831908+00:00",
+  "generatedAt": "2026-08-20T02:46:41.946108+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -44,20 +44,20 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 0,
-  "itunesCacheHits": 1376,
+  "itunesNetworkReads": 18,
+  "itunesCacheHits": 1373,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
   "itemsSkippedNoItunesCandidate": 259,
-  "itemsSkippedWeakItunesCandidate": 46,
+  "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 852,
-  "itemsGeneratedBeforeDedupe": 206,
-  "itemsGeneratedAfterDedupe": 195,
+  "itemsSkippedOldRelease": 854,
+  "itemsGeneratedBeforeDedupe": 205,
+  "itemsGeneratedAfterDedupe": 194,
   "albumsGeneratedAfterDedupe": 18,
-  "singlesGeneratedAfterDedupe": 177,
+  "singlesGeneratedAfterDedupe": 176,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3720,32 +3720,6 @@
       }
     },
     {
-      "artistName": "בערי וובר",
-      "artistChannelId": "UC8n1Io5T76kSYeuYVQHzsQA",
-      "aliasesUsed": [
-        "בערי וובר",
-        "Weber cities",
-        "beri oobr",
-        "beri oovr",
-        "beri oubr",
-        "beri ouvr"
-      ],
-      "title": "הלילה הזה (רמיקס)",
-      "expectedType": "SINGLE",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "עומר",
-        "candidateArtist": "Omer Adam",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4618,5 +4592,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-19T02:54:30.873324+00:00"
+  "completedAt": "2026-08-20T02:55:37.940343+00:00"
 }

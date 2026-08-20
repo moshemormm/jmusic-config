@@ -163012,5 +163012,42 @@
       "primaryGenreName": "Singer/Songwriter",
       "isStreamable": true
     }
-  ]
+  ],
+  "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Teumim Mesivtah 2026 with Berko Brothers\"}": [],
+  "{\"aliases\": [\"בערי וובר\", \"Weber cities\", \"beri oobr\", \"beri oovr\", \"beri oubr\", \"beri ouvr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"01 אשירה (The BPM Project)\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 391071362,
+      "collectionId": 1830900087,
+      "trackId": 1830900088,
+      "artistName": "Beri Weber",
+      "collectionName": "01 אשירה (The BPM Project) - Single",
+      "trackName": "01 אשירה (The BPM Project)",
+      "collectionCensoredName": "01 אשירה (The BPM Project) - Single",
+      "trackCensoredName": "01 אשירה (The BPM Project)",
+      "artistViewUrl": "https://music.apple.com/il/artist/beri-weber/391071362?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/01-%D7%90%D7%A9%D7%99%D7%A8%D7%94-the-bpm-project/1830900087?i=1830900088&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/01-%D7%90%D7%A9%D7%99%D7%A8%D7%94-the-bpm-project/1830900087?i=1830900088&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/90/04/b590040f-f912-305c-6200-aa0570b4788b/mzaf_14125101462682891214.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/c2/7a/8ec27aa8-ffe8-a7a0-d5a1-248ca43e090c/artwork.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/c2/7a/8ec27aa8-ffe8-a7a0-d5a1-248ca43e090c/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/c2/7a/8ec27aa8-ffe8-a7a0-d5a1-248ca43e090c/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "trackPrice": 2.9,
+      "releaseDate": "2025-08-07T12:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 231792,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "R&B/Soul",
+      "isStreamable": true
+    }
+  ],
+  "{\"aliases\": [\"ברוך שלום בלסופסקי\", \"Welcome Belsofsky\", \"broch shlom blsopski\", \"broch shlom blsopsky\", \"broch shlom blsopsci\", \"broch shlom blsopscy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"I Can\"}": []
 }
