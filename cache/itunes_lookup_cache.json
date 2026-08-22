@@ -163282,5 +163282,52 @@
       "releaseDate": "2024-05-01T07:00:00Z",
       "primaryGenreName": "Pop"
     }
+  ],
+  "{\"aliases\": [\"ארי גולדוואג\", \"Ari Goldwag\", \"ari goldoog\", \"ari goldoug\", \"ari goldovg\", \"ari goldowg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Ani Ledodi | אני לדודי\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 6772803899,
+      "collectionId": 6803708360,
+      "artistName": "Yeshayahu, Ari Goldwag & Shraga",
+      "collectionName": "Ani Ledodi | אני לדודי - Single",
+      "collectionCensoredName": "Ani Ledodi | אני לדודי - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/yeshayahu/6772803899?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/ani-ledodi-%D7%90%D7%A0%D7%99-%D7%9C%D7%93%D7%95%D7%93%D7%99-single/6803708360?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/64/47/a16447b9-0138-eec6-a0a3-3347350ab77a/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/64/47/a16447b9-0138-eec6-a0a3-3347350ab77a/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2026 Ari Goldwag Music",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-08-20T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ],
+  "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Nigun Mitzvah Tantz Kretchnif (ניגון מצוה טאנץ)\"}": [],
+  "{\"aliases\": [\"משה לוק\", \"Moshe Luke\", \"moshe lok\", \"moshe loc\", \"moshe luk\", \"moshe luc\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"שיר ידידות פרשת וישב\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1699429639,
+      "collectionId": 6803574750,
+      "artistName": "Andalusalam Orchestra, Moshe Louk, Manor Ben David. & Orel Gozlan",
+      "collectionName": "שיר ידידות פרשת וישב",
+      "collectionCensoredName": "שיר ידידות פרשת וישב",
+      "artistViewUrl": "https://music.apple.com/il/artist/andalusalam-orchestra/1699429639?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A9%D7%99%D7%A8-%D7%99%D7%93%D7%99%D7%93%D7%95%D7%AA-%D7%A4%D7%A8%D7%A9%D7%AA-%D7%95%D7%99%D7%A9%D7%91/6803574750?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/a1/f6/06a1f6cd-0c08-c5cf-2390-b84a7d89bf04/885288342369.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/a1/f6/06a1f6cd-0c08-c5cf-2390-b84a7d89bf04/885288342369.jpg/100x100bb.jpg",
+      "collectionPrice": 39.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 28,
+      "copyright": "℗ 2026 Moreshet Avot BY PIL LTD",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-08-20T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
   ]
 }
