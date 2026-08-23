@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T02:44:00.116787+00:00",
+  "generatedAt": "2026-08-23T02:52:19.671369+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 515,
   "youtubeSingleSourceItems": 878,
-  "youtubePopularSongSourceItems": 1211,
+  "youtubePopularSongSourceItems": 1208,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 18,
-  "itunesCacheHits": 1390,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1391,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 262,
+  "itemsSkippedNoItunesCandidate": 264,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 868,
-  "itemsGeneratedBeforeDedupe": 205,
-  "itemsGeneratedAfterDedupe": 193,
+  "itemsSkippedOldRelease": 870,
+  "itemsGeneratedBeforeDedupe": 201,
+  "itemsGeneratedAfterDedupe": 190,
   "albumsGeneratedAfterDedupe": 19,
-  "singlesGeneratedAfterDedupe": 174,
+  "singlesGeneratedAfterDedupe": 171,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4580,5 +4580,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-22T02:52:49.416665+00:00"
+  "completedAt": "2026-08-23T03:00:48.138026+00:00"
 }
