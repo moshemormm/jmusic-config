@@ -163331,5 +163331,28 @@
     }
   ],
   "{\"aliases\": [\"אריה קונסטלר\", \"Arya Kunstler\", \"konstlr\", \"kunstlr\", \"kvnstlr\", \"kwnstlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Ani Ledodi (אני לדודי)\"}": [],
-  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Menucha V'Simcha (מנוחה ושמחה)\"}": []
+  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Menucha V'Simcha (מנוחה ושמחה)\"}": [],
+  "{\"aliases\": [\"Gershi Uri\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Vechoil Maminim (וכל מאמינים)\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1766759282,
+      "collectionId": 6803593270,
+      "artistName": "Gesher & Gershi Uri",
+      "collectionName": "Vechoil Maminim (וכל מאמינים) - Single",
+      "collectionCensoredName": "Vechoil Maminim (וכל מאמינים) - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/gesher/1766759282?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/vechoil-maminim-%D7%95%D7%9B%D7%9C-%D7%9E%D7%90%D7%9E%D7%99%D7%A0%D7%99%D7%9D-single/6803593270?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/cb/bb/fbcbbb76-c3ec-071e-482f-c4f8d2bf3631/198883228168.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/cb/bb/fbcbbb76-c3ec-071e-482f-c4f8d2bf3631/198883228168.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2024 Gesher Music",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2024-10-09T07:00:00Z",
+      "primaryGenreName": "Jewish Music"
+    }
+  ]
 }

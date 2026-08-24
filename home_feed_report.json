@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:52:19.671369+00:00",
+  "generatedAt": "2026-08-24T02:53:14.934586+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 285,
-  "artistReadErrors": 1,
+  "artistNetworkReads": 283,
+  "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 515,
-  "youtubeSingleSourceItems": 878,
-  "youtubePopularSongSourceItems": 1208,
+  "youtubeAlbumSourceItems": 508,
+  "youtubeSingleSourceItems": 870,
+  "youtubePopularSongSourceItems": 1209,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 385,
+  "artistGenreArtistsGenerated": 382,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -44,8 +44,8 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1391,
+  "itunesNetworkReads": 1,
+  "itunesCacheHits": 1377,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,11 +53,11 @@
   "itemsSkippedNoItunesCandidate": 264,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 870,
-  "itemsGeneratedBeforeDedupe": 201,
-  "itemsGeneratedAfterDedupe": 190,
-  "albumsGeneratedAfterDedupe": 19,
-  "singlesGeneratedAfterDedupe": 171,
+  "itemsSkippedOldRelease": 860,
+  "itemsGeneratedBeforeDedupe": 196,
+  "itemsGeneratedAfterDedupe": 186,
+  "albumsGeneratedAfterDedupe": 18,
+  "singlesGeneratedAfterDedupe": 168,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4575,10 +4575,22 @@
   "warnings": [
     {
       "type": "artist_read_failed",
+      "artistName": "אהרון רזאל",
+      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "סיני תור",
+      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
+      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-23T03:00:48.138026+00:00"
+  "completedAt": "2026-08-24T03:00:43.069842+00:00"
 }
