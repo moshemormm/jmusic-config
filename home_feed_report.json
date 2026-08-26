@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:48:31.012541+00:00",
+  "generatedAt": "2026-08-26T02:54:50.765827+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 283,
-  "artistReadErrors": 3,
+  "artistNetworkReads": 285,
+  "artistReadErrors": 1,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 508,
-  "youtubeSingleSourceItems": 870,
-  "youtubePopularSongSourceItems": 1209,
+  "youtubeAlbumSourceItems": 515,
+  "youtubeSingleSourceItems": 879,
+  "youtubePopularSongSourceItems": 1207,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 382,
+  "artistGenreArtistsGenerated": 385,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -44,20 +44,20 @@
   ],
   "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 1,
-  "itunesCacheHits": 1377,
+  "itunesNetworkReads": 31,
+  "itunesCacheHits": 1388,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 264,
-  "itemsSkippedWeakItunesCandidate": 45,
+  "itemsSkippedNoItunesCandidate": 265,
+  "itemsSkippedWeakItunesCandidate": 46,
   "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 863,
-  "itemsGeneratedBeforeDedupe": 193,
-  "itemsGeneratedAfterDedupe": 184,
-  "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 167,
+  "itemsSkippedOldRelease": 873,
+  "itemsGeneratedBeforeDedupe": 197,
+  "itemsGeneratedAfterDedupe": 187,
+  "albumsGeneratedAfterDedupe": 18,
+  "singlesGeneratedAfterDedupe": 169,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4214,6 +4214,32 @@
       }
     },
     {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "א יידישע מאמע (feat. שלום בראדט)",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "א יידישע מאמע (feat. שלום בראדט, אברהם מרדכי שווארץ & שירה) - Single",
+        "candidateArtist": "Sababa Band",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "משה דוד וייסמנדל",
       "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
       "aliasesUsed": [
@@ -4452,6 +4478,32 @@
         "tzlil uzmr",
         "tzlil uzmer"
       ],
+      "title": "Volume 3",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
       "title": "Volume 1",
       "expectedType": "ALBUM",
       "bestScore": 6,
@@ -4479,32 +4531,6 @@
         "tzlil uzmer"
       ],
       "title": "Volume 2",
-      "expectedType": "ALBUM",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "A Rush of Blood to the Head",
-        "candidateArtist": "Coldplay",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "צליל וזמר",
-      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
-      "aliasesUsed": [
-        "צליל וזמר",
-        "Sound and singer",
-        "tzlil ozmr",
-        "tzlil ozmer",
-        "tzlil uzmr",
-        "tzlil uzmer"
-      ],
-      "title": "Volume 3",
       "expectedType": "ALBUM",
       "bestScore": 6,
       "details": {
@@ -4575,22 +4601,10 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "אהרון רזאל",
-      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "סיני תור",
-      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
-      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-25T02:56:05.118272+00:00"
+  "completedAt": "2026-08-26T03:04:47.770870+00:00"
 }
