@@ -163754,5 +163754,49 @@
       "releaseDate": "2019-01-19T08:00:00Z",
       "primaryGenreName": "Worldwide"
     }
+  ],
+  "{\"aliases\": [\"נפתלי בלומנטל\", \"Naftali Blumenthal\", \"naftali blomntl\", \"naftali blumntl\", \"naftali blvmntl\", \"naftali blwmntl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Good Things Are Coming\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1046344892,
+      "collectionId": 6805244139,
+      "artistName": "Naftali Blumenthal",
+      "collectionName": "Good Things Are Coming",
+      "collectionCensoredName": "Good Things Are Coming",
+      "artistViewUrl": "https://music.apple.com/il/artist/naftali-blumenthal/1046344892?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/good-things-are-coming/6805244139?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/b9/cb/30b9cbbf-2e5a-7dc9-8ce1-414b9efdfe61/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/b9/cb/30b9cbbf-2e5a-7dc9-8ce1-414b9efdfe61/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 38.0,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 10,
+      "copyright": "℗ 2026 ASAP Productions",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-08-26T07:00:00Z",
+      "primaryGenreName": "Singer/Songwriter"
+    },
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1046344892,
+      "collectionId": 1817102082,
+      "artistName": "Naftali Blumenthal",
+      "collectionName": "Good Things Are Coming - Single",
+      "collectionCensoredName": "Good Things Are Coming - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/naftali-blumenthal/1046344892?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/good-things-are-coming-single/1817102082?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/d8/db/59d8db9c-8812-a595-de3d-c356bf8a1974/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/d8/db/59d8db9c-8812-a595-de3d-c356bf8a1974/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2025 ASAP Productions",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2025-05-27T07:00:00Z",
+      "primaryGenreName": "Singer/Songwriter"
+    }
   ]
 }
