@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:04:44.860864+00:00",
+  "generatedAt": "2026-08-28T13:26:47.155424+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 282,
-  "artistReadErrors": 4,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 505,
-  "youtubeSingleSourceItems": 868,
-  "youtubePopularSongSourceItems": 1205,
+  "youtubeAlbumSourceItems": 511,
+  "youtubeSingleSourceItems": 875,
+  "youtubePopularSongSourceItems": 1200,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 380,
+  "artistGenreArtistsGenerated": 383,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -44,20 +44,20 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 6,
-  "itunesCacheHits": 1372,
+  "itunesNetworkReads": 0,
+  "itunesCacheHits": 1386,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 263,
+  "itemsSkippedNoItunesCandidate": 265,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 858,
-  "itemsGeneratedBeforeDedupe": 194,
-  "itemsGeneratedAfterDedupe": 185,
+  "itemsSkippedOldRelease": 868,
+  "itemsGeneratedBeforeDedupe": 195,
+  "itemsGeneratedAfterDedupe": 186,
   "albumsGeneratedAfterDedupe": 19,
-  "singlesGeneratedAfterDedupe": 166,
+  "singlesGeneratedAfterDedupe": 167,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3694,6 +3694,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4494,32 +4520,6 @@
       }
     },
     {
-      "artistName": "צליל וזמר",
-      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
-      "aliasesUsed": [
-        "צליל וזמר",
-        "Sound and singer",
-        "tzlil ozmr",
-        "tzlil ozmer",
-        "tzlil uzmr",
-        "tzlil uzmer"
-      ],
-      "title": "Volume 2",
-      "expectedType": "ALBUM",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "A Rush of Blood to the Head",
-        "candidateArtist": "Coldplay",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "שמחה אברמצ'יק",
       "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
       "aliasesUsed": [
@@ -4581,22 +4581,10 @@
     },
     {
       "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "סיני תור",
-      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
-      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-08-27T12:13:01.198543+00:00"
+  "completedAt": "2026-08-28T13:34:33.779330+00:00"
 }
