@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T13:26:47.155424+00:00",
+  "generatedAt": "2026-08-29T08:21:17.915969+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,13 +27,13 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 511,
+  "youtubeAlbumSourceItems": 515,
   "youtubeSingleSourceItems": 875,
-  "youtubePopularSongSourceItems": 1200,
+  "youtubePopularSongSourceItems": 1204,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 383,
+  "artistGenreArtistsGenerated": 384,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 3,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 0,
-  "itunesCacheHits": 1386,
+  "itunesNetworkReads": 13,
+  "itunesCacheHits": 1387,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
   "itemsSkippedNoItunesCandidate": 265,
   "itemsSkippedWeakItunesCandidate": 45,
-  "itemsSkippedMissingItunesReleaseDate": 13,
-  "itemsSkippedOldRelease": 868,
-  "itemsGeneratedBeforeDedupe": 195,
-  "itemsGeneratedAfterDedupe": 186,
+  "itemsSkippedMissingItunesReleaseDate": 12,
+  "itemsSkippedOldRelease": 871,
+  "itemsGeneratedBeforeDedupe": 197,
+  "itemsGeneratedAfterDedupe": 187,
   "albumsGeneratedAfterDedupe": 19,
-  "singlesGeneratedAfterDedupe": 167,
+  "singlesGeneratedAfterDedupe": 168,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4575,16 +4575,16 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "אהרון רזאל",
-      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+      "artistName": "גלעד פוטולסקי",
+      "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
     },
     {
       "type": "artist_read_failed",
-      "artistName": "גלעד פוטולסקי",
-      "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "artistName": "מאיר אדלר",
+      "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAwQ8JMBGAEiEwjm"
     }
   ],
-  "completedAt": "2026-08-28T13:34:33.779330+00:00"
+  "completedAt": "2026-08-29T08:29:46.763105+00:00"
 }
