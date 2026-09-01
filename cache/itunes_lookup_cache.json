@@ -164348,5 +164348,95 @@
       "primaryGenreName": "Israeli",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"אברימי לונגר\", \"Avrami Longer\", \"longr\", \"lungr\", \"lvngr\", \"lwngr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"עוד אביכם חי\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1555715298,
+      "collectionId": 6767379394,
+      "artistName": "מקהלת מלכות, אברימי לונגר, עקיבא גרומן & Yoeli Klein",
+      "collectionName": "עוד אביכם חי - Single",
+      "collectionCensoredName": "עוד אביכם חי - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/%D7%9E%D7%A7%D7%94%D7%9C%D7%AA-%D7%9E%D7%9C%D7%9B%D7%95%D7%AA/1555715298?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%95%D7%93-%D7%90%D7%91%D7%99%D7%9B%D7%9D-%D7%97%D7%99-single/6767379394?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/10/71/4c107106-18f7-39cc-c7bf-b06408b9df15/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/10/71/4c107106-18f7-39cc-c7bf-b06408b9df15/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2025 Pinhas Bichler",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2025-03-07T08:00:00Z",
+      "primaryGenreName": "Israeli"
+    }
+  ],
+  "{\"aliases\": [\"בנצי קלצקין\", \"Benzi Klatskin\", \"bntzi kltzkin\", \"bntzi kltzkyn\", \"bntzi kltzcin\", \"bntzi kltzcyn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"אם אתה משמח (feat. Ahrele Samet, בנצי שטיין & מוטי ויזל)\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1032552693,
+      "collectionId": 6766676623,
+      "artistName": "Meir Adler, בנצי קלצקין, מקהלת מלכות & Zanvil Weinberger",
+      "collectionName": "אם אתה משמח (feat. בנצי שטיין, מוטי ויזל & Ahrele Samet) - Single",
+      "collectionCensoredName": "אם אתה משמח (feat. בנצי שטיין, מוטי ויזל & Ahrele Samet) - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/meir-adler/1032552693?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9D-%D7%90%D7%AA%D7%94-%D7%9E%D7%A9%D7%9E%D7%97-feat-%D7%91%D7%A0%D7%A6%D7%99-%D7%A9%D7%98%D7%99%D7%99%D7%9F-%D7%9E%D7%95%D7%98%D7%99-%D7%95%D7%99%D7%96%D7%9C-ahrele-samet-single/6766676623?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/c4/fe/a5c4fee1-45f2-48d1-31f3-121887092d56/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/c4/fe/a5c4fee1-45f2-48d1-31f3-121887092d56/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2024 Pinhas Bichler / Zanvil Weinberger",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2024-09-14T07:00:00Z",
+      "primaryGenreName": "Israeli"
+    }
+  ],
+  "{\"aliases\": [\"שולי רנד\", \"Shuli Rand\", \"sholi rnd\", \"sholy rnd\", \"shuli rnd\", \"shuly rnd\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"עונג שבת\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 668244137,
+      "collectionId": 6792190364,
+      "artistName": "Shuli Rand & ShrekDiMC",
+      "collectionName": "עונג שבת - Single",
+      "collectionCensoredName": "עונג שבת - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/shuli-rand/668244137?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%95%D7%A0%D7%92-%D7%A9%D7%91%D7%AA-single/6792190364?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/72/e7/0a72e717-6a3c-2663-dba9-5aeb785184ab/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/72/e7/0a72e717-6a3c-2663-dba9-5aeb785184ab/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2026 Biz Point & Shrek under exclusive license to NaNa Disc",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-09-01T07:00:00Z",
+      "primaryGenreName": "Pop"
+    },
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1124365528,
+      "collectionId": 1545654259,
+      "artistName": "Shmueli Ungar",
+      "collectionName": "Madreigos",
+      "collectionCensoredName": "Madreigos",
+      "artistViewUrl": "https://music.apple.com/il/artist/shmueli-ungar/1124365528?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/madreigos/1545654259?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/c7/43/4dc74317-0f60-3467-51c6-835ba09f0651/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/c7/43/4dc74317-0f60-3467-51c6-835ba09f0651/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 32.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 14,
+      "copyright": "℗ 2020 House Of Music",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2020-12-08T08:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
   ]
 }
