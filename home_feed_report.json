@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T06:52:45.890348+00:00",
+  "generatedAt": "2026-09-02T06:30:54.863920+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 283,
-  "artistReadErrors": 3,
-  "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 512,
-  "youtubeSingleSourceItems": 873,
-  "youtubePopularSongSourceItems": 1203,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 2,
+  "youtubeExpandErrors": 1,
+  "youtubeAlbumSourceItems": 515,
+  "youtubeSingleSourceItems": 876,
+  "youtubePopularSongSourceItems": 1204,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 382,
+  "artistGenreArtistsGenerated": 384,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -44,20 +44,20 @@
   ],
   "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 18,
-  "itunesCacheHits": 1382,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1389,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 263,
-  "itemsSkippedWeakItunesCandidate": 44,
+  "itemsSkippedNoItunesCandidate": 265,
+  "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 12,
-  "itemsSkippedOldRelease": 869,
-  "itemsGeneratedBeforeDedupe": 197,
-  "itemsGeneratedAfterDedupe": 186,
+  "itemsSkippedOldRelease": 873,
+  "itemsGeneratedBeforeDedupe": 196,
+  "itemsGeneratedAfterDedupe": 185,
   "albumsGeneratedAfterDedupe": 19,
-  "singlesGeneratedAfterDedupe": 167,
+  "singlesGeneratedAfterDedupe": 166,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3694,6 +3694,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4549,12 +4575,6 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4564,7 +4584,13 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
+    },
+    {
+      "type": "youtube_expand_failed",
+      "artistChannelId": "UCm5x_womXL5E7TAYca5JkZQ",
+      "category": "singles",
+      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCJfKtoOkz5YDFVaAKwYdqk4oBg==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
     }
   ],
-  "completedAt": "2026-09-01T07:01:21.158026+00:00"
+  "completedAt": "2026-09-02T06:38:47.754955+00:00"
 }
