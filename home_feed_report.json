@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T06:35:05.094250+00:00",
+  "generatedAt": "2026-09-04T06:37:24.741364+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -42,10 +42,10 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 2,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 22,
-  "itunesCacheHits": 1373,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1375,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,10 +53,10 @@
   "itemsSkippedNoItunesCandidate": 265,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 14,
-  "itemsSkippedOldRelease": 860,
-  "itemsGeneratedBeforeDedupe": 193,
-  "itemsGeneratedAfterDedupe": 183,
-  "albumsGeneratedAfterDedupe": 19,
+  "itemsSkippedOldRelease": 859,
+  "itemsGeneratedBeforeDedupe": 194,
+  "itemsGeneratedAfterDedupe": 184,
+  "albumsGeneratedAfterDedupe": 20,
   "singlesGeneratedAfterDedupe": 164,
   "artistsWithAutoAliases": [
     {
@@ -4577,7 +4577,7 @@
       "type": "artist_read_failed",
       "artistName": "אהרון רזאל",
       "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwi-"
     },
     {
       "type": "artist_read_failed",
@@ -4595,8 +4595,8 @@
       "type": "artist_read_failed",
       "artistName": "סיני תור",
       "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwjt"
     }
   ],
-  "completedAt": "2026-09-03T06:44:07.159597+00:00"
+  "completedAt": "2026-09-04T06:45:14.105113+00:00"
 }
