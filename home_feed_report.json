@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T06:34:18.316949+00:00",
+  "generatedAt": "2026-09-07T06:42:11.419665+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 284,
-  "artistReadErrors": 2,
+  "artistNetworkReads": 282,
+  "artistReadErrors": 4,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 515,
-  "youtubeSingleSourceItems": 878,
-  "youtubePopularSongSourceItems": 1197,
+  "youtubeAlbumSourceItems": 508,
+  "youtubeSingleSourceItems": 872,
+  "youtubePopularSongSourceItems": 1202,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 384,
+  "artistGenreArtistsGenerated": 380,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 2,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 14,
-  "itunesCacheHits": 1389,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1378,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 266,
+  "itemsSkippedNoItunesCandidate": 264,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 14,
-  "itemsSkippedOldRelease": 867,
-  "itemsGeneratedBeforeDedupe": 201,
-  "itemsGeneratedAfterDedupe": 189,
+  "itemsSkippedOldRelease": 861,
+  "itemsGeneratedBeforeDedupe": 196,
+  "itemsGeneratedAfterDedupe": 185,
   "albumsGeneratedAfterDedupe": 20,
-  "singlesGeneratedAfterDedupe": 169,
+  "singlesGeneratedAfterDedupe": 165,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3694,32 +3694,6 @@
       }
     },
     {
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "aliasesUsed": [
-        "בריו חקשור",
-        "Rio Hekchor",
-        "brio chkshor",
-        "brio chkshur",
-        "brio chkshvr",
-        "brio chkshwr"
-      ],
-      "title": "בריו 2",
-      "expectedType": "ALBUM",
-      "bestScore": 68,
-      "details": {
-        "titleScore": 38,
-        "artistScore": 24,
-        "artistGatePassed": true,
-        "titleGatePassed": true,
-        "candidateTitle": "Baryo, Vol. 2",
-        "candidateArtist": "Baryo Hakshur",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4224,6 +4198,32 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
+      "title": "Far Dir (פאר דיר)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Synchronicity (Remastered 2003)",
+        "candidateArtist": "The Police",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
       "title": "א יידישע מאמע (feat. שלום בראדט)",
       "expectedType": "SINGLE",
       "bestScore": 60,
@@ -4575,6 +4575,18 @@
   "warnings": [
     {
       "type": "artist_read_failed",
+      "artistName": "אהרון רזאל",
+      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4586,5 +4598,5 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-09-06T06:42:53.864685+00:00"
+  "completedAt": "2026-09-07T06:50:33.643151+00:00"
 }
