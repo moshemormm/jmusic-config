@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T06:43:45.565492+00:00",
+  "generatedAt": "2026-09-11T06:43:06.870318+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 282,
-  "artistReadErrors": 4,
+  "artistNetworkReads": 281,
+  "artistReadErrors": 5,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 510,
-  "youtubeSingleSourceItems": 871,
-  "youtubePopularSongSourceItems": 1197,
+  "youtubeAlbumSourceItems": 506,
+  "youtubeSingleSourceItems": 868,
+  "youtubePopularSongSourceItems": 1204,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 381,
+  "artistGenreArtistsGenerated": 379,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -44,17 +44,17 @@
   ],
   "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 13,
-  "itunesCacheHits": 1378,
+  "itunesNetworkReads": 28,
+  "itunesCacheHits": 1369,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 267,
-  "itemsSkippedWeakItunesCandidate": 46,
+  "itemsSkippedNoItunesCandidate": 266,
+  "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 19,
-  "itemsSkippedOldRelease": 851,
-  "itemsGeneratedBeforeDedupe": 198,
+  "itemsSkippedOldRelease": 845,
+  "itemsGeneratedBeforeDedupe": 199,
   "itemsGeneratedAfterDedupe": 186,
   "albumsGeneratedAfterDedupe": 22,
   "singlesGeneratedAfterDedupe": 164,
@@ -3694,32 +3694,6 @@
       }
     },
     {
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "aliasesUsed": [
-        "בריו חקשור",
-        "Rio Hekchor",
-        "brio chkshor",
-        "brio chkshur",
-        "brio chkshvr",
-        "brio chkshwr"
-      ],
-      "title": "בריו 2",
-      "expectedType": "ALBUM",
-      "bestScore": 68,
-      "details": {
-        "titleScore": 38,
-        "artistScore": 24,
-        "artistGatePassed": true,
-        "titleGatePassed": true,
-        "candidateTitle": "Baryo, Vol. 2",
-        "candidateArtist": "Baryo Hakshur",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4530,7 +4504,7 @@
         "tzlil uzmr",
         "tzlil uzmer"
       ],
-      "title": "Volume 2",
+      "title": "Volume 1",
       "expectedType": "ALBUM",
       "bestScore": 6,
       "details": {
@@ -4607,6 +4581,12 @@
     },
     {
       "type": "artist_read_failed",
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4624,5 +4604,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-10T06:52:25.158504+00:00"
+  "completedAt": "2026-09-11T06:52:34.387708+00:00"
 }
