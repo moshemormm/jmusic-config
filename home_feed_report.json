@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:43:06.870318+00:00",
+  "generatedAt": "2026-09-12T06:36:09.314895+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 281,
   "artistReadErrors": 5,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 506,
+  "youtubeAlbumSourceItems": 507,
   "youtubeSingleSourceItems": 868,
-  "youtubePopularSongSourceItems": 1204,
+  "youtubePopularSongSourceItems": 1203,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,10 +42,10 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 2,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 28,
-  "itunesCacheHits": 1369,
+  "itunesNetworkReads": 0,
+  "itunesCacheHits": 1375,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,7 +53,7 @@
   "itemsSkippedNoItunesCandidate": 266,
   "itemsSkippedWeakItunesCandidate": 45,
   "itemsSkippedMissingItunesReleaseDate": 19,
-  "itemsSkippedOldRelease": 845,
+  "itemsSkippedOldRelease": 846,
   "itemsGeneratedBeforeDedupe": 199,
   "itemsGeneratedAfterDedupe": 186,
   "albumsGeneratedAfterDedupe": 22,
@@ -4604,5 +4604,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-11T06:52:34.387708+00:00"
+  "completedAt": "2026-09-12T06:43:48.983148+00:00"
 }
