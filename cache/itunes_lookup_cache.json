@@ -166569,5 +166569,63 @@
       "primaryGenreName": "Israeli",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"מנשה ליכטנשטיין\", \"Menashe Lichtenstein\", \"mnshh lichtnshtein\", \"mnshh lichtnshteyn\", \"mnshh lichtnshtain\", \"mnshh lichtnshtayn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Wedding 6.23.26\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1089304745,
+      "collectionId": 6795432161,
+      "artistName": "Menashe Lichtenstein & Yitzchok Kornblue",
+      "collectionName": "Wedding 6.23.26",
+      "collectionCensoredName": "Wedding 6.23.26",
+      "artistViewUrl": "https://music.apple.com/il/artist/menashe-lichtenstein/1089304745?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/wedding-6-23-26/6795432161?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/65/b9/9865b90a-35ee-2547-b68d-6d407e263cac/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/65/b9/9865b90a-35ee-2547-b68d-6d407e263cac/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 29.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 9,
+      "copyright": "℗ 2026 Menashe Lichtenstein",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-07-27T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ],
+  "{\"aliases\": [\"נפתלי קמפה\", \"Naftali Kempe\", \"naftali kmph\", \"naftali kmp\", \"naftali kmfh\", \"naftali kmf\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Kehodato (Live)\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 925188522,
+      "collectionId": 6811365006,
+      "trackId": 6811365008,
+      "artistName": "Naftali Kempeh‎",
+      "collectionName": "Kehodato (Live) - Single",
+      "trackName": "Kehodato (Live)",
+      "collectionCensoredName": "Kehodato (Live) - Single",
+      "trackCensoredName": "Kehodato (Live)",
+      "artistViewUrl": "https://music.apple.com/il/artist/naftali-kempeh/925188522?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/kehodato-live/6811365006?i=6811365008&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/kehodato-live/6811365006?i=6811365008&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/7a/94/287a948d-dd13-07f8-22bc-cc028e21adc4/mzaf_14972819697551760058.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/b6/98/1ab6989a-7a4c-e5fc-20f3-721417191c3e/638865311629.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/b6/98/1ab6989a-7a4c-e5fc-20f3-721417191c3e/638865311629.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/b6/98/1ab6989a-7a4c-e5fc-20f3-721417191c3e/638865311629.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "trackPrice": 2.9,
+      "releaseDate": "2026-09-09T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 294957,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Pop",
+      "isStreamable": true
+    }
   ]
 }
