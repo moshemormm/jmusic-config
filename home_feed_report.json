@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T06:52:11.163411+00:00",
+  "generatedAt": "2026-09-14T07:16:14.085045+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 280,
-  "artistReadErrors": 6,
+  "artistNetworkReads": 281,
+  "artistReadErrors": 5,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 508,
-  "youtubeSingleSourceItems": 867,
-  "youtubePopularSongSourceItems": 1204,
+  "youtubeAlbumSourceItems": 512,
+  "youtubeSingleSourceItems": 869,
+  "youtubePopularSongSourceItems": 1209,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 377,
+  "artistGenreArtistsGenerated": 379,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,10 +42,10 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1373,
+  "itunesNetworkReads": 0,
+  "itunesCacheHits": 1381,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,8 +53,8 @@
   "itemsSkippedNoItunesCandidate": 266,
   "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 19,
-  "itemsSkippedOldRelease": 845,
-  "itemsGeneratedBeforeDedupe": 201,
+  "itemsSkippedOldRelease": 850,
+  "itemsGeneratedBeforeDedupe": 202,
   "itemsGeneratedAfterDedupe": 188,
   "albumsGeneratedAfterDedupe": 23,
   "singlesGeneratedAfterDedupe": 165,
@@ -4549,12 +4549,6 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "אהרון רזאל",
-      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "אהרן רזאל",
       "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4563,7 +4557,7 @@
       "type": "artist_read_failed",
       "artistName": "בריו חקשור",
       "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwiI"
     },
     {
       "type": "artist_read_failed",
@@ -4584,5 +4578,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-13T07:00:39.275545+00:00"
+  "completedAt": "2026-09-14T07:23:29.620980+00:00"
 }
