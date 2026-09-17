@@ -166874,5 +166874,39 @@
       "primaryGenreName": "Pop"
     }
   ],
-  "{\"aliases\": [\"נמואל הרוש\", \"Nemuel Harush\", \"nmol hrosh\", \"nmol hros\", \"nmol hrush\", \"nmol hrus\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ממעמקים (Live)\"}": []
+  "{\"aliases\": [\"נמואל הרוש\", \"Nemuel Harush\", \"nmol hrosh\", \"nmol hros\", \"nmol hrush\", \"nmol hrus\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ממעמקים (Live)\"}": [],
+  "{\"aliases\": [\"משה דוד וייסמנדל\", \"Moshe David Weissmandel\", \"moshe david oyismndl\", \"moshe david oyysmndl\", \"moshe david oiismndl\", \"moshe david oeismndl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"עיני עמך\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1678002036,
+      "collectionId": 6812841840,
+      "trackId": 6812841851,
+      "artistName": "Moshe David Weissmandl",
+      "collectionName": "עיני עמך - Single",
+      "trackName": "עיני עמך",
+      "collectionCensoredName": "עיני עמך - Single",
+      "trackCensoredName": "עיני עמך",
+      "artistViewUrl": "https://music.apple.com/il/artist/moshe-david-weissmandl/1678002036?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%99%D7%A0%D7%99-%D7%A2%D7%9E%D7%9A/6812841840?i=6812841851&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%99%D7%A0%D7%99-%D7%A2%D7%9E%D7%9A/6812841840?i=6812841851&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/5c/03/875c0300-7c5c-7fd1-fd99-9f56eeee4326/mzaf_17649181468729067308.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/58/a1/8d58a1ce-6bc1-e7dd-1637-728cfd7f220b/cover.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/58/a1/8d58a1ce-6bc1-e7dd-1637-728cfd7f220b/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/58/a1/8d58a1ce-6bc1-e7dd-1637-728cfd7f220b/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "trackPrice": 3.9,
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 280800,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Israeli",
+      "isStreamable": true
+    }
+  ]
 }
