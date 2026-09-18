@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T06:50:21.550352+00:00",
+  "generatedAt": "2026-09-18T06:46:43.761294+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 281,
-  "artistReadErrors": 5,
+  "artistNetworkReads": 283,
+  "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 512,
-  "youtubeSingleSourceItems": 869,
-  "youtubePopularSongSourceItems": 1209,
+  "youtubeAlbumSourceItems": 519,
+  "youtubeSingleSourceItems": 877,
+  "youtubePopularSongSourceItems": 1210,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 379,
+  "artistGenreArtistsGenerated": 382,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 6,
-  "itunesCacheHits": 1380,
+  "itunesNetworkReads": 5,
+  "itunesCacheHits": 1395,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
   "itemsSkippedNoItunesCandidate": 266,
-  "itemsSkippedWeakItunesCandidate": 44,
+  "itemsSkippedWeakItunesCandidate": 46,
   "itemsSkippedMissingItunesReleaseDate": 20,
-  "itemsSkippedOldRelease": 856,
-  "itemsGeneratedBeforeDedupe": 195,
-  "itemsGeneratedAfterDedupe": 182,
+  "itemsSkippedOldRelease": 864,
+  "itemsGeneratedBeforeDedupe": 200,
+  "itemsGeneratedAfterDedupe": 184,
   "albumsGeneratedAfterDedupe": 22,
-  "singlesGeneratedAfterDedupe": 160,
+  "singlesGeneratedAfterDedupe": 162,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3538,6 +3538,30 @@
       }
     },
     {
+      "artistName": "אהרן רזאל",
+      "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
+      "aliasesUsed": [
+        "אהרן רזאל",
+        "Aharon Razel",
+        "aharon rzl",
+        "aaron rzl"
+      ],
+      "title": "תודה",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "אמא אמא (feat. מיכה רזאל & יהודה רזאל) - Single",
+        "candidateArtist": "Yonatan Razel & Aaron Razel",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "אודי דוידי",
       "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
       "aliasesUsed": [
@@ -4494,6 +4518,32 @@
       }
     },
     {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 2",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "שמחה אברמצ'יק",
       "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
       "aliasesUsed": [
@@ -4549,15 +4599,9 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "אהרן רזאל",
-      "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "בריו חקשור",
       "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwiL"
     },
     {
       "type": "artist_read_failed",
@@ -4570,13 +4614,7 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "סיני תור",
-      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
-      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-17T06:57:55.801909+00:00"
+  "completedAt": "2026-09-18T06:54:25.544994+00:00"
 }
