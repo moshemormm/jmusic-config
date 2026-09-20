@@ -166944,5 +166944,29 @@
       "isStreamable": true
     }
   ],
-  "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"GEPRAIGILT (געפרעגעלט)\"}": []
+  "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"GEPRAIGILT (געפרעגעלט)\"}": [],
+  "{\"aliases\": [\"להקת מושב\", \"Moshav band\", \"lhkt moshb\", \"lhkt moshv\", \"lhkt mosb\", \"lhkt mosv\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Dancing in a Dangerous World\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 168998928,
+      "collectionId": 370455136,
+      "amgArtistId": 1825132,
+      "artistName": "Moshav",
+      "collectionName": "Dancing In A Dangerous World",
+      "collectionCensoredName": "Dancing In A Dangerous World",
+      "artistViewUrl": "https://music.apple.com/il/artist/moshav/168998928?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/dancing-in-a-dangerous-world/370455136?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/f3/35/mzi.ihwjmmrw.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/f3/35/mzi.ihwjmmrw.jpg/100x100bb.jpg",
+      "collectionPrice": 29.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 13,
+      "copyright": "℗ 2010 Moshav music",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2010-04-29T07:00:00Z",
+      "primaryGenreName": "Alternative"
+    }
+  ]
 }
