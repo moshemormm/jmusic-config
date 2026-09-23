@@ -167140,5 +167140,41 @@
       "primaryGenreName": "Pop",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"אפרים מרקוביץ'\", \"Ephraim Markovich\", \"mrkobitz\", \"mrkobiz\", \"mrkobytz\", \"mrkobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"הקפות שניות  דושינסקיא תשפ\\\"ו\"}": [],
+  "{\"aliases\": [\"שוקי סלומון\", \"Salomon Markets\", \"shoki slomon\", \"shoki slomun\", \"shoki slomvn\", \"shoki slomwn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"שיר המשאלות\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1475816834,
+      "collectionId": 6814746011,
+      "trackId": 6814746012,
+      "artistName": "Shuki Salomon & Yehuda Green",
+      "collectionName": "שיר המשאלות - Single",
+      "trackName": "שיר המשאלות",
+      "collectionCensoredName": "שיר המשאלות - Single",
+      "trackCensoredName": "שיר המשאלות",
+      "artistViewUrl": "https://music.apple.com/il/artist/shuki-salomon/1475816834?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%A9%D7%99%D7%A8-%D7%94%D7%9E%D7%A9%D7%90%D7%9C%D7%95%D7%AA/6814746011?i=6814746012&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/%D7%A9%D7%99%D7%A8-%D7%94%D7%9E%D7%A9%D7%90%D7%9C%D7%95%D7%AA/6814746011?i=6814746012&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/7d/fd/717dfdde-13d6-ef5e-bc78-dba2e31cb52f/mzaf_10309572343684907256.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/73/b1/d773b1b1-9b49-1bfd-0854-d12a6523393a/9999900442229.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/73/b1/d773b1b1-9b49-1bfd-0854-d12a6523393a/9999900442229.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/73/b1/d773b1b1-9b49-1bfd-0854-d12a6523393a/9999900442229.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "trackPrice": 2.9,
+      "releaseDate": "2026-09-22T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 247941,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Pop",
+      "isStreamable": true
+    }
   ]
 }
