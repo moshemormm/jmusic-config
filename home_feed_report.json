@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T06:50:47.193742+00:00",
+  "generatedAt": "2026-09-24T06:50:58.738117+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 282,
-  "artistReadErrors": 4,
+  "artistNetworkReads": 283,
+  "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 516,
-  "youtubeSingleSourceItems": 873,
-  "youtubePopularSongSourceItems": 1208,
+  "youtubeAlbumSourceItems": 523,
+  "youtubeSingleSourceItems": 879,
+  "youtubePopularSongSourceItems": 1210,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 380,
+  "artistGenreArtistsGenerated": 382,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1387,
+  "itunesNetworkReads": 51,
+  "itunesCacheHits": 1391,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 268,
+  "itemsSkippedNoItunesCandidate": 271,
   "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 21,
-  "itemsSkippedOldRelease": 870,
-  "itemsGeneratedBeforeDedupe": 186,
-  "itemsGeneratedAfterDedupe": 173,
-  "albumsGeneratedAfterDedupe": 21,
-  "singlesGeneratedAfterDedupe": 152,
+  "itemsSkippedOldRelease": 877,
+  "itemsGeneratedBeforeDedupe": 189,
+  "itemsGeneratedAfterDedupe": 171,
+  "albumsGeneratedAfterDedupe": 20,
+  "singlesGeneratedAfterDedupe": 151,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3538,6 +3538,30 @@
       }
     },
     {
+      "artistName": "אהרן רזאל",
+      "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
+      "aliasesUsed": [
+        "אהרן רזאל",
+        "Aharon Razel",
+        "aharon rzl",
+        "aaron rzl"
+      ],
+      "title": "תודה",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "אמא אמא (feat. מיכה רזאל & יהודה רזאל) - Single",
+        "candidateArtist": "Yonatan Razel & Aaron Razel",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "אודי דוידי",
       "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
       "aliasesUsed": [
@@ -4120,6 +4144,32 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
+      "title": "Elokai Neshama (Pure Soul!)",
+      "expectedType": "ALBUM",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Elokai Neshama (Pure Soul!) אלקי נשמה",
+        "candidateArtist": "Volvy Rosenberg, The Shira Choir & Mendy Hershkowitz Band",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
       "title": "MBD with Shirah - Kisufim - כיסופים",
       "expectedType": "ALBUM",
       "bestScore": 75,
@@ -4172,42 +4222,16 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "Far Dir (פאר דיר)",
+      "title": "Brive'le",
       "expectedType": "SINGLE",
-      "bestScore": 6,
+      "bestScore": 28,
       "details": {
-        "titleScore": 0,
+        "titleScore": 28,
         "artistScore": 0,
         "artistGatePassed": false,
         "titleGatePassed": false,
-        "candidateTitle": "Synchronicity (Remastered 2003)",
-        "candidateArtist": "The Police",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
-      "title": "א יידישע מאמע (feat. שלום בראדט)",
-      "expectedType": "SINGLE",
-      "bestScore": 60,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "א יידישע מאמע (feat. שלום בראדט, אברהם מרדכי שווארץ & שירה) - Single",
-        "candidateArtist": "Sababa Band",
+        "candidateTitle": "Lee Brice",
+        "candidateArtist": "Lee Brice",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
@@ -4468,32 +4492,6 @@
       }
     },
     {
-      "artistName": "צליל וזמר",
-      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
-      "aliasesUsed": [
-        "צליל וזמר",
-        "Sound and singer",
-        "tzlil ozmr",
-        "tzlil ozmer",
-        "tzlil uzmr",
-        "tzlil uzmer"
-      ],
-      "title": "Volume 2",
-      "expectedType": "ALBUM",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "A Rush of Blood to the Head",
-        "candidateArtist": "Coldplay",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "שמחה אברמצ'יק",
       "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
       "aliasesUsed": [
@@ -4549,15 +4547,9 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "אהרן רזאל",
-      "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "בריו חקשור",
       "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwjc"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwj7"
     },
     {
       "type": "artist_read_failed",
@@ -4572,5 +4564,5 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-09-23T06:59:02.672713+00:00"
+  "completedAt": "2026-09-24T07:01:50.876569+00:00"
 }
