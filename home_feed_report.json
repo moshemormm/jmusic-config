@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T06:50:58.738117+00:00",
+  "generatedAt": "2026-09-25T06:45:53.938474+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -28,12 +28,12 @@
   "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 523,
-  "youtubeSingleSourceItems": 879,
-  "youtubePopularSongSourceItems": 1210,
+  "youtubeSingleSourceItems": 878,
+  "youtubePopularSongSourceItems": 1209,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 382,
+  "artistGenreArtistsGenerated": 383,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 2,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 51,
-  "itunesCacheHits": 1391,
+  "itunesNetworkReads": 18,
+  "itunesCacheHits": 1398,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 271,
-  "itemsSkippedWeakItunesCandidate": 44,
+  "itemsSkippedNoItunesCandidate": 275,
+  "itemsSkippedWeakItunesCandidate": 46,
   "itemsSkippedMissingItunesReleaseDate": 21,
-  "itemsSkippedOldRelease": 877,
-  "itemsGeneratedBeforeDedupe": 189,
-  "itemsGeneratedAfterDedupe": 171,
+  "itemsSkippedOldRelease": 872,
+  "itemsGeneratedBeforeDedupe": 187,
+  "itemsGeneratedAfterDedupe": 169,
   "albumsGeneratedAfterDedupe": 20,
-  "singlesGeneratedAfterDedupe": 151,
+  "singlesGeneratedAfterDedupe": 149,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3692,6 +3692,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4076,6 +4102,32 @@
         "titleGatePassed": false,
         "candidateTitle": "$ome $exy $ongs 4 U",
         "candidateArtist": "PARTYNEXTDOOR, Drake & Chino Pacas",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מנדי גולדברג",
+      "artistChannelId": "UCZgmglzC29i40G3cBx15rPA",
+      "aliasesUsed": [
+        "מנדי גולדברג",
+        "Mandy Goldberg",
+        "mndi goldbrg",
+        "mndi goldvrg",
+        "mndi guldbrg",
+        "mndi guldvrg"
+      ],
+      "title": "איך שריי צו דיר",
+      "expectedType": "SINGLE",
+      "bestScore": 40,
+      "details": {
+        "titleScore": 16,
+        "artistScore": 18,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "תמיד אוהב אותי (גרסת יידיש) - Single",
+        "candidateArtist": "Mendy Twerski, Akay & Sruli Broncher",
         "wrapperType": "track",
         "kind": "song",
         "rapidfuzzEnabled": true
@@ -4547,12 +4599,6 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwj7"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4562,7 +4608,13 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "סיני תור",
+      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwjP"
     }
   ],
-  "completedAt": "2026-09-24T07:01:50.876569+00:00"
+  "completedAt": "2026-09-25T06:54:46.393963+00:00"
 }
