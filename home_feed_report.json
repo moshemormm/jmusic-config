@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T07:49:23.660779+00:00",
+  "generatedAt": "2026-09-29T07:35:17.551831+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 282,
-  "artistReadErrors": 4,
+  "artistNetworkReads": 280,
+  "artistReadErrors": 6,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 518,
-  "youtubeSingleSourceItems": 874,
-  "youtubePopularSongSourceItems": 1208,
+  "youtubeAlbumSourceItems": 510,
+  "youtubeSingleSourceItems": 864,
+  "youtubePopularSongSourceItems": 1207,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 380,
+  "artistGenreArtistsGenerated": 377,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 19,
-  "itunesCacheHits": 1388,
+  "itunesNetworkReads": 24,
+  "itunesCacheHits": 1370,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 275,
-  "itemsSkippedWeakItunesCandidate": 46,
+  "itemsSkippedNoItunesCandidate": 270,
+  "itemsSkippedWeakItunesCandidate": 42,
   "itemsSkippedMissingItunesReleaseDate": 21,
-  "itemsSkippedOldRelease": 872,
-  "itemsGeneratedBeforeDedupe": 178,
-  "itemsGeneratedAfterDedupe": 164,
+  "itemsSkippedOldRelease": 864,
+  "itemsGeneratedBeforeDedupe": 177,
+  "itemsGeneratedAfterDedupe": 163,
   "albumsGeneratedAfterDedupe": 20,
-  "singlesGeneratedAfterDedupe": 144,
+  "singlesGeneratedAfterDedupe": 143,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3668,32 +3668,6 @@
       }
     },
     {
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "aliasesUsed": [
-        "בריו חקשור",
-        "Rio Hekchor",
-        "brio chkshor",
-        "brio chkshur",
-        "brio chkshvr",
-        "brio chkshwr"
-      ],
-      "title": "בריו 2",
-      "expectedType": "ALBUM",
-      "bestScore": 68,
-      "details": {
-        "titleScore": 38,
-        "artistScore": 24,
-        "artistGatePassed": true,
-        "titleGatePassed": true,
-        "candidateTitle": "Baryo, Vol. 2",
-        "candidateArtist": "Baryo Hakshur",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4172,84 +4146,6 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "Elokai Neshama (Pure Soul!)",
-      "expectedType": "ALBUM",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "Elokai Neshama (Pure Soul!) אלקי נשמה",
-        "candidateArtist": "Volvy Rosenberg, The Shira Choir & Mendy Hershkowitz Band",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
-      "title": "MBD with Shirah - Kisufim - כיסופים",
-      "expectedType": "ALBUM",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "MBD with Shirah - Kisufim - כיסופים",
-        "candidateArtist": "Mordechai Ben David & The Shira Choir",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
-      "title": "Galei Kevoid (גלה כבוד)",
-      "expectedType": "SINGLE",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "Galei Kevoid (גלה כבוד) - Single",
-        "candidateArtist": "Dovy Meisels, Tzali Gold & The Shira Choir",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
       "title": "א חתונה און שטעטעל",
       "expectedType": "SINGLE",
       "bestScore": 75,
@@ -4613,6 +4509,12 @@
     },
     {
       "type": "artist_read_failed",
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4622,7 +4524,13 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "סיני תור",
+      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
+      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-28T07:57:51.172963+00:00"
+  "completedAt": "2026-09-29T07:44:25.760456+00:00"
 }
