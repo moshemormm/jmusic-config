@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:35:17.551831+00:00",
+  "generatedAt": "2026-09-30T07:35:30.320539+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -28,8 +28,8 @@
   "artistReadErrors": 6,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 510,
-  "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1207,
+  "youtubeSingleSourceItems": 863,
+  "youtubePopularSongSourceItems": 1206,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 3,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 24,
-  "itunesCacheHits": 1370,
+  "itunesNetworkReads": 25,
+  "itunesCacheHits": 1368,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 270,
+  "itemsSkippedNoItunesCandidate": 268,
   "itemsSkippedWeakItunesCandidate": 42,
-  "itemsSkippedMissingItunesReleaseDate": 21,
-  "itemsSkippedOldRelease": 864,
-  "itemsGeneratedBeforeDedupe": 177,
-  "itemsGeneratedAfterDedupe": 163,
+  "itemsSkippedMissingItunesReleaseDate": 20,
+  "itemsSkippedOldRelease": 862,
+  "itemsGeneratedBeforeDedupe": 181,
+  "itemsGeneratedAfterDedupe": 166,
   "albumsGeneratedAfterDedupe": 20,
-  "singlesGeneratedAfterDedupe": 143,
+  "singlesGeneratedAfterDedupe": 146,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3459,6 +3459,27 @@
       "aliasesUsed": [
         "Chaim Ghoori"
       ],
+      "title": "Moshcheini 3",
+      "expectedType": "SINGLE",
+      "bestScore": 54,
+      "details": {
+        "titleScore": 54,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Moshcheini 2 (feat. Chaim Ghoori Unplugged) - Single",
+        "candidateArtist": "Waterbury Mesivta Unplugged",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
       "title": "Shomer Yisrael - שומר ישראל",
       "expectedType": "SINGLE",
       "bestScore": 60,
@@ -4136,32 +4157,6 @@
       }
     },
     {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
-      "title": "א חתונה און שטעטעל",
-      "expectedType": "SINGLE",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "א חתונה און שטעטעל - Single",
-        "candidateArtist": "Mendy Hershkowitz Band, The Shira Choir & Yisroel Adler",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "משה דוד וייסמנדל",
       "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
       "aliasesUsed": [
@@ -4532,5 +4527,5 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-29T07:44:25.760456+00:00"
+  "completedAt": "2026-09-30T07:44:46.158712+00:00"
 }
