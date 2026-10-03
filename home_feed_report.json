@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T07:37:42.414891+00:00",
+  "generatedAt": "2026-10-03T07:10:30.162409+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 523,
   "youtubeSingleSourceItems": 878,
-  "youtubePopularSongSourceItems": 1209,
+  "youtubePopularSongSourceItems": 1208,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -44,8 +44,8 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 0,
-  "itunesCacheHits": 1401,
+  "itunesNetworkReads": 6,
+  "itunesCacheHits": 1400,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,10 +53,10 @@
   "itemsSkippedNoItunesCandidate": 270,
   "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 20,
-  "itemsSkippedOldRelease": 883,
-  "itemsGeneratedBeforeDedupe": 184,
-  "itemsGeneratedAfterDedupe": 166,
-  "albumsGeneratedAfterDedupe": 20,
+  "itemsSkippedOldRelease": 882,
+  "itemsGeneratedBeforeDedupe": 185,
+  "itemsGeneratedAfterDedupe": 167,
+  "albumsGeneratedAfterDedupe": 21,
   "singlesGeneratedAfterDedupe": 146,
   "artistsWithAutoAliases": [
     {
@@ -4553,5 +4553,5 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-10-02T07:44:58.525160+00:00"
+  "completedAt": "2026-10-03T07:18:15.246720+00:00"
 }
