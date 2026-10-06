@@ -168585,5 +168585,6 @@
   ],
   "{\"aliases\": [\"יומי לואי\", \"Yomi Louie\", \"iomi loi\", \"iomi loy\", \"iomi lui\", \"iomi luy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yumi Lowy Kol Hatoiv\"}": [],
   "{\"aliases\": [\"מנחם לוי\", \"Menachem Levy\", \"mnchm loy\", \"mnchm loi\", \"mnchm luy\", \"mnchm lui\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ציפור הרגע  - חודש אלול\"}": [],
-  "{\"aliases\": [\"מנחם לוי\", \"Menachem Levy\", \"mnchm loy\", \"mnchm loi\", \"mnchm luy\", \"mnchm lui\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ענני הכבוד\"}": []
+  "{\"aliases\": [\"מנחם לוי\", \"Menachem Levy\", \"mnchm loy\", \"mnchm loi\", \"mnchm luy\", \"mnchm lui\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ענני הכבוד\"}": [],
+  "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Wedding 8.20.26 with Simcha Jacoby\"}": []
 }
