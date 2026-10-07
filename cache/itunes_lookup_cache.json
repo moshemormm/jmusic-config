@@ -168586,5 +168586,28 @@
   "{\"aliases\": [\"יומי לואי\", \"Yomi Louie\", \"iomi loi\", \"iomi loy\", \"iomi lui\", \"iomi luy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yumi Lowy Kol Hatoiv\"}": [],
   "{\"aliases\": [\"מנחם לוי\", \"Menachem Levy\", \"mnchm loy\", \"mnchm loi\", \"mnchm luy\", \"mnchm lui\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ציפור הרגע  - חודש אלול\"}": [],
   "{\"aliases\": [\"מנחם לוי\", \"Menachem Levy\", \"mnchm loy\", \"mnchm loi\", \"mnchm luy\", \"mnchm lui\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"ענני הכבוד\"}": [],
-  "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Wedding 8.20.26 with Simcha Jacoby\"}": []
+  "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Wedding 8.20.26 with Simcha Jacoby\"}": [],
+  "{\"aliases\": [\"דניאל זמיר\", \"Daniel Zamir\", \"dnil zmir\", \"dnil zmyr\", \"dnyl zmir\", \"dnyl zmyr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"זאת אני שבוכה (feat. Noam Arnold-Shapira)\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 593236274,
+      "collectionId": 6807062542,
+      "artistName": "Daniel Zamir",
+      "collectionName": "זאת אני שבוכה (feat. Noam Arnold-Shapira) - Single",
+      "collectionCensoredName": "זאת אני שבוכה (feat. Noam Arnold-Shapira) - Single",
+      "artistViewUrl": "https://music.apple.com/il/artist/daniel-zamir/593236274?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%96%D7%90%D7%AA-%D7%90%D7%A0%D7%99-%D7%A9%D7%91%D7%95%D7%9B%D7%94-feat-noam-arnold-shapira-single/6807062542?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/95/13/8f9513ec-3b69-39e4-0ead-5e201d3c9981/885288419689.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/95/13/8f9513ec-3b69-39e4-0ead-5e201d3c9981/885288419689.jpg/100x100bb.jpg",
+      "collectionPrice": 2.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "℗ 2026 Noam Arnold-Shapira by Rad Star",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2026-10-05T07:00:00Z",
+      "primaryGenreName": "Pop"
+    }
+  ]
 }
