@@ -168609,5 +168609,40 @@
       "releaseDate": "2026-10-05T07:00:00Z",
       "primaryGenreName": "Pop"
     }
+  ],
+  "{\"aliases\": [\"הרשי אייזנבך\", \"Hershey Eisenbach\", \"hrshi\", \"hrshy\", \"hrsi\", \"hrsy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"מקדים שלום\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1773926514,
+      "collectionId": 6819588358,
+      "trackId": 6819588483,
+      "artistName": "הרשי אייזנבך",
+      "collectionName": "מקדים שלום - Single",
+      "trackName": "מקדים שלום",
+      "collectionCensoredName": "מקדים שלום - Single",
+      "trackCensoredName": "מקדים שלום",
+      "artistViewUrl": "https://music.apple.com/il/artist/%D7%94%D7%A8%D7%A9%D7%99-%D7%90%D7%99%D7%99%D7%96%D7%A0%D7%91%D7%9A/1773926514?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%9E%D7%A7%D7%93%D7%99%D7%9D-%D7%A9%D7%9C%D7%95%D7%9D/6819588358?i=6819588483&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/%D7%9E%D7%A7%D7%93%D7%99%D7%9D-%D7%A9%D7%9C%D7%95%D7%9D/6819588358?i=6819588483&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/4b/14/7b4b14fa-108b-74a9-87f5-68f01c397022/mzaf_9228203841874485462.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/3c/2d/563c2db4-7331-32b4-58a2-b137c7bd32eb/cover.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/3c/2d/563c2db4-7331-32b4-58a2-b137c7bd32eb/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/3c/2d/563c2db4-7331-32b4-58a2-b137c7bd32eb/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "trackPrice": 3.9,
+      "releaseDate": "2026-10-07T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 203886,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Israeli",
+      "isStreamable": true
+    }
   ]
 }
