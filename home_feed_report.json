@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:36:14.188654+00:00",
+  "generatedAt": "2026-10-14T06:48:54.490943+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 283,
-  "artistReadErrors": 3,
+  "artistNetworkReads": 281,
+  "artistReadErrors": 5,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 524,
-  "youtubeSingleSourceItems": 882,
-  "youtubePopularSongSourceItems": 1210,
+  "youtubeAlbumSourceItems": 515,
+  "youtubeSingleSourceItems": 873,
+  "youtubePopularSongSourceItems": 1212,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 382,
+  "artistGenreArtistsGenerated": 379,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 4,
-  "itunesCacheHits": 1405,
+  "itunesNetworkReads": 10,
+  "itunesCacheHits": 1386,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 271,
-  "itemsSkippedWeakItunesCandidate": 42,
-  "itemsSkippedMissingItunesReleaseDate": 21,
-  "itemsSkippedOldRelease": 888,
-  "itemsGeneratedBeforeDedupe": 184,
-  "itemsGeneratedAfterDedupe": 165,
+  "itemsSkippedNoItunesCandidate": 272,
+  "itemsSkippedWeakItunesCandidate": 43,
+  "itemsSkippedMissingItunesReleaseDate": 22,
+  "itemsSkippedOldRelease": 878,
+  "itemsGeneratedBeforeDedupe": 173,
+  "itemsGeneratedAfterDedupe": 159,
   "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 148,
+  "singlesGeneratedAfterDedupe": 142,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -3689,6 +3689,32 @@
       }
     },
     {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "גיל ישראלוב",
       "artistChannelId": "UCZuSuSnRFj4w99qgQDjJh5Q",
       "aliasesUsed": [
@@ -4492,9 +4518,15 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAsQ8JMBGAEiEwjK"
+      "artistName": "אהרון רזאל",
+      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "אהרן רזאל",
+      "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
+      "message": "'musicImmersiveHeaderRenderer'"
     },
     {
       "type": "artist_read_failed",
@@ -4504,10 +4536,16 @@
     },
     {
       "type": "artist_read_failed",
+      "artistName": "חיים ישראל",
+      "artistChannelId": "UCpFrrj714aCUQ-Pfr9E5vtA",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-10-13T08:43:52.363305+00:00"
+  "completedAt": "2026-10-14T06:56:56.603316+00:00"
 }
