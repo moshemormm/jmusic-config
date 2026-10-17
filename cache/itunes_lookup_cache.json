@@ -170293,5 +170293,41 @@
       "releaseDate": "2026-10-15T07:00:00Z",
       "primaryGenreName": "Israeli"
     }
-  ]
+  ],
+  "{\"aliases\": [\"נפתלי בלומנטל\", \"Naftali Blumenthal\", \"naftali blomntl\", \"naftali blumntl\", \"naftali blvmntl\", \"naftali blwmntl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Mizmor Lesodah\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1046344892,
+      "collectionId": 6823393212,
+      "trackId": 6823393213,
+      "artistName": "Naftali Blumenthal",
+      "collectionName": "Mizmor Lesodah - Single",
+      "trackName": "Mizmor Lesodah",
+      "collectionCensoredName": "Mizmor Lesodah - Single",
+      "trackCensoredName": "Mizmor Lesodah",
+      "artistViewUrl": "https://music.apple.com/il/artist/naftali-blumenthal/1046344892?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/mizmor-lesodah/6823393212?i=6823393213&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/mizmor-lesodah/6823393212?i=6823393213&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/3c/2a/b23c2a2d-1a49-c9bf-f3ff-46c12cc94d6e/mzaf_11222659288755979372.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/44/ec/3e44ecfe-a432-d543-9cdf-c8af2667e13c/artwork.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/44/ec/3e44ecfe-a432-d543-9cdf-c8af2667e13c/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/44/ec/3e44ecfe-a432-d543-9cdf-c8af2667e13c/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 3.9,
+      "trackPrice": 3.9,
+      "releaseDate": "2026-10-15T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 266035,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Worldwide",
+      "isStreamable": true
+    }
+  ],
+  "{\"aliases\": [\"שלומי דאקס\", \"Hello Dax\", \"shlomi dks\", \"shlomi dcs\", \"shlomy dks\", \"shlomy dcs\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Kumzits\"}": []
 }
