@@ -170388,5 +170388,6 @@
       "isStreamable": true
     }
   ],
-  "{\"aliases\": [\"שלומי דסקל\", \"Shlomi Daskel\", \"shlomi dskl\", \"shlomi dscl\", \"shlomy dskl\", \"shlomy dscl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Ch'Kum Shoin\"}": []
+  "{\"aliases\": [\"שלומי דסקל\", \"Shlomi Daskel\", \"shlomi dskl\", \"shlomi dscl\", \"shlomy dskl\", \"shlomy dscl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Ch'Kum Shoin\"}": [],
+  "{\"aliases\": [\"המכביטס\", \"The Maccabees\", \"hmchbits\", \"hmchbyts\", \"hmchvits\", \"hmchvyts\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"A Maccabeats Hanukkah\"}": []
 }
