@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T07:09:00.846109+00:00",
+  "generatedAt": "2026-10-27T06:55:10.220181+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -44,8 +44,8 @@
   ],
   "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 23,
-  "itunesCacheHits": 1418,
+  "itunesNetworkReads": 8,
+  "itunesCacheHits": 1420,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,11 +53,11 @@
   "itemsSkippedNoItunesCandidate": 273,
   "itemsSkippedWeakItunesCandidate": 44,
   "itemsSkippedMissingItunesReleaseDate": 25,
-  "itemsSkippedOldRelease": 900,
-  "itemsGeneratedBeforeDedupe": 180,
-  "itemsGeneratedAfterDedupe": 161,
-  "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 144,
+  "itemsSkippedOldRelease": 899,
+  "itemsGeneratedBeforeDedupe": 181,
+  "itemsGeneratedAfterDedupe": 162,
+  "albumsGeneratedAfterDedupe": 16,
+  "singlesGeneratedAfterDedupe": 146,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4555,5 +4555,5 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-10-26T07:17:54.087190+00:00"
+  "completedAt": "2026-10-27T07:03:10.009154+00:00"
 }
