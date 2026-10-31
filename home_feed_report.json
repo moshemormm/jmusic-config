@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T07:49:03.729983+00:00",
+  "generatedAt": "2026-10-31T07:37:33.057805+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 284,
-  "artistReadErrors": 2,
+  "artistNetworkReads": 283,
+  "artistReadErrors": 3,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 533,
-  "youtubeSingleSourceItems": 889,
-  "youtubePopularSongSourceItems": 1213,
+  "youtubeAlbumSourceItems": 531,
+  "youtubeSingleSourceItems": 887,
+  "youtubePopularSongSourceItems": 1208,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 384,
+  "artistGenreArtistsGenerated": 383,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 3,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 0,
-  "itunesCacheHits": 1422,
+  "itunesNetworkReads": 57,
+  "itunesCacheHits": 1406,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
   "itemsSkippedNoItunesCandidate": 272,
-  "itemsSkippedWeakItunesCandidate": 43,
+  "itemsSkippedWeakItunesCandidate": 46,
   "itemsSkippedMissingItunesReleaseDate": 25,
-  "itemsSkippedOldRelease": 897,
-  "itemsGeneratedBeforeDedupe": 185,
-  "itemsGeneratedAfterDedupe": 167,
+  "itemsSkippedOldRelease": 887,
+  "itemsGeneratedBeforeDedupe": 188,
+  "itemsGeneratedAfterDedupe": 169,
   "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 150,
+  "singlesGeneratedAfterDedupe": 152,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4188,6 +4188,84 @@
       }
     },
     {
+      "artistName": "מקהלת פרחי מיאמי",
+      "artistChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "aliasesUsed": [
+        "מקהלת פרחי מיאמי",
+        "Miami Flower Choir",
+        "mkhlt prchi mimi",
+        "mkhlt prchi mimy",
+        "mkhlt prchi mymi",
+        "mkhlt prchi mymy"
+      ],
+      "title": "ONE VOICE",
+      "expectedType": "ALBUM",
+      "bestScore": 22,
+      "details": {
+        "titleScore": 16,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "At Folsom Prison (Live)",
+        "candidateArtist": "Johnny Cash",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי מיאמי",
+      "artistChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "aliasesUsed": [
+        "מקהלת פרחי מיאמי",
+        "Miami Flower Choir",
+        "mkhlt prchi mimi",
+        "mkhlt prchi mimy",
+        "mkhlt prchi mymi",
+        "mkhlt prchi mymy"
+      ],
+      "title": "Miami On Social Media",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Middle - Single",
+        "candidateArtist": "Zedd, Maren Morris & Grey",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי מיאמי",
+      "artistChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "aliasesUsed": [
+        "מקהלת פרחי מיאמי",
+        "Miami Flower Choir",
+        "mkhlt prchi mimi",
+        "mkhlt prchi mimy",
+        "mkhlt prchi mymi",
+        "mkhlt prchi mymy"
+      ],
+      "title": "Miami Experience 2",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Middle - Single",
+        "candidateArtist": "Zedd, Maren Morris & Grey",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "משה דוד וייסמנדל",
       "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
       "aliasesUsed": [
@@ -4532,7 +4610,13 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "מרדכי בן דוד",
+      "artistChannelId": "UCJnj4pkUeIRCIrpRXoIv15g",
+      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-10-30T07:56:25.881928+00:00"
+  "completedAt": "2026-10-31T07:49:08.292910+00:00"
 }
