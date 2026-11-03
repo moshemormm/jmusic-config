@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:29:51.079584+00:00",
+  "generatedAt": "2026-11-03T08:43:16.141494+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 283,
-  "artistReadErrors": 3,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 531,
-  "youtubeSingleSourceItems": 886,
-  "youtubePopularSongSourceItems": 1209,
+  "youtubeAlbumSourceItems": 536,
+  "youtubeSingleSourceItems": 890,
+  "youtubePopularSongSourceItems": 1208,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 383,
+  "artistGenreArtistsGenerated": 384,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -45,7 +45,7 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 0,
-  "itunesCacheHits": 1417,
+  "itunesCacheHits": 1426,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,10 +53,10 @@
   "itemsSkippedNoItunesCandidate": 271,
   "itemsSkippedWeakItunesCandidate": 46,
   "itemsSkippedMissingItunesReleaseDate": 25,
-  "itemsSkippedOldRelease": 893,
-  "itemsGeneratedBeforeDedupe": 182,
-  "itemsGeneratedAfterDedupe": 163,
-  "albumsGeneratedAfterDedupe": 16,
+  "itemsSkippedOldRelease": 903,
+  "itemsGeneratedBeforeDedupe": 181,
+  "itemsGeneratedAfterDedupe": 162,
+  "albumsGeneratedAfterDedupe": 15,
   "singlesGeneratedAfterDedupe": 147,
   "artistsWithAutoAliases": [
     {
@@ -4610,13 +4610,7 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "מרדכי בן דוד",
-      "artistChannelId": "UCJnj4pkUeIRCIrpRXoIv15g",
-      "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-11-02T08:37:09.752803+00:00"
+  "completedAt": "2026-11-03T08:50:40.716793+00:00"
 }
