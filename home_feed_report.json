@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T08:38:41.577405+00:00",
+  "generatedAt": "2026-11-06T08:38:35.136001+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 540,
   "youtubeSingleSourceItems": 894,
-  "youtubePopularSongSourceItems": 1205,
+  "youtubePopularSongSourceItems": 1203,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 6,
+  "youtubeAlbumDrilldownReads": 4,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 72,
-  "itunesCacheHits": 1421,
+  "itunesNetworkReads": 27,
+  "itunesCacheHits": 1427,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 272,
+  "itemsSkippedNoItunesCandidate": 271,
   "itemsSkippedWeakItunesCandidate": 52,
-  "itemsSkippedMissingItunesReleaseDate": 25,
-  "itemsSkippedOldRelease": 896,
-  "itemsGeneratedBeforeDedupe": 189,
-  "itemsGeneratedAfterDedupe": 170,
+  "itemsSkippedMissingItunesReleaseDate": 24,
+  "itemsSkippedOldRelease": 892,
+  "itemsGeneratedBeforeDedupe": 195,
+  "itemsGeneratedAfterDedupe": 173,
   "albumsGeneratedAfterDedupe": 16,
-  "singlesGeneratedAfterDedupe": 154,
+  "singlesGeneratedAfterDedupe": 157,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4768,5 +4768,5 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-11-05T08:51:49.299785+00:00"
+  "completedAt": "2026-11-06T08:47:49.121431+00:00"
 }
