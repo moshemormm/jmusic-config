@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:53:59.550056+00:00",
+  "generatedAt": "2026-11-08T08:10:11.322485+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -26,10 +26,10 @@
   "maxItunesLookupsTotal": 1000,
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
-  "youtubeExpandErrors": 1,
-  "youtubeAlbumSourceItems": 540,
+  "youtubeExpandErrors": 0,
+  "youtubeAlbumSourceItems": 541,
   "youtubeSingleSourceItems": 894,
-  "youtubePopularSongSourceItems": 1202,
+  "youtubePopularSongSourceItems": 1206,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,16 +42,16 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 73,
-  "itunesCacheHits": 1421,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1433,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 269,
-  "itemsSkippedWeakItunesCandidate": 53,
+  "itemsSkippedNoItunesCandidate": 271,
+  "itemsSkippedWeakItunesCandidate": 52,
   "itemsSkippedMissingItunesReleaseDate": 24,
   "itemsSkippedOldRelease": 892,
   "itemsGeneratedBeforeDedupe": 196,
@@ -4042,32 +4042,6 @@
         "leizr luyd",
         "leizr luid"
       ],
-      "title": "Be (Rock Mix) [Live]",
-      "expectedType": "SINGLE",
-      "bestScore": 24,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 18,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "Peace Is The Mission",
-        "candidateArtist": "Major Lazer",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "לייזר לויד",
-      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
-      "aliasesUsed": [
-        "לייזר לויד",
-        "Laser Lloyd",
-        "leizr loyd",
-        "leizr loid",
-        "leizr luyd",
-        "leizr luid"
-      ],
       "title": "Help is on Its Way",
       "expectedType": "SINGLE",
       "bestScore": 18,
@@ -4792,13 +4766,7 @@
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
-    },
-    {
-      "type": "youtube_expand_failed",
-      "artistChannelId": "UCu6IT3jTOtAcNfjIQSIyCQQ",
-      "category": "albums",
-      "message": "\"Unable to find 'musicCarouselShelfRenderer' using path ['musicCarouselShelfRenderer', 'contents'] on {'itemSectionRenderer': {'contents': [{'messageRenderer': {'trackingParams': 'CAMQljsYACITCPuXo6Kz9ZcDFakQhgAdH30Uig==', 'subtext': {'messageSubtextRenderer': {'text': {'runs': [{'text': 'Something "
     }
   ],
-  "completedAt": "2026-11-07T08:07:04.359103+00:00"
+  "completedAt": "2026-11-08T08:18:34.875943+00:00"
 }
