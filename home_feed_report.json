@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T08:10:11.322485+00:00",
+  "generatedAt": "2026-11-09T08:46:10.851071+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 541,
-  "youtubeSingleSourceItems": 894,
-  "youtubePopularSongSourceItems": 1206,
+  "youtubeAlbumSourceItems": 542,
+  "youtubeSingleSourceItems": 893,
+  "youtubePopularSongSourceItems": 1203,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,18 +42,18 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1433,
+  "itunesNetworkReads": 20,
+  "itunesCacheHits": 1430,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 271,
+  "itemsSkippedNoItunesCandidate": 270,
   "itemsSkippedWeakItunesCandidate": 52,
   "itemsSkippedMissingItunesReleaseDate": 24,
-  "itemsSkippedOldRelease": 892,
+  "itemsSkippedOldRelease": 893,
   "itemsGeneratedBeforeDedupe": 196,
   "itemsGeneratedAfterDedupe": 173,
   "albumsGeneratedAfterDedupe": 16,
@@ -4302,7 +4302,7 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "Satmar Medley",
+      "title": "Satmar Medley (אוצר ניגוני בית סאטמאר)",
       "expectedType": "ALBUM",
       "bestScore": 75,
       "details": {
@@ -4310,8 +4310,8 @@
         "artistScore": 20,
         "artistGatePassed": false,
         "titleGatePassed": true,
-        "candidateTitle": "Satmar Medley",
-        "candidateArtist": "The Shira Choir, Hershy Weinberger & Freilach Band",
+        "candidateTitle": "Satmar Medley (אוצר ניגוני בית סאטמאר)",
+        "candidateArtist": "The Shira Choir, Hershy Weinberger, Freilach Band & Yiddish Nachas",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
@@ -4768,5 +4768,5 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "completedAt": "2026-11-08T08:18:34.875943+00:00"
+  "completedAt": "2026-11-09T08:55:23.150643+00:00"
 }
