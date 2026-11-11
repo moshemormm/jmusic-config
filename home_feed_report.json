@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:53:28.103121+00:00",
+  "generatedAt": "2026-11-11T08:31:11.875798+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 278,
   "artistReadErrors": 8,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 523,
-  "youtubeSingleSourceItems": 869,
-  "youtubePopularSongSourceItems": 1172,
+  "youtubeAlbumSourceItems": 526,
+  "youtubeSingleSourceItems": 868,
+  "youtubePopularSongSourceItems": 1173,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -44,17 +44,17 @@
   ],
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1390,
+  "itunesNetworkReads": 0,
+  "itunesCacheHits": 1394,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 268,
+  "itemsSkippedNoItunesCandidate": 267,
   "itemsSkippedWeakItunesCandidate": 52,
   "itemsSkippedMissingItunesReleaseDate": 22,
-  "itemsSkippedOldRelease": 876,
-  "itemsGeneratedBeforeDedupe": 174,
+  "itemsSkippedOldRelease": 880,
+  "itemsGeneratedBeforeDedupe": 173,
   "itemsGeneratedAfterDedupe": 158,
   "albumsGeneratedAfterDedupe": 13,
   "singlesGeneratedAfterDedupe": 145,
@@ -4328,32 +4328,6 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "זכר חסדו",
-      "expectedType": "SINGLE",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "זכר חסדו - Single",
-        "candidateArtist": "מנדי רוט, Mendy Hershkowitz Band & The Shira Choir",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
       "title": "Rozo D’Shabbos (רזא דשבת)",
       "expectedType": "SINGLE",
       "bestScore": 75,
@@ -4416,6 +4390,32 @@
         "titleGatePassed": true,
         "candidateTitle": "Shofar (שופר) - Single",
         "candidateArtist": "Shaya Lebron, The Shira Choir & Mendy Hershkowitz Band",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "Zich Mich Oief",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Zich Mich Oief - Single",
+        "candidateArtist": "Mordechai Kohn, Motty Ilowitz & The Shira Choir",
         "wrapperType": "track",
         "kind": "song",
         "rapidfuzzEnabled": true
@@ -4801,8 +4801,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwik"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwjL"
     }
   ],
-  "completedAt": "2026-11-10T09:01:57.697152+00:00"
+  "completedAt": "2026-11-11T08:38:38.914426+00:00"
 }
