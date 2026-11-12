@@ -177204,5 +177204,28 @@
       "primaryGenreName": "Israeli",
       "isStreamable": true
     }
+  ],
+  "{\"aliases\": [\"מיכה גמרמן\", \"Micah German\", \"michh gmrmn\", \"mich gmrmn\", \"mikh gmrmn\", \"mik gmrmn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Moadei Yisrael With Micha Gamerman\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 925188546,
+      "collectionId": 1216046007,
+      "artistName": "Micha Gamerman",
+      "collectionName": "Moadei Yisrael With Micha Gamerman - EP",
+      "collectionCensoredName": "Moadei Yisrael With Micha Gamerman - EP",
+      "artistViewUrl": "https://music.apple.com/il/artist/micha-gamerman/925188546?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/moadei-yisrael-with-micha-gamerman-ep/1216046007?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/6b/3e/bc6b3e50-b39f-5e46-c8c7-6caeae55a7ee/316459.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/6b/3e/bc6b3e50-b39f-5e46-c8c7-6caeae55a7ee/316459.jpg/100x100bb.jpg",
+      "collectionPrice": 29.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 6,
+      "copyright": "℗ 2017 Micha Gamerman",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2017-03-14T07:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
   ]
 }
