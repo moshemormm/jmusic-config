@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:50:36.510435+00:00",
+  "generatedAt": "2026-11-14T08:12:07.691612+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 278,
-  "artistReadErrors": 8,
+  "artistNetworkReads": 277,
+  "artistReadErrors": 9,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 526,
-  "youtubeSingleSourceItems": 868,
-  "youtubePopularSongSourceItems": 1173,
+  "youtubeAlbumSourceItems": 521,
+  "youtubeSingleSourceItems": 860,
+  "youtubePopularSongSourceItems": 1163,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 374,
+  "artistGenreArtistsGenerated": 373,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -45,19 +45,19 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 0,
-  "itunesCacheHits": 1394,
+  "itunesCacheHits": 1381,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 265,
-  "itemsSkippedWeakItunesCandidate": 53,
+  "itemsSkippedNoItunesCandidate": 267,
+  "itemsSkippedWeakItunesCandidate": 52,
   "itemsSkippedMissingItunesReleaseDate": 22,
-  "itemsSkippedOldRelease": 881,
-  "itemsGeneratedBeforeDedupe": 173,
-  "itemsGeneratedAfterDedupe": 158,
+  "itemsSkippedOldRelease": 871,
+  "itemsGeneratedBeforeDedupe": 169,
+  "itemsGeneratedAfterDedupe": 154,
   "albumsGeneratedAfterDedupe": 13,
-  "singlesGeneratedAfterDedupe": 145,
+  "singlesGeneratedAfterDedupe": 141,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4042,32 +4042,6 @@
         "leizr luyd",
         "leizr luid"
       ],
-      "title": "Be (Rock Mix) [Live]",
-      "expectedType": "SINGLE",
-      "bestScore": 24,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 18,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "Peace Is The Mission",
-        "candidateArtist": "Major Lazer",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "לייזר לויד",
-      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
-      "aliasesUsed": [
-        "לייזר לויד",
-        "Laser Lloyd",
-        "leizr loyd",
-        "leizr loid",
-        "leizr luyd",
-        "leizr luid"
-      ],
       "title": "Help is on Its Way",
       "expectedType": "SINGLE",
       "bestScore": 18,
@@ -4807,6 +4781,12 @@
     },
     {
       "type": "artist_read_failed",
+      "artistName": "אלירן אלבז",
+      "artistChannelId": "UCH015ay6fdu6oHXowX7P8DQ",
+      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/7OHoIi"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "בנצי שטיין",
       "artistChannelId": "UCAM_yc1C3RuxfrMpxAUxHOQ",
       "message": "'Unable to find \\'header\\' using path [\\'musicCarouselShelfRenderer\\', \\'header\\', \\'musicCarouselShelfBasicHeaderRenderer\\', \\'title\\', \\'runs\\', 0] on {\\'contents\\': [{\\'musicTwoRowItemRenderer\\': {\\'thumbnailRenderer\\': {\\'musicThumbnailRenderer\\': {\\'thumbnail\\': {\\'thumbnails\\': [{\\'url\\': \\'ht"
@@ -4827,8 +4807,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwia"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwj8"
     }
   ],
-  "completedAt": "2026-11-13T08:58:15.651984+00:00"
+  "completedAt": "2026-11-14T08:19:49.111434+00:00"
 }
