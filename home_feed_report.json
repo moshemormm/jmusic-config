@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T08:31:25.107903+00:00",
+  "generatedAt": "2026-11-16T08:42:08.113995+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 526,
   "youtubeSingleSourceItems": 868,
-  "youtubePopularSongSourceItems": 1177,
+  "youtubePopularSongSourceItems": 1176,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -50,14 +50,14 @@
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 267,
-  "itemsSkippedWeakItunesCandidate": 52,
+  "itemsSkippedNoItunesCandidate": 265,
+  "itemsSkippedWeakItunesCandidate": 53,
   "itemsSkippedMissingItunesReleaseDate": 22,
-  "itemsSkippedOldRelease": 881,
-  "itemsGeneratedBeforeDedupe": 172,
-  "itemsGeneratedAfterDedupe": 157,
+  "itemsSkippedOldRelease": 884,
+  "itemsGeneratedBeforeDedupe": 170,
+  "itemsGeneratedAfterDedupe": 155,
   "albumsGeneratedAfterDedupe": 13,
-  "singlesGeneratedAfterDedupe": 144,
+  "singlesGeneratedAfterDedupe": 142,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4042,6 +4042,32 @@
         "leizr luyd",
         "leizr luid"
       ],
+      "title": "Be (Rock Mix) [Live]",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 18,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Peace Is The Mission",
+        "candidateArtist": "Major Lazer",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
       "title": "Help is on Its Way",
       "expectedType": "SINGLE",
       "bestScore": 18,
@@ -4801,8 +4827,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwjA"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwjN"
     }
   ],
-  "completedAt": "2026-11-15T08:38:54.121590+00:00"
+  "completedAt": "2026-11-16T08:49:33.015691+00:00"
 }
