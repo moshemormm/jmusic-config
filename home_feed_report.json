@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T09:49:17.488321+00:00",
+  "generatedAt": "2026-11-18T09:21:02.555468+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 277,
-  "artistReadErrors": 9,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 522,
-  "youtubeSingleSourceItems": 864,
-  "youtubePopularSongSourceItems": 1171,
+  "youtubeAlbumSourceItems": 542,
+  "youtubeSingleSourceItems": 892,
+  "youtubePopularSongSourceItems": 1206,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
-  "artistGenreArtistsGenerated": 372,
+  "artistGenreArtistsGenerated": 384,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 18,
-  "itunesCacheHits": 1383,
+  "itunesNetworkReads": 62,
+  "itunesCacheHits": 1422,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 267,
-  "itemsSkippedWeakItunesCandidate": 51,
-  "itemsSkippedMissingItunesReleaseDate": 22,
-  "itemsSkippedOldRelease": 880,
-  "itemsGeneratedBeforeDedupe": 166,
-  "itemsGeneratedAfterDedupe": 152,
-  "albumsGeneratedAfterDedupe": 13,
-  "singlesGeneratedAfterDedupe": 139,
+  "itemsSkippedNoItunesCandidate": 268,
+  "itemsSkippedWeakItunesCandidate": 53,
+  "itemsSkippedMissingItunesReleaseDate": 24,
+  "itemsSkippedOldRelease": 899,
+  "itemsGeneratedBeforeDedupe": 190,
+  "itemsGeneratedAfterDedupe": 168,
+  "albumsGeneratedAfterDedupe": 16,
+  "singlesGeneratedAfterDedupe": 152,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4084,6 +4084,32 @@
       }
     },
     {
+      "artistName": "מאיר גרין",
+      "artistChannelId": "UC_yQzUx1YXBlBH795X748Gg",
+      "aliasesUsed": [
+        "מאיר גרין",
+        "Meir Green",
+        "meir grin",
+        "meir gryn",
+        "meyer grin",
+        "meyer gryn"
+      ],
+      "title": "ישמח חתני",
+      "expectedType": "SINGLE",
+      "bestScore": 69,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Yismach Chatani - Single",
+        "candidateArtist": "Meir Green",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "מנדי גולדברג",
       "artistChannelId": "UCZgmglzC29i40G3cBx15rPA",
       "aliasesUsed": [
@@ -4448,6 +4474,32 @@
       }
     },
     {
+      "artistName": "משה קליין",
+      "artistChannelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
+      "aliasesUsed": [
+        "משה קליין",
+        "Moshe Klein",
+        "moshe klein",
+        "moshe kleyn",
+        "moshe klain",
+        "moshe klayn"
+      ],
+      "title": "דור של אמונה",
+      "expectedType": "SINGLE",
+      "bestScore": 63,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "בדרך אמונה בחרתי - Single",
+        "candidateArtist": "Moshe Klein",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "נפתלי קמפה",
       "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
       "aliasesUsed": [
@@ -4731,42 +4783,6 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "DJ Farbreng",
-      "artistChannelId": "UCfWRyQLkrtC0G3sG001vq8A",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "TYH Boys",
-      "artistChannelId": "UCtQiRYkrvrMlTmqEQy78vAA",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "Thank You Hashem",
-      "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "אודי דמארי",
-      "artistChannelId": "UCiOSnSRl9lEN-gVIX7ZIpTg",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/rAGWuy"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "בנצי שטיין",
-      "artistChannelId": "UCAM_yc1C3RuxfrMpxAUxHOQ",
-      "message": "'Unable to find \\'header\\' using path [\\'musicCarouselShelfRenderer\\', \\'header\\', \\'musicCarouselShelfBasicHeaderRenderer\\', \\'title\\', \\'runs\\', 0] on {\\'contents\\': [{\\'musicTwoRowItemRenderer\\': {\\'thumbnailRenderer\\': {\\'musicThumbnailRenderer\\': {\\'thumbnail\\': {\\'thumbnails\\': [{\\'url\\': \\'ht"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "גד אלבז",
-      "artistChannelId": "UCxEklyOKH3Jn1_1_AaRQsrQ",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/kFCWeg"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4775,14 +4791,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwjc"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "משה קליין",
-      "artistChannelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/Si2tAf"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwiV"
     }
   ],
-  "completedAt": "2026-11-17T09:57:48.198455+00:00"
+  "completedAt": "2026-11-18T09:33:04.403109+00:00"
 }
