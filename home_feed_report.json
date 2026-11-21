@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T09:17:19.014698+00:00",
+  "generatedAt": "2026-11-21T08:54:24.211073+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -28,7 +28,7 @@
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 542,
-  "youtubeSingleSourceItems": 893,
+  "youtubeSingleSourceItems": 892,
   "youtubePopularSongSourceItems": 1206,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 2,
+  "youtubeAlbumDrilldownReads": 1,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 25,
-  "itunesCacheHits": 1430,
+  "itunesNetworkReads": 20,
+  "itunesCacheHits": 1429,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 269,
+  "itemsSkippedNoItunesCandidate": 268,
   "itemsSkippedWeakItunesCandidate": 55,
   "itemsSkippedMissingItunesReleaseDate": 23,
   "itemsSkippedOldRelease": 896,
   "itemsGeneratedBeforeDedupe": 192,
   "itemsGeneratedAfterDedupe": 169,
-  "albumsGeneratedAfterDedupe": 16,
-  "singlesGeneratedAfterDedupe": 153,
+  "albumsGeneratedAfterDedupe": 17,
+  "singlesGeneratedAfterDedupe": 152,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4838,8 +4838,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwiW"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwik"
     }
   ],
-  "completedAt": "2026-11-20T09:26:30.789503+00:00"
+  "completedAt": "2026-11-21T09:03:47.602846+00:00"
 }
