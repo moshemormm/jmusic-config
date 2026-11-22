@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T08:54:24.211073+00:00",
+  "generatedAt": "2026-11-22T08:56:31.251662+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 542,
+  "youtubeAlbumSourceItems": 544,
   "youtubeSingleSourceItems": 892,
-  "youtubePopularSongSourceItems": 1206,
+  "youtubePopularSongSourceItems": 1196,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,19 +42,19 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 20,
-  "itunesCacheHits": 1429,
+  "itunesNetworkReads": 4,
+  "itunesCacheHits": 1432,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 268,
-  "itemsSkippedWeakItunesCandidate": 55,
+  "itemsSkippedNoItunesCandidate": 269,
+  "itemsSkippedWeakItunesCandidate": 58,
   "itemsSkippedMissingItunesReleaseDate": 23,
-  "itemsSkippedOldRelease": 896,
-  "itemsGeneratedBeforeDedupe": 192,
+  "itemsSkippedOldRelease": 895,
+  "itemsGeneratedBeforeDedupe": 191,
   "itemsGeneratedAfterDedupe": 169,
   "albumsGeneratedAfterDedupe": 17,
   "singlesGeneratedAfterDedupe": 152,
@@ -3538,6 +3538,69 @@
       }
     },
     {
+      "artistName": "TYH Boys",
+      "artistChannelId": "UCtQiRYkrvrMlTmqEQy78vAA",
+      "aliasesUsed": [
+        "TYH Boys"
+      ],
+      "title": "CHANUKA – A Live Piano Album",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Billionaire - Single",
+        "candidateArtist": "Thank You Hashem & TYH Boys",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "TYH Boys",
+      "artistChannelId": "UCtQiRYkrvrMlTmqEQy78vAA",
+      "aliasesUsed": [
+        "TYH Boys"
+      ],
+      "title": "Healing Melodies 5 (Acapella)",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Healing Melodies 5 (Acapella)",
+        "candidateArtist": "Thank You Hashem",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "TYH Boys",
+      "artistChannelId": "UCtQiRYkrvrMlTmqEQy78vAA",
+      "aliasesUsed": [
+        "TYH Boys"
+      ],
+      "title": "The 12 Pesukim (Part Three)",
+      "expectedType": "SINGLE",
+      "bestScore": 48,
+      "details": {
+        "titleScore": 48,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "The 12 Pesukim (Part Two) - Single",
+        "candidateArtist": "Thank You Hashem",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "Yidi Bialostozky",
       "artistChannelId": "UCsOh9VaqwlAyjoS7cU1nxdw",
       "aliasesUsed": [
@@ -4838,8 +4901,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwik"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwi4"
     }
   ],
-  "completedAt": "2026-11-21T09:03:47.602846+00:00"
+  "completedAt": "2026-11-22T09:04:11.104854+00:00"
 }
