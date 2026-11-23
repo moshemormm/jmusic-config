@@ -179251,5 +179251,42 @@
       "releaseDate": "2026-08-24T07:00:00Z",
       "primaryGenreName": "Pop"
     }
-  ]
+  ],
+  "{\"aliases\": [\"מקהלת מלכות\", \"royal choir\", \"mkhlt mlchot\", \"mkhlt mlchos\", \"mkhlt mlchut\", \"mkhlt mlchus\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"בינימינ'ס חופה\"}": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 1889302372,
+      "collectionId": 6837952643,
+      "trackId": 6837952863,
+      "artistName": "בנימין לייפער & מקהלת מלכות",
+      "collectionName": "בינימינ'ס חופה - EP",
+      "trackName": "בינימינ'ס חופה",
+      "collectionCensoredName": "בינימינ'ס חופה - EP",
+      "trackCensoredName": "בינימינ'ס חופה",
+      "artistViewUrl": "https://music.apple.com/il/artist/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F-%D7%9C%D7%99%D7%99%D7%A4%D7%A2%D7%A8/1889302372?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/%D7%91%D7%99%D7%A0%D7%99%D7%9E%D7%99%D7%A0%D7%A1-%D7%97%D7%95%D7%A4%D7%94/6837952643?i=6837952863&uo=4",
+      "trackViewUrl": "https://music.apple.com/il/album/%D7%91%D7%99%D7%A0%D7%99%D7%9E%D7%99%D7%A0%D7%A1-%D7%97%D7%95%D7%A4%D7%94/6837952643?i=6837952863&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/aa/19/c2aa193d-a856-2b00-1b49-d5044d7f9486/mzaf_296248735768241935.plus.aac.p.m4a",
+      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/3b/ed/653beddf-1cde-020e-cf02-72a4b8eaa011/cover.jpg/30x30bb.jpg",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/3b/ed/653beddf-1cde-020e-cf02-72a4b8eaa011/cover.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/3b/ed/653beddf-1cde-020e-cf02-72a4b8eaa011/cover.jpg/100x100bb.jpg",
+      "collectionPrice": 5.9,
+      "trackPrice": -1.0,
+      "releaseDate": "2026-11-22T08:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 1,
+      "trackNumber": 1,
+      "trackTimeMillis": 646243,
+      "country": "ISR",
+      "currency": "ILS",
+      "primaryGenreName": "Israeli",
+      "isStreamable": true
+    }
+  ],
+  "{\"aliases\": [\"מקהלת שירה\", \"A singing choir\", \"mkhlt shirh\", \"mkhlt shir\", \"mkhlt shyrh\", \"mkhlt shyr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yidelech - אידעלעך\"}": [],
+  "{\"aliases\": [\"שירה Choir\", \"Choir singing\", \"shirh choir\", \"shir choir\", \"shyrh choir\", \"shyr choir\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yidelech - אידעלעך\"}": []
 }

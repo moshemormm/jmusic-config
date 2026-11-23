@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T08:56:31.251662+00:00",
+  "generatedAt": "2026-11-23T09:54:28.843219+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -29,7 +29,7 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 544,
   "youtubeSingleSourceItems": 892,
-  "youtubePopularSongSourceItems": 1196,
+  "youtubePopularSongSourceItems": 1199,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,18 +42,18 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 4,
-  "itunesCacheHits": 1432,
+  "itunesNetworkReads": 18,
+  "itunesCacheHits": 1433,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 269,
+  "itemsSkippedNoItunesCandidate": 271,
   "itemsSkippedWeakItunesCandidate": 58,
   "itemsSkippedMissingItunesReleaseDate": 23,
-  "itemsSkippedOldRelease": 895,
+  "itemsSkippedOldRelease": 893,
   "itemsGeneratedBeforeDedupe": 191,
   "itemsGeneratedAfterDedupe": 169,
   "albumsGeneratedAfterDedupe": 17,
@@ -4438,32 +4438,6 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "Satmar Medley (אוצר ניגוני בית סאטמאר)",
-      "expectedType": "ALBUM",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "Satmar Medley (אוצר ניגוני בית סאטמאר)",
-        "candidateArtist": "The Shira Choir, Hershy Weinberger, Freilach Band & Yiddish Nachas",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
       "title": "Rozo D’Shabbos (רזא דשבת)",
       "expectedType": "SINGLE",
       "bestScore": 75,
@@ -4812,6 +4786,32 @@
       }
     },
     {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 2",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "A Rush of Blood to the Head",
+        "candidateArtist": "Coldplay",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "שמוליק קליין",
       "artistChannelId": "UCDL3ZI-bidleJqCdmLFgsCw",
       "aliasesUsed": [
@@ -4901,8 +4901,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwi4"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwib"
     }
   ],
-  "completedAt": "2026-11-22T09:04:11.104854+00:00"
+  "completedAt": "2026-11-23T10:03:34.514158+00:00"
 }
