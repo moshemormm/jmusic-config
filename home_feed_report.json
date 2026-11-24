@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T09:54:28.843219+00:00",
+  "generatedAt": "2026-11-24T11:42:42.968843+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 544,
-  "youtubeSingleSourceItems": 892,
-  "youtubePopularSongSourceItems": 1199,
+  "youtubeAlbumSourceItems": 543,
+  "youtubeSingleSourceItems": 888,
+  "youtubePopularSongSourceItems": 1201,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,10 +42,10 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 2,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 18,
-  "itunesCacheHits": 1433,
+  "itunesNetworkReads": 6,
+  "itunesCacheHits": 1430,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
@@ -53,7 +53,7 @@
   "itemsSkippedNoItunesCandidate": 271,
   "itemsSkippedWeakItunesCandidate": 58,
   "itemsSkippedMissingItunesReleaseDate": 23,
-  "itemsSkippedOldRelease": 893,
+  "itemsSkippedOldRelease": 888,
   "itemsGeneratedBeforeDedupe": 191,
   "itemsGeneratedAfterDedupe": 169,
   "albumsGeneratedAfterDedupe": 17,
@@ -4901,8 +4901,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwib"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwiD"
     }
   ],
-  "completedAt": "2026-11-23T10:03:34.514158+00:00"
+  "completedAt": "2026-11-24T11:51:07.964606+00:00"
 }

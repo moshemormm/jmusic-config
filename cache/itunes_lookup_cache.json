@@ -179288,5 +179288,6 @@
     }
   ],
   "{\"aliases\": [\"מקהלת שירה\", \"A singing choir\", \"mkhlt shirh\", \"mkhlt shir\", \"mkhlt shyrh\", \"mkhlt shyr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yidelech - אידעלעך\"}": [],
-  "{\"aliases\": [\"שירה Choir\", \"Choir singing\", \"shirh choir\", \"shir choir\", \"shyrh choir\", \"shyr choir\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yidelech - אידעלעך\"}": []
+  "{\"aliases\": [\"שירה Choir\", \"Choir singing\", \"shirh choir\", \"shir choir\", \"shyrh choir\", \"shyr choir\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Yidelech - אידעלעך\"}": [],
+  "{\"aliases\": [\"שלומי דאקס\", \"Hello Dax\", \"shlomi dks\", \"shlomi dcs\", \"shlomy dks\", \"shlomy dcs\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Avraham Fried Live!\"}": []
 }
