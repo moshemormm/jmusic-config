@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T11:42:42.968843+00:00",
+  "generatedAt": "2026-11-25T10:36:10.736166+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,9 +27,9 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 543,
-  "youtubeSingleSourceItems": 888,
-  "youtubePopularSongSourceItems": 1201,
+  "youtubeAlbumSourceItems": 544,
+  "youtubeSingleSourceItems": 892,
+  "youtubePopularSongSourceItems": 1198,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 6,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 6,
-  "itunesCacheHits": 1430,
+  "itunesNetworkReads": 11,
+  "itunesCacheHits": 1431,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 271,
+  "itemsSkippedNoItunesCandidate": 272,
   "itemsSkippedWeakItunesCandidate": 58,
   "itemsSkippedMissingItunesReleaseDate": 23,
-  "itemsSkippedOldRelease": 888,
-  "itemsGeneratedBeforeDedupe": 191,
-  "itemsGeneratedAfterDedupe": 169,
+  "itemsSkippedOldRelease": 891,
+  "itemsGeneratedBeforeDedupe": 192,
+  "itemsGeneratedAfterDedupe": 172,
   "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 152,
+  "singlesGeneratedAfterDedupe": 155,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4901,8 +4901,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwiD"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwin"
     }
   ],
-  "completedAt": "2026-11-24T11:51:07.964606+00:00"
+  "completedAt": "2026-11-25T10:44:58.723183+00:00"
 }
