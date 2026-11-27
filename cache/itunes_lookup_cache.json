@@ -180200,5 +180200,30 @@
       "isStreamable": true
     }
   ],
-  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Neshama Shel Geulah\"}": []
+  "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Neshama Shel Geulah\"}": [],
+  "{\"aliases\": [\"אודי דוידי\", \"Odi Davidi\", \"odi doydi\", \"odi doydy\", \"odi doidi\", \"odi doidy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"רוחות טובות\"}": [],
+  "{\"aliases\": [\"יוסי גרין\", \"Yossi Green\", \"yossi grin\", \"yossi gryn\", \"yosef grin\", \"yosef gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres\", \"title\": \"Shades Of Green V (Leil Shishi)\"}": [
+    {
+      "wrapperType": "collection",
+      "collectionType": "Album",
+      "artistId": 1501796667,
+      "collectionId": 1570990438,
+      "amgArtistId": 748457,
+      "artistName": "Yossi Green",
+      "collectionName": "Shades of Green V (Leil Shishi)",
+      "collectionCensoredName": "Shades of Green V (Leil Shishi)",
+      "artistViewUrl": "https://music.apple.com/il/artist/yossi-green/1501796667?uo=4",
+      "collectionViewUrl": "https://music.apple.com/il/album/shades-of-green-v-leil-shishi/1570990438?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2c/70/ae/2c70aec1-61a9-1829-a97c-b4e1edd4ff4a/artwork.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2c/70/ae/2c70aec1-61a9-1829-a97c-b4e1edd4ff4a/artwork.jpg/100x100bb.jpg",
+      "collectionPrice": 29.9,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 20,
+      "copyright": "℗ 2021 Oh Yeah Music, Yossi Green",
+      "country": "ISR",
+      "currency": "ILS",
+      "releaseDate": "2002-03-01T00:00:00Z",
+      "primaryGenreName": "Worldwide"
+    }
+  ]
 }

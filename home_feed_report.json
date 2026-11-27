@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T10:07:29.537551+00:00",
+  "generatedAt": "2026-11-27T10:13:10.605317+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -27,8 +27,8 @@
   "artistNetworkReads": 284,
   "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 541,
-  "youtubeSingleSourceItems": 888,
+  "youtubeAlbumSourceItems": 545,
+  "youtubeSingleSourceItems": 892,
   "youtubePopularSongSourceItems": 1199,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 1,
+  "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 8,
-  "itunesCacheHits": 1426,
+  "itunesNetworkReads": 12,
+  "itunesCacheHits": 1435,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 273,
-  "itemsSkippedWeakItunesCandidate": 56,
+  "itemsSkippedNoItunesCandidate": 274,
+  "itemsSkippedWeakItunesCandidate": 59,
   "itemsSkippedMissingItunesReleaseDate": 23,
-  "itemsSkippedOldRelease": 889,
-  "itemsGeneratedBeforeDedupe": 188,
-  "itemsGeneratedAfterDedupe": 170,
+  "itemsSkippedOldRelease": 892,
+  "itemsGeneratedBeforeDedupe": 189,
+  "itemsGeneratedAfterDedupe": 171,
   "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 153,
+  "singlesGeneratedAfterDedupe": 154,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4303,6 +4303,84 @@
         "mkhlt prchi mymi",
         "mkhlt prchi mymy"
       ],
+      "title": "ONE VOICE",
+      "expectedType": "ALBUM",
+      "bestScore": 22,
+      "details": {
+        "titleScore": 16,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "At Folsom Prison (Live)",
+        "candidateArtist": "Johnny Cash",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי מיאמי",
+      "artistChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "aliasesUsed": [
+        "מקהלת פרחי מיאמי",
+        "Miami Flower Choir",
+        "mkhlt prchi mimi",
+        "mkhlt prchi mimy",
+        "mkhlt prchi mymi",
+        "mkhlt prchi mymy"
+      ],
+      "title": "Miami On Social Media",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Middle - Single",
+        "candidateArtist": "Zedd, Maren Morris & Grey",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי מיאמי",
+      "artistChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "aliasesUsed": [
+        "מקהלת פרחי מיאמי",
+        "Miami Flower Choir",
+        "mkhlt prchi mimi",
+        "mkhlt prchi mimy",
+        "mkhlt prchi mymi",
+        "mkhlt prchi mymy"
+      ],
+      "title": "The First Annual Miami Experience (Live)",
+      "expectedType": "ALBUM",
+      "bestScore": 22,
+      "details": {
+        "titleScore": 16,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "At Folsom Prison (Live)",
+        "candidateArtist": "Johnny Cash",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי מיאמי",
+      "artistChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "aliasesUsed": [
+        "מקהלת פרחי מיאמי",
+        "Miami Flower Choir",
+        "mkhlt prchi mimi",
+        "mkhlt prchi mimy",
+        "mkhlt prchi mymi",
+        "mkhlt prchi mymy"
+      ],
       "title": "We Stand With Israel",
       "expectedType": "SINGLE",
       "bestScore": 6,
@@ -4844,8 +4922,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwi7"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwi2"
     }
   ],
-  "completedAt": "2026-11-26T10:15:54.154412+00:00"
+  "completedAt": "2026-11-27T10:21:44.772797+00:00"
 }
