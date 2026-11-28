@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T10:13:10.605317+00:00",
+  "generatedAt": "2026-11-28T09:31:43.517020+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_hebrew_transliteration_monthly_genre_sort",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v5_monthly_genres",
   "allowedArtistsCount": 286,
@@ -42,22 +42,22 @@
     "alternative",
     "american_pop"
   ],
-  "youtubeAlbumDrilldownReads": 0,
+  "youtubeAlbumDrilldownReads": 3,
   "youtubeAlbumDrilldownErrors": 0,
-  "itunesNetworkReads": 12,
-  "itunesCacheHits": 1435,
+  "itunesNetworkReads": 37,
+  "itunesCacheHits": 1430,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
   "itunesLookupsSkippedByLimit": 0,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 274,
-  "itemsSkippedWeakItunesCandidate": 59,
+  "itemsSkippedNoItunesCandidate": 272,
+  "itemsSkippedWeakItunesCandidate": 60,
   "itemsSkippedMissingItunesReleaseDate": 23,
-  "itemsSkippedOldRelease": 892,
+  "itemsSkippedOldRelease": 893,
   "itemsGeneratedBeforeDedupe": 189,
-  "itemsGeneratedAfterDedupe": 171,
+  "itemsGeneratedAfterDedupe": 170,
   "albumsGeneratedAfterDedupe": 17,
-  "singlesGeneratedAfterDedupe": 154,
+  "singlesGeneratedAfterDedupe": 153,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -4147,6 +4147,58 @@
         "leizr luyd",
         "leizr luid"
       ],
+      "title": "Back To The Mountain (Unplugged version)",
+      "expectedType": "SINGLE",
+      "bestScore": 0,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "$ome $exy $ongs 4 U",
+        "candidateArtist": "PARTYNEXTDOOR & Drake",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Be (Rock Mix) [Live]",
+      "expectedType": "SINGLE",
+      "bestScore": 24,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 18,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Peace Is The Mission",
+        "candidateArtist": "Major Lazer",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
       "title": "Help is on Its Way",
       "expectedType": "SINGLE",
       "bestScore": 18,
@@ -4807,32 +4859,6 @@
       }
     },
     {
-      "artistName": "צליל וזמר",
-      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
-      "aliasesUsed": [
-        "צליל וזמר",
-        "Sound and singer",
-        "tzlil ozmr",
-        "tzlil ozmer",
-        "tzlil uzmr",
-        "tzlil uzmer"
-      ],
-      "title": "Volume 2",
-      "expectedType": "ALBUM",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "A Rush of Blood to the Head",
-        "candidateArtist": "Coldplay",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "שמוליק קליין",
       "artistChannelId": "UCDL3ZI-bidleJqCdmLFgsCw",
       "aliasesUsed": [
@@ -4922,8 +4948,8 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwi2"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwi1"
     }
   ],
-  "completedAt": "2026-11-27T10:21:44.772797+00:00"
+  "completedAt": "2026-11-28T09:41:39.403912+00:00"
 }
